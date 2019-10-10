@@ -46,7 +46,7 @@ printf "La minima distancia que recorre un votante es: %f\n", min{i in 1..N, j i
 printf "La distancia promedio es: %f\n", (sum{i in 1..N, j in 1..C:X[i,j]>=1} D[i,j]*X[i,j]) / N;
 
 /*escribo el resultado en un csv*/
-table tab_result{(i,j) in K} OUT "CSV" "result.csv" :
+table tab_result{(i,j) in K:X[i,j]>=1} OUT "CSV" "result2.csv" :
   i ~ idV, j ~ idC, X[i,j] ~asignado, D[i,j] ~distancia;
 
 end;
