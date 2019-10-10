@@ -10,6 +10,7 @@ table tab_distance IN "CSV" "distancias_reducido.csv" :
 printf "Cantidad de distancias en csv: %d\n", card({i in 1..1134, j in 1..11: d[i,j]});
 printf "Maxima distancia: %f\n", max{i in 1..1134, j in 1..11} d[i,j];
 printf "Minima distancia: %f\n", min{i in 1..1134, j in 1..11} d[i,j];
+printf "Distancia promedio: %f\n", (sum{i in 1..1134, j in 1..11} d[i,j]) /  card({i in 1..1134, j in 1..11: d[i,j]});
 
 #printf {i in 1..1134, j in 1..11} : 'Votante %d recorre a centro %d %f km \n',i,j,d[i,j];
 end;
