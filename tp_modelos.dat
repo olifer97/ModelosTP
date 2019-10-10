@@ -1,0 +1,9 @@
+#Data segment tp modelos
+
+data;
+
+param N:=1134;
+param C:=11;
+param CupoMinCentro:=30;
+
+end;
