@@ -6,6 +6,6 @@ data;
 
 param N:=18000; /*cantidad de votantes*/
 param C:=78; /*cantidad de centros*/
-param CupoMinCentro:=30;
+param CupoMinCentro:=120;
 
 end;
