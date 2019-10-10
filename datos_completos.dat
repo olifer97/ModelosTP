@@ -1,0 +1,11 @@
+#Data segment tp modelos
+
+data;
+
+/*datos para los csv reducidos*/
+
+param N:=18000; /*cantidad de votantes*/
+param C:=78; /*cantidad de centros*/
+param CupoMinCentro:=30;
+
+end;

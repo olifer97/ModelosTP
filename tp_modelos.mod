@@ -11,10 +11,10 @@ param CupoMaxCentro{j in 1..C};
 set K dimen 2;
 param D{i in 1..N, j in 1..C}; /*distancia del votante i al centro j*/
 
-table tab_centros IN "CSV" "centros_reducido.csv" :
+table tab_centros IN "CSV" "centros.csv" :
 I <- [id], CupoMaxCentro ~ max_votantes;
 
-table tab_distance IN "CSV" "distancias_reducido.csv" :
+table tab_distance IN "CSV" "distancias.csv" :
 K <- [idVotante, idCentro], D ~ distancia;
 
 /* Declaración de variables*/
