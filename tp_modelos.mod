@@ -40,6 +40,9 @@ s.t. CUPOMIN_CENTRO{j in 1..C}: Y[j] * CupoMinCentro <= sum {i in 1..N} X[i,j];
 
 solve;
 
-printf {i in 1..N, j in 1..C: X[i,j]>=1} : 'Votante %f recorre a centro %f %f km \n',i,j,D[i,j];
+#printf {i in 1..N, j in 1..C: X[i,j]>=1} : 'Votante %f recorre a centro %f %f km \n',i,j,D[i,j];
+printf "La maxima distancia que recorre un votante es: %f\n", max{i in 1..N, j in 1..C:X[i,j]>=1} D[i,j]*X[i,j];
+printf "La minima distancia que recorre un votante es: %f\n", min{i in 1..N, j in 1..C:X[i,j]>=1} D[i,j]*X[i,j];
+printf "La distancia promedio es: %f\n", (sum{i in 1..N, j in 1..C:X[i,j]>=1} D[i,j]*X[i,j]) / N;
 
 end;
