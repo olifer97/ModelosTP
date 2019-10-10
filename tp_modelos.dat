@@ -2,6 +2,8 @@
 
 data;
 
+/*datos para los csv reducidos*/
+
 param N:=1134; /*cantidad de votantes*/
 param C:=11; /*cantidad de centros*/
 param CupoMinCentro:=30;
