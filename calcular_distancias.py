@@ -20,13 +20,14 @@ def haversine(lat1, lon1, lat2, lon2):
 
 ## MATRIZ CON DISTANCIAS[i,j] i es el votante j el centro
 def main():
-    with open('distancias.csv', 'w') as dists:
+    with open('distancias_reducido.csv', 'w') as dists:
         distsCSV = csv.writer(dists, delimiter=',')
         distsCSV.writerow(['idVotante', 'idCentro', 'distancia'])
-        with open('votantes.csv') as votants:
+        with open('votantes_reducido.csv') as votants:
             votantsCSV = csv.reader(votants, delimiter=',')
+            next(votantsCSV, None)
             for votant in votantsCSV:
-                with open('centros.csv') as centers:
+                with open('centros_reducido.csv') as centers:
                     centersCSV = csv.reader(centers, delimiter=',')
                     next(centersCSV, None)
                     for center in centersCSV:
