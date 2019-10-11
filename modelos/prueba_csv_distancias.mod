@@ -4,7 +4,7 @@ set K dimen 2;
 
 param d{i in 1..1134, j in 1..11};
 
-table tab_distance IN "CSV" "distancias_reducido.csv" :
+table tab_distance IN "CSV" "../datos/distancias_reducido.csv" :
   K <- [idVotante, idCentro], d ~ distancia;
 
 printf "Cantidad de distancias en csv: %d\n", card({i in 1..1134, j in 1..11: d[i,j]});

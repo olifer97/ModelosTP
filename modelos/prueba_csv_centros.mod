@@ -4,7 +4,7 @@ set I dimen 1;
 
 param CupoMaxCentro{j in 1..11};
 
-table tab_centros IN "CSV" "centros_reducido.csv" :
+table tab_centros IN "CSV" "../datos/centros_reducido.csv" :
   I <- [id], CupoMaxCentro ~ max_votantes;
 
 

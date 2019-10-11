@@ -11,10 +11,10 @@ param CupoMaxCentro{j in 1..C};
 set K dimen 2;
 param D{i in 1..N, j in 1..C}; /*distancia del votante i al centro j*/
 
-table tab_centros IN "CSV" "centros_reducido.csv" :
+table tab_centros IN "CSV" "../datos/centros_reducido.csv" :
 I <- [id], CupoMaxCentro ~ max_votantes;
 
-table tab_distance IN "CSV" "distancias_reducido.csv" :
+table tab_distance IN "CSV" "../datos/distancias_reducido.csv" :
 K <- [idVotante, idCentro], D ~ distancia;
 
 /* Declaración de variables*/
@@ -65,7 +65,7 @@ printf "La minima distancia que recorre un votante es: %f\n", min{i in 1..N, j i
 printf "La distancia promedio es: %f\n", (sum{i in 1..N, j in 1..C:X[i,j]>=1} D[i,j]*X[i,j]) / N;
 
 /*escribo el resultado en un csv*/
-table tab_result{(i,j) in K:X[i,j]>=1} OUT "CSV" "result.csv" :
+table tab_result{(i,j) in K:X[i,j]>=1} OUT "CSV" "../salidas/result.csv" :
   i ~ idV, j ~ idC, X[i,j] ~asignado, D[i,j] ~distancia;
 
 end;

@@ -1,13 +1,13 @@
 Problem:    tp_modelos_reducido
-Rows:       1196
-Columns:    34050 (34050 integer, 34050 binary)
-Non-zeros:  170160
+Rows:       3464
+Columns:    35185 (34050 integer, 34050 binary)
+Non-zeros:  207583
 Status:     INTEGER OPTIMAL
-Objective:  z = 0.4672600393 (MINimum)
+Objective:  z = 2.519088844 (MINimum)
 
    No.   Row name        Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
-     1 z                     0.46726                             
+     1 z                     2.51909                             
      2 ASIGNACION_UNICA[1]
                                   -1            -1             = 
      3 ASIGNACION_UNICA[2]
@@ -2281,11 +2281,11 @@ Objective:  z = 0.4672600393 (MINimum)
   1137 CUPOMAX_CENTRO[1]
                                    0                          -0 
   1138 CUPOMAX_CENTRO[2]
-                                 -81                          -0 
+                                   0                          -0 
   1139 CUPOMAX_CENTRO[3]
-                                -150                          -0 
+                                -151                          -0 
   1140 CUPOMAX_CENTRO[4]
-                                 -62                          -0 
+                                 -70                          -0 
   1141 CUPOMAX_CENTRO[5]
                                    0                          -0 
   1142 CUPOMAX_CENTRO[6]
@@ -2295,47 +2295,47 @@ Objective:  z = 0.4672600393 (MINimum)
   1144 CUPOMAX_CENTRO[8]
                                    0                          -0 
   1145 CUPOMAX_CENTRO[9]
-                                 -19                          -0 
+                                  -2                          -0 
   1146 CUPOMAX_CENTRO[10]
-                                   0                          -0 
+                                -223                          -0 
   1147 CUPOMAX_CENTRO[11]
-                                 -81                          -0 
-  1148 CUPOMAX_CENTRO[12]
                                    0                          -0 
+  1148 CUPOMAX_CENTRO[12]
+                                 -65                          -0 
   1149 CUPOMAX_CENTRO[13]
                                    0                          -0 
   1150 CUPOMAX_CENTRO[14]
-                                 -55                          -0 
+                                 -72                          -0 
   1151 CUPOMAX_CENTRO[15]
-                                 -39                          -0 
+                                 -42                          -0 
   1152 CUPOMAX_CENTRO[16]
-                                 -37                          -0 
+                                 -41                          -0 
   1153 CUPOMAX_CENTRO[17]
                                    0                          -0 
   1154 CUPOMAX_CENTRO[18]
                                 -149                          -0 
   1155 CUPOMAX_CENTRO[19]
-                                 -94                          -0 
+                                   0                          -0 
   1156 CUPOMAX_CENTRO[20]
-                                -133                          -0 
+                                -135                          -0 
   1157 CUPOMAX_CENTRO[21]
                                    0                          -0 
   1158 CUPOMAX_CENTRO[22]
-                                -155                          -0 
+                                -156                          -0 
   1159 CUPOMAX_CENTRO[23]
                                    0                          -0 
   1160 CUPOMAX_CENTRO[24]
-                                   0                          -0 
+                                 -52                          -0 
   1161 CUPOMAX_CENTRO[25]
-                                 -39                          -0 
+                                 -42                          -0 
   1162 CUPOMAX_CENTRO[26]
                                    0                          -0 
   1163 CUPOMAX_CENTRO[27]
-                                -331                          -0 
+                                -332                          -0 
   1164 CUPOMAX_CENTRO[28]
-                                -105                          -0 
+                                -108                          -0 
   1165 CUPOMAX_CENTRO[29]
-                                   0                          -0 
+                                -247                          -0 
   1166 CUPOMAX_CENTRO[30]
                                 -159                          -0 
   1167 CUPOMIN_CENTRO[1]
@@ -2343,9 +2343,9 @@ Objective:  z = 0.4672600393 (MINimum)
   1168 CUPOMIN_CENTRO[2]
                                    0                          -0 
   1169 CUPOMIN_CENTRO[3]
-                                 -46                          -0 
+                                 -45                          -0 
   1170 CUPOMIN_CENTRO[4]
-                                 -18                          -0 
+                                 -10                          -0 
   1171 CUPOMIN_CENTRO[5]
                                    0                          -0 
   1172 CUPOMIN_CENTRO[6]
@@ -2355,49 +2355,4585 @@ Objective:  z = 0.4672600393 (MINimum)
   1174 CUPOMIN_CENTRO[8]
                                  -72                          -0 
   1175 CUPOMIN_CENTRO[9]
-                                -248                          -0 
+                                -265                          -0 
   1176 CUPOMIN_CENTRO[10]
                                    0                          -0 
   1177 CUPOMIN_CENTRO[11]
                                    0                          -0 
   1178 CUPOMIN_CENTRO[12]
-                                   0                          -0 
+                                  -1                          -0 
   1179 CUPOMIN_CENTRO[13]
                                    0                          -0 
   1180 CUPOMIN_CENTRO[14]
-                                 -53                          -0 
+                                 -36                          -0 
   1181 CUPOMIN_CENTRO[15]
-                                 -10                          -0 
+                                  -7                          -0 
   1182 CUPOMIN_CENTRO[16]
-                                 -19                          -0 
+                                 -15                          -0 
   1183 CUPOMIN_CENTRO[17]
                                    0                          -0 
   1184 CUPOMIN_CENTRO[18]
                                    0                          -0 
   1185 CUPOMIN_CENTRO[19]
-                                  -5                          -0 
+                                   0                          -0 
   1186 CUPOMIN_CENTRO[20]
-                                 -15                          -0 
+                                 -13                          -0 
   1187 CUPOMIN_CENTRO[21]
                                    0                          -0 
   1188 CUPOMIN_CENTRO[22]
-                                  -1                          -0 
+                                   0                          -0 
   1189 CUPOMIN_CENTRO[23]
                                    0                          -0 
   1190 CUPOMIN_CENTRO[24]
                                    0                          -0 
   1191 CUPOMIN_CENTRO[25]
-                                  -3                          -0 
+                                   0                          -0 
   1192 CUPOMIN_CENTRO[26]
                                    0                          -0 
   1193 CUPOMIN_CENTRO[27]
-                                  -1                          -0 
+                                   0                          -0 
   1194 CUPOMIN_CENTRO[28]
-                                 -20                          -0 
+                                 -17                          -0 
   1195 CUPOMIN_CENTRO[29]
                                    0                          -0 
   1196 CUPOMIN_CENTRO[30]
                                    0                          -0 
+  1197 DISTANCIA_RECORRIDA[1]
+                                   0            -0             = 
+  1198 DISTANCIA_RECORRIDA[2]
+                                   0            -0             = 
+  1199 DISTANCIA_RECORRIDA[3]
+                                   0            -0             = 
+  1200 DISTANCIA_RECORRIDA[4]
+                                   0            -0             = 
+  1201 DISTANCIA_RECORRIDA[5]
+                                   0            -0             = 
+  1202 DISTANCIA_RECORRIDA[6]
+                                   0            -0             = 
+  1203 DISTANCIA_RECORRIDA[7]
+                                   0            -0             = 
+  1204 DISTANCIA_RECORRIDA[8]
+                                   0            -0             = 
+  1205 DISTANCIA_RECORRIDA[9]
+                                   0            -0             = 
+  1206 DISTANCIA_RECORRIDA[10]
+                                   0            -0             = 
+  1207 DISTANCIA_RECORRIDA[11]
+                                   0            -0             = 
+  1208 DISTANCIA_RECORRIDA[12]
+                                   0            -0             = 
+  1209 DISTANCIA_RECORRIDA[13]
+                                   0            -0             = 
+  1210 DISTANCIA_RECORRIDA[14]
+                                   0            -0             = 
+  1211 DISTANCIA_RECORRIDA[15]
+                                   0            -0             = 
+  1212 DISTANCIA_RECORRIDA[16]
+                                   0            -0             = 
+  1213 DISTANCIA_RECORRIDA[17]
+                                   0            -0             = 
+  1214 DISTANCIA_RECORRIDA[18]
+                                   0            -0             = 
+  1215 DISTANCIA_RECORRIDA[19]
+                                   0            -0             = 
+  1216 DISTANCIA_RECORRIDA[20]
+                                   0            -0             = 
+  1217 DISTANCIA_RECORRIDA[21]
+                                   0            -0             = 
+  1218 DISTANCIA_RECORRIDA[22]
+                                   0            -0             = 
+  1219 DISTANCIA_RECORRIDA[23]
+                                   0            -0             = 
+  1220 DISTANCIA_RECORRIDA[24]
+                                   0            -0             = 
+  1221 DISTANCIA_RECORRIDA[25]
+                                   0            -0             = 
+  1222 DISTANCIA_RECORRIDA[26]
+                                   0            -0             = 
+  1223 DISTANCIA_RECORRIDA[27]
+                                   0            -0             = 
+  1224 DISTANCIA_RECORRIDA[28]
+                                   0            -0             = 
+  1225 DISTANCIA_RECORRIDA[29]
+                                   0            -0             = 
+  1226 DISTANCIA_RECORRIDA[30]
+                                   0            -0             = 
+  1227 DISTANCIA_RECORRIDA[31]
+                                   0            -0             = 
+  1228 DISTANCIA_RECORRIDA[32]
+                                   0            -0             = 
+  1229 DISTANCIA_RECORRIDA[33]
+                                   0            -0             = 
+  1230 DISTANCIA_RECORRIDA[34]
+                                   0            -0             = 
+  1231 DISTANCIA_RECORRIDA[35]
+                                   0            -0             = 
+  1232 DISTANCIA_RECORRIDA[36]
+                                   0            -0             = 
+  1233 DISTANCIA_RECORRIDA[37]
+                                   0            -0             = 
+  1234 DISTANCIA_RECORRIDA[38]
+                                   0            -0             = 
+  1235 DISTANCIA_RECORRIDA[39]
+                                   0            -0             = 
+  1236 DISTANCIA_RECORRIDA[40]
+                                   0            -0             = 
+  1237 DISTANCIA_RECORRIDA[41]
+                                   0            -0             = 
+  1238 DISTANCIA_RECORRIDA[42]
+                                   0            -0             = 
+  1239 DISTANCIA_RECORRIDA[43]
+                                   0            -0             = 
+  1240 DISTANCIA_RECORRIDA[44]
+                                   0            -0             = 
+  1241 DISTANCIA_RECORRIDA[45]
+                                   0            -0             = 
+  1242 DISTANCIA_RECORRIDA[46]
+                                   0            -0             = 
+  1243 DISTANCIA_RECORRIDA[47]
+                                   0            -0             = 
+  1244 DISTANCIA_RECORRIDA[48]
+                                   0            -0             = 
+  1245 DISTANCIA_RECORRIDA[49]
+                                   0            -0             = 
+  1246 DISTANCIA_RECORRIDA[50]
+                                   0            -0             = 
+  1247 DISTANCIA_RECORRIDA[51]
+                                   0            -0             = 
+  1248 DISTANCIA_RECORRIDA[52]
+                                   0            -0             = 
+  1249 DISTANCIA_RECORRIDA[53]
+                                   0            -0             = 
+  1250 DISTANCIA_RECORRIDA[54]
+                                   0            -0             = 
+  1251 DISTANCIA_RECORRIDA[55]
+                                   0            -0             = 
+  1252 DISTANCIA_RECORRIDA[56]
+                                   0            -0             = 
+  1253 DISTANCIA_RECORRIDA[57]
+                                   0            -0             = 
+  1254 DISTANCIA_RECORRIDA[58]
+                                   0            -0             = 
+  1255 DISTANCIA_RECORRIDA[59]
+                                   0            -0             = 
+  1256 DISTANCIA_RECORRIDA[60]
+                                   0            -0             = 
+  1257 DISTANCIA_RECORRIDA[61]
+                                   0            -0             = 
+  1258 DISTANCIA_RECORRIDA[62]
+                                   0            -0             = 
+  1259 DISTANCIA_RECORRIDA[63]
+                                   0            -0             = 
+  1260 DISTANCIA_RECORRIDA[64]
+                                   0            -0             = 
+  1261 DISTANCIA_RECORRIDA[65]
+                                   0            -0             = 
+  1262 DISTANCIA_RECORRIDA[66]
+                                   0            -0             = 
+  1263 DISTANCIA_RECORRIDA[67]
+                                   0            -0             = 
+  1264 DISTANCIA_RECORRIDA[68]
+                                   0            -0             = 
+  1265 DISTANCIA_RECORRIDA[69]
+                                   0            -0             = 
+  1266 DISTANCIA_RECORRIDA[70]
+                                   0            -0             = 
+  1267 DISTANCIA_RECORRIDA[71]
+                                   0            -0             = 
+  1268 DISTANCIA_RECORRIDA[72]
+                                   0            -0             = 
+  1269 DISTANCIA_RECORRIDA[73]
+                                   0            -0             = 
+  1270 DISTANCIA_RECORRIDA[74]
+                                   0            -0             = 
+  1271 DISTANCIA_RECORRIDA[75]
+                                   0            -0             = 
+  1272 DISTANCIA_RECORRIDA[76]
+                                   0            -0             = 
+  1273 DISTANCIA_RECORRIDA[77]
+                                   0            -0             = 
+  1274 DISTANCIA_RECORRIDA[78]
+                                   0            -0             = 
+  1275 DISTANCIA_RECORRIDA[79]
+                                   0            -0             = 
+  1276 DISTANCIA_RECORRIDA[80]
+                                   0            -0             = 
+  1277 DISTANCIA_RECORRIDA[81]
+                                   0            -0             = 
+  1278 DISTANCIA_RECORRIDA[82]
+                                   0            -0             = 
+  1279 DISTANCIA_RECORRIDA[83]
+                                   0            -0             = 
+  1280 DISTANCIA_RECORRIDA[84]
+                                   0            -0             = 
+  1281 DISTANCIA_RECORRIDA[85]
+                                   0            -0             = 
+  1282 DISTANCIA_RECORRIDA[86]
+                                   0            -0             = 
+  1283 DISTANCIA_RECORRIDA[87]
+                                   0            -0             = 
+  1284 DISTANCIA_RECORRIDA[88]
+                                   0            -0             = 
+  1285 DISTANCIA_RECORRIDA[89]
+                                   0            -0             = 
+  1286 DISTANCIA_RECORRIDA[90]
+                                   0            -0             = 
+  1287 DISTANCIA_RECORRIDA[91]
+                                   0            -0             = 
+  1288 DISTANCIA_RECORRIDA[92]
+                                   0            -0             = 
+  1289 DISTANCIA_RECORRIDA[93]
+                                   0            -0             = 
+  1290 DISTANCIA_RECORRIDA[94]
+                                   0            -0             = 
+  1291 DISTANCIA_RECORRIDA[95]
+                                   0            -0             = 
+  1292 DISTANCIA_RECORRIDA[96]
+                                   0            -0             = 
+  1293 DISTANCIA_RECORRIDA[97]
+                                   0            -0             = 
+  1294 DISTANCIA_RECORRIDA[98]
+                                   0            -0             = 
+  1295 DISTANCIA_RECORRIDA[99]
+                                   0            -0             = 
+  1296 DISTANCIA_RECORRIDA[100]
+                                   0            -0             = 
+  1297 DISTANCIA_RECORRIDA[101]
+                                   0            -0             = 
+  1298 DISTANCIA_RECORRIDA[102]
+                                   0            -0             = 
+  1299 DISTANCIA_RECORRIDA[103]
+                                   0            -0             = 
+  1300 DISTANCIA_RECORRIDA[104]
+                                   0            -0             = 
+  1301 DISTANCIA_RECORRIDA[105]
+                                   0            -0             = 
+  1302 DISTANCIA_RECORRIDA[106]
+                                   0            -0             = 
+  1303 DISTANCIA_RECORRIDA[107]
+                                   0            -0             = 
+  1304 DISTANCIA_RECORRIDA[108]
+                                   0            -0             = 
+  1305 DISTANCIA_RECORRIDA[109]
+                                   0            -0             = 
+  1306 DISTANCIA_RECORRIDA[110]
+                                   0            -0             = 
+  1307 DISTANCIA_RECORRIDA[111]
+                                   0            -0             = 
+  1308 DISTANCIA_RECORRIDA[112]
+                                   0            -0             = 
+  1309 DISTANCIA_RECORRIDA[113]
+                                   0            -0             = 
+  1310 DISTANCIA_RECORRIDA[114]
+                                   0            -0             = 
+  1311 DISTANCIA_RECORRIDA[115]
+                                   0            -0             = 
+  1312 DISTANCIA_RECORRIDA[116]
+                                   0            -0             = 
+  1313 DISTANCIA_RECORRIDA[117]
+                                   0            -0             = 
+  1314 DISTANCIA_RECORRIDA[118]
+                                   0            -0             = 
+  1315 DISTANCIA_RECORRIDA[119]
+                                   0            -0             = 
+  1316 DISTANCIA_RECORRIDA[120]
+                                   0            -0             = 
+  1317 DISTANCIA_RECORRIDA[121]
+                                   0            -0             = 
+  1318 DISTANCIA_RECORRIDA[122]
+                                   0            -0             = 
+  1319 DISTANCIA_RECORRIDA[123]
+                                   0            -0             = 
+  1320 DISTANCIA_RECORRIDA[124]
+                                   0            -0             = 
+  1321 DISTANCIA_RECORRIDA[125]
+                                   0            -0             = 
+  1322 DISTANCIA_RECORRIDA[126]
+                                   0            -0             = 
+  1323 DISTANCIA_RECORRIDA[127]
+                                   0            -0             = 
+  1324 DISTANCIA_RECORRIDA[128]
+                                   0            -0             = 
+  1325 DISTANCIA_RECORRIDA[129]
+                                   0            -0             = 
+  1326 DISTANCIA_RECORRIDA[130]
+                                   0            -0             = 
+  1327 DISTANCIA_RECORRIDA[131]
+                                   0            -0             = 
+  1328 DISTANCIA_RECORRIDA[132]
+                                   0            -0             = 
+  1329 DISTANCIA_RECORRIDA[133]
+                                   0            -0             = 
+  1330 DISTANCIA_RECORRIDA[134]
+                                   0            -0             = 
+  1331 DISTANCIA_RECORRIDA[135]
+                                   0            -0             = 
+  1332 DISTANCIA_RECORRIDA[136]
+                                   0            -0             = 
+  1333 DISTANCIA_RECORRIDA[137]
+                                   0            -0             = 
+  1334 DISTANCIA_RECORRIDA[138]
+                                   0            -0             = 
+  1335 DISTANCIA_RECORRIDA[139]
+                                   0            -0             = 
+  1336 DISTANCIA_RECORRIDA[140]
+                                   0            -0             = 
+  1337 DISTANCIA_RECORRIDA[141]
+                                   0            -0             = 
+  1338 DISTANCIA_RECORRIDA[142]
+                                   0            -0             = 
+  1339 DISTANCIA_RECORRIDA[143]
+                                   0            -0             = 
+  1340 DISTANCIA_RECORRIDA[144]
+                                   0            -0             = 
+  1341 DISTANCIA_RECORRIDA[145]
+                                   0            -0             = 
+  1342 DISTANCIA_RECORRIDA[146]
+                                   0            -0             = 
+  1343 DISTANCIA_RECORRIDA[147]
+                                   0            -0             = 
+  1344 DISTANCIA_RECORRIDA[148]
+                                   0            -0             = 
+  1345 DISTANCIA_RECORRIDA[149]
+                                   0            -0             = 
+  1346 DISTANCIA_RECORRIDA[150]
+                                   0            -0             = 
+  1347 DISTANCIA_RECORRIDA[151]
+                                   0            -0             = 
+  1348 DISTANCIA_RECORRIDA[152]
+                                   0            -0             = 
+  1349 DISTANCIA_RECORRIDA[153]
+                                   0            -0             = 
+  1350 DISTANCIA_RECORRIDA[154]
+                                   0            -0             = 
+  1351 DISTANCIA_RECORRIDA[155]
+                                   0            -0             = 
+  1352 DISTANCIA_RECORRIDA[156]
+                                   0            -0             = 
+  1353 DISTANCIA_RECORRIDA[157]
+                                   0            -0             = 
+  1354 DISTANCIA_RECORRIDA[158]
+                                   0            -0             = 
+  1355 DISTANCIA_RECORRIDA[159]
+                                   0            -0             = 
+  1356 DISTANCIA_RECORRIDA[160]
+                                   0            -0             = 
+  1357 DISTANCIA_RECORRIDA[161]
+                                   0            -0             = 
+  1358 DISTANCIA_RECORRIDA[162]
+                                   0            -0             = 
+  1359 DISTANCIA_RECORRIDA[163]
+                                   0            -0             = 
+  1360 DISTANCIA_RECORRIDA[164]
+                                   0            -0             = 
+  1361 DISTANCIA_RECORRIDA[165]
+                                   0            -0             = 
+  1362 DISTANCIA_RECORRIDA[166]
+                                   0            -0             = 
+  1363 DISTANCIA_RECORRIDA[167]
+                                   0            -0             = 
+  1364 DISTANCIA_RECORRIDA[168]
+                                   0            -0             = 
+  1365 DISTANCIA_RECORRIDA[169]
+                                   0            -0             = 
+  1366 DISTANCIA_RECORRIDA[170]
+                                   0            -0             = 
+  1367 DISTANCIA_RECORRIDA[171]
+                                   0            -0             = 
+  1368 DISTANCIA_RECORRIDA[172]
+                                   0            -0             = 
+  1369 DISTANCIA_RECORRIDA[173]
+                                   0            -0             = 
+  1370 DISTANCIA_RECORRIDA[174]
+                                   0            -0             = 
+  1371 DISTANCIA_RECORRIDA[175]
+                                   0            -0             = 
+  1372 DISTANCIA_RECORRIDA[176]
+                                   0            -0             = 
+  1373 DISTANCIA_RECORRIDA[177]
+                                   0            -0             = 
+  1374 DISTANCIA_RECORRIDA[178]
+                                   0            -0             = 
+  1375 DISTANCIA_RECORRIDA[179]
+                                   0            -0             = 
+  1376 DISTANCIA_RECORRIDA[180]
+                                   0            -0             = 
+  1377 DISTANCIA_RECORRIDA[181]
+                                   0            -0             = 
+  1378 DISTANCIA_RECORRIDA[182]
+                                   0            -0             = 
+  1379 DISTANCIA_RECORRIDA[183]
+                                   0            -0             = 
+  1380 DISTANCIA_RECORRIDA[184]
+                                   0            -0             = 
+  1381 DISTANCIA_RECORRIDA[185]
+                                   0            -0             = 
+  1382 DISTANCIA_RECORRIDA[186]
+                                   0            -0             = 
+  1383 DISTANCIA_RECORRIDA[187]
+                                   0            -0             = 
+  1384 DISTANCIA_RECORRIDA[188]
+                                   0            -0             = 
+  1385 DISTANCIA_RECORRIDA[189]
+                                   0            -0             = 
+  1386 DISTANCIA_RECORRIDA[190]
+                                   0            -0             = 
+  1387 DISTANCIA_RECORRIDA[191]
+                                   0            -0             = 
+  1388 DISTANCIA_RECORRIDA[192]
+                                   0            -0             = 
+  1389 DISTANCIA_RECORRIDA[193]
+                                   0            -0             = 
+  1390 DISTANCIA_RECORRIDA[194]
+                                   0            -0             = 
+  1391 DISTANCIA_RECORRIDA[195]
+                                   0            -0             = 
+  1392 DISTANCIA_RECORRIDA[196]
+                                   0            -0             = 
+  1393 DISTANCIA_RECORRIDA[197]
+                                   0            -0             = 
+  1394 DISTANCIA_RECORRIDA[198]
+                                   0            -0             = 
+  1395 DISTANCIA_RECORRIDA[199]
+                                   0            -0             = 
+  1396 DISTANCIA_RECORRIDA[200]
+                                   0            -0             = 
+  1397 DISTANCIA_RECORRIDA[201]
+                                   0            -0             = 
+  1398 DISTANCIA_RECORRIDA[202]
+                                   0            -0             = 
+  1399 DISTANCIA_RECORRIDA[203]
+                                   0            -0             = 
+  1400 DISTANCIA_RECORRIDA[204]
+                                   0            -0             = 
+  1401 DISTANCIA_RECORRIDA[205]
+                                   0            -0             = 
+  1402 DISTANCIA_RECORRIDA[206]
+                                   0            -0             = 
+  1403 DISTANCIA_RECORRIDA[207]
+                                   0            -0             = 
+  1404 DISTANCIA_RECORRIDA[208]
+                                   0            -0             = 
+  1405 DISTANCIA_RECORRIDA[209]
+                                   0            -0             = 
+  1406 DISTANCIA_RECORRIDA[210]
+                                   0            -0             = 
+  1407 DISTANCIA_RECORRIDA[211]
+                                   0            -0             = 
+  1408 DISTANCIA_RECORRIDA[212]
+                                   0            -0             = 
+  1409 DISTANCIA_RECORRIDA[213]
+                                   0            -0             = 
+  1410 DISTANCIA_RECORRIDA[214]
+                                   0            -0             = 
+  1411 DISTANCIA_RECORRIDA[215]
+                                   0            -0             = 
+  1412 DISTANCIA_RECORRIDA[216]
+                                   0            -0             = 
+  1413 DISTANCIA_RECORRIDA[217]
+                                   0            -0             = 
+  1414 DISTANCIA_RECORRIDA[218]
+                                   0            -0             = 
+  1415 DISTANCIA_RECORRIDA[219]
+                                   0            -0             = 
+  1416 DISTANCIA_RECORRIDA[220]
+                                   0            -0             = 
+  1417 DISTANCIA_RECORRIDA[221]
+                                   0            -0             = 
+  1418 DISTANCIA_RECORRIDA[222]
+                                   0            -0             = 
+  1419 DISTANCIA_RECORRIDA[223]
+                                   0            -0             = 
+  1420 DISTANCIA_RECORRIDA[224]
+                                   0            -0             = 
+  1421 DISTANCIA_RECORRIDA[225]
+                                   0            -0             = 
+  1422 DISTANCIA_RECORRIDA[226]
+                                   0            -0             = 
+  1423 DISTANCIA_RECORRIDA[227]
+                                   0            -0             = 
+  1424 DISTANCIA_RECORRIDA[228]
+                                   0            -0             = 
+  1425 DISTANCIA_RECORRIDA[229]
+                                   0            -0             = 
+  1426 DISTANCIA_RECORRIDA[230]
+                                   0            -0             = 
+  1427 DISTANCIA_RECORRIDA[231]
+                                   0            -0             = 
+  1428 DISTANCIA_RECORRIDA[232]
+                                   0            -0             = 
+  1429 DISTANCIA_RECORRIDA[233]
+                                   0            -0             = 
+  1430 DISTANCIA_RECORRIDA[234]
+                                   0            -0             = 
+  1431 DISTANCIA_RECORRIDA[235]
+                                   0            -0             = 
+  1432 DISTANCIA_RECORRIDA[236]
+                                   0            -0             = 
+  1433 DISTANCIA_RECORRIDA[237]
+                                   0            -0             = 
+  1434 DISTANCIA_RECORRIDA[238]
+                                   0            -0             = 
+  1435 DISTANCIA_RECORRIDA[239]
+                                   0            -0             = 
+  1436 DISTANCIA_RECORRIDA[240]
+                                   0            -0             = 
+  1437 DISTANCIA_RECORRIDA[241]
+                                   0            -0             = 
+  1438 DISTANCIA_RECORRIDA[242]
+                                   0            -0             = 
+  1439 DISTANCIA_RECORRIDA[243]
+                                   0            -0             = 
+  1440 DISTANCIA_RECORRIDA[244]
+                                   0            -0             = 
+  1441 DISTANCIA_RECORRIDA[245]
+                                   0            -0             = 
+  1442 DISTANCIA_RECORRIDA[246]
+                                   0            -0             = 
+  1443 DISTANCIA_RECORRIDA[247]
+                                   0            -0             = 
+  1444 DISTANCIA_RECORRIDA[248]
+                                   0            -0             = 
+  1445 DISTANCIA_RECORRIDA[249]
+                                   0            -0             = 
+  1446 DISTANCIA_RECORRIDA[250]
+                                   0            -0             = 
+  1447 DISTANCIA_RECORRIDA[251]
+                                   0            -0             = 
+  1448 DISTANCIA_RECORRIDA[252]
+                                   0            -0             = 
+  1449 DISTANCIA_RECORRIDA[253]
+                                   0            -0             = 
+  1450 DISTANCIA_RECORRIDA[254]
+                                   0            -0             = 
+  1451 DISTANCIA_RECORRIDA[255]
+                                   0            -0             = 
+  1452 DISTANCIA_RECORRIDA[256]
+                                   0            -0             = 
+  1453 DISTANCIA_RECORRIDA[257]
+                                   0            -0             = 
+  1454 DISTANCIA_RECORRIDA[258]
+                                   0            -0             = 
+  1455 DISTANCIA_RECORRIDA[259]
+                                   0            -0             = 
+  1456 DISTANCIA_RECORRIDA[260]
+                                   0            -0             = 
+  1457 DISTANCIA_RECORRIDA[261]
+                                   0            -0             = 
+  1458 DISTANCIA_RECORRIDA[262]
+                                   0            -0             = 
+  1459 DISTANCIA_RECORRIDA[263]
+                                   0            -0             = 
+  1460 DISTANCIA_RECORRIDA[264]
+                                   0            -0             = 
+  1461 DISTANCIA_RECORRIDA[265]
+                                   0            -0             = 
+  1462 DISTANCIA_RECORRIDA[266]
+                                   0            -0             = 
+  1463 DISTANCIA_RECORRIDA[267]
+                                   0            -0             = 
+  1464 DISTANCIA_RECORRIDA[268]
+                                   0            -0             = 
+  1465 DISTANCIA_RECORRIDA[269]
+                                   0            -0             = 
+  1466 DISTANCIA_RECORRIDA[270]
+                                   0            -0             = 
+  1467 DISTANCIA_RECORRIDA[271]
+                                   0            -0             = 
+  1468 DISTANCIA_RECORRIDA[272]
+                                   0            -0             = 
+  1469 DISTANCIA_RECORRIDA[273]
+                                   0            -0             = 
+  1470 DISTANCIA_RECORRIDA[274]
+                                   0            -0             = 
+  1471 DISTANCIA_RECORRIDA[275]
+                                   0            -0             = 
+  1472 DISTANCIA_RECORRIDA[276]
+                                   0            -0             = 
+  1473 DISTANCIA_RECORRIDA[277]
+                                   0            -0             = 
+  1474 DISTANCIA_RECORRIDA[278]
+                                   0            -0             = 
+  1475 DISTANCIA_RECORRIDA[279]
+                                   0            -0             = 
+  1476 DISTANCIA_RECORRIDA[280]
+                                   0            -0             = 
+  1477 DISTANCIA_RECORRIDA[281]
+                                   0            -0             = 
+  1478 DISTANCIA_RECORRIDA[282]
+                                   0            -0             = 
+  1479 DISTANCIA_RECORRIDA[283]
+                                   0            -0             = 
+  1480 DISTANCIA_RECORRIDA[284]
+                                   0            -0             = 
+  1481 DISTANCIA_RECORRIDA[285]
+                                   0            -0             = 
+  1482 DISTANCIA_RECORRIDA[286]
+                                   0            -0             = 
+  1483 DISTANCIA_RECORRIDA[287]
+                                   0            -0             = 
+  1484 DISTANCIA_RECORRIDA[288]
+                                   0            -0             = 
+  1485 DISTANCIA_RECORRIDA[289]
+                                   0            -0             = 
+  1486 DISTANCIA_RECORRIDA[290]
+                                   0            -0             = 
+  1487 DISTANCIA_RECORRIDA[291]
+                                   0            -0             = 
+  1488 DISTANCIA_RECORRIDA[292]
+                                   0            -0             = 
+  1489 DISTANCIA_RECORRIDA[293]
+                                   0            -0             = 
+  1490 DISTANCIA_RECORRIDA[294]
+                                   0            -0             = 
+  1491 DISTANCIA_RECORRIDA[295]
+                                   0            -0             = 
+  1492 DISTANCIA_RECORRIDA[296]
+                                   0            -0             = 
+  1493 DISTANCIA_RECORRIDA[297]
+                                   0            -0             = 
+  1494 DISTANCIA_RECORRIDA[298]
+                                   0            -0             = 
+  1495 DISTANCIA_RECORRIDA[299]
+                                   0            -0             = 
+  1496 DISTANCIA_RECORRIDA[300]
+                                   0            -0             = 
+  1497 DISTANCIA_RECORRIDA[301]
+                                   0            -0             = 
+  1498 DISTANCIA_RECORRIDA[302]
+                                   0            -0             = 
+  1499 DISTANCIA_RECORRIDA[303]
+                                   0            -0             = 
+  1500 DISTANCIA_RECORRIDA[304]
+                                   0            -0             = 
+  1501 DISTANCIA_RECORRIDA[305]
+                                   0            -0             = 
+  1502 DISTANCIA_RECORRIDA[306]
+                                   0            -0             = 
+  1503 DISTANCIA_RECORRIDA[307]
+                                   0            -0             = 
+  1504 DISTANCIA_RECORRIDA[308]
+                                   0            -0             = 
+  1505 DISTANCIA_RECORRIDA[309]
+                                   0            -0             = 
+  1506 DISTANCIA_RECORRIDA[310]
+                                   0            -0             = 
+  1507 DISTANCIA_RECORRIDA[311]
+                                   0            -0             = 
+  1508 DISTANCIA_RECORRIDA[312]
+                                   0            -0             = 
+  1509 DISTANCIA_RECORRIDA[313]
+                                   0            -0             = 
+  1510 DISTANCIA_RECORRIDA[314]
+                                   0            -0             = 
+  1511 DISTANCIA_RECORRIDA[315]
+                                   0            -0             = 
+  1512 DISTANCIA_RECORRIDA[316]
+                                   0            -0             = 
+  1513 DISTANCIA_RECORRIDA[317]
+                                   0            -0             = 
+  1514 DISTANCIA_RECORRIDA[318]
+                                   0            -0             = 
+  1515 DISTANCIA_RECORRIDA[319]
+                                   0            -0             = 
+  1516 DISTANCIA_RECORRIDA[320]
+                                   0            -0             = 
+  1517 DISTANCIA_RECORRIDA[321]
+                                   0            -0             = 
+  1518 DISTANCIA_RECORRIDA[322]
+                                   0            -0             = 
+  1519 DISTANCIA_RECORRIDA[323]
+                                   0            -0             = 
+  1520 DISTANCIA_RECORRIDA[324]
+                                   0            -0             = 
+  1521 DISTANCIA_RECORRIDA[325]
+                                   0            -0             = 
+  1522 DISTANCIA_RECORRIDA[326]
+                                   0            -0             = 
+  1523 DISTANCIA_RECORRIDA[327]
+                                   0            -0             = 
+  1524 DISTANCIA_RECORRIDA[328]
+                                   0            -0             = 
+  1525 DISTANCIA_RECORRIDA[329]
+                                   0            -0             = 
+  1526 DISTANCIA_RECORRIDA[330]
+                                   0            -0             = 
+  1527 DISTANCIA_RECORRIDA[331]
+                                   0            -0             = 
+  1528 DISTANCIA_RECORRIDA[332]
+                                   0            -0             = 
+  1529 DISTANCIA_RECORRIDA[333]
+                                   0            -0             = 
+  1530 DISTANCIA_RECORRIDA[334]
+                                   0            -0             = 
+  1531 DISTANCIA_RECORRIDA[335]
+                                   0            -0             = 
+  1532 DISTANCIA_RECORRIDA[336]
+                                   0            -0             = 
+  1533 DISTANCIA_RECORRIDA[337]
+                                   0            -0             = 
+  1534 DISTANCIA_RECORRIDA[338]
+                                   0            -0             = 
+  1535 DISTANCIA_RECORRIDA[339]
+                                   0            -0             = 
+  1536 DISTANCIA_RECORRIDA[340]
+                                   0            -0             = 
+  1537 DISTANCIA_RECORRIDA[341]
+                                   0            -0             = 
+  1538 DISTANCIA_RECORRIDA[342]
+                                   0            -0             = 
+  1539 DISTANCIA_RECORRIDA[343]
+                                   0            -0             = 
+  1540 DISTANCIA_RECORRIDA[344]
+                                   0            -0             = 
+  1541 DISTANCIA_RECORRIDA[345]
+                                   0            -0             = 
+  1542 DISTANCIA_RECORRIDA[346]
+                                   0            -0             = 
+  1543 DISTANCIA_RECORRIDA[347]
+                                   0            -0             = 
+  1544 DISTANCIA_RECORRIDA[348]
+                                   0            -0             = 
+  1545 DISTANCIA_RECORRIDA[349]
+                                   0            -0             = 
+  1546 DISTANCIA_RECORRIDA[350]
+                                   0            -0             = 
+  1547 DISTANCIA_RECORRIDA[351]
+                                   0            -0             = 
+  1548 DISTANCIA_RECORRIDA[352]
+                                   0            -0             = 
+  1549 DISTANCIA_RECORRIDA[353]
+                                   0            -0             = 
+  1550 DISTANCIA_RECORRIDA[354]
+                                   0            -0             = 
+  1551 DISTANCIA_RECORRIDA[355]
+                                   0            -0             = 
+  1552 DISTANCIA_RECORRIDA[356]
+                                   0            -0             = 
+  1553 DISTANCIA_RECORRIDA[357]
+                                   0            -0             = 
+  1554 DISTANCIA_RECORRIDA[358]
+                                   0            -0             = 
+  1555 DISTANCIA_RECORRIDA[359]
+                                   0            -0             = 
+  1556 DISTANCIA_RECORRIDA[360]
+                                   0            -0             = 
+  1557 DISTANCIA_RECORRIDA[361]
+                                   0            -0             = 
+  1558 DISTANCIA_RECORRIDA[362]
+                                   0            -0             = 
+  1559 DISTANCIA_RECORRIDA[363]
+                                   0            -0             = 
+  1560 DISTANCIA_RECORRIDA[364]
+                                   0            -0             = 
+  1561 DISTANCIA_RECORRIDA[365]
+                                   0            -0             = 
+  1562 DISTANCIA_RECORRIDA[366]
+                                   0            -0             = 
+  1563 DISTANCIA_RECORRIDA[367]
+                                   0            -0             = 
+  1564 DISTANCIA_RECORRIDA[368]
+                                   0            -0             = 
+  1565 DISTANCIA_RECORRIDA[369]
+                                   0            -0             = 
+  1566 DISTANCIA_RECORRIDA[370]
+                                   0            -0             = 
+  1567 DISTANCIA_RECORRIDA[371]
+                                   0            -0             = 
+  1568 DISTANCIA_RECORRIDA[372]
+                                   0            -0             = 
+  1569 DISTANCIA_RECORRIDA[373]
+                                   0            -0             = 
+  1570 DISTANCIA_RECORRIDA[374]
+                                   0            -0             = 
+  1571 DISTANCIA_RECORRIDA[375]
+                                   0            -0             = 
+  1572 DISTANCIA_RECORRIDA[376]
+                                   0            -0             = 
+  1573 DISTANCIA_RECORRIDA[377]
+                                   0            -0             = 
+  1574 DISTANCIA_RECORRIDA[378]
+                                   0            -0             = 
+  1575 DISTANCIA_RECORRIDA[379]
+                                   0            -0             = 
+  1576 DISTANCIA_RECORRIDA[380]
+                                   0            -0             = 
+  1577 DISTANCIA_RECORRIDA[381]
+                                   0            -0             = 
+  1578 DISTANCIA_RECORRIDA[382]
+                                   0            -0             = 
+  1579 DISTANCIA_RECORRIDA[383]
+                                   0            -0             = 
+  1580 DISTANCIA_RECORRIDA[384]
+                                   0            -0             = 
+  1581 DISTANCIA_RECORRIDA[385]
+                                   0            -0             = 
+  1582 DISTANCIA_RECORRIDA[386]
+                                   0            -0             = 
+  1583 DISTANCIA_RECORRIDA[387]
+                                   0            -0             = 
+  1584 DISTANCIA_RECORRIDA[388]
+                                   0            -0             = 
+  1585 DISTANCIA_RECORRIDA[389]
+                                   0            -0             = 
+  1586 DISTANCIA_RECORRIDA[390]
+                                   0            -0             = 
+  1587 DISTANCIA_RECORRIDA[391]
+                                   0            -0             = 
+  1588 DISTANCIA_RECORRIDA[392]
+                                   0            -0             = 
+  1589 DISTANCIA_RECORRIDA[393]
+                                   0            -0             = 
+  1590 DISTANCIA_RECORRIDA[394]
+                                   0            -0             = 
+  1591 DISTANCIA_RECORRIDA[395]
+                                   0            -0             = 
+  1592 DISTANCIA_RECORRIDA[396]
+                                   0            -0             = 
+  1593 DISTANCIA_RECORRIDA[397]
+                                   0            -0             = 
+  1594 DISTANCIA_RECORRIDA[398]
+                                   0            -0             = 
+  1595 DISTANCIA_RECORRIDA[399]
+                                   0            -0             = 
+  1596 DISTANCIA_RECORRIDA[400]
+                                   0            -0             = 
+  1597 DISTANCIA_RECORRIDA[401]
+                                   0            -0             = 
+  1598 DISTANCIA_RECORRIDA[402]
+                                   0            -0             = 
+  1599 DISTANCIA_RECORRIDA[403]
+                                   0            -0             = 
+  1600 DISTANCIA_RECORRIDA[404]
+                                   0            -0             = 
+  1601 DISTANCIA_RECORRIDA[405]
+                                   0            -0             = 
+  1602 DISTANCIA_RECORRIDA[406]
+                                   0            -0             = 
+  1603 DISTANCIA_RECORRIDA[407]
+                                   0            -0             = 
+  1604 DISTANCIA_RECORRIDA[408]
+                                   0            -0             = 
+  1605 DISTANCIA_RECORRIDA[409]
+                                   0            -0             = 
+  1606 DISTANCIA_RECORRIDA[410]
+                                   0            -0             = 
+  1607 DISTANCIA_RECORRIDA[411]
+                                   0            -0             = 
+  1608 DISTANCIA_RECORRIDA[412]
+                                   0            -0             = 
+  1609 DISTANCIA_RECORRIDA[413]
+                                   0            -0             = 
+  1610 DISTANCIA_RECORRIDA[414]
+                                   0            -0             = 
+  1611 DISTANCIA_RECORRIDA[415]
+                                   0            -0             = 
+  1612 DISTANCIA_RECORRIDA[416]
+                                   0            -0             = 
+  1613 DISTANCIA_RECORRIDA[417]
+                                   0            -0             = 
+  1614 DISTANCIA_RECORRIDA[418]
+                                   0            -0             = 
+  1615 DISTANCIA_RECORRIDA[419]
+                                   0            -0             = 
+  1616 DISTANCIA_RECORRIDA[420]
+                                   0            -0             = 
+  1617 DISTANCIA_RECORRIDA[421]
+                                   0            -0             = 
+  1618 DISTANCIA_RECORRIDA[422]
+                                   0            -0             = 
+  1619 DISTANCIA_RECORRIDA[423]
+                                   0            -0             = 
+  1620 DISTANCIA_RECORRIDA[424]
+                                   0            -0             = 
+  1621 DISTANCIA_RECORRIDA[425]
+                                   0            -0             = 
+  1622 DISTANCIA_RECORRIDA[426]
+                                   0            -0             = 
+  1623 DISTANCIA_RECORRIDA[427]
+                                   0            -0             = 
+  1624 DISTANCIA_RECORRIDA[428]
+                                   0            -0             = 
+  1625 DISTANCIA_RECORRIDA[429]
+                                   0            -0             = 
+  1626 DISTANCIA_RECORRIDA[430]
+                                   0            -0             = 
+  1627 DISTANCIA_RECORRIDA[431]
+                                   0            -0             = 
+  1628 DISTANCIA_RECORRIDA[432]
+                                   0            -0             = 
+  1629 DISTANCIA_RECORRIDA[433]
+                                   0            -0             = 
+  1630 DISTANCIA_RECORRIDA[434]
+                                   0            -0             = 
+  1631 DISTANCIA_RECORRIDA[435]
+                                   0            -0             = 
+  1632 DISTANCIA_RECORRIDA[436]
+                                   0            -0             = 
+  1633 DISTANCIA_RECORRIDA[437]
+                                   0            -0             = 
+  1634 DISTANCIA_RECORRIDA[438]
+                                   0            -0             = 
+  1635 DISTANCIA_RECORRIDA[439]
+                                   0            -0             = 
+  1636 DISTANCIA_RECORRIDA[440]
+                                   0            -0             = 
+  1637 DISTANCIA_RECORRIDA[441]
+                                   0            -0             = 
+  1638 DISTANCIA_RECORRIDA[442]
+                                   0            -0             = 
+  1639 DISTANCIA_RECORRIDA[443]
+                                   0            -0             = 
+  1640 DISTANCIA_RECORRIDA[444]
+                                   0            -0             = 
+  1641 DISTANCIA_RECORRIDA[445]
+                                   0            -0             = 
+  1642 DISTANCIA_RECORRIDA[446]
+                                   0            -0             = 
+  1643 DISTANCIA_RECORRIDA[447]
+                                   0            -0             = 
+  1644 DISTANCIA_RECORRIDA[448]
+                                   0            -0             = 
+  1645 DISTANCIA_RECORRIDA[449]
+                                   0            -0             = 
+  1646 DISTANCIA_RECORRIDA[450]
+                                   0            -0             = 
+  1647 DISTANCIA_RECORRIDA[451]
+                                   0            -0             = 
+  1648 DISTANCIA_RECORRIDA[452]
+                                   0            -0             = 
+  1649 DISTANCIA_RECORRIDA[453]
+                                   0            -0             = 
+  1650 DISTANCIA_RECORRIDA[454]
+                                   0            -0             = 
+  1651 DISTANCIA_RECORRIDA[455]
+                                   0            -0             = 
+  1652 DISTANCIA_RECORRIDA[456]
+                                   0            -0             = 
+  1653 DISTANCIA_RECORRIDA[457]
+                                   0            -0             = 
+  1654 DISTANCIA_RECORRIDA[458]
+                                   0            -0             = 
+  1655 DISTANCIA_RECORRIDA[459]
+                                   0            -0             = 
+  1656 DISTANCIA_RECORRIDA[460]
+                                   0            -0             = 
+  1657 DISTANCIA_RECORRIDA[461]
+                                   0            -0             = 
+  1658 DISTANCIA_RECORRIDA[462]
+                                   0            -0             = 
+  1659 DISTANCIA_RECORRIDA[463]
+                                   0            -0             = 
+  1660 DISTANCIA_RECORRIDA[464]
+                                   0            -0             = 
+  1661 DISTANCIA_RECORRIDA[465]
+                                   0            -0             = 
+  1662 DISTANCIA_RECORRIDA[466]
+                                   0            -0             = 
+  1663 DISTANCIA_RECORRIDA[467]
+                                   0            -0             = 
+  1664 DISTANCIA_RECORRIDA[468]
+                                   0            -0             = 
+  1665 DISTANCIA_RECORRIDA[469]
+                                   0            -0             = 
+  1666 DISTANCIA_RECORRIDA[470]
+                                   0            -0             = 
+  1667 DISTANCIA_RECORRIDA[471]
+                                   0            -0             = 
+  1668 DISTANCIA_RECORRIDA[472]
+                                   0            -0             = 
+  1669 DISTANCIA_RECORRIDA[473]
+                                   0            -0             = 
+  1670 DISTANCIA_RECORRIDA[474]
+                                   0            -0             = 
+  1671 DISTANCIA_RECORRIDA[475]
+                                   0            -0             = 
+  1672 DISTANCIA_RECORRIDA[476]
+                                   0            -0             = 
+  1673 DISTANCIA_RECORRIDA[477]
+                                   0            -0             = 
+  1674 DISTANCIA_RECORRIDA[478]
+                                   0            -0             = 
+  1675 DISTANCIA_RECORRIDA[479]
+                                   0            -0             = 
+  1676 DISTANCIA_RECORRIDA[480]
+                                   0            -0             = 
+  1677 DISTANCIA_RECORRIDA[481]
+                                   0            -0             = 
+  1678 DISTANCIA_RECORRIDA[482]
+                                   0            -0             = 
+  1679 DISTANCIA_RECORRIDA[483]
+                                   0            -0             = 
+  1680 DISTANCIA_RECORRIDA[484]
+                                   0            -0             = 
+  1681 DISTANCIA_RECORRIDA[485]
+                                   0            -0             = 
+  1682 DISTANCIA_RECORRIDA[486]
+                                   0            -0             = 
+  1683 DISTANCIA_RECORRIDA[487]
+                                   0            -0             = 
+  1684 DISTANCIA_RECORRIDA[488]
+                                   0            -0             = 
+  1685 DISTANCIA_RECORRIDA[489]
+                                   0            -0             = 
+  1686 DISTANCIA_RECORRIDA[490]
+                                   0            -0             = 
+  1687 DISTANCIA_RECORRIDA[491]
+                                   0            -0             = 
+  1688 DISTANCIA_RECORRIDA[492]
+                                   0            -0             = 
+  1689 DISTANCIA_RECORRIDA[493]
+                                   0            -0             = 
+  1690 DISTANCIA_RECORRIDA[494]
+                                   0            -0             = 
+  1691 DISTANCIA_RECORRIDA[495]
+                                   0            -0             = 
+  1692 DISTANCIA_RECORRIDA[496]
+                                   0            -0             = 
+  1693 DISTANCIA_RECORRIDA[497]
+                                   0            -0             = 
+  1694 DISTANCIA_RECORRIDA[498]
+                                   0            -0             = 
+  1695 DISTANCIA_RECORRIDA[499]
+                                   0            -0             = 
+  1696 DISTANCIA_RECORRIDA[500]
+                                   0            -0             = 
+  1697 DISTANCIA_RECORRIDA[501]
+                                   0            -0             = 
+  1698 DISTANCIA_RECORRIDA[502]
+                                   0            -0             = 
+  1699 DISTANCIA_RECORRIDA[503]
+                                   0            -0             = 
+  1700 DISTANCIA_RECORRIDA[504]
+                                   0            -0             = 
+  1701 DISTANCIA_RECORRIDA[505]
+                                   0            -0             = 
+  1702 DISTANCIA_RECORRIDA[506]
+                                   0            -0             = 
+  1703 DISTANCIA_RECORRIDA[507]
+                                   0            -0             = 
+  1704 DISTANCIA_RECORRIDA[508]
+                                   0            -0             = 
+  1705 DISTANCIA_RECORRIDA[509]
+                                   0            -0             = 
+  1706 DISTANCIA_RECORRIDA[510]
+                                   0            -0             = 
+  1707 DISTANCIA_RECORRIDA[511]
+                                   0            -0             = 
+  1708 DISTANCIA_RECORRIDA[512]
+                                   0            -0             = 
+  1709 DISTANCIA_RECORRIDA[513]
+                                   0            -0             = 
+  1710 DISTANCIA_RECORRIDA[514]
+                                   0            -0             = 
+  1711 DISTANCIA_RECORRIDA[515]
+                                   0            -0             = 
+  1712 DISTANCIA_RECORRIDA[516]
+                                   0            -0             = 
+  1713 DISTANCIA_RECORRIDA[517]
+                                   0            -0             = 
+  1714 DISTANCIA_RECORRIDA[518]
+                                   0            -0             = 
+  1715 DISTANCIA_RECORRIDA[519]
+                                   0            -0             = 
+  1716 DISTANCIA_RECORRIDA[520]
+                                   0            -0             = 
+  1717 DISTANCIA_RECORRIDA[521]
+                                   0            -0             = 
+  1718 DISTANCIA_RECORRIDA[522]
+                                   0            -0             = 
+  1719 DISTANCIA_RECORRIDA[523]
+                                   0            -0             = 
+  1720 DISTANCIA_RECORRIDA[524]
+                                   0            -0             = 
+  1721 DISTANCIA_RECORRIDA[525]
+                                   0            -0             = 
+  1722 DISTANCIA_RECORRIDA[526]
+                                   0            -0             = 
+  1723 DISTANCIA_RECORRIDA[527]
+                                   0            -0             = 
+  1724 DISTANCIA_RECORRIDA[528]
+                                   0            -0             = 
+  1725 DISTANCIA_RECORRIDA[529]
+                                   0            -0             = 
+  1726 DISTANCIA_RECORRIDA[530]
+                                   0            -0             = 
+  1727 DISTANCIA_RECORRIDA[531]
+                                   0            -0             = 
+  1728 DISTANCIA_RECORRIDA[532]
+                                   0            -0             = 
+  1729 DISTANCIA_RECORRIDA[533]
+                                   0            -0             = 
+  1730 DISTANCIA_RECORRIDA[534]
+                                   0            -0             = 
+  1731 DISTANCIA_RECORRIDA[535]
+                                   0            -0             = 
+  1732 DISTANCIA_RECORRIDA[536]
+                                   0            -0             = 
+  1733 DISTANCIA_RECORRIDA[537]
+                                   0            -0             = 
+  1734 DISTANCIA_RECORRIDA[538]
+                                   0            -0             = 
+  1735 DISTANCIA_RECORRIDA[539]
+                                   0            -0             = 
+  1736 DISTANCIA_RECORRIDA[540]
+                                   0            -0             = 
+  1737 DISTANCIA_RECORRIDA[541]
+                                   0            -0             = 
+  1738 DISTANCIA_RECORRIDA[542]
+                                   0            -0             = 
+  1739 DISTANCIA_RECORRIDA[543]
+                                   0            -0             = 
+  1740 DISTANCIA_RECORRIDA[544]
+                                   0            -0             = 
+  1741 DISTANCIA_RECORRIDA[545]
+                                   0            -0             = 
+  1742 DISTANCIA_RECORRIDA[546]
+                                   0            -0             = 
+  1743 DISTANCIA_RECORRIDA[547]
+                                   0            -0             = 
+  1744 DISTANCIA_RECORRIDA[548]
+                                   0            -0             = 
+  1745 DISTANCIA_RECORRIDA[549]
+                                   0            -0             = 
+  1746 DISTANCIA_RECORRIDA[550]
+                                   0            -0             = 
+  1747 DISTANCIA_RECORRIDA[551]
+                                   0            -0             = 
+  1748 DISTANCIA_RECORRIDA[552]
+                                   0            -0             = 
+  1749 DISTANCIA_RECORRIDA[553]
+                                   0            -0             = 
+  1750 DISTANCIA_RECORRIDA[554]
+                                   0            -0             = 
+  1751 DISTANCIA_RECORRIDA[555]
+                                   0            -0             = 
+  1752 DISTANCIA_RECORRIDA[556]
+                                   0            -0             = 
+  1753 DISTANCIA_RECORRIDA[557]
+                                   0            -0             = 
+  1754 DISTANCIA_RECORRIDA[558]
+                                   0            -0             = 
+  1755 DISTANCIA_RECORRIDA[559]
+                                   0            -0             = 
+  1756 DISTANCIA_RECORRIDA[560]
+                                   0            -0             = 
+  1757 DISTANCIA_RECORRIDA[561]
+                                   0            -0             = 
+  1758 DISTANCIA_RECORRIDA[562]
+                                   0            -0             = 
+  1759 DISTANCIA_RECORRIDA[563]
+                                   0            -0             = 
+  1760 DISTANCIA_RECORRIDA[564]
+                                   0            -0             = 
+  1761 DISTANCIA_RECORRIDA[565]
+                                   0            -0             = 
+  1762 DISTANCIA_RECORRIDA[566]
+                                   0            -0             = 
+  1763 DISTANCIA_RECORRIDA[567]
+                                   0            -0             = 
+  1764 DISTANCIA_RECORRIDA[568]
+                                   0            -0             = 
+  1765 DISTANCIA_RECORRIDA[569]
+                                   0            -0             = 
+  1766 DISTANCIA_RECORRIDA[570]
+                                   0            -0             = 
+  1767 DISTANCIA_RECORRIDA[571]
+                                   0            -0             = 
+  1768 DISTANCIA_RECORRIDA[572]
+                                   0            -0             = 
+  1769 DISTANCIA_RECORRIDA[573]
+                                   0            -0             = 
+  1770 DISTANCIA_RECORRIDA[574]
+                                   0            -0             = 
+  1771 DISTANCIA_RECORRIDA[575]
+                                   0            -0             = 
+  1772 DISTANCIA_RECORRIDA[576]
+                                   0            -0             = 
+  1773 DISTANCIA_RECORRIDA[577]
+                                   0            -0             = 
+  1774 DISTANCIA_RECORRIDA[578]
+                                   0            -0             = 
+  1775 DISTANCIA_RECORRIDA[579]
+                                   0            -0             = 
+  1776 DISTANCIA_RECORRIDA[580]
+                                   0            -0             = 
+  1777 DISTANCIA_RECORRIDA[581]
+                                   0            -0             = 
+  1778 DISTANCIA_RECORRIDA[582]
+                                   0            -0             = 
+  1779 DISTANCIA_RECORRIDA[583]
+                                   0            -0             = 
+  1780 DISTANCIA_RECORRIDA[584]
+                                   0            -0             = 
+  1781 DISTANCIA_RECORRIDA[585]
+                                   0            -0             = 
+  1782 DISTANCIA_RECORRIDA[586]
+                                   0            -0             = 
+  1783 DISTANCIA_RECORRIDA[587]
+                                   0            -0             = 
+  1784 DISTANCIA_RECORRIDA[588]
+                                   0            -0             = 
+  1785 DISTANCIA_RECORRIDA[589]
+                                   0            -0             = 
+  1786 DISTANCIA_RECORRIDA[590]
+                                   0            -0             = 
+  1787 DISTANCIA_RECORRIDA[591]
+                                   0            -0             = 
+  1788 DISTANCIA_RECORRIDA[592]
+                                   0            -0             = 
+  1789 DISTANCIA_RECORRIDA[593]
+                                   0            -0             = 
+  1790 DISTANCIA_RECORRIDA[594]
+                                   0            -0             = 
+  1791 DISTANCIA_RECORRIDA[595]
+                                   0            -0             = 
+  1792 DISTANCIA_RECORRIDA[596]
+                                   0            -0             = 
+  1793 DISTANCIA_RECORRIDA[597]
+                                   0            -0             = 
+  1794 DISTANCIA_RECORRIDA[598]
+                                   0            -0             = 
+  1795 DISTANCIA_RECORRIDA[599]
+                                   0            -0             = 
+  1796 DISTANCIA_RECORRIDA[600]
+                                   0            -0             = 
+  1797 DISTANCIA_RECORRIDA[601]
+                                   0            -0             = 
+  1798 DISTANCIA_RECORRIDA[602]
+                                   0            -0             = 
+  1799 DISTANCIA_RECORRIDA[603]
+                                   0            -0             = 
+  1800 DISTANCIA_RECORRIDA[604]
+                                   0            -0             = 
+  1801 DISTANCIA_RECORRIDA[605]
+                                   0            -0             = 
+  1802 DISTANCIA_RECORRIDA[606]
+                                   0            -0             = 
+  1803 DISTANCIA_RECORRIDA[607]
+                                   0            -0             = 
+  1804 DISTANCIA_RECORRIDA[608]
+                                   0            -0             = 
+  1805 DISTANCIA_RECORRIDA[609]
+                                   0            -0             = 
+  1806 DISTANCIA_RECORRIDA[610]
+                                   0            -0             = 
+  1807 DISTANCIA_RECORRIDA[611]
+                                   0            -0             = 
+  1808 DISTANCIA_RECORRIDA[612]
+                                   0            -0             = 
+  1809 DISTANCIA_RECORRIDA[613]
+                                   0            -0             = 
+  1810 DISTANCIA_RECORRIDA[614]
+                                   0            -0             = 
+  1811 DISTANCIA_RECORRIDA[615]
+                                   0            -0             = 
+  1812 DISTANCIA_RECORRIDA[616]
+                                   0            -0             = 
+  1813 DISTANCIA_RECORRIDA[617]
+                                   0            -0             = 
+  1814 DISTANCIA_RECORRIDA[618]
+                                   0            -0             = 
+  1815 DISTANCIA_RECORRIDA[619]
+                                   0            -0             = 
+  1816 DISTANCIA_RECORRIDA[620]
+                                   0            -0             = 
+  1817 DISTANCIA_RECORRIDA[621]
+                                   0            -0             = 
+  1818 DISTANCIA_RECORRIDA[622]
+                                   0            -0             = 
+  1819 DISTANCIA_RECORRIDA[623]
+                                   0            -0             = 
+  1820 DISTANCIA_RECORRIDA[624]
+                                   0            -0             = 
+  1821 DISTANCIA_RECORRIDA[625]
+                                   0            -0             = 
+  1822 DISTANCIA_RECORRIDA[626]
+                                   0            -0             = 
+  1823 DISTANCIA_RECORRIDA[627]
+                                   0            -0             = 
+  1824 DISTANCIA_RECORRIDA[628]
+                                   0            -0             = 
+  1825 DISTANCIA_RECORRIDA[629]
+                                   0            -0             = 
+  1826 DISTANCIA_RECORRIDA[630]
+                                   0            -0             = 
+  1827 DISTANCIA_RECORRIDA[631]
+                                   0            -0             = 
+  1828 DISTANCIA_RECORRIDA[632]
+                                   0            -0             = 
+  1829 DISTANCIA_RECORRIDA[633]
+                                   0            -0             = 
+  1830 DISTANCIA_RECORRIDA[634]
+                                   0            -0             = 
+  1831 DISTANCIA_RECORRIDA[635]
+                                   0            -0             = 
+  1832 DISTANCIA_RECORRIDA[636]
+                                   0            -0             = 
+  1833 DISTANCIA_RECORRIDA[637]
+                                   0            -0             = 
+  1834 DISTANCIA_RECORRIDA[638]
+                                   0            -0             = 
+  1835 DISTANCIA_RECORRIDA[639]
+                                   0            -0             = 
+  1836 DISTANCIA_RECORRIDA[640]
+                                   0            -0             = 
+  1837 DISTANCIA_RECORRIDA[641]
+                                   0            -0             = 
+  1838 DISTANCIA_RECORRIDA[642]
+                                   0            -0             = 
+  1839 DISTANCIA_RECORRIDA[643]
+                                   0            -0             = 
+  1840 DISTANCIA_RECORRIDA[644]
+                                   0            -0             = 
+  1841 DISTANCIA_RECORRIDA[645]
+                                   0            -0             = 
+  1842 DISTANCIA_RECORRIDA[646]
+                                   0            -0             = 
+  1843 DISTANCIA_RECORRIDA[647]
+                                   0            -0             = 
+  1844 DISTANCIA_RECORRIDA[648]
+                                   0            -0             = 
+  1845 DISTANCIA_RECORRIDA[649]
+                                   0            -0             = 
+  1846 DISTANCIA_RECORRIDA[650]
+                                   0            -0             = 
+  1847 DISTANCIA_RECORRIDA[651]
+                                   0            -0             = 
+  1848 DISTANCIA_RECORRIDA[652]
+                                   0            -0             = 
+  1849 DISTANCIA_RECORRIDA[653]
+                                   0            -0             = 
+  1850 DISTANCIA_RECORRIDA[654]
+                                   0            -0             = 
+  1851 DISTANCIA_RECORRIDA[655]
+                                   0            -0             = 
+  1852 DISTANCIA_RECORRIDA[656]
+                                   0            -0             = 
+  1853 DISTANCIA_RECORRIDA[657]
+                                   0            -0             = 
+  1854 DISTANCIA_RECORRIDA[658]
+                                   0            -0             = 
+  1855 DISTANCIA_RECORRIDA[659]
+                                   0            -0             = 
+  1856 DISTANCIA_RECORRIDA[660]
+                                   0            -0             = 
+  1857 DISTANCIA_RECORRIDA[661]
+                                   0            -0             = 
+  1858 DISTANCIA_RECORRIDA[662]
+                                   0            -0             = 
+  1859 DISTANCIA_RECORRIDA[663]
+                                   0            -0             = 
+  1860 DISTANCIA_RECORRIDA[664]
+                                   0            -0             = 
+  1861 DISTANCIA_RECORRIDA[665]
+                                   0            -0             = 
+  1862 DISTANCIA_RECORRIDA[666]
+                                   0            -0             = 
+  1863 DISTANCIA_RECORRIDA[667]
+                                   0            -0             = 
+  1864 DISTANCIA_RECORRIDA[668]
+                                   0            -0             = 
+  1865 DISTANCIA_RECORRIDA[669]
+                                   0            -0             = 
+  1866 DISTANCIA_RECORRIDA[670]
+                                   0            -0             = 
+  1867 DISTANCIA_RECORRIDA[671]
+                                   0            -0             = 
+  1868 DISTANCIA_RECORRIDA[672]
+                                   0            -0             = 
+  1869 DISTANCIA_RECORRIDA[673]
+                                   0            -0             = 
+  1870 DISTANCIA_RECORRIDA[674]
+                                   0            -0             = 
+  1871 DISTANCIA_RECORRIDA[675]
+                                   0            -0             = 
+  1872 DISTANCIA_RECORRIDA[676]
+                                   0            -0             = 
+  1873 DISTANCIA_RECORRIDA[677]
+                                   0            -0             = 
+  1874 DISTANCIA_RECORRIDA[678]
+                                   0            -0             = 
+  1875 DISTANCIA_RECORRIDA[679]
+                                   0            -0             = 
+  1876 DISTANCIA_RECORRIDA[680]
+                                   0            -0             = 
+  1877 DISTANCIA_RECORRIDA[681]
+                                   0            -0             = 
+  1878 DISTANCIA_RECORRIDA[682]
+                                   0            -0             = 
+  1879 DISTANCIA_RECORRIDA[683]
+                                   0            -0             = 
+  1880 DISTANCIA_RECORRIDA[684]
+                                   0            -0             = 
+  1881 DISTANCIA_RECORRIDA[685]
+                                   0            -0             = 
+  1882 DISTANCIA_RECORRIDA[686]
+                                   0            -0             = 
+  1883 DISTANCIA_RECORRIDA[687]
+                                   0            -0             = 
+  1884 DISTANCIA_RECORRIDA[688]
+                                   0            -0             = 
+  1885 DISTANCIA_RECORRIDA[689]
+                                   0            -0             = 
+  1886 DISTANCIA_RECORRIDA[690]
+                                   0            -0             = 
+  1887 DISTANCIA_RECORRIDA[691]
+                                   0            -0             = 
+  1888 DISTANCIA_RECORRIDA[692]
+                                   0            -0             = 
+  1889 DISTANCIA_RECORRIDA[693]
+                                   0            -0             = 
+  1890 DISTANCIA_RECORRIDA[694]
+                                   0            -0             = 
+  1891 DISTANCIA_RECORRIDA[695]
+                                   0            -0             = 
+  1892 DISTANCIA_RECORRIDA[696]
+                                   0            -0             = 
+  1893 DISTANCIA_RECORRIDA[697]
+                                   0            -0             = 
+  1894 DISTANCIA_RECORRIDA[698]
+                                   0            -0             = 
+  1895 DISTANCIA_RECORRIDA[699]
+                                   0            -0             = 
+  1896 DISTANCIA_RECORRIDA[700]
+                                   0            -0             = 
+  1897 DISTANCIA_RECORRIDA[701]
+                                   0            -0             = 
+  1898 DISTANCIA_RECORRIDA[702]
+                                   0            -0             = 
+  1899 DISTANCIA_RECORRIDA[703]
+                                   0            -0             = 
+  1900 DISTANCIA_RECORRIDA[704]
+                                   0            -0             = 
+  1901 DISTANCIA_RECORRIDA[705]
+                                   0            -0             = 
+  1902 DISTANCIA_RECORRIDA[706]
+                                   0            -0             = 
+  1903 DISTANCIA_RECORRIDA[707]
+                                   0            -0             = 
+  1904 DISTANCIA_RECORRIDA[708]
+                                   0            -0             = 
+  1905 DISTANCIA_RECORRIDA[709]
+                                   0            -0             = 
+  1906 DISTANCIA_RECORRIDA[710]
+                                   0            -0             = 
+  1907 DISTANCIA_RECORRIDA[711]
+                                   0            -0             = 
+  1908 DISTANCIA_RECORRIDA[712]
+                                   0            -0             = 
+  1909 DISTANCIA_RECORRIDA[713]
+                                   0            -0             = 
+  1910 DISTANCIA_RECORRIDA[714]
+                                   0            -0             = 
+  1911 DISTANCIA_RECORRIDA[715]
+                                   0            -0             = 
+  1912 DISTANCIA_RECORRIDA[716]
+                                   0            -0             = 
+  1913 DISTANCIA_RECORRIDA[717]
+                                   0            -0             = 
+  1914 DISTANCIA_RECORRIDA[718]
+                                   0            -0             = 
+  1915 DISTANCIA_RECORRIDA[719]
+                                   0            -0             = 
+  1916 DISTANCIA_RECORRIDA[720]
+                                   0            -0             = 
+  1917 DISTANCIA_RECORRIDA[721]
+                                   0            -0             = 
+  1918 DISTANCIA_RECORRIDA[722]
+                                   0            -0             = 
+  1919 DISTANCIA_RECORRIDA[723]
+                                   0            -0             = 
+  1920 DISTANCIA_RECORRIDA[724]
+                                   0            -0             = 
+  1921 DISTANCIA_RECORRIDA[725]
+                                   0            -0             = 
+  1922 DISTANCIA_RECORRIDA[726]
+                                   0            -0             = 
+  1923 DISTANCIA_RECORRIDA[727]
+                                   0            -0             = 
+  1924 DISTANCIA_RECORRIDA[728]
+                                   0            -0             = 
+  1925 DISTANCIA_RECORRIDA[729]
+                                   0            -0             = 
+  1926 DISTANCIA_RECORRIDA[730]
+                                   0            -0             = 
+  1927 DISTANCIA_RECORRIDA[731]
+                                   0            -0             = 
+  1928 DISTANCIA_RECORRIDA[732]
+                                   0            -0             = 
+  1929 DISTANCIA_RECORRIDA[733]
+                                   0            -0             = 
+  1930 DISTANCIA_RECORRIDA[734]
+                                   0            -0             = 
+  1931 DISTANCIA_RECORRIDA[735]
+                                   0            -0             = 
+  1932 DISTANCIA_RECORRIDA[736]
+                                   0            -0             = 
+  1933 DISTANCIA_RECORRIDA[737]
+                                   0            -0             = 
+  1934 DISTANCIA_RECORRIDA[738]
+                                   0            -0             = 
+  1935 DISTANCIA_RECORRIDA[739]
+                                   0            -0             = 
+  1936 DISTANCIA_RECORRIDA[740]
+                                   0            -0             = 
+  1937 DISTANCIA_RECORRIDA[741]
+                                   0            -0             = 
+  1938 DISTANCIA_RECORRIDA[742]
+                                   0            -0             = 
+  1939 DISTANCIA_RECORRIDA[743]
+                                   0            -0             = 
+  1940 DISTANCIA_RECORRIDA[744]
+                                   0            -0             = 
+  1941 DISTANCIA_RECORRIDA[745]
+                                   0            -0             = 
+  1942 DISTANCIA_RECORRIDA[746]
+                                   0            -0             = 
+  1943 DISTANCIA_RECORRIDA[747]
+                                   0            -0             = 
+  1944 DISTANCIA_RECORRIDA[748]
+                                   0            -0             = 
+  1945 DISTANCIA_RECORRIDA[749]
+                                   0            -0             = 
+  1946 DISTANCIA_RECORRIDA[750]
+                                   0            -0             = 
+  1947 DISTANCIA_RECORRIDA[751]
+                                   0            -0             = 
+  1948 DISTANCIA_RECORRIDA[752]
+                                   0            -0             = 
+  1949 DISTANCIA_RECORRIDA[753]
+                                   0            -0             = 
+  1950 DISTANCIA_RECORRIDA[754]
+                                   0            -0             = 
+  1951 DISTANCIA_RECORRIDA[755]
+                                   0            -0             = 
+  1952 DISTANCIA_RECORRIDA[756]
+                                   0            -0             = 
+  1953 DISTANCIA_RECORRIDA[757]
+                                   0            -0             = 
+  1954 DISTANCIA_RECORRIDA[758]
+                                   0            -0             = 
+  1955 DISTANCIA_RECORRIDA[759]
+                                   0            -0             = 
+  1956 DISTANCIA_RECORRIDA[760]
+                                   0            -0             = 
+  1957 DISTANCIA_RECORRIDA[761]
+                                   0            -0             = 
+  1958 DISTANCIA_RECORRIDA[762]
+                                   0            -0             = 
+  1959 DISTANCIA_RECORRIDA[763]
+                                   0            -0             = 
+  1960 DISTANCIA_RECORRIDA[764]
+                                   0            -0             = 
+  1961 DISTANCIA_RECORRIDA[765]
+                                   0            -0             = 
+  1962 DISTANCIA_RECORRIDA[766]
+                                   0            -0             = 
+  1963 DISTANCIA_RECORRIDA[767]
+                                   0            -0             = 
+  1964 DISTANCIA_RECORRIDA[768]
+                                   0            -0             = 
+  1965 DISTANCIA_RECORRIDA[769]
+                                   0            -0             = 
+  1966 DISTANCIA_RECORRIDA[770]
+                                   0            -0             = 
+  1967 DISTANCIA_RECORRIDA[771]
+                                   0            -0             = 
+  1968 DISTANCIA_RECORRIDA[772]
+                                   0            -0             = 
+  1969 DISTANCIA_RECORRIDA[773]
+                                   0            -0             = 
+  1970 DISTANCIA_RECORRIDA[774]
+                                   0            -0             = 
+  1971 DISTANCIA_RECORRIDA[775]
+                                   0            -0             = 
+  1972 DISTANCIA_RECORRIDA[776]
+                                   0            -0             = 
+  1973 DISTANCIA_RECORRIDA[777]
+                                   0            -0             = 
+  1974 DISTANCIA_RECORRIDA[778]
+                                   0            -0             = 
+  1975 DISTANCIA_RECORRIDA[779]
+                                   0            -0             = 
+  1976 DISTANCIA_RECORRIDA[780]
+                                   0            -0             = 
+  1977 DISTANCIA_RECORRIDA[781]
+                                   0            -0             = 
+  1978 DISTANCIA_RECORRIDA[782]
+                                   0            -0             = 
+  1979 DISTANCIA_RECORRIDA[783]
+                                   0            -0             = 
+  1980 DISTANCIA_RECORRIDA[784]
+                                   0            -0             = 
+  1981 DISTANCIA_RECORRIDA[785]
+                                   0            -0             = 
+  1982 DISTANCIA_RECORRIDA[786]
+                                   0            -0             = 
+  1983 DISTANCIA_RECORRIDA[787]
+                                   0            -0             = 
+  1984 DISTANCIA_RECORRIDA[788]
+                                   0            -0             = 
+  1985 DISTANCIA_RECORRIDA[789]
+                                   0            -0             = 
+  1986 DISTANCIA_RECORRIDA[790]
+                                   0            -0             = 
+  1987 DISTANCIA_RECORRIDA[791]
+                                   0            -0             = 
+  1988 DISTANCIA_RECORRIDA[792]
+                                   0            -0             = 
+  1989 DISTANCIA_RECORRIDA[793]
+                                   0            -0             = 
+  1990 DISTANCIA_RECORRIDA[794]
+                                   0            -0             = 
+  1991 DISTANCIA_RECORRIDA[795]
+                                   0            -0             = 
+  1992 DISTANCIA_RECORRIDA[796]
+                                   0            -0             = 
+  1993 DISTANCIA_RECORRIDA[797]
+                                   0            -0             = 
+  1994 DISTANCIA_RECORRIDA[798]
+                                   0            -0             = 
+  1995 DISTANCIA_RECORRIDA[799]
+                                   0            -0             = 
+  1996 DISTANCIA_RECORRIDA[800]
+                                   0            -0             = 
+  1997 DISTANCIA_RECORRIDA[801]
+                                   0            -0             = 
+  1998 DISTANCIA_RECORRIDA[802]
+                                   0            -0             = 
+  1999 DISTANCIA_RECORRIDA[803]
+                                   0            -0             = 
+  2000 DISTANCIA_RECORRIDA[804]
+                                   0            -0             = 
+  2001 DISTANCIA_RECORRIDA[805]
+                                   0            -0             = 
+  2002 DISTANCIA_RECORRIDA[806]
+                                   0            -0             = 
+  2003 DISTANCIA_RECORRIDA[807]
+                                   0            -0             = 
+  2004 DISTANCIA_RECORRIDA[808]
+                                   0            -0             = 
+  2005 DISTANCIA_RECORRIDA[809]
+                                   0            -0             = 
+  2006 DISTANCIA_RECORRIDA[810]
+                                   0            -0             = 
+  2007 DISTANCIA_RECORRIDA[811]
+                                   0            -0             = 
+  2008 DISTANCIA_RECORRIDA[812]
+                                   0            -0             = 
+  2009 DISTANCIA_RECORRIDA[813]
+                                   0            -0             = 
+  2010 DISTANCIA_RECORRIDA[814]
+                                   0            -0             = 
+  2011 DISTANCIA_RECORRIDA[815]
+                                   0            -0             = 
+  2012 DISTANCIA_RECORRIDA[816]
+                                   0            -0             = 
+  2013 DISTANCIA_RECORRIDA[817]
+                                   0            -0             = 
+  2014 DISTANCIA_RECORRIDA[818]
+                                   0            -0             = 
+  2015 DISTANCIA_RECORRIDA[819]
+                                   0            -0             = 
+  2016 DISTANCIA_RECORRIDA[820]
+                                   0            -0             = 
+  2017 DISTANCIA_RECORRIDA[821]
+                                   0            -0             = 
+  2018 DISTANCIA_RECORRIDA[822]
+                                   0            -0             = 
+  2019 DISTANCIA_RECORRIDA[823]
+                                   0            -0             = 
+  2020 DISTANCIA_RECORRIDA[824]
+                                   0            -0             = 
+  2021 DISTANCIA_RECORRIDA[825]
+                                   0            -0             = 
+  2022 DISTANCIA_RECORRIDA[826]
+                                   0            -0             = 
+  2023 DISTANCIA_RECORRIDA[827]
+                                   0            -0             = 
+  2024 DISTANCIA_RECORRIDA[828]
+                                   0            -0             = 
+  2025 DISTANCIA_RECORRIDA[829]
+                                   0            -0             = 
+  2026 DISTANCIA_RECORRIDA[830]
+                                   0            -0             = 
+  2027 DISTANCIA_RECORRIDA[831]
+                                   0            -0             = 
+  2028 DISTANCIA_RECORRIDA[832]
+                                   0            -0             = 
+  2029 DISTANCIA_RECORRIDA[833]
+                                   0            -0             = 
+  2030 DISTANCIA_RECORRIDA[834]
+                                   0            -0             = 
+  2031 DISTANCIA_RECORRIDA[835]
+                                   0            -0             = 
+  2032 DISTANCIA_RECORRIDA[836]
+                                   0            -0             = 
+  2033 DISTANCIA_RECORRIDA[837]
+                                   0            -0             = 
+  2034 DISTANCIA_RECORRIDA[838]
+                                   0            -0             = 
+  2035 DISTANCIA_RECORRIDA[839]
+                                   0            -0             = 
+  2036 DISTANCIA_RECORRIDA[840]
+                                   0            -0             = 
+  2037 DISTANCIA_RECORRIDA[841]
+                                   0            -0             = 
+  2038 DISTANCIA_RECORRIDA[842]
+                                   0            -0             = 
+  2039 DISTANCIA_RECORRIDA[843]
+                                   0            -0             = 
+  2040 DISTANCIA_RECORRIDA[844]
+                                   0            -0             = 
+  2041 DISTANCIA_RECORRIDA[845]
+                                   0            -0             = 
+  2042 DISTANCIA_RECORRIDA[846]
+                                   0            -0             = 
+  2043 DISTANCIA_RECORRIDA[847]
+                                   0            -0             = 
+  2044 DISTANCIA_RECORRIDA[848]
+                                   0            -0             = 
+  2045 DISTANCIA_RECORRIDA[849]
+                                   0            -0             = 
+  2046 DISTANCIA_RECORRIDA[850]
+                                   0            -0             = 
+  2047 DISTANCIA_RECORRIDA[851]
+                                   0            -0             = 
+  2048 DISTANCIA_RECORRIDA[852]
+                                   0            -0             = 
+  2049 DISTANCIA_RECORRIDA[853]
+                                   0            -0             = 
+  2050 DISTANCIA_RECORRIDA[854]
+                                   0            -0             = 
+  2051 DISTANCIA_RECORRIDA[855]
+                                   0            -0             = 
+  2052 DISTANCIA_RECORRIDA[856]
+                                   0            -0             = 
+  2053 DISTANCIA_RECORRIDA[857]
+                                   0            -0             = 
+  2054 DISTANCIA_RECORRIDA[858]
+                                   0            -0             = 
+  2055 DISTANCIA_RECORRIDA[859]
+                                   0            -0             = 
+  2056 DISTANCIA_RECORRIDA[860]
+                                   0            -0             = 
+  2057 DISTANCIA_RECORRIDA[861]
+                                   0            -0             = 
+  2058 DISTANCIA_RECORRIDA[862]
+                                   0            -0             = 
+  2059 DISTANCIA_RECORRIDA[863]
+                                   0            -0             = 
+  2060 DISTANCIA_RECORRIDA[864]
+                                   0            -0             = 
+  2061 DISTANCIA_RECORRIDA[865]
+                                   0            -0             = 
+  2062 DISTANCIA_RECORRIDA[866]
+                                   0            -0             = 
+  2063 DISTANCIA_RECORRIDA[867]
+                                   0            -0             = 
+  2064 DISTANCIA_RECORRIDA[868]
+                                   0            -0             = 
+  2065 DISTANCIA_RECORRIDA[869]
+                                   0            -0             = 
+  2066 DISTANCIA_RECORRIDA[870]
+                                   0            -0             = 
+  2067 DISTANCIA_RECORRIDA[871]
+                                   0            -0             = 
+  2068 DISTANCIA_RECORRIDA[872]
+                                   0            -0             = 
+  2069 DISTANCIA_RECORRIDA[873]
+                                   0            -0             = 
+  2070 DISTANCIA_RECORRIDA[874]
+                                   0            -0             = 
+  2071 DISTANCIA_RECORRIDA[875]
+                                   0            -0             = 
+  2072 DISTANCIA_RECORRIDA[876]
+                                   0            -0             = 
+  2073 DISTANCIA_RECORRIDA[877]
+                                   0            -0             = 
+  2074 DISTANCIA_RECORRIDA[878]
+                                   0            -0             = 
+  2075 DISTANCIA_RECORRIDA[879]
+                                   0            -0             = 
+  2076 DISTANCIA_RECORRIDA[880]
+                                   0            -0             = 
+  2077 DISTANCIA_RECORRIDA[881]
+                                   0            -0             = 
+  2078 DISTANCIA_RECORRIDA[882]
+                                   0            -0             = 
+  2079 DISTANCIA_RECORRIDA[883]
+                                   0            -0             = 
+  2080 DISTANCIA_RECORRIDA[884]
+                                   0            -0             = 
+  2081 DISTANCIA_RECORRIDA[885]
+                                   0            -0             = 
+  2082 DISTANCIA_RECORRIDA[886]
+                                   0            -0             = 
+  2083 DISTANCIA_RECORRIDA[887]
+                                   0            -0             = 
+  2084 DISTANCIA_RECORRIDA[888]
+                                   0            -0             = 
+  2085 DISTANCIA_RECORRIDA[889]
+                                   0            -0             = 
+  2086 DISTANCIA_RECORRIDA[890]
+                                   0            -0             = 
+  2087 DISTANCIA_RECORRIDA[891]
+                                   0            -0             = 
+  2088 DISTANCIA_RECORRIDA[892]
+                                   0            -0             = 
+  2089 DISTANCIA_RECORRIDA[893]
+                                   0            -0             = 
+  2090 DISTANCIA_RECORRIDA[894]
+                                   0            -0             = 
+  2091 DISTANCIA_RECORRIDA[895]
+                                   0            -0             = 
+  2092 DISTANCIA_RECORRIDA[896]
+                                   0            -0             = 
+  2093 DISTANCIA_RECORRIDA[897]
+                                   0            -0             = 
+  2094 DISTANCIA_RECORRIDA[898]
+                                   0            -0             = 
+  2095 DISTANCIA_RECORRIDA[899]
+                                   0            -0             = 
+  2096 DISTANCIA_RECORRIDA[900]
+                                   0            -0             = 
+  2097 DISTANCIA_RECORRIDA[901]
+                                   0            -0             = 
+  2098 DISTANCIA_RECORRIDA[902]
+                                   0            -0             = 
+  2099 DISTANCIA_RECORRIDA[903]
+                                   0            -0             = 
+  2100 DISTANCIA_RECORRIDA[904]
+                                   0            -0             = 
+  2101 DISTANCIA_RECORRIDA[905]
+                                   0            -0             = 
+  2102 DISTANCIA_RECORRIDA[906]
+                                   0            -0             = 
+  2103 DISTANCIA_RECORRIDA[907]
+                                   0            -0             = 
+  2104 DISTANCIA_RECORRIDA[908]
+                                   0            -0             = 
+  2105 DISTANCIA_RECORRIDA[909]
+                                   0            -0             = 
+  2106 DISTANCIA_RECORRIDA[910]
+                                   0            -0             = 
+  2107 DISTANCIA_RECORRIDA[911]
+                                   0            -0             = 
+  2108 DISTANCIA_RECORRIDA[912]
+                                   0            -0             = 
+  2109 DISTANCIA_RECORRIDA[913]
+                                   0            -0             = 
+  2110 DISTANCIA_RECORRIDA[914]
+                                   0            -0             = 
+  2111 DISTANCIA_RECORRIDA[915]
+                                   0            -0             = 
+  2112 DISTANCIA_RECORRIDA[916]
+                                   0            -0             = 
+  2113 DISTANCIA_RECORRIDA[917]
+                                   0            -0             = 
+  2114 DISTANCIA_RECORRIDA[918]
+                                   0            -0             = 
+  2115 DISTANCIA_RECORRIDA[919]
+                                   0            -0             = 
+  2116 DISTANCIA_RECORRIDA[920]
+                                   0            -0             = 
+  2117 DISTANCIA_RECORRIDA[921]
+                                   0            -0             = 
+  2118 DISTANCIA_RECORRIDA[922]
+                                   0            -0             = 
+  2119 DISTANCIA_RECORRIDA[923]
+                                   0            -0             = 
+  2120 DISTANCIA_RECORRIDA[924]
+                                   0            -0             = 
+  2121 DISTANCIA_RECORRIDA[925]
+                                   0            -0             = 
+  2122 DISTANCIA_RECORRIDA[926]
+                                   0            -0             = 
+  2123 DISTANCIA_RECORRIDA[927]
+                                   0            -0             = 
+  2124 DISTANCIA_RECORRIDA[928]
+                                   0            -0             = 
+  2125 DISTANCIA_RECORRIDA[929]
+                                   0            -0             = 
+  2126 DISTANCIA_RECORRIDA[930]
+                                   0            -0             = 
+  2127 DISTANCIA_RECORRIDA[931]
+                                   0            -0             = 
+  2128 DISTANCIA_RECORRIDA[932]
+                                   0            -0             = 
+  2129 DISTANCIA_RECORRIDA[933]
+                                   0            -0             = 
+  2130 DISTANCIA_RECORRIDA[934]
+                                   0            -0             = 
+  2131 DISTANCIA_RECORRIDA[935]
+                                   0            -0             = 
+  2132 DISTANCIA_RECORRIDA[936]
+                                   0            -0             = 
+  2133 DISTANCIA_RECORRIDA[937]
+                                   0            -0             = 
+  2134 DISTANCIA_RECORRIDA[938]
+                                   0            -0             = 
+  2135 DISTANCIA_RECORRIDA[939]
+                                   0            -0             = 
+  2136 DISTANCIA_RECORRIDA[940]
+                                   0            -0             = 
+  2137 DISTANCIA_RECORRIDA[941]
+                                   0            -0             = 
+  2138 DISTANCIA_RECORRIDA[942]
+                                   0            -0             = 
+  2139 DISTANCIA_RECORRIDA[943]
+                                   0            -0             = 
+  2140 DISTANCIA_RECORRIDA[944]
+                                   0            -0             = 
+  2141 DISTANCIA_RECORRIDA[945]
+                                   0            -0             = 
+  2142 DISTANCIA_RECORRIDA[946]
+                                   0            -0             = 
+  2143 DISTANCIA_RECORRIDA[947]
+                                   0            -0             = 
+  2144 DISTANCIA_RECORRIDA[948]
+                                   0            -0             = 
+  2145 DISTANCIA_RECORRIDA[949]
+                                   0            -0             = 
+  2146 DISTANCIA_RECORRIDA[950]
+                                   0            -0             = 
+  2147 DISTANCIA_RECORRIDA[951]
+                                   0            -0             = 
+  2148 DISTANCIA_RECORRIDA[952]
+                                   0            -0             = 
+  2149 DISTANCIA_RECORRIDA[953]
+                                   0            -0             = 
+  2150 DISTANCIA_RECORRIDA[954]
+                                   0            -0             = 
+  2151 DISTANCIA_RECORRIDA[955]
+                                   0            -0             = 
+  2152 DISTANCIA_RECORRIDA[956]
+                                   0            -0             = 
+  2153 DISTANCIA_RECORRIDA[957]
+                                   0            -0             = 
+  2154 DISTANCIA_RECORRIDA[958]
+                                   0            -0             = 
+  2155 DISTANCIA_RECORRIDA[959]
+                                   0            -0             = 
+  2156 DISTANCIA_RECORRIDA[960]
+                                   0            -0             = 
+  2157 DISTANCIA_RECORRIDA[961]
+                                   0            -0             = 
+  2158 DISTANCIA_RECORRIDA[962]
+                                   0            -0             = 
+  2159 DISTANCIA_RECORRIDA[963]
+                                   0            -0             = 
+  2160 DISTANCIA_RECORRIDA[964]
+                                   0            -0             = 
+  2161 DISTANCIA_RECORRIDA[965]
+                                   0            -0             = 
+  2162 DISTANCIA_RECORRIDA[966]
+                                   0            -0             = 
+  2163 DISTANCIA_RECORRIDA[967]
+                                   0            -0             = 
+  2164 DISTANCIA_RECORRIDA[968]
+                                   0            -0             = 
+  2165 DISTANCIA_RECORRIDA[969]
+                                   0            -0             = 
+  2166 DISTANCIA_RECORRIDA[970]
+                                   0            -0             = 
+  2167 DISTANCIA_RECORRIDA[971]
+                                   0            -0             = 
+  2168 DISTANCIA_RECORRIDA[972]
+                                   0            -0             = 
+  2169 DISTANCIA_RECORRIDA[973]
+                                   0            -0             = 
+  2170 DISTANCIA_RECORRIDA[974]
+                                   0            -0             = 
+  2171 DISTANCIA_RECORRIDA[975]
+                                   0            -0             = 
+  2172 DISTANCIA_RECORRIDA[976]
+                                   0            -0             = 
+  2173 DISTANCIA_RECORRIDA[977]
+                                   0            -0             = 
+  2174 DISTANCIA_RECORRIDA[978]
+                                   0            -0             = 
+  2175 DISTANCIA_RECORRIDA[979]
+                                   0            -0             = 
+  2176 DISTANCIA_RECORRIDA[980]
+                                   0            -0             = 
+  2177 DISTANCIA_RECORRIDA[981]
+                                   0            -0             = 
+  2178 DISTANCIA_RECORRIDA[982]
+                                   0            -0             = 
+  2179 DISTANCIA_RECORRIDA[983]
+                                   0            -0             = 
+  2180 DISTANCIA_RECORRIDA[984]
+                                   0            -0             = 
+  2181 DISTANCIA_RECORRIDA[985]
+                                   0            -0             = 
+  2182 DISTANCIA_RECORRIDA[986]
+                                   0            -0             = 
+  2183 DISTANCIA_RECORRIDA[987]
+                                   0            -0             = 
+  2184 DISTANCIA_RECORRIDA[988]
+                                   0            -0             = 
+  2185 DISTANCIA_RECORRIDA[989]
+                                   0            -0             = 
+  2186 DISTANCIA_RECORRIDA[990]
+                                   0            -0             = 
+  2187 DISTANCIA_RECORRIDA[991]
+                                   0            -0             = 
+  2188 DISTANCIA_RECORRIDA[992]
+                                   0            -0             = 
+  2189 DISTANCIA_RECORRIDA[993]
+                                   0            -0             = 
+  2190 DISTANCIA_RECORRIDA[994]
+                                   0            -0             = 
+  2191 DISTANCIA_RECORRIDA[995]
+                                   0            -0             = 
+  2192 DISTANCIA_RECORRIDA[996]
+                                   0            -0             = 
+  2193 DISTANCIA_RECORRIDA[997]
+                                   0            -0             = 
+  2194 DISTANCIA_RECORRIDA[998]
+                                   0            -0             = 
+  2195 DISTANCIA_RECORRIDA[999]
+                                   0            -0             = 
+  2196 DISTANCIA_RECORRIDA[1000]
+                                   0            -0             = 
+  2197 DISTANCIA_RECORRIDA[1001]
+                                   0            -0             = 
+  2198 DISTANCIA_RECORRIDA[1002]
+                                   0            -0             = 
+  2199 DISTANCIA_RECORRIDA[1003]
+                                   0            -0             = 
+  2200 DISTANCIA_RECORRIDA[1004]
+                                   0            -0             = 
+  2201 DISTANCIA_RECORRIDA[1005]
+                                   0            -0             = 
+  2202 DISTANCIA_RECORRIDA[1006]
+                                   0            -0             = 
+  2203 DISTANCIA_RECORRIDA[1007]
+                                   0            -0             = 
+  2204 DISTANCIA_RECORRIDA[1008]
+                                   0            -0             = 
+  2205 DISTANCIA_RECORRIDA[1009]
+                                   0            -0             = 
+  2206 DISTANCIA_RECORRIDA[1010]
+                                   0            -0             = 
+  2207 DISTANCIA_RECORRIDA[1011]
+                                   0            -0             = 
+  2208 DISTANCIA_RECORRIDA[1012]
+                                   0            -0             = 
+  2209 DISTANCIA_RECORRIDA[1013]
+                                   0            -0             = 
+  2210 DISTANCIA_RECORRIDA[1014]
+                                   0            -0             = 
+  2211 DISTANCIA_RECORRIDA[1015]
+                                   0            -0             = 
+  2212 DISTANCIA_RECORRIDA[1016]
+                                   0            -0             = 
+  2213 DISTANCIA_RECORRIDA[1017]
+                                   0            -0             = 
+  2214 DISTANCIA_RECORRIDA[1018]
+                                   0            -0             = 
+  2215 DISTANCIA_RECORRIDA[1019]
+                                   0            -0             = 
+  2216 DISTANCIA_RECORRIDA[1020]
+                                   0            -0             = 
+  2217 DISTANCIA_RECORRIDA[1021]
+                                   0            -0             = 
+  2218 DISTANCIA_RECORRIDA[1022]
+                                   0            -0             = 
+  2219 DISTANCIA_RECORRIDA[1023]
+                                   0            -0             = 
+  2220 DISTANCIA_RECORRIDA[1024]
+                                   0            -0             = 
+  2221 DISTANCIA_RECORRIDA[1025]
+                                   0            -0             = 
+  2222 DISTANCIA_RECORRIDA[1026]
+                                   0            -0             = 
+  2223 DISTANCIA_RECORRIDA[1027]
+                                   0            -0             = 
+  2224 DISTANCIA_RECORRIDA[1028]
+                                   0            -0             = 
+  2225 DISTANCIA_RECORRIDA[1029]
+                                   0            -0             = 
+  2226 DISTANCIA_RECORRIDA[1030]
+                                   0            -0             = 
+  2227 DISTANCIA_RECORRIDA[1031]
+                                   0            -0             = 
+  2228 DISTANCIA_RECORRIDA[1032]
+                                   0            -0             = 
+  2229 DISTANCIA_RECORRIDA[1033]
+                                   0            -0             = 
+  2230 DISTANCIA_RECORRIDA[1034]
+                                   0            -0             = 
+  2231 DISTANCIA_RECORRIDA[1035]
+                                   0            -0             = 
+  2232 DISTANCIA_RECORRIDA[1036]
+                                   0            -0             = 
+  2233 DISTANCIA_RECORRIDA[1037]
+                                   0            -0             = 
+  2234 DISTANCIA_RECORRIDA[1038]
+                                   0            -0             = 
+  2235 DISTANCIA_RECORRIDA[1039]
+                                   0            -0             = 
+  2236 DISTANCIA_RECORRIDA[1040]
+                                   0            -0             = 
+  2237 DISTANCIA_RECORRIDA[1041]
+                                   0            -0             = 
+  2238 DISTANCIA_RECORRIDA[1042]
+                                   0            -0             = 
+  2239 DISTANCIA_RECORRIDA[1043]
+                                   0            -0             = 
+  2240 DISTANCIA_RECORRIDA[1044]
+                                   0            -0             = 
+  2241 DISTANCIA_RECORRIDA[1045]
+                                   0            -0             = 
+  2242 DISTANCIA_RECORRIDA[1046]
+                                   0            -0             = 
+  2243 DISTANCIA_RECORRIDA[1047]
+                                   0            -0             = 
+  2244 DISTANCIA_RECORRIDA[1048]
+                                   0            -0             = 
+  2245 DISTANCIA_RECORRIDA[1049]
+                                   0            -0             = 
+  2246 DISTANCIA_RECORRIDA[1050]
+                                   0            -0             = 
+  2247 DISTANCIA_RECORRIDA[1051]
+                                   0            -0             = 
+  2248 DISTANCIA_RECORRIDA[1052]
+                                   0            -0             = 
+  2249 DISTANCIA_RECORRIDA[1053]
+                                   0            -0             = 
+  2250 DISTANCIA_RECORRIDA[1054]
+                                   0            -0             = 
+  2251 DISTANCIA_RECORRIDA[1055]
+                                   0            -0             = 
+  2252 DISTANCIA_RECORRIDA[1056]
+                                   0            -0             = 
+  2253 DISTANCIA_RECORRIDA[1057]
+                                   0            -0             = 
+  2254 DISTANCIA_RECORRIDA[1058]
+                                   0            -0             = 
+  2255 DISTANCIA_RECORRIDA[1059]
+                                   0            -0             = 
+  2256 DISTANCIA_RECORRIDA[1060]
+                                   0            -0             = 
+  2257 DISTANCIA_RECORRIDA[1061]
+                                   0            -0             = 
+  2258 DISTANCIA_RECORRIDA[1062]
+                                   0            -0             = 
+  2259 DISTANCIA_RECORRIDA[1063]
+                                   0            -0             = 
+  2260 DISTANCIA_RECORRIDA[1064]
+                                   0            -0             = 
+  2261 DISTANCIA_RECORRIDA[1065]
+                                   0            -0             = 
+  2262 DISTANCIA_RECORRIDA[1066]
+                                   0            -0             = 
+  2263 DISTANCIA_RECORRIDA[1067]
+                                   0            -0             = 
+  2264 DISTANCIA_RECORRIDA[1068]
+                                   0            -0             = 
+  2265 DISTANCIA_RECORRIDA[1069]
+                                   0            -0             = 
+  2266 DISTANCIA_RECORRIDA[1070]
+                                   0            -0             = 
+  2267 DISTANCIA_RECORRIDA[1071]
+                                   0            -0             = 
+  2268 DISTANCIA_RECORRIDA[1072]
+                                   0            -0             = 
+  2269 DISTANCIA_RECORRIDA[1073]
+                                   0            -0             = 
+  2270 DISTANCIA_RECORRIDA[1074]
+                                   0            -0             = 
+  2271 DISTANCIA_RECORRIDA[1075]
+                                   0            -0             = 
+  2272 DISTANCIA_RECORRIDA[1076]
+                                   0            -0             = 
+  2273 DISTANCIA_RECORRIDA[1077]
+                                   0            -0             = 
+  2274 DISTANCIA_RECORRIDA[1078]
+                                   0            -0             = 
+  2275 DISTANCIA_RECORRIDA[1079]
+                                   0            -0             = 
+  2276 DISTANCIA_RECORRIDA[1080]
+                                   0            -0             = 
+  2277 DISTANCIA_RECORRIDA[1081]
+                                   0            -0             = 
+  2278 DISTANCIA_RECORRIDA[1082]
+                                   0            -0             = 
+  2279 DISTANCIA_RECORRIDA[1083]
+                                   0            -0             = 
+  2280 DISTANCIA_RECORRIDA[1084]
+                                   0            -0             = 
+  2281 DISTANCIA_RECORRIDA[1085]
+                                   0            -0             = 
+  2282 DISTANCIA_RECORRIDA[1086]
+                                   0            -0             = 
+  2283 DISTANCIA_RECORRIDA[1087]
+                                   0            -0             = 
+  2284 DISTANCIA_RECORRIDA[1088]
+                                   0            -0             = 
+  2285 DISTANCIA_RECORRIDA[1089]
+                                   0            -0             = 
+  2286 DISTANCIA_RECORRIDA[1090]
+                                   0            -0             = 
+  2287 DISTANCIA_RECORRIDA[1091]
+                                   0            -0             = 
+  2288 DISTANCIA_RECORRIDA[1092]
+                                   0            -0             = 
+  2289 DISTANCIA_RECORRIDA[1093]
+                                   0            -0             = 
+  2290 DISTANCIA_RECORRIDA[1094]
+                                   0            -0             = 
+  2291 DISTANCIA_RECORRIDA[1095]
+                                   0            -0             = 
+  2292 DISTANCIA_RECORRIDA[1096]
+                                   0            -0             = 
+  2293 DISTANCIA_RECORRIDA[1097]
+                                   0            -0             = 
+  2294 DISTANCIA_RECORRIDA[1098]
+                                   0            -0             = 
+  2295 DISTANCIA_RECORRIDA[1099]
+                                   0            -0             = 
+  2296 DISTANCIA_RECORRIDA[1100]
+                                   0            -0             = 
+  2297 DISTANCIA_RECORRIDA[1101]
+                                   0            -0             = 
+  2298 DISTANCIA_RECORRIDA[1102]
+                                   0            -0             = 
+  2299 DISTANCIA_RECORRIDA[1103]
+                                   0            -0             = 
+  2300 DISTANCIA_RECORRIDA[1104]
+                                   0            -0             = 
+  2301 DISTANCIA_RECORRIDA[1105]
+                                   0            -0             = 
+  2302 DISTANCIA_RECORRIDA[1106]
+                                   0            -0             = 
+  2303 DISTANCIA_RECORRIDA[1107]
+                                   0            -0             = 
+  2304 DISTANCIA_RECORRIDA[1108]
+                                   0            -0             = 
+  2305 DISTANCIA_RECORRIDA[1109]
+                                   0            -0             = 
+  2306 DISTANCIA_RECORRIDA[1110]
+                                   0            -0             = 
+  2307 DISTANCIA_RECORRIDA[1111]
+                                   0            -0             = 
+  2308 DISTANCIA_RECORRIDA[1112]
+                                   0            -0             = 
+  2309 DISTANCIA_RECORRIDA[1113]
+                                   0            -0             = 
+  2310 DISTANCIA_RECORRIDA[1114]
+                                   0            -0             = 
+  2311 DISTANCIA_RECORRIDA[1115]
+                                   0            -0             = 
+  2312 DISTANCIA_RECORRIDA[1116]
+                                   0            -0             = 
+  2313 DISTANCIA_RECORRIDA[1117]
+                                   0            -0             = 
+  2314 DISTANCIA_RECORRIDA[1118]
+                                   0            -0             = 
+  2315 DISTANCIA_RECORRIDA[1119]
+                                   0            -0             = 
+  2316 DISTANCIA_RECORRIDA[1120]
+                                   0            -0             = 
+  2317 DISTANCIA_RECORRIDA[1121]
+                                   0            -0             = 
+  2318 DISTANCIA_RECORRIDA[1122]
+                                   0            -0             = 
+  2319 DISTANCIA_RECORRIDA[1123]
+                                   0            -0             = 
+  2320 DISTANCIA_RECORRIDA[1124]
+                                   0            -0             = 
+  2321 DISTANCIA_RECORRIDA[1125]
+                                   0            -0             = 
+  2322 DISTANCIA_RECORRIDA[1126]
+                                   0            -0             = 
+  2323 DISTANCIA_RECORRIDA[1127]
+                                   0            -0             = 
+  2324 DISTANCIA_RECORRIDA[1128]
+                                   0            -0             = 
+  2325 DISTANCIA_RECORRIDA[1129]
+                                   0            -0             = 
+  2326 DISTANCIA_RECORRIDA[1130]
+                                   0            -0             = 
+  2327 DISTANCIA_RECORRIDA[1131]
+                                   0            -0             = 
+  2328 DISTANCIA_RECORRIDA[1132]
+                                   0            -0             = 
+  2329 DISTANCIA_RECORRIDA[1133]
+                                   0            -0             = 
+  2330 DISTANCIA_RECORRIDA[1134]
+                                   0            -0             = 
+  2331 DISTANCIA_MAXIMA[1]
+                             1.69938            -0               
+  2332 DISTANCIA_MAXIMA[2]
+                             1.83703            -0               
+  2333 DISTANCIA_MAXIMA[3]
+                             2.02042            -0               
+  2334 DISTANCIA_MAXIMA[4]
+                             1.92896            -0               
+  2335 DISTANCIA_MAXIMA[5]
+                            0.468531            -0               
+  2336 DISTANCIA_MAXIMA[6]
+                             1.75436            -0               
+  2337 DISTANCIA_MAXIMA[7]
+                             1.72814            -0               
+  2338 DISTANCIA_MAXIMA[8]
+                             1.95192            -0               
+  2339 DISTANCIA_MAXIMA[9]
+                             1.69896            -0               
+  2340 DISTANCIA_MAXIMA[10]
+                             1.84321            -0               
+  2341 DISTANCIA_MAXIMA[11]
+                             1.75667            -0               
+  2342 DISTANCIA_MAXIMA[12]
+                             1.82491            -0               
+  2343 DISTANCIA_MAXIMA[13]
+                             1.85228            -0               
+  2344 DISTANCIA_MAXIMA[14]
+                             1.39606            -0               
+  2345 DISTANCIA_MAXIMA[15]
+                             1.47987            -0               
+  2346 DISTANCIA_MAXIMA[16]
+                             1.96457            -0               
+  2347 DISTANCIA_MAXIMA[17]
+                             1.44657            -0               
+  2348 DISTANCIA_MAXIMA[18]
+                             1.77005            -0               
+  2349 DISTANCIA_MAXIMA[19]
+                               1.849            -0               
+  2350 DISTANCIA_MAXIMA[20]
+                             1.71308            -0               
+  2351 DISTANCIA_MAXIMA[21]
+                             1.70151            -0               
+  2352 DISTANCIA_MAXIMA[22]
+                             1.64865            -0               
+  2353 DISTANCIA_MAXIMA[23]
+                             1.94101            -0               
+  2354 DISTANCIA_MAXIMA[24]
+                            0.250212            -0               
+  2355 DISTANCIA_MAXIMA[25]
+                             1.67451            -0               
+  2356 DISTANCIA_MAXIMA[26]
+                             1.91001            -0               
+  2357 DISTANCIA_MAXIMA[27]
+                             1.64309            -0               
+  2358 DISTANCIA_MAXIMA[28]
+                             1.96105            -0               
+  2359 DISTANCIA_MAXIMA[29]
+                             1.77763            -0               
+  2360 DISTANCIA_MAXIMA[30]
+                             1.57405            -0               
+  2361 DISTANCIA_MAXIMA[31]
+                           0.0247733            -0               
+  2362 DISTANCIA_MAXIMA[32]
+                             1.46064            -0               
+  2363 DISTANCIA_MAXIMA[33]
+                             1.77556            -0               
+  2364 DISTANCIA_MAXIMA[34]
+                             1.97619            -0               
+  2365 DISTANCIA_MAXIMA[35]
+                             1.42461            -0               
+  2366 DISTANCIA_MAXIMA[36]
+                             1.93895            -0               
+  2367 DISTANCIA_MAXIMA[37]
+                             1.83847            -0               
+  2368 DISTANCIA_MAXIMA[38]
+                             1.83524            -0               
+  2369 DISTANCIA_MAXIMA[39]
+                             1.87002            -0               
+  2370 DISTANCIA_MAXIMA[40]
+                             1.97149            -0               
+  2371 DISTANCIA_MAXIMA[41]
+                            0.706419            -0               
+  2372 DISTANCIA_MAXIMA[42]
+                             1.72802            -0               
+  2373 DISTANCIA_MAXIMA[43]
+                             1.69246            -0               
+  2374 DISTANCIA_MAXIMA[44]
+                             1.97503            -0               
+  2375 DISTANCIA_MAXIMA[45]
+                            0.603014            -0               
+  2376 DISTANCIA_MAXIMA[46]
+                            0.837116            -0               
+  2377 DISTANCIA_MAXIMA[47]
+                              1.6718            -0               
+  2378 DISTANCIA_MAXIMA[48]
+                              1.2153            -0               
+  2379 DISTANCIA_MAXIMA[49]
+                             1.44975            -0               
+  2380 DISTANCIA_MAXIMA[50]
+                              1.7762            -0               
+  2381 DISTANCIA_MAXIMA[51]
+                             1.92218            -0               
+  2382 DISTANCIA_MAXIMA[52]
+                             1.75293            -0               
+  2383 DISTANCIA_MAXIMA[53]
+                             1.85042            -0               
+  2384 DISTANCIA_MAXIMA[54]
+                             1.07343            -0               
+  2385 DISTANCIA_MAXIMA[55]
+                             1.93861            -0               
+  2386 DISTANCIA_MAXIMA[56]
+                             1.85003            -0               
+  2387 DISTANCIA_MAXIMA[57]
+                             1.81095            -0               
+  2388 DISTANCIA_MAXIMA[58]
+                             1.97935            -0               
+  2389 DISTANCIA_MAXIMA[59]
+                             1.78918            -0               
+  2390 DISTANCIA_MAXIMA[60]
+                             1.86234            -0               
+  2391 DISTANCIA_MAXIMA[61]
+                             1.79464            -0               
+  2392 DISTANCIA_MAXIMA[62]
+                             1.75768            -0               
+  2393 DISTANCIA_MAXIMA[63]
+                             1.86251            -0               
+  2394 DISTANCIA_MAXIMA[64]
+                             1.50304            -0               
+  2395 DISTANCIA_MAXIMA[65]
+                              1.7909            -0               
+  2396 DISTANCIA_MAXIMA[66]
+                             1.76562            -0               
+  2397 DISTANCIA_MAXIMA[67]
+                             1.78106            -0               
+  2398 DISTANCIA_MAXIMA[68]
+                              1.5374            -0               
+  2399 DISTANCIA_MAXIMA[69]
+                            0.824306            -0               
+  2400 DISTANCIA_MAXIMA[70]
+                             1.87453            -0               
+  2401 DISTANCIA_MAXIMA[71]
+                             1.66175            -0               
+  2402 DISTANCIA_MAXIMA[72]
+                             1.91629            -0               
+  2403 DISTANCIA_MAXIMA[73]
+                             1.83219            -0               
+  2404 DISTANCIA_MAXIMA[74]
+                            0.151758            -0               
+  2405 DISTANCIA_MAXIMA[75]
+                             1.36197            -0               
+  2406 DISTANCIA_MAXIMA[76]
+                             1.92193            -0               
+  2407 DISTANCIA_MAXIMA[77]
+                             1.95086            -0               
+  2408 DISTANCIA_MAXIMA[78]
+                             1.79301            -0               
+  2409 DISTANCIA_MAXIMA[79]
+                             1.83156            -0               
+  2410 DISTANCIA_MAXIMA[80]
+                             1.79418            -0               
+  2411 DISTANCIA_MAXIMA[81]
+                              1.9319            -0               
+  2412 DISTANCIA_MAXIMA[82]
+                             1.85378            -0               
+  2413 DISTANCIA_MAXIMA[83]
+                             1.88447            -0               
+  2414 DISTANCIA_MAXIMA[84]
+                             1.84514            -0               
+  2415 DISTANCIA_MAXIMA[85]
+                            0.780162            -0               
+  2416 DISTANCIA_MAXIMA[86]
+                             1.66556            -0               
+  2417 DISTANCIA_MAXIMA[87]
+                             0.99557            -0               
+  2418 DISTANCIA_MAXIMA[88]
+                             1.56933            -0               
+  2419 DISTANCIA_MAXIMA[89]
+                             1.67292            -0               
+  2420 DISTANCIA_MAXIMA[90]
+                             1.75806            -0               
+  2421 DISTANCIA_MAXIMA[91]
+                             1.56168            -0               
+  2422 DISTANCIA_MAXIMA[92]
+                             1.19789            -0               
+  2423 DISTANCIA_MAXIMA[93]
+                            0.305028            -0               
+  2424 DISTANCIA_MAXIMA[94]
+                            0.333466            -0               
+  2425 DISTANCIA_MAXIMA[95]
+                            0.664708            -0               
+  2426 DISTANCIA_MAXIMA[96]
+                             1.62721            -0               
+  2427 DISTANCIA_MAXIMA[97]
+                             1.75007            -0               
+  2428 DISTANCIA_MAXIMA[98]
+                             1.98314            -0               
+  2429 DISTANCIA_MAXIMA[99]
+                            0.612872            -0               
+  2430 DISTANCIA_MAXIMA[100]
+                             0.56971            -0               
+  2431 DISTANCIA_MAXIMA[101]
+                             1.82983            -0               
+  2432 DISTANCIA_MAXIMA[102]
+                            0.670755            -0               
+  2433 DISTANCIA_MAXIMA[103]
+                             1.78808            -0               
+  2434 DISTANCIA_MAXIMA[104]
+                              1.8592            -0               
+  2435 DISTANCIA_MAXIMA[105]
+                             1.72245            -0               
+  2436 DISTANCIA_MAXIMA[106]
+                             1.86585            -0               
+  2437 DISTANCIA_MAXIMA[107]
+                             1.66836            -0               
+  2438 DISTANCIA_MAXIMA[108]
+                             1.73223            -0               
+  2439 DISTANCIA_MAXIMA[109]
+                             1.77676            -0               
+  2440 DISTANCIA_MAXIMA[110]
+                             1.89871            -0               
+  2441 DISTANCIA_MAXIMA[111]
+                             1.86815            -0               
+  2442 DISTANCIA_MAXIMA[112]
+                             1.93992            -0               
+  2443 DISTANCIA_MAXIMA[113]
+                             1.83954            -0               
+  2444 DISTANCIA_MAXIMA[114]
+                             1.89042            -0               
+  2445 DISTANCIA_MAXIMA[115]
+                             1.68582            -0               
+  2446 DISTANCIA_MAXIMA[116]
+                            0.657821            -0               
+  2447 DISTANCIA_MAXIMA[117]
+                             1.66972            -0               
+  2448 DISTANCIA_MAXIMA[118]
+                             1.91735            -0               
+  2449 DISTANCIA_MAXIMA[119]
+                             1.60911            -0               
+  2450 DISTANCIA_MAXIMA[120]
+                             1.79839            -0               
+  2451 DISTANCIA_MAXIMA[121]
+                             1.87549            -0               
+  2452 DISTANCIA_MAXIMA[122]
+                             1.87837            -0               
+  2453 DISTANCIA_MAXIMA[123]
+                             1.99227            -0               
+  2454 DISTANCIA_MAXIMA[124]
+                             1.75832            -0               
+  2455 DISTANCIA_MAXIMA[125]
+                             1.77764            -0               
+  2456 DISTANCIA_MAXIMA[126]
+                             1.66285            -0               
+  2457 DISTANCIA_MAXIMA[127]
+                             1.23664            -0               
+  2458 DISTANCIA_MAXIMA[128]
+                             1.09587            -0               
+  2459 DISTANCIA_MAXIMA[129]
+                             1.04254            -0               
+  2460 DISTANCIA_MAXIMA[130]
+                             1.95867            -0               
+  2461 DISTANCIA_MAXIMA[131]
+                             1.86804            -0               
+  2462 DISTANCIA_MAXIMA[132]
+                             1.73443            -0               
+  2463 DISTANCIA_MAXIMA[133]
+                             1.91988            -0               
+  2464 DISTANCIA_MAXIMA[134]
+                             1.93686            -0               
+  2465 DISTANCIA_MAXIMA[135]
+                             1.80896            -0               
+  2466 DISTANCIA_MAXIMA[136]
+                             1.87119            -0               
+  2467 DISTANCIA_MAXIMA[137]
+                             1.76326            -0               
+  2468 DISTANCIA_MAXIMA[138]
+                             1.94603            -0               
+  2469 DISTANCIA_MAXIMA[139]
+                             1.63283            -0               
+  2470 DISTANCIA_MAXIMA[140]
+                              1.6696            -0               
+  2471 DISTANCIA_MAXIMA[141]
+                             1.89434            -0               
+  2472 DISTANCIA_MAXIMA[142]
+                             1.59625            -0               
+  2473 DISTANCIA_MAXIMA[143]
+                             0.27313            -0               
+  2474 DISTANCIA_MAXIMA[144]
+                             0.84567            -0               
+  2475 DISTANCIA_MAXIMA[145]
+                             1.85863            -0               
+  2476 DISTANCIA_MAXIMA[146]
+                             1.87471            -0               
+  2477 DISTANCIA_MAXIMA[147]
+                             1.03851            -0               
+  2478 DISTANCIA_MAXIMA[148]
+                             1.00022            -0               
+  2479 DISTANCIA_MAXIMA[149]
+                             1.52059            -0               
+  2480 DISTANCIA_MAXIMA[150]
+                             1.29386            -0               
+  2481 DISTANCIA_MAXIMA[151]
+                             1.73034            -0               
+  2482 DISTANCIA_MAXIMA[152]
+                            0.567698            -0               
+  2483 DISTANCIA_MAXIMA[153]
+                             1.84213            -0               
+  2484 DISTANCIA_MAXIMA[154]
+                             1.19681            -0               
+  2485 DISTANCIA_MAXIMA[155]
+                             1.60554            -0               
+  2486 DISTANCIA_MAXIMA[156]
+                             1.82987            -0               
+  2487 DISTANCIA_MAXIMA[157]
+                             1.88343            -0               
+  2488 DISTANCIA_MAXIMA[158]
+                             1.61577            -0               
+  2489 DISTANCIA_MAXIMA[159]
+                             1.87568            -0               
+  2490 DISTANCIA_MAXIMA[160]
+                            0.557457            -0               
+  2491 DISTANCIA_MAXIMA[161]
+                             1.69167            -0               
+  2492 DISTANCIA_MAXIMA[162]
+                             1.19411            -0               
+  2493 DISTANCIA_MAXIMA[163]
+                             1.85594            -0               
+  2494 DISTANCIA_MAXIMA[164]
+                             1.94295            -0               
+  2495 DISTANCIA_MAXIMA[165]
+                             1.90213            -0               
+  2496 DISTANCIA_MAXIMA[166]
+                             1.38783            -0               
+  2497 DISTANCIA_MAXIMA[167]
+                            0.866642            -0               
+  2498 DISTANCIA_MAXIMA[168]
+                             1.91338            -0               
+  2499 DISTANCIA_MAXIMA[169]
+                             1.59392            -0               
+  2500 DISTANCIA_MAXIMA[170]
+                             1.78708            -0               
+  2501 DISTANCIA_MAXIMA[171]
+                             1.75081            -0               
+  2502 DISTANCIA_MAXIMA[172]
+                             1.95688            -0               
+  2503 DISTANCIA_MAXIMA[173]
+                            0.848571            -0               
+  2504 DISTANCIA_MAXIMA[174]
+                             1.71839            -0               
+  2505 DISTANCIA_MAXIMA[175]
+                             1.72561            -0               
+  2506 DISTANCIA_MAXIMA[176]
+                            0.404733            -0               
+  2507 DISTANCIA_MAXIMA[177]
+                             1.78976            -0               
+  2508 DISTANCIA_MAXIMA[178]
+                             1.31044            -0               
+  2509 DISTANCIA_MAXIMA[179]
+                            0.473555            -0               
+  2510 DISTANCIA_MAXIMA[180]
+                             1.93317            -0               
+  2511 DISTANCIA_MAXIMA[181]
+                             1.81981            -0               
+  2512 DISTANCIA_MAXIMA[182]
+                             1.83152            -0               
+  2513 DISTANCIA_MAXIMA[183]
+                             1.87887            -0               
+  2514 DISTANCIA_MAXIMA[184]
+                             1.77251            -0               
+  2515 DISTANCIA_MAXIMA[185]
+                             1.76544            -0               
+  2516 DISTANCIA_MAXIMA[186]
+                             1.11804            -0               
+  2517 DISTANCIA_MAXIMA[187]
+                             1.72521            -0               
+  2518 DISTANCIA_MAXIMA[188]
+                              1.9628            -0               
+  2519 DISTANCIA_MAXIMA[189]
+                            0.755944            -0               
+  2520 DISTANCIA_MAXIMA[190]
+                             1.63405            -0               
+  2521 DISTANCIA_MAXIMA[191]
+                             1.94365            -0               
+  2522 DISTANCIA_MAXIMA[192]
+                             1.25084            -0               
+  2523 DISTANCIA_MAXIMA[193]
+                             1.88729            -0               
+  2524 DISTANCIA_MAXIMA[194]
+                             1.54193            -0               
+  2525 DISTANCIA_MAXIMA[195]
+                             1.31882            -0               
+  2526 DISTANCIA_MAXIMA[196]
+                             1.84011            -0               
+  2527 DISTANCIA_MAXIMA[197]
+                             1.61991            -0               
+  2528 DISTANCIA_MAXIMA[198]
+                             1.83423            -0               
+  2529 DISTANCIA_MAXIMA[199]
+                             1.76295            -0               
+  2530 DISTANCIA_MAXIMA[200]
+                             1.88951            -0               
+  2531 DISTANCIA_MAXIMA[201]
+                             1.95408            -0               
+  2532 DISTANCIA_MAXIMA[202]
+                             0.75057            -0               
+  2533 DISTANCIA_MAXIMA[203]
+                             1.85326            -0               
+  2534 DISTANCIA_MAXIMA[204]
+                             1.72338            -0               
+  2535 DISTANCIA_MAXIMA[205]
+                             1.78259            -0               
+  2536 DISTANCIA_MAXIMA[206]
+                             1.88356            -0               
+  2537 DISTANCIA_MAXIMA[207]
+                             1.88262            -0               
+  2538 DISTANCIA_MAXIMA[208]
+                             1.87955            -0               
+  2539 DISTANCIA_MAXIMA[209]
+                             1.45158            -0               
+  2540 DISTANCIA_MAXIMA[210]
+                             1.86892            -0               
+  2541 DISTANCIA_MAXIMA[211]
+                             1.53684            -0               
+  2542 DISTANCIA_MAXIMA[212]
+                             1.70622            -0               
+  2543 DISTANCIA_MAXIMA[213]
+                             1.75579            -0               
+  2544 DISTANCIA_MAXIMA[214]
+                             1.79774            -0               
+  2545 DISTANCIA_MAXIMA[215]
+                             1.92599            -0               
+  2546 DISTANCIA_MAXIMA[216]
+                              1.7484            -0               
+  2547 DISTANCIA_MAXIMA[217]
+                             1.73967            -0               
+  2548 DISTANCIA_MAXIMA[218]
+                             1.76924            -0               
+  2549 DISTANCIA_MAXIMA[219]
+                             2.00448            -0               
+  2550 DISTANCIA_MAXIMA[220]
+                             1.90738            -0               
+  2551 DISTANCIA_MAXIMA[221]
+                             1.63333            -0               
+  2552 DISTANCIA_MAXIMA[222]
+                             1.16509            -0               
+  2553 DISTANCIA_MAXIMA[223]
+                             1.90324            -0               
+  2554 DISTANCIA_MAXIMA[224]
+                            0.246026            -0               
+  2555 DISTANCIA_MAXIMA[225]
+                             1.66731            -0               
+  2556 DISTANCIA_MAXIMA[226]
+                             1.93586            -0               
+  2557 DISTANCIA_MAXIMA[227]
+                            0.543882            -0               
+  2558 DISTANCIA_MAXIMA[228]
+                             0.67897            -0               
+  2559 DISTANCIA_MAXIMA[229]
+                             1.94566            -0               
+  2560 DISTANCIA_MAXIMA[230]
+                             1.79672            -0               
+  2561 DISTANCIA_MAXIMA[231]
+                             1.92058            -0               
+  2562 DISTANCIA_MAXIMA[232]
+                             1.31641            -0               
+  2563 DISTANCIA_MAXIMA[233]
+                             1.65151            -0               
+  2564 DISTANCIA_MAXIMA[234]
+                             1.98602            -0               
+  2565 DISTANCIA_MAXIMA[235]
+                             1.92029            -0               
+  2566 DISTANCIA_MAXIMA[236]
+                             1.98529            -0               
+  2567 DISTANCIA_MAXIMA[237]
+                              1.9555            -0               
+  2568 DISTANCIA_MAXIMA[238]
+                             1.63106            -0               
+  2569 DISTANCIA_MAXIMA[239]
+                             1.86007            -0               
+  2570 DISTANCIA_MAXIMA[240]
+                             1.43756            -0               
+  2571 DISTANCIA_MAXIMA[241]
+                             1.47675            -0               
+  2572 DISTANCIA_MAXIMA[242]
+                             0.56036            -0               
+  2573 DISTANCIA_MAXIMA[243]
+                             1.74925            -0               
+  2574 DISTANCIA_MAXIMA[244]
+                             1.53859            -0               
+  2575 DISTANCIA_MAXIMA[245]
+                              1.4237            -0               
+  2576 DISTANCIA_MAXIMA[246]
+                             1.27184            -0               
+  2577 DISTANCIA_MAXIMA[247]
+                            0.606766            -0               
+  2578 DISTANCIA_MAXIMA[248]
+                             1.88285            -0               
+  2579 DISTANCIA_MAXIMA[249]
+                             1.97532            -0               
+  2580 DISTANCIA_MAXIMA[250]
+                             1.83012            -0               
+  2581 DISTANCIA_MAXIMA[251]
+                             1.88171            -0               
+  2582 DISTANCIA_MAXIMA[252]
+                             1.86548            -0               
+  2583 DISTANCIA_MAXIMA[253]
+                            0.621998            -0               
+  2584 DISTANCIA_MAXIMA[254]
+                             1.33922            -0               
+  2585 DISTANCIA_MAXIMA[255]
+                             1.86533            -0               
+  2586 DISTANCIA_MAXIMA[256]
+                             1.78981            -0               
+  2587 DISTANCIA_MAXIMA[257]
+                            0.744195            -0               
+  2588 DISTANCIA_MAXIMA[258]
+                            0.197781            -0               
+  2589 DISTANCIA_MAXIMA[259]
+                             1.93908            -0               
+  2590 DISTANCIA_MAXIMA[260]
+                             1.57306            -0               
+  2591 DISTANCIA_MAXIMA[261]
+                             1.69983            -0               
+  2592 DISTANCIA_MAXIMA[262]
+                             1.62301            -0               
+  2593 DISTANCIA_MAXIMA[263]
+                             1.78781            -0               
+  2594 DISTANCIA_MAXIMA[264]
+                             1.99656            -0               
+  2595 DISTANCIA_MAXIMA[265]
+                             1.81137            -0               
+  2596 DISTANCIA_MAXIMA[266]
+                             1.39569            -0               
+  2597 DISTANCIA_MAXIMA[267]
+                             1.41409            -0               
+  2598 DISTANCIA_MAXIMA[268]
+                             1.89131            -0               
+  2599 DISTANCIA_MAXIMA[269]
+                             1.91275            -0               
+  2600 DISTANCIA_MAXIMA[270]
+                             1.90419            -0               
+  2601 DISTANCIA_MAXIMA[271]
+                             1.98096            -0               
+  2602 DISTANCIA_MAXIMA[272]
+                             1.88512            -0               
+  2603 DISTANCIA_MAXIMA[273]
+                             1.96402            -0               
+  2604 DISTANCIA_MAXIMA[274]
+                            0.917273            -0               
+  2605 DISTANCIA_MAXIMA[275]
+                             1.74428            -0               
+  2606 DISTANCIA_MAXIMA[276]
+                            0.525025            -0               
+  2607 DISTANCIA_MAXIMA[277]
+                              1.8691            -0               
+  2608 DISTANCIA_MAXIMA[278]
+                             1.76999            -0               
+  2609 DISTANCIA_MAXIMA[279]
+                             1.54191            -0               
+  2610 DISTANCIA_MAXIMA[280]
+                             1.66758            -0               
+  2611 DISTANCIA_MAXIMA[281]
+                            0.398837            -0               
+  2612 DISTANCIA_MAXIMA[282]
+                             1.98021            -0               
+  2613 DISTANCIA_MAXIMA[283]
+                              1.9628            -0               
+  2614 DISTANCIA_MAXIMA[284]
+                             1.48162            -0               
+  2615 DISTANCIA_MAXIMA[285]
+                             1.90791            -0               
+  2616 DISTANCIA_MAXIMA[286]
+                             1.55026            -0               
+  2617 DISTANCIA_MAXIMA[287]
+                             1.04445            -0               
+  2618 DISTANCIA_MAXIMA[288]
+                             1.76252            -0               
+  2619 DISTANCIA_MAXIMA[289]
+                            0.717595            -0               
+  2620 DISTANCIA_MAXIMA[290]
+                             1.89058            -0               
+  2621 DISTANCIA_MAXIMA[291]
+                             1.85173            -0               
+  2622 DISTANCIA_MAXIMA[292]
+                             1.83617            -0               
+  2623 DISTANCIA_MAXIMA[293]
+                            0.982131            -0               
+  2624 DISTANCIA_MAXIMA[294]
+                             1.92906            -0               
+  2625 DISTANCIA_MAXIMA[295]
+                             1.86081            -0               
+  2626 DISTANCIA_MAXIMA[296]
+                             1.97933            -0               
+  2627 DISTANCIA_MAXIMA[297]
+                             1.92932            -0               
+  2628 DISTANCIA_MAXIMA[298]
+                             1.05936            -0               
+  2629 DISTANCIA_MAXIMA[299]
+                             1.89159            -0               
+  2630 DISTANCIA_MAXIMA[300]
+                             1.89299            -0               
+  2631 DISTANCIA_MAXIMA[301]
+                             1.94438            -0               
+  2632 DISTANCIA_MAXIMA[302]
+                             1.97544            -0               
+  2633 DISTANCIA_MAXIMA[303]
+                             2.01409            -0               
+  2634 DISTANCIA_MAXIMA[304]
+                             1.70901            -0               
+  2635 DISTANCIA_MAXIMA[305]
+                             1.49999            -0               
+  2636 DISTANCIA_MAXIMA[306]
+                             1.93112            -0               
+  2637 DISTANCIA_MAXIMA[307]
+                             1.69182            -0               
+  2638 DISTANCIA_MAXIMA[308]
+                             1.67506            -0               
+  2639 DISTANCIA_MAXIMA[309]
+                             1.67212            -0               
+  2640 DISTANCIA_MAXIMA[310]
+                             1.99289            -0               
+  2641 DISTANCIA_MAXIMA[311]
+                             1.87752            -0               
+  2642 DISTANCIA_MAXIMA[312]
+                               1.944            -0               
+  2643 DISTANCIA_MAXIMA[313]
+                             1.59786            -0               
+  2644 DISTANCIA_MAXIMA[314]
+                            0.277664            -0               
+  2645 DISTANCIA_MAXIMA[315]
+                             1.27706            -0               
+  2646 DISTANCIA_MAXIMA[316]
+                             1.91726            -0               
+  2647 DISTANCIA_MAXIMA[317]
+                             1.81124            -0               
+  2648 DISTANCIA_MAXIMA[318]
+                             1.86545            -0               
+  2649 DISTANCIA_MAXIMA[319]
+                             1.18919            -0               
+  2650 DISTANCIA_MAXIMA[320]
+                              1.8567            -0               
+  2651 DISTANCIA_MAXIMA[321]
+                            0.912762            -0               
+  2652 DISTANCIA_MAXIMA[322]
+                             1.84028            -0               
+  2653 DISTANCIA_MAXIMA[323]
+                             1.94109            -0               
+  2654 DISTANCIA_MAXIMA[324]
+                             1.95236            -0               
+  2655 DISTANCIA_MAXIMA[325]
+                             1.92922            -0               
+  2656 DISTANCIA_MAXIMA[326]
+                             1.74713            -0               
+  2657 DISTANCIA_MAXIMA[327]
+                             1.91486            -0               
+  2658 DISTANCIA_MAXIMA[328]
+                             1.96112            -0               
+  2659 DISTANCIA_MAXIMA[329]
+                             1.72186            -0               
+  2660 DISTANCIA_MAXIMA[330]
+                            0.669001            -0               
+  2661 DISTANCIA_MAXIMA[331]
+                             1.88934            -0               
+  2662 DISTANCIA_MAXIMA[332]
+                             1.94999            -0               
+  2663 DISTANCIA_MAXIMA[333]
+                             1.82464            -0               
+  2664 DISTANCIA_MAXIMA[334]
+                              1.8142            -0               
+  2665 DISTANCIA_MAXIMA[335]
+                             1.40519            -0               
+  2666 DISTANCIA_MAXIMA[336]
+                             1.48669            -0               
+  2667 DISTANCIA_MAXIMA[337]
+                            0.562535            -0               
+  2668 DISTANCIA_MAXIMA[338]
+                             1.93554            -0               
+  2669 DISTANCIA_MAXIMA[339]
+                             1.59651            -0               
+  2670 DISTANCIA_MAXIMA[340]
+                             1.46887            -0               
+  2671 DISTANCIA_MAXIMA[341]
+                             1.94969            -0               
+  2672 DISTANCIA_MAXIMA[342]
+                             1.82414            -0               
+  2673 DISTANCIA_MAXIMA[343]
+                             1.40463            -0               
+  2674 DISTANCIA_MAXIMA[344]
+                             1.86908            -0               
+  2675 DISTANCIA_MAXIMA[345]
+                             1.89895            -0               
+  2676 DISTANCIA_MAXIMA[346]
+                             1.45524            -0               
+  2677 DISTANCIA_MAXIMA[347]
+                             1.80539            -0               
+  2678 DISTANCIA_MAXIMA[348]
+                             1.95561            -0               
+  2679 DISTANCIA_MAXIMA[349]
+                             2.00086            -0               
+  2680 DISTANCIA_MAXIMA[350]
+                             1.97191            -0               
+  2681 DISTANCIA_MAXIMA[351]
+                             1.96537            -0               
+  2682 DISTANCIA_MAXIMA[352]
+                             1.74965            -0               
+  2683 DISTANCIA_MAXIMA[353]
+                             1.47953            -0               
+  2684 DISTANCIA_MAXIMA[354]
+                             1.91985            -0               
+  2685 DISTANCIA_MAXIMA[355]
+                            0.664218            -0               
+  2686 DISTANCIA_MAXIMA[356]
+                             1.90707            -0               
+  2687 DISTANCIA_MAXIMA[357]
+                           0.0439494            -0               
+  2688 DISTANCIA_MAXIMA[358]
+                            0.465725            -0               
+  2689 DISTANCIA_MAXIMA[359]
+                            0.510253            -0               
+  2690 DISTANCIA_MAXIMA[360]
+                             1.83155            -0               
+  2691 DISTANCIA_MAXIMA[361]
+                            0.680441            -0               
+  2692 DISTANCIA_MAXIMA[362]
+                             1.69306            -0               
+  2693 DISTANCIA_MAXIMA[363]
+                             1.85179            -0               
+  2694 DISTANCIA_MAXIMA[364]
+                             1.51309            -0               
+  2695 DISTANCIA_MAXIMA[365]
+                              1.8288            -0               
+  2696 DISTANCIA_MAXIMA[366]
+                            0.841074            -0               
+  2697 DISTANCIA_MAXIMA[367]
+                            0.651556            -0               
+  2698 DISTANCIA_MAXIMA[368]
+                             0.64629            -0               
+  2699 DISTANCIA_MAXIMA[369]
+                              1.8875            -0               
+  2700 DISTANCIA_MAXIMA[370]
+                             1.82602            -0               
+  2701 DISTANCIA_MAXIMA[371]
+                             1.79781            -0               
+  2702 DISTANCIA_MAXIMA[372]
+                            0.799257            -0               
+  2703 DISTANCIA_MAXIMA[373]
+                            0.731273            -0               
+  2704 DISTANCIA_MAXIMA[374]
+                            0.906175            -0               
+  2705 DISTANCIA_MAXIMA[375]
+                             1.80943            -0               
+  2706 DISTANCIA_MAXIMA[376]
+                             1.86467            -0               
+  2707 DISTANCIA_MAXIMA[377]
+                             1.78958            -0               
+  2708 DISTANCIA_MAXIMA[378]
+                             1.96793            -0               
+  2709 DISTANCIA_MAXIMA[379]
+                            0.120739            -0               
+  2710 DISTANCIA_MAXIMA[380]
+                             1.95777            -0               
+  2711 DISTANCIA_MAXIMA[381]
+                             1.73912            -0               
+  2712 DISTANCIA_MAXIMA[382]
+                              1.6112            -0               
+  2713 DISTANCIA_MAXIMA[383]
+                             1.69587            -0               
+  2714 DISTANCIA_MAXIMA[384]
+                             1.79657            -0               
+  2715 DISTANCIA_MAXIMA[385]
+                             1.93179            -0               
+  2716 DISTANCIA_MAXIMA[386]
+                             1.93206            -0               
+  2717 DISTANCIA_MAXIMA[387]
+                             1.09011            -0               
+  2718 DISTANCIA_MAXIMA[388]
+                             1.91183            -0               
+  2719 DISTANCIA_MAXIMA[389]
+                             1.85598            -0               
+  2720 DISTANCIA_MAXIMA[390]
+                              1.9476            -0               
+  2721 DISTANCIA_MAXIMA[391]
+                             1.62787            -0               
+  2722 DISTANCIA_MAXIMA[392]
+                             1.90402            -0               
+  2723 DISTANCIA_MAXIMA[393]
+                             1.74841            -0               
+  2724 DISTANCIA_MAXIMA[394]
+                              1.7908            -0               
+  2725 DISTANCIA_MAXIMA[395]
+                             1.83855            -0               
+  2726 DISTANCIA_MAXIMA[396]
+                             1.73959            -0               
+  2727 DISTANCIA_MAXIMA[397]
+                             1.89094            -0               
+  2728 DISTANCIA_MAXIMA[398]
+                            0.947666            -0               
+  2729 DISTANCIA_MAXIMA[399]
+                            0.120698            -0               
+  2730 DISTANCIA_MAXIMA[400]
+                            0.602012            -0               
+  2731 DISTANCIA_MAXIMA[401]
+                             1.92388            -0               
+  2732 DISTANCIA_MAXIMA[402]
+                             0.11032            -0               
+  2733 DISTANCIA_MAXIMA[403]
+                            0.824247            -0               
+  2734 DISTANCIA_MAXIMA[404]
+                             1.98133            -0               
+  2735 DISTANCIA_MAXIMA[405]
+                             1.92118            -0               
+  2736 DISTANCIA_MAXIMA[406]
+                            0.964565            -0               
+  2737 DISTANCIA_MAXIMA[407]
+                             1.81005            -0               
+  2738 DISTANCIA_MAXIMA[408]
+                             1.49342            -0               
+  2739 DISTANCIA_MAXIMA[409]
+                             1.18768            -0               
+  2740 DISTANCIA_MAXIMA[410]
+                             1.86969            -0               
+  2741 DISTANCIA_MAXIMA[411]
+                             1.55012            -0               
+  2742 DISTANCIA_MAXIMA[412]
+                             1.74532            -0               
+  2743 DISTANCIA_MAXIMA[413]
+                             1.18953            -0               
+  2744 DISTANCIA_MAXIMA[414]
+                             1.14049            -0               
+  2745 DISTANCIA_MAXIMA[415]
+                               1.075            -0               
+  2746 DISTANCIA_MAXIMA[416]
+                             1.73451            -0               
+  2747 DISTANCIA_MAXIMA[417]
+                             1.91749            -0               
+  2748 DISTANCIA_MAXIMA[418]
+                             1.27566            -0               
+  2749 DISTANCIA_MAXIMA[419]
+                             1.69662            -0               
+  2750 DISTANCIA_MAXIMA[420]
+                           0.0481955            -0               
+  2751 DISTANCIA_MAXIMA[421]
+                              1.8157            -0               
+  2752 DISTANCIA_MAXIMA[422]
+                             1.77353            -0               
+  2753 DISTANCIA_MAXIMA[423]
+                             1.87707            -0               
+  2754 DISTANCIA_MAXIMA[424]
+                             1.78019            -0               
+  2755 DISTANCIA_MAXIMA[425]
+                            0.271906            -0               
+  2756 DISTANCIA_MAXIMA[426]
+                             1.97141            -0               
+  2757 DISTANCIA_MAXIMA[427]
+                             1.83067            -0               
+  2758 DISTANCIA_MAXIMA[428]
+                            0.301321            -0               
+  2759 DISTANCIA_MAXIMA[429]
+                             1.86232            -0               
+  2760 DISTANCIA_MAXIMA[430]
+                             1.43083            -0               
+  2761 DISTANCIA_MAXIMA[431]
+                             1.77556            -0               
+  2762 DISTANCIA_MAXIMA[432]
+                             1.86854            -0               
+  2763 DISTANCIA_MAXIMA[433]
+                             1.82166            -0               
+  2764 DISTANCIA_MAXIMA[434]
+                             1.74296            -0               
+  2765 DISTANCIA_MAXIMA[435]
+                             1.85984            -0               
+  2766 DISTANCIA_MAXIMA[436]
+                               1.668            -0               
+  2767 DISTANCIA_MAXIMA[437]
+                              1.6013            -0               
+  2768 DISTANCIA_MAXIMA[438]
+                             2.02188            -0               
+  2769 DISTANCIA_MAXIMA[439]
+                             1.92416            -0               
+  2770 DISTANCIA_MAXIMA[440]
+                             1.94365            -0               
+  2771 DISTANCIA_MAXIMA[441]
+                             2.00066            -0               
+  2772 DISTANCIA_MAXIMA[442]
+                            0.639082            -0               
+  2773 DISTANCIA_MAXIMA[443]
+                             1.68764            -0               
+  2774 DISTANCIA_MAXIMA[444]
+                            0.830159            -0               
+  2775 DISTANCIA_MAXIMA[445]
+                            0.916338            -0               
+  2776 DISTANCIA_MAXIMA[446]
+                             1.68964            -0               
+  2777 DISTANCIA_MAXIMA[447]
+                             1.93621            -0               
+  2778 DISTANCIA_MAXIMA[448]
+                             1.42633            -0               
+  2779 DISTANCIA_MAXIMA[449]
+                             1.43068            -0               
+  2780 DISTANCIA_MAXIMA[450]
+                             1.07719            -0               
+  2781 DISTANCIA_MAXIMA[451]
+                             1.72816            -0               
+  2782 DISTANCIA_MAXIMA[452]
+                               1.659            -0               
+  2783 DISTANCIA_MAXIMA[453]
+                             1.74556            -0               
+  2784 DISTANCIA_MAXIMA[454]
+                             1.03286            -0               
+  2785 DISTANCIA_MAXIMA[455]
+                             1.90256            -0               
+  2786 DISTANCIA_MAXIMA[456]
+                             1.93071            -0               
+  2787 DISTANCIA_MAXIMA[457]
+                            0.754374            -0               
+  2788 DISTANCIA_MAXIMA[458]
+                             1.82753            -0               
+  2789 DISTANCIA_MAXIMA[459]
+                             1.24705            -0               
+  2790 DISTANCIA_MAXIMA[460]
+                              1.9555            -0               
+  2791 DISTANCIA_MAXIMA[461]
+                             1.97914            -0               
+  2792 DISTANCIA_MAXIMA[462]
+                              2.0249            -0               
+  2793 DISTANCIA_MAXIMA[463]
+                             1.49019            -0               
+  2794 DISTANCIA_MAXIMA[464]
+                              1.8681            -0               
+  2795 DISTANCIA_MAXIMA[465]
+                              1.8536            -0               
+  2796 DISTANCIA_MAXIMA[466]
+                             1.90615            -0               
+  2797 DISTANCIA_MAXIMA[467]
+                             1.91271            -0               
+  2798 DISTANCIA_MAXIMA[468]
+                             1.87781            -0               
+  2799 DISTANCIA_MAXIMA[469]
+                             1.45368            -0               
+  2800 DISTANCIA_MAXIMA[470]
+                             1.74657            -0               
+  2801 DISTANCIA_MAXIMA[471]
+                             1.81829            -0               
+  2802 DISTANCIA_MAXIMA[472]
+                             1.88818            -0               
+  2803 DISTANCIA_MAXIMA[473]
+                             1.78766            -0               
+  2804 DISTANCIA_MAXIMA[474]
+                             1.72474            -0               
+  2805 DISTANCIA_MAXIMA[475]
+                             1.33748            -0               
+  2806 DISTANCIA_MAXIMA[476]
+                             1.76706            -0               
+  2807 DISTANCIA_MAXIMA[477]
+                             1.94951            -0               
+  2808 DISTANCIA_MAXIMA[478]
+                             1.47744            -0               
+  2809 DISTANCIA_MAXIMA[479]
+                             1.77782            -0               
+  2810 DISTANCIA_MAXIMA[480]
+                             1.92036            -0               
+  2811 DISTANCIA_MAXIMA[481]
+                             1.86289            -0               
+  2812 DISTANCIA_MAXIMA[482]
+                             1.79479            -0               
+  2813 DISTANCIA_MAXIMA[483]
+                            0.483911            -0               
+  2814 DISTANCIA_MAXIMA[484]
+                             1.93259            -0               
+  2815 DISTANCIA_MAXIMA[485]
+                             1.80016            -0               
+  2816 DISTANCIA_MAXIMA[486]
+                            0.334745            -0               
+  2817 DISTANCIA_MAXIMA[487]
+                             1.93736            -0               
+  2818 DISTANCIA_MAXIMA[488]
+                             1.91659            -0               
+  2819 DISTANCIA_MAXIMA[489]
+                             1.96671            -0               
+  2820 DISTANCIA_MAXIMA[490]
+                             1.44059            -0               
+  2821 DISTANCIA_MAXIMA[491]
+                             1.90919            -0               
+  2822 DISTANCIA_MAXIMA[492]
+                             1.71512            -0               
+  2823 DISTANCIA_MAXIMA[493]
+                             1.68347            -0               
+  2824 DISTANCIA_MAXIMA[494]
+                             1.72941            -0               
+  2825 DISTANCIA_MAXIMA[495]
+                             1.97443            -0               
+  2826 DISTANCIA_MAXIMA[496]
+                            0.287146            -0               
+  2827 DISTANCIA_MAXIMA[497]
+                             1.89346            -0               
+  2828 DISTANCIA_MAXIMA[498]
+                            0.635226            -0               
+  2829 DISTANCIA_MAXIMA[499]
+                             1.71047            -0               
+  2830 DISTANCIA_MAXIMA[500]
+                             1.88731            -0               
+  2831 DISTANCIA_MAXIMA[501]
+                             1.96184            -0               
+  2832 DISTANCIA_MAXIMA[502]
+                             1.78572            -0               
+  2833 DISTANCIA_MAXIMA[503]
+                             1.88595            -0               
+  2834 DISTANCIA_MAXIMA[504]
+                            0.786635            -0               
+  2835 DISTANCIA_MAXIMA[505]
+                            0.499486            -0               
+  2836 DISTANCIA_MAXIMA[506]
+                              1.6892            -0               
+  2837 DISTANCIA_MAXIMA[507]
+                             1.45504            -0               
+  2838 DISTANCIA_MAXIMA[508]
+                             1.83407            -0               
+  2839 DISTANCIA_MAXIMA[509]
+                             1.72962            -0               
+  2840 DISTANCIA_MAXIMA[510]
+                            0.466396            -0               
+  2841 DISTANCIA_MAXIMA[511]
+                             1.88973            -0               
+  2842 DISTANCIA_MAXIMA[512]
+                             1.83829            -0               
+  2843 DISTANCIA_MAXIMA[513]
+                             1.09995            -0               
+  2844 DISTANCIA_MAXIMA[514]
+                             2.01269            -0               
+  2845 DISTANCIA_MAXIMA[515]
+                             2.02301            -0               
+  2846 DISTANCIA_MAXIMA[516]
+                            0.777783            -0               
+  2847 DISTANCIA_MAXIMA[517]
+                              1.8337            -0               
+  2848 DISTANCIA_MAXIMA[518]
+                               1.659            -0               
+  2849 DISTANCIA_MAXIMA[519]
+                             1.82891            -0               
+  2850 DISTANCIA_MAXIMA[520]
+                             1.67164            -0               
+  2851 DISTANCIA_MAXIMA[521]
+                             1.70301            -0               
+  2852 DISTANCIA_MAXIMA[522]
+                             1.01891            -0               
+  2853 DISTANCIA_MAXIMA[523]
+                             1.78097            -0               
+  2854 DISTANCIA_MAXIMA[524]
+                             1.82324            -0               
+  2855 DISTANCIA_MAXIMA[525]
+                             1.85076            -0               
+  2856 DISTANCIA_MAXIMA[526]
+                             1.90299            -0               
+  2857 DISTANCIA_MAXIMA[527]
+                            0.973411            -0               
+  2858 DISTANCIA_MAXIMA[528]
+                             1.55104            -0               
+  2859 DISTANCIA_MAXIMA[529]
+                             1.97236            -0               
+  2860 DISTANCIA_MAXIMA[530]
+                             1.83833            -0               
+  2861 DISTANCIA_MAXIMA[531]
+                             1.48235            -0               
+  2862 DISTANCIA_MAXIMA[532]
+                             1.87528            -0               
+  2863 DISTANCIA_MAXIMA[533]
+                             1.74536            -0               
+  2864 DISTANCIA_MAXIMA[534]
+                             1.80097            -0               
+  2865 DISTANCIA_MAXIMA[535]
+                             1.50384            -0               
+  2866 DISTANCIA_MAXIMA[536]
+                            0.638186            -0               
+  2867 DISTANCIA_MAXIMA[537]
+                             1.59389            -0               
+  2868 DISTANCIA_MAXIMA[538]
+                             1.73416            -0               
+  2869 DISTANCIA_MAXIMA[539]
+                              1.5192            -0               
+  2870 DISTANCIA_MAXIMA[540]
+                            0.741597            -0               
+  2871 DISTANCIA_MAXIMA[541]
+                             1.38546            -0               
+  2872 DISTANCIA_MAXIMA[542]
+                             1.85536            -0               
+  2873 DISTANCIA_MAXIMA[543]
+                             1.94431            -0               
+  2874 DISTANCIA_MAXIMA[544]
+                             1.83765            -0               
+  2875 DISTANCIA_MAXIMA[545]
+                             1.08629            -0               
+  2876 DISTANCIA_MAXIMA[546]
+                             1.80997            -0               
+  2877 DISTANCIA_MAXIMA[547]
+                            0.677982            -0               
+  2878 DISTANCIA_MAXIMA[548]
+                             1.86037            -0               
+  2879 DISTANCIA_MAXIMA[549]
+                            0.236263            -0               
+  2880 DISTANCIA_MAXIMA[550]
+                             1.69553            -0               
+  2881 DISTANCIA_MAXIMA[551]
+                             1.95375            -0               
+  2882 DISTANCIA_MAXIMA[552]
+                             1.65539            -0               
+  2883 DISTANCIA_MAXIMA[553]
+                             1.98194            -0               
+  2884 DISTANCIA_MAXIMA[554]
+                             1.91746            -0               
+  2885 DISTANCIA_MAXIMA[555]
+                             1.72805            -0               
+  2886 DISTANCIA_MAXIMA[556]
+                             1.78748            -0               
+  2887 DISTANCIA_MAXIMA[557]
+                             1.69369            -0               
+  2888 DISTANCIA_MAXIMA[558]
+                             1.69582            -0               
+  2889 DISTANCIA_MAXIMA[559]
+                             1.88362            -0               
+  2890 DISTANCIA_MAXIMA[560]
+                             1.42172            -0               
+  2891 DISTANCIA_MAXIMA[561]
+                             1.79829            -0               
+  2892 DISTANCIA_MAXIMA[562]
+                            0.598444            -0               
+  2893 DISTANCIA_MAXIMA[563]
+                             1.66808            -0               
+  2894 DISTANCIA_MAXIMA[564]
+                            0.481044            -0               
+  2895 DISTANCIA_MAXIMA[565]
+                             1.91133            -0               
+  2896 DISTANCIA_MAXIMA[566]
+                             1.37229            -0               
+  2897 DISTANCIA_MAXIMA[567]
+                             1.72089            -0               
+  2898 DISTANCIA_MAXIMA[568]
+                             1.80649            -0               
+  2899 DISTANCIA_MAXIMA[569]
+                             1.87032            -0               
+  2900 DISTANCIA_MAXIMA[570]
+                             1.95684            -0               
+  2901 DISTANCIA_MAXIMA[571]
+                             1.90096            -0               
+  2902 DISTANCIA_MAXIMA[572]
+                             1.76485            -0               
+  2903 DISTANCIA_MAXIMA[573]
+                             1.84452            -0               
+  2904 DISTANCIA_MAXIMA[574]
+                             1.92711            -0               
+  2905 DISTANCIA_MAXIMA[575]
+                             1.14128            -0               
+  2906 DISTANCIA_MAXIMA[576]
+                             1.96695            -0               
+  2907 DISTANCIA_MAXIMA[577]
+                            0.818299            -0               
+  2908 DISTANCIA_MAXIMA[578]
+                             1.92233            -0               
+  2909 DISTANCIA_MAXIMA[579]
+                             1.96392            -0               
+  2910 DISTANCIA_MAXIMA[580]
+                            0.611758            -0               
+  2911 DISTANCIA_MAXIMA[581]
+                             1.06951            -0               
+  2912 DISTANCIA_MAXIMA[582]
+                             1.97286            -0               
+  2913 DISTANCIA_MAXIMA[583]
+                             1.96497            -0               
+  2914 DISTANCIA_MAXIMA[584]
+                              1.4427            -0               
+  2915 DISTANCIA_MAXIMA[585]
+                             1.73075            -0               
+  2916 DISTANCIA_MAXIMA[586]
+                            0.792656            -0               
+  2917 DISTANCIA_MAXIMA[587]
+                            0.754249            -0               
+  2918 DISTANCIA_MAXIMA[588]
+                             1.96711            -0               
+  2919 DISTANCIA_MAXIMA[589]
+                             1.34421            -0               
+  2920 DISTANCIA_MAXIMA[590]
+                             1.59652            -0               
+  2921 DISTANCIA_MAXIMA[591]
+                             1.86878            -0               
+  2922 DISTANCIA_MAXIMA[592]
+                             1.08496            -0               
+  2923 DISTANCIA_MAXIMA[593]
+                             1.89638            -0               
+  2924 DISTANCIA_MAXIMA[594]
+                             1.77608            -0               
+  2925 DISTANCIA_MAXIMA[595]
+                            0.699833            -0               
+  2926 DISTANCIA_MAXIMA[596]
+                             1.91546            -0               
+  2927 DISTANCIA_MAXIMA[597]
+                             1.76025            -0               
+  2928 DISTANCIA_MAXIMA[598]
+                             1.70276            -0               
+  2929 DISTANCIA_MAXIMA[599]
+                             1.97449            -0               
+  2930 DISTANCIA_MAXIMA[600]
+                             1.43833            -0               
+  2931 DISTANCIA_MAXIMA[601]
+                             1.97305            -0               
+  2932 DISTANCIA_MAXIMA[602]
+                             1.84644            -0               
+  2933 DISTANCIA_MAXIMA[603]
+                             1.95677            -0               
+  2934 DISTANCIA_MAXIMA[604]
+                              1.8519            -0               
+  2935 DISTANCIA_MAXIMA[605]
+                            0.714225            -0               
+  2936 DISTANCIA_MAXIMA[606]
+                            0.340241            -0               
+  2937 DISTANCIA_MAXIMA[607]
+                            0.787632            -0               
+  2938 DISTANCIA_MAXIMA[608]
+                              1.8687            -0               
+  2939 DISTANCIA_MAXIMA[609]
+                             1.76202            -0               
+  2940 DISTANCIA_MAXIMA[610]
+                             1.85964            -0               
+  2941 DISTANCIA_MAXIMA[611]
+                             0.89276            -0               
+  2942 DISTANCIA_MAXIMA[612]
+                             1.78467            -0               
+  2943 DISTANCIA_MAXIMA[613]
+                              1.5636            -0               
+  2944 DISTANCIA_MAXIMA[614]
+                             1.78106            -0               
+  2945 DISTANCIA_MAXIMA[615]
+                             1.89691            -0               
+  2946 DISTANCIA_MAXIMA[616]
+                             1.85838            -0               
+  2947 DISTANCIA_MAXIMA[617]
+                             1.63632            -0               
+  2948 DISTANCIA_MAXIMA[618]
+                             1.61099            -0               
+  2949 DISTANCIA_MAXIMA[619]
+                            0.916395            -0               
+  2950 DISTANCIA_MAXIMA[620]
+                             1.76317            -0               
+  2951 DISTANCIA_MAXIMA[621]
+                             1.96184            -0               
+  2952 DISTANCIA_MAXIMA[622]
+                             0.31879            -0               
+  2953 DISTANCIA_MAXIMA[623]
+                             1.97813            -0               
+  2954 DISTANCIA_MAXIMA[624]
+                              1.8169            -0               
+  2955 DISTANCIA_MAXIMA[625]
+                             1.53642            -0               
+  2956 DISTANCIA_MAXIMA[626]
+                             1.11695            -0               
+  2957 DISTANCIA_MAXIMA[627]
+                             1.21354            -0               
+  2958 DISTANCIA_MAXIMA[628]
+                             1.73524            -0               
+  2959 DISTANCIA_MAXIMA[629]
+                             1.93264            -0               
+  2960 DISTANCIA_MAXIMA[630]
+                             2.00329            -0               
+  2961 DISTANCIA_MAXIMA[631]
+                           0.0821686            -0               
+  2962 DISTANCIA_MAXIMA[632]
+                            0.585168            -0               
+  2963 DISTANCIA_MAXIMA[633]
+                              1.4368            -0               
+  2964 DISTANCIA_MAXIMA[634]
+                             1.82207            -0               
+  2965 DISTANCIA_MAXIMA[635]
+                             1.04037            -0               
+  2966 DISTANCIA_MAXIMA[636]
+                             1.39913            -0               
+  2967 DISTANCIA_MAXIMA[637]
+                              1.9689            -0               
+  2968 DISTANCIA_MAXIMA[638]
+                             2.01817            -0               
+  2969 DISTANCIA_MAXIMA[639]
+                            0.545175            -0               
+  2970 DISTANCIA_MAXIMA[640]
+                             2.00318            -0               
+  2971 DISTANCIA_MAXIMA[641]
+                              1.8668            -0               
+  2972 DISTANCIA_MAXIMA[642]
+                             1.78922            -0               
+  2973 DISTANCIA_MAXIMA[643]
+                             1.95226            -0               
+  2974 DISTANCIA_MAXIMA[644]
+                             0.30766            -0               
+  2975 DISTANCIA_MAXIMA[645]
+                                1.82            -0               
+  2976 DISTANCIA_MAXIMA[646]
+                             1.70877            -0               
+  2977 DISTANCIA_MAXIMA[647]
+                            0.669811            -0               
+  2978 DISTANCIA_MAXIMA[648]
+                             1.96263            -0               
+  2979 DISTANCIA_MAXIMA[649]
+                             1.89971            -0               
+  2980 DISTANCIA_MAXIMA[650]
+                             1.28301            -0               
+  2981 DISTANCIA_MAXIMA[651]
+                             1.96313            -0               
+  2982 DISTANCIA_MAXIMA[652]
+                             1.79977            -0               
+  2983 DISTANCIA_MAXIMA[653]
+                             0.31535            -0               
+  2984 DISTANCIA_MAXIMA[654]
+                             1.87478            -0               
+  2985 DISTANCIA_MAXIMA[655]
+                             1.71334            -0               
+  2986 DISTANCIA_MAXIMA[656]
+                             1.62644            -0               
+  2987 DISTANCIA_MAXIMA[657]
+                             1.96248            -0               
+  2988 DISTANCIA_MAXIMA[658]
+                             1.65505            -0               
+  2989 DISTANCIA_MAXIMA[659]
+                             1.94243            -0               
+  2990 DISTANCIA_MAXIMA[660]
+                             1.59709            -0               
+  2991 DISTANCIA_MAXIMA[661]
+                             1.73159            -0               
+  2992 DISTANCIA_MAXIMA[662]
+                              1.6914            -0               
+  2993 DISTANCIA_MAXIMA[663]
+                             1.67363            -0               
+  2994 DISTANCIA_MAXIMA[664]
+                             1.87823            -0               
+  2995 DISTANCIA_MAXIMA[665]
+                             1.89128            -0               
+  2996 DISTANCIA_MAXIMA[666]
+                             1.80324            -0               
+  2997 DISTANCIA_MAXIMA[667]
+                             1.82304            -0               
+  2998 DISTANCIA_MAXIMA[668]
+                             1.96738            -0               
+  2999 DISTANCIA_MAXIMA[669]
+                             1.79373            -0               
+  3000 DISTANCIA_MAXIMA[670]
+                              1.6834            -0               
+  3001 DISTANCIA_MAXIMA[671]
+                             1.72145            -0               
+  3002 DISTANCIA_MAXIMA[672]
+                             1.84813            -0               
+  3003 DISTANCIA_MAXIMA[673]
+                             1.82096            -0               
+  3004 DISTANCIA_MAXIMA[674]
+                             1.53501            -0               
+  3005 DISTANCIA_MAXIMA[675]
+                            0.817519            -0               
+  3006 DISTANCIA_MAXIMA[676]
+                             1.95184            -0               
+  3007 DISTANCIA_MAXIMA[677]
+                             1.79014            -0               
+  3008 DISTANCIA_MAXIMA[678]
+                            0.815137            -0               
+  3009 DISTANCIA_MAXIMA[679]
+                              1.9326            -0               
+  3010 DISTANCIA_MAXIMA[680]
+                             1.97878            -0               
+  3011 DISTANCIA_MAXIMA[681]
+                           0.0626275            -0               
+  3012 DISTANCIA_MAXIMA[682]
+                             1.99396            -0               
+  3013 DISTANCIA_MAXIMA[683]
+                             1.87465            -0               
+  3014 DISTANCIA_MAXIMA[684]
+                             2.02323            -0               
+  3015 DISTANCIA_MAXIMA[685]
+                            0.197336            -0               
+  3016 DISTANCIA_MAXIMA[686]
+                            0.821885            -0               
+  3017 DISTANCIA_MAXIMA[687]
+                             1.87139            -0               
+  3018 DISTANCIA_MAXIMA[688]
+                           0.0806848            -0               
+  3019 DISTANCIA_MAXIMA[689]
+                            0.787936            -0               
+  3020 DISTANCIA_MAXIMA[690]
+                             1.88447            -0               
+  3021 DISTANCIA_MAXIMA[691]
+                             1.85344            -0               
+  3022 DISTANCIA_MAXIMA[692]
+                             0.51175            -0               
+  3023 DISTANCIA_MAXIMA[693]
+                             1.76337            -0               
+  3024 DISTANCIA_MAXIMA[694]
+                             1.97163            -0               
+  3025 DISTANCIA_MAXIMA[695]
+                             0.70092            -0               
+  3026 DISTANCIA_MAXIMA[696]
+                             1.89885            -0               
+  3027 DISTANCIA_MAXIMA[697]
+                             1.39451            -0               
+  3028 DISTANCIA_MAXIMA[698]
+                            0.744063            -0               
+  3029 DISTANCIA_MAXIMA[699]
+                             1.91117            -0               
+  3030 DISTANCIA_MAXIMA[700]
+                              1.6731            -0               
+  3031 DISTANCIA_MAXIMA[701]
+                             1.77095            -0               
+  3032 DISTANCIA_MAXIMA[702]
+                             1.57544            -0               
+  3033 DISTANCIA_MAXIMA[703]
+                            0.491054            -0               
+  3034 DISTANCIA_MAXIMA[704]
+                             1.86438            -0               
+  3035 DISTANCIA_MAXIMA[705]
+                             1.67314            -0               
+  3036 DISTANCIA_MAXIMA[706]
+                             1.88309            -0               
+  3037 DISTANCIA_MAXIMA[707]
+                             1.96174            -0               
+  3038 DISTANCIA_MAXIMA[708]
+                            0.848298            -0               
+  3039 DISTANCIA_MAXIMA[709]
+                             1.73043            -0               
+  3040 DISTANCIA_MAXIMA[710]
+                              1.8588            -0               
+  3041 DISTANCIA_MAXIMA[711]
+                             1.79861            -0               
+  3042 DISTANCIA_MAXIMA[712]
+                             1.77916            -0               
+  3043 DISTANCIA_MAXIMA[713]
+                             1.84604            -0               
+  3044 DISTANCIA_MAXIMA[714]
+                             1.94095            -0               
+  3045 DISTANCIA_MAXIMA[715]
+                             1.52485            -0               
+  3046 DISTANCIA_MAXIMA[716]
+                             1.93166            -0               
+  3047 DISTANCIA_MAXIMA[717]
+                             1.57216            -0               
+  3048 DISTANCIA_MAXIMA[718]
+                             1.65378            -0               
+  3049 DISTANCIA_MAXIMA[719]
+                             1.79817            -0               
+  3050 DISTANCIA_MAXIMA[720]
+                             1.95536            -0               
+  3051 DISTANCIA_MAXIMA[721]
+                             1.80105            -0               
+  3052 DISTANCIA_MAXIMA[722]
+                             1.82739            -0               
+  3053 DISTANCIA_MAXIMA[723]
+                             1.86407            -0               
+  3054 DISTANCIA_MAXIMA[724]
+                              1.8946            -0               
+  3055 DISTANCIA_MAXIMA[725]
+                              1.9538            -0               
+  3056 DISTANCIA_MAXIMA[726]
+                            0.161658            -0               
+  3057 DISTANCIA_MAXIMA[727]
+                             1.95072            -0               
+  3058 DISTANCIA_MAXIMA[728]
+                             1.87926            -0               
+  3059 DISTANCIA_MAXIMA[729]
+                            0.739165            -0               
+  3060 DISTANCIA_MAXIMA[730]
+                             1.94372            -0               
+  3061 DISTANCIA_MAXIMA[731]
+                           0.0602665            -0               
+  3062 DISTANCIA_MAXIMA[732]
+                             2.00375            -0               
+  3063 DISTANCIA_MAXIMA[733]
+                            0.483504            -0               
+  3064 DISTANCIA_MAXIMA[734]
+                            0.465641            -0               
+  3065 DISTANCIA_MAXIMA[735]
+                             1.55034            -0               
+  3066 DISTANCIA_MAXIMA[736]
+                             1.80949            -0               
+  3067 DISTANCIA_MAXIMA[737]
+                             1.90418            -0               
+  3068 DISTANCIA_MAXIMA[738]
+                             1.71605            -0               
+  3069 DISTANCIA_MAXIMA[739]
+                             1.85914            -0               
+  3070 DISTANCIA_MAXIMA[740]
+                             1.77304            -0               
+  3071 DISTANCIA_MAXIMA[741]
+                             1.80473            -0               
+  3072 DISTANCIA_MAXIMA[742]
+                             1.72952            -0               
+  3073 DISTANCIA_MAXIMA[743]
+                             1.83537            -0               
+  3074 DISTANCIA_MAXIMA[744]
+                             1.87106            -0               
+  3075 DISTANCIA_MAXIMA[745]
+                             1.72984            -0               
+  3076 DISTANCIA_MAXIMA[746]
+                             1.85265            -0               
+  3077 DISTANCIA_MAXIMA[747]
+                             1.87775            -0               
+  3078 DISTANCIA_MAXIMA[748]
+                             1.88754            -0               
+  3079 DISTANCIA_MAXIMA[749]
+                             1.90397            -0               
+  3080 DISTANCIA_MAXIMA[750]
+                             1.01217            -0               
+  3081 DISTANCIA_MAXIMA[751]
+                             1.64404            -0               
+  3082 DISTANCIA_MAXIMA[752]
+                             1.74708            -0               
+  3083 DISTANCIA_MAXIMA[753]
+                             1.80001            -0               
+  3084 DISTANCIA_MAXIMA[754]
+                             1.84504            -0               
+  3085 DISTANCIA_MAXIMA[755]
+                             1.83855            -0               
+  3086 DISTANCIA_MAXIMA[756]
+                             0.70716            -0               
+  3087 DISTANCIA_MAXIMA[757]
+                             1.88626            -0               
+  3088 DISTANCIA_MAXIMA[758]
+                             1.79795            -0               
+  3089 DISTANCIA_MAXIMA[759]
+                             1.73606            -0               
+  3090 DISTANCIA_MAXIMA[760]
+                             1.95295            -0               
+  3091 DISTANCIA_MAXIMA[761]
+                             1.65935            -0               
+  3092 DISTANCIA_MAXIMA[762]
+                              1.7604            -0               
+  3093 DISTANCIA_MAXIMA[763]
+                             1.96791            -0               
+  3094 DISTANCIA_MAXIMA[764]
+                             1.70366            -0               
+  3095 DISTANCIA_MAXIMA[765]
+                            0.670884            -0               
+  3096 DISTANCIA_MAXIMA[766]
+                             1.61218            -0               
+  3097 DISTANCIA_MAXIMA[767]
+                             1.90533            -0               
+  3098 DISTANCIA_MAXIMA[768]
+                             1.99272            -0               
+  3099 DISTANCIA_MAXIMA[769]
+                             1.86033            -0               
+  3100 DISTANCIA_MAXIMA[770]
+                             1.95443            -0               
+  3101 DISTANCIA_MAXIMA[771]
+                             2.00598            -0               
+  3102 DISTANCIA_MAXIMA[772]
+                             1.87374            -0               
+  3103 DISTANCIA_MAXIMA[773]
+                             1.83908            -0               
+  3104 DISTANCIA_MAXIMA[774]
+                             1.77111            -0               
+  3105 DISTANCIA_MAXIMA[775]
+                             1.77217            -0               
+  3106 DISTANCIA_MAXIMA[776]
+                             1.97543            -0               
+  3107 DISTANCIA_MAXIMA[777]
+                             1.51138            -0               
+  3108 DISTANCIA_MAXIMA[778]
+                             1.52582            -0               
+  3109 DISTANCIA_MAXIMA[779]
+                            0.230751            -0               
+  3110 DISTANCIA_MAXIMA[780]
+                            0.862156            -0               
+  3111 DISTANCIA_MAXIMA[781]
+                             1.88974            -0               
+  3112 DISTANCIA_MAXIMA[782]
+                             1.68576            -0               
+  3113 DISTANCIA_MAXIMA[783]
+                            0.573426            -0               
+  3114 DISTANCIA_MAXIMA[784]
+                             1.73502            -0               
+  3115 DISTANCIA_MAXIMA[785]
+                             1.97025            -0               
+  3116 DISTANCIA_MAXIMA[786]
+                             1.63804            -0               
+  3117 DISTANCIA_MAXIMA[787]
+                             2.01084            -0               
+  3118 DISTANCIA_MAXIMA[788]
+                            0.752544            -0               
+  3119 DISTANCIA_MAXIMA[789]
+                            0.635441            -0               
+  3120 DISTANCIA_MAXIMA[790]
+                             0.70477            -0               
+  3121 DISTANCIA_MAXIMA[791]
+                             1.96398            -0               
+  3122 DISTANCIA_MAXIMA[792]
+                             1.85671            -0               
+  3123 DISTANCIA_MAXIMA[793]
+                            0.679874            -0               
+  3124 DISTANCIA_MAXIMA[794]
+                             1.68443            -0               
+  3125 DISTANCIA_MAXIMA[795]
+                             1.53406            -0               
+  3126 DISTANCIA_MAXIMA[796]
+                             1.93751            -0               
+  3127 DISTANCIA_MAXIMA[797]
+                              1.2309            -0               
+  3128 DISTANCIA_MAXIMA[798]
+                            0.767614            -0               
+  3129 DISTANCIA_MAXIMA[799]
+                             1.90798            -0               
+  3130 DISTANCIA_MAXIMA[800]
+                             1.51043            -0               
+  3131 DISTANCIA_MAXIMA[801]
+                             1.07172            -0               
+  3132 DISTANCIA_MAXIMA[802]
+                             1.96196            -0               
+  3133 DISTANCIA_MAXIMA[803]
+                             1.75217            -0               
+  3134 DISTANCIA_MAXIMA[804]
+                             1.80011            -0               
+  3135 DISTANCIA_MAXIMA[805]
+                             1.75207            -0               
+  3136 DISTANCIA_MAXIMA[806]
+                            0.485612            -0               
+  3137 DISTANCIA_MAXIMA[807]
+                             1.89208            -0               
+  3138 DISTANCIA_MAXIMA[808]
+                             1.85192            -0               
+  3139 DISTANCIA_MAXIMA[809]
+                              1.9276            -0               
+  3140 DISTANCIA_MAXIMA[810]
+                             1.86062            -0               
+  3141 DISTANCIA_MAXIMA[811]
+                             1.91935            -0               
+  3142 DISTANCIA_MAXIMA[812]
+                            0.707509            -0               
+  3143 DISTANCIA_MAXIMA[813]
+                             1.03472            -0               
+  3144 DISTANCIA_MAXIMA[814]
+                             1.66824            -0               
+  3145 DISTANCIA_MAXIMA[815]
+                             1.89499            -0               
+  3146 DISTANCIA_MAXIMA[816]
+                             1.93874            -0               
+  3147 DISTANCIA_MAXIMA[817]
+                             1.88334            -0               
+  3148 DISTANCIA_MAXIMA[818]
+                             1.48057            -0               
+  3149 DISTANCIA_MAXIMA[819]
+                             1.62126            -0               
+  3150 DISTANCIA_MAXIMA[820]
+                             1.58331            -0               
+  3151 DISTANCIA_MAXIMA[821]
+                            0.852473            -0               
+  3152 DISTANCIA_MAXIMA[822]
+                            0.964348            -0               
+  3153 DISTANCIA_MAXIMA[823]
+                             2.01749            -0               
+  3154 DISTANCIA_MAXIMA[824]
+                             1.72901            -0               
+  3155 DISTANCIA_MAXIMA[825]
+                             1.09066            -0               
+  3156 DISTANCIA_MAXIMA[826]
+                             1.87666            -0               
+  3157 DISTANCIA_MAXIMA[827]
+                             1.94442            -0               
+  3158 DISTANCIA_MAXIMA[828]
+                             1.86513            -0               
+  3159 DISTANCIA_MAXIMA[829]
+                             1.65325            -0               
+  3160 DISTANCIA_MAXIMA[830]
+                             1.35456            -0               
+  3161 DISTANCIA_MAXIMA[831]
+                              1.5132            -0               
+  3162 DISTANCIA_MAXIMA[832]
+                             1.91323            -0               
+  3163 DISTANCIA_MAXIMA[833]
+                             1.85043            -0               
+  3164 DISTANCIA_MAXIMA[834]
+                             1.82993            -0               
+  3165 DISTANCIA_MAXIMA[835]
+                             1.77061            -0               
+  3166 DISTANCIA_MAXIMA[836]
+                            0.785133            -0               
+  3167 DISTANCIA_MAXIMA[837]
+                             1.84777            -0               
+  3168 DISTANCIA_MAXIMA[838]
+                             1.90155            -0               
+  3169 DISTANCIA_MAXIMA[839]
+                             1.99896            -0               
+  3170 DISTANCIA_MAXIMA[840]
+                             1.94039            -0               
+  3171 DISTANCIA_MAXIMA[841]
+                             1.74921            -0               
+  3172 DISTANCIA_MAXIMA[842]
+                            0.886871            -0               
+  3173 DISTANCIA_MAXIMA[843]
+                            0.727947            -0               
+  3174 DISTANCIA_MAXIMA[844]
+                             1.89205            -0               
+  3175 DISTANCIA_MAXIMA[845]
+                           0.0250068            -0               
+  3176 DISTANCIA_MAXIMA[846]
+                             2.00356            -0               
+  3177 DISTANCIA_MAXIMA[847]
+                             1.95055            -0               
+  3178 DISTANCIA_MAXIMA[848]
+                           0.0656993            -0               
+  3179 DISTANCIA_MAXIMA[849]
+                             1.86512            -0               
+  3180 DISTANCIA_MAXIMA[850]
+                             0.59421            -0               
+  3181 DISTANCIA_MAXIMA[851]
+                             1.90759            -0               
+  3182 DISTANCIA_MAXIMA[852]
+                             1.14049            -0               
+  3183 DISTANCIA_MAXIMA[853]
+                             1.72336            -0               
+  3184 DISTANCIA_MAXIMA[854]
+                             1.36023            -0               
+  3185 DISTANCIA_MAXIMA[855]
+                            0.830005            -0               
+  3186 DISTANCIA_MAXIMA[856]
+                             2.00356            -0               
+  3187 DISTANCIA_MAXIMA[857]
+                             1.72767            -0               
+  3188 DISTANCIA_MAXIMA[858]
+                             1.59546            -0               
+  3189 DISTANCIA_MAXIMA[859]
+                             1.85801            -0               
+  3190 DISTANCIA_MAXIMA[860]
+                             1.52849            -0               
+  3191 DISTANCIA_MAXIMA[861]
+                             0.63964            -0               
+  3192 DISTANCIA_MAXIMA[862]
+                             0.60498            -0               
+  3193 DISTANCIA_MAXIMA[863]
+                             1.50222            -0               
+  3194 DISTANCIA_MAXIMA[864]
+                             1.78584            -0               
+  3195 DISTANCIA_MAXIMA[865]
+                              1.8101            -0               
+  3196 DISTANCIA_MAXIMA[866]
+                             1.72548            -0               
+  3197 DISTANCIA_MAXIMA[867]
+                             1.74969            -0               
+  3198 DISTANCIA_MAXIMA[868]
+                             1.90278            -0               
+  3199 DISTANCIA_MAXIMA[869]
+                             1.95569            -0               
+  3200 DISTANCIA_MAXIMA[870]
+                              1.6723            -0               
+  3201 DISTANCIA_MAXIMA[871]
+                             1.82907            -0               
+  3202 DISTANCIA_MAXIMA[872]
+                            0.540344            -0               
+  3203 DISTANCIA_MAXIMA[873]
+                             1.85177            -0               
+  3204 DISTANCIA_MAXIMA[874]
+                             1.90178            -0               
+  3205 DISTANCIA_MAXIMA[875]
+                             1.59503            -0               
+  3206 DISTANCIA_MAXIMA[876]
+                            0.855811            -0               
+  3207 DISTANCIA_MAXIMA[877]
+                            0.476389            -0               
+  3208 DISTANCIA_MAXIMA[878]
+                            0.593699            -0               
+  3209 DISTANCIA_MAXIMA[879]
+                             1.82185            -0               
+  3210 DISTANCIA_MAXIMA[880]
+                             1.84873            -0               
+  3211 DISTANCIA_MAXIMA[881]
+                             1.63256            -0               
+  3212 DISTANCIA_MAXIMA[882]
+                             1.76444            -0               
+  3213 DISTANCIA_MAXIMA[883]
+                             1.97529            -0               
+  3214 DISTANCIA_MAXIMA[884]
+                              1.9132            -0               
+  3215 DISTANCIA_MAXIMA[885]
+                             1.18535            -0               
+  3216 DISTANCIA_MAXIMA[886]
+                             1.85762            -0               
+  3217 DISTANCIA_MAXIMA[887]
+                             1.79781            -0               
+  3218 DISTANCIA_MAXIMA[888]
+                             1.89983            -0               
+  3219 DISTANCIA_MAXIMA[889]
+                             1.53165            -0               
+  3220 DISTANCIA_MAXIMA[890]
+                             1.97856            -0               
+  3221 DISTANCIA_MAXIMA[891]
+                             1.05251            -0               
+  3222 DISTANCIA_MAXIMA[892]
+                             1.86797            -0               
+  3223 DISTANCIA_MAXIMA[893]
+                             1.97255            -0               
+  3224 DISTANCIA_MAXIMA[894]
+                             1.56949            -0               
+  3225 DISTANCIA_MAXIMA[895]
+                            0.400192            -0               
+  3226 DISTANCIA_MAXIMA[896]
+                             1.86257            -0               
+  3227 DISTANCIA_MAXIMA[897]
+                             1.94924            -0               
+  3228 DISTANCIA_MAXIMA[898]
+                             1.94786            -0               
+  3229 DISTANCIA_MAXIMA[899]
+                              1.9911            -0               
+  3230 DISTANCIA_MAXIMA[900]
+                            0.568642            -0               
+  3231 DISTANCIA_MAXIMA[901]
+                             1.84604            -0               
+  3232 DISTANCIA_MAXIMA[902]
+                             1.75028            -0               
+  3233 DISTANCIA_MAXIMA[903]
+                             1.69079            -0               
+  3234 DISTANCIA_MAXIMA[904]
+                             1.30662            -0               
+  3235 DISTANCIA_MAXIMA[905]
+                             1.78507            -0               
+  3236 DISTANCIA_MAXIMA[906]
+                             1.74175            -0               
+  3237 DISTANCIA_MAXIMA[907]
+                            0.567797            -0               
+  3238 DISTANCIA_MAXIMA[908]
+                             1.90332            -0               
+  3239 DISTANCIA_MAXIMA[909]
+                             1.84165            -0               
+  3240 DISTANCIA_MAXIMA[910]
+                             1.93591            -0               
+  3241 DISTANCIA_MAXIMA[911]
+                             1.76005            -0               
+  3242 DISTANCIA_MAXIMA[912]
+                             1.02642            -0               
+  3243 DISTANCIA_MAXIMA[913]
+                            0.560812            -0               
+  3244 DISTANCIA_MAXIMA[914]
+                            0.982839            -0               
+  3245 DISTANCIA_MAXIMA[915]
+                             1.76396            -0               
+  3246 DISTANCIA_MAXIMA[916]
+                             1.87082            -0               
+  3247 DISTANCIA_MAXIMA[917]
+                             1.78932            -0               
+  3248 DISTANCIA_MAXIMA[918]
+                             1.69448            -0               
+  3249 DISTANCIA_MAXIMA[919]
+                             1.75745            -0               
+  3250 DISTANCIA_MAXIMA[920]
+                            0.623218            -0               
+  3251 DISTANCIA_MAXIMA[921]
+                             1.23006            -0               
+  3252 DISTANCIA_MAXIMA[922]
+                             1.32734            -0               
+  3253 DISTANCIA_MAXIMA[923]
+                             1.87399            -0               
+  3254 DISTANCIA_MAXIMA[924]
+                             1.94208            -0               
+  3255 DISTANCIA_MAXIMA[925]
+                             1.60867            -0               
+  3256 DISTANCIA_MAXIMA[926]
+                             1.93595            -0               
+  3257 DISTANCIA_MAXIMA[927]
+                             1.88572            -0               
+  3258 DISTANCIA_MAXIMA[928]
+                             1.89773            -0               
+  3259 DISTANCIA_MAXIMA[929]
+                             1.15907            -0               
+  3260 DISTANCIA_MAXIMA[930]
+                             1.87738            -0               
+  3261 DISTANCIA_MAXIMA[931]
+                             1.67722            -0               
+  3262 DISTANCIA_MAXIMA[932]
+                             1.66021            -0               
+  3263 DISTANCIA_MAXIMA[933]
+                             1.73429            -0               
+  3264 DISTANCIA_MAXIMA[934]
+                              1.9427            -0               
+  3265 DISTANCIA_MAXIMA[935]
+                             1.78811            -0               
+  3266 DISTANCIA_MAXIMA[936]
+                             1.84083            -0               
+  3267 DISTANCIA_MAXIMA[937]
+                             1.86039            -0               
+  3268 DISTANCIA_MAXIMA[938]
+                             1.71065            -0               
+  3269 DISTANCIA_MAXIMA[939]
+                             1.85112            -0               
+  3270 DISTANCIA_MAXIMA[940]
+                             1.82176            -0               
+  3271 DISTANCIA_MAXIMA[941]
+                            0.486066            -0               
+  3272 DISTANCIA_MAXIMA[942]
+                              1.8207            -0               
+  3273 DISTANCIA_MAXIMA[943]
+                             1.81303            -0               
+  3274 DISTANCIA_MAXIMA[944]
+                             1.78044            -0               
+  3275 DISTANCIA_MAXIMA[945]
+                             1.49139            -0               
+  3276 DISTANCIA_MAXIMA[946]
+                             1.89572            -0               
+  3277 DISTANCIA_MAXIMA[947]
+                             1.88737            -0               
+  3278 DISTANCIA_MAXIMA[948]
+                            0.871794            -0               
+  3279 DISTANCIA_MAXIMA[949]
+                             1.86679            -0               
+  3280 DISTANCIA_MAXIMA[950]
+                             1.66695            -0               
+  3281 DISTANCIA_MAXIMA[951]
+                             1.74422            -0               
+  3282 DISTANCIA_MAXIMA[952]
+                             1.73478            -0               
+  3283 DISTANCIA_MAXIMA[953]
+                              1.6999            -0               
+  3284 DISTANCIA_MAXIMA[954]
+                             1.39264            -0               
+  3285 DISTANCIA_MAXIMA[955]
+                             1.92078            -0               
+  3286 DISTANCIA_MAXIMA[956]
+                            0.147149            -0               
+  3287 DISTANCIA_MAXIMA[957]
+                             1.69889            -0               
+  3288 DISTANCIA_MAXIMA[958]
+                             1.91341            -0               
+  3289 DISTANCIA_MAXIMA[959]
+                             1.94291            -0               
+  3290 DISTANCIA_MAXIMA[960]
+                             1.71348            -0               
+  3291 DISTANCIA_MAXIMA[961]
+                             1.00664            -0               
+  3292 DISTANCIA_MAXIMA[962]
+                            0.608884            -0               
+  3293 DISTANCIA_MAXIMA[963]
+                             2.01866            -0               
+  3294 DISTANCIA_MAXIMA[964]
+                             1.74585            -0               
+  3295 DISTANCIA_MAXIMA[965]
+                             0.49115            -0               
+  3296 DISTANCIA_MAXIMA[966]
+                             1.93061            -0               
+  3297 DISTANCIA_MAXIMA[967]
+                             1.70611            -0               
+  3298 DISTANCIA_MAXIMA[968]
+                             1.52742            -0               
+  3299 DISTANCIA_MAXIMA[969]
+                             0.85001            -0               
+  3300 DISTANCIA_MAXIMA[970]
+                              1.9544            -0               
+  3301 DISTANCIA_MAXIMA[971]
+                             1.90836            -0               
+  3302 DISTANCIA_MAXIMA[972]
+                             1.51142            -0               
+  3303 DISTANCIA_MAXIMA[973]
+                             0.66873            -0               
+  3304 DISTANCIA_MAXIMA[974]
+                             1.99164            -0               
+  3305 DISTANCIA_MAXIMA[975]
+                             1.67862            -0               
+  3306 DISTANCIA_MAXIMA[976]
+                             1.82906            -0               
+  3307 DISTANCIA_MAXIMA[977]
+                             1.77746            -0               
+  3308 DISTANCIA_MAXIMA[978]
+                            0.839652            -0               
+  3309 DISTANCIA_MAXIMA[979]
+                             1.74393            -0               
+  3310 DISTANCIA_MAXIMA[980]
+                             0.58702            -0               
+  3311 DISTANCIA_MAXIMA[981]
+                             1.87015            -0               
+  3312 DISTANCIA_MAXIMA[982]
+                            0.765565            -0               
+  3313 DISTANCIA_MAXIMA[983]
+                             1.78773            -0               
+  3314 DISTANCIA_MAXIMA[984]
+                            0.675994            -0               
+  3315 DISTANCIA_MAXIMA[985]
+                             1.77188            -0               
+  3316 DISTANCIA_MAXIMA[986]
+                             1.78513            -0               
+  3317 DISTANCIA_MAXIMA[987]
+                             1.54835            -0               
+  3318 DISTANCIA_MAXIMA[988]
+                             1.66071            -0               
+  3319 DISTANCIA_MAXIMA[989]
+                             1.82056            -0               
+  3320 DISTANCIA_MAXIMA[990]
+                             1.50137            -0               
+  3321 DISTANCIA_MAXIMA[991]
+                             1.88861            -0               
+  3322 DISTANCIA_MAXIMA[992]
+                             1.74772            -0               
+  3323 DISTANCIA_MAXIMA[993]
+                             1.98199            -0               
+  3324 DISTANCIA_MAXIMA[994]
+                             1.47186            -0               
+  3325 DISTANCIA_MAXIMA[995]
+                             1.39865            -0               
+  3326 DISTANCIA_MAXIMA[996]
+                              1.8558            -0               
+  3327 DISTANCIA_MAXIMA[997]
+                             1.84432            -0               
+  3328 DISTANCIA_MAXIMA[998]
+                             1.87935            -0               
+  3329 DISTANCIA_MAXIMA[999]
+                              1.8871            -0               
+  3330 DISTANCIA_MAXIMA[1000]
+                             1.76644            -0               
+  3331 DISTANCIA_MAXIMA[1001]
+                             1.72703            -0               
+  3332 DISTANCIA_MAXIMA[1002]
+                              1.7451            -0               
+  3333 DISTANCIA_MAXIMA[1003]
+                             1.49021            -0               
+  3334 DISTANCIA_MAXIMA[1004]
+                             1.85633            -0               
+  3335 DISTANCIA_MAXIMA[1005]
+                             1.64851            -0               
+  3336 DISTANCIA_MAXIMA[1006]
+                            0.164985            -0               
+  3337 DISTANCIA_MAXIMA[1007]
+                             1.36205            -0               
+  3338 DISTANCIA_MAXIMA[1008]
+                             1.75101            -0               
+  3339 DISTANCIA_MAXIMA[1009]
+                             1.68452            -0               
+  3340 DISTANCIA_MAXIMA[1010]
+                             1.82102            -0               
+  3341 DISTANCIA_MAXIMA[1011]
+                             1.99814            -0               
+  3342 DISTANCIA_MAXIMA[1012]
+                            0.821798            -0               
+  3343 DISTANCIA_MAXIMA[1013]
+                             1.95424            -0               
+  3344 DISTANCIA_MAXIMA[1014]
+                             1.66949            -0               
+  3345 DISTANCIA_MAXIMA[1015]
+                              1.9276            -0               
+  3346 DISTANCIA_MAXIMA[1016]
+                             1.66973            -0               
+  3347 DISTANCIA_MAXIMA[1017]
+                             1.20817            -0               
+  3348 DISTANCIA_MAXIMA[1018]
+                             1.96549            -0               
+  3349 DISTANCIA_MAXIMA[1019]
+                             1.94836            -0               
+  3350 DISTANCIA_MAXIMA[1020]
+                              1.7541            -0               
+  3351 DISTANCIA_MAXIMA[1021]
+                             1.74705            -0               
+  3352 DISTANCIA_MAXIMA[1022]
+                            0.598401            -0               
+  3353 DISTANCIA_MAXIMA[1023]
+                             1.88015            -0               
+  3354 DISTANCIA_MAXIMA[1024]
+                             0.24183            -0               
+  3355 DISTANCIA_MAXIMA[1025]
+                             1.94481            -0               
+  3356 DISTANCIA_MAXIMA[1026]
+                             1.92928            -0               
+  3357 DISTANCIA_MAXIMA[1027]
+                             1.60486            -0               
+  3358 DISTANCIA_MAXIMA[1028]
+                             1.90984            -0               
+  3359 DISTANCIA_MAXIMA[1029]
+                            0.346182            -0               
+  3360 DISTANCIA_MAXIMA[1030]
+                             1.45516            -0               
+  3361 DISTANCIA_MAXIMA[1031]
+                            0.532051            -0               
+  3362 DISTANCIA_MAXIMA[1032]
+                             1.19858            -0               
+  3363 DISTANCIA_MAXIMA[1033]
+                             1.90233            -0               
+  3364 DISTANCIA_MAXIMA[1034]
+                            0.473007            -0               
+  3365 DISTANCIA_MAXIMA[1035]
+                             1.90816            -0               
+  3366 DISTANCIA_MAXIMA[1036]
+                             1.82454            -0               
+  3367 DISTANCIA_MAXIMA[1037]
+                            0.716835            -0               
+  3368 DISTANCIA_MAXIMA[1038]
+                             1.66362            -0               
+  3369 DISTANCIA_MAXIMA[1039]
+                              1.4032            -0               
+  3370 DISTANCIA_MAXIMA[1040]
+                            0.711591            -0               
+  3371 DISTANCIA_MAXIMA[1041]
+                             2.02829            -0               
+  3372 DISTANCIA_MAXIMA[1042]
+                             1.49118            -0               
+  3373 DISTANCIA_MAXIMA[1043]
+                             1.63151            -0               
+  3374 DISTANCIA_MAXIMA[1044]
+                             1.76753            -0               
+  3375 DISTANCIA_MAXIMA[1045]
+                             1.69214            -0               
+  3376 DISTANCIA_MAXIMA[1046]
+                             1.90067            -0               
+  3377 DISTANCIA_MAXIMA[1047]
+                            0.660775            -0               
+  3378 DISTANCIA_MAXIMA[1048]
+                             1.78645            -0               
+  3379 DISTANCIA_MAXIMA[1049]
+                            0.905051            -0               
+  3380 DISTANCIA_MAXIMA[1050]
+                             1.75671            -0               
+  3381 DISTANCIA_MAXIMA[1051]
+                              1.8945            -0               
+  3382 DISTANCIA_MAXIMA[1052]
+                             1.67876            -0               
+  3383 DISTANCIA_MAXIMA[1053]
+                             1.91621            -0               
+  3384 DISTANCIA_MAXIMA[1054]
+                             1.74931            -0               
+  3385 DISTANCIA_MAXIMA[1055]
+                             1.92542            -0               
+  3386 DISTANCIA_MAXIMA[1056]
+                             1.90667            -0               
+  3387 DISTANCIA_MAXIMA[1057]
+                             1.15977            -0               
+  3388 DISTANCIA_MAXIMA[1058]
+                             1.45562            -0               
+  3389 DISTANCIA_MAXIMA[1059]
+                            0.818367            -0               
+  3390 DISTANCIA_MAXIMA[1060]
+                             1.68908            -0               
+  3391 DISTANCIA_MAXIMA[1061]
+                             1.88068            -0               
+  3392 DISTANCIA_MAXIMA[1062]
+                             1.83749            -0               
+  3393 DISTANCIA_MAXIMA[1063]
+                            0.869019            -0               
+  3394 DISTANCIA_MAXIMA[1064]
+                            0.727288            -0               
+  3395 DISTANCIA_MAXIMA[1065]
+                            0.495079            -0               
+  3396 DISTANCIA_MAXIMA[1066]
+                            0.625072            -0               
+  3397 DISTANCIA_MAXIMA[1067]
+                             1.88053            -0               
+  3398 DISTANCIA_MAXIMA[1068]
+                             1.72013            -0               
+  3399 DISTANCIA_MAXIMA[1069]
+                             1.80917            -0               
+  3400 DISTANCIA_MAXIMA[1070]
+                             1.87737            -0               
+  3401 DISTANCIA_MAXIMA[1071]
+                              1.2165            -0               
+  3402 DISTANCIA_MAXIMA[1072]
+                             1.92828            -0               
+  3403 DISTANCIA_MAXIMA[1073]
+                            0.839709            -0               
+  3404 DISTANCIA_MAXIMA[1074]
+                           0.0519526            -0               
+  3405 DISTANCIA_MAXIMA[1075]
+                             1.84177            -0               
+  3406 DISTANCIA_MAXIMA[1076]
+                             1.45094            -0               
+  3407 DISTANCIA_MAXIMA[1077]
+                             1.92317            -0               
+  3408 DISTANCIA_MAXIMA[1078]
+                             1.70199            -0               
+  3409 DISTANCIA_MAXIMA[1079]
+                             1.93268            -0               
+  3410 DISTANCIA_MAXIMA[1080]
+                             1.44781            -0               
+  3411 DISTANCIA_MAXIMA[1081]
+                             1.92589            -0               
+  3412 DISTANCIA_MAXIMA[1082]
+                              1.0664            -0               
+  3413 DISTANCIA_MAXIMA[1083]
+                             1.70174            -0               
+  3414 DISTANCIA_MAXIMA[1084]
+                             1.97837            -0               
+  3415 DISTANCIA_MAXIMA[1085]
+                            0.381378            -0               
+  3416 DISTANCIA_MAXIMA[1086]
+                             1.83613            -0               
+  3417 DISTANCIA_MAXIMA[1087]
+                            0.305809            -0               
+  3418 DISTANCIA_MAXIMA[1088]
+                             1.34618            -0               
+  3419 DISTANCIA_MAXIMA[1089]
+                            0.272703            -0               
+  3420 DISTANCIA_MAXIMA[1090]
+                            0.634895            -0               
+  3421 DISTANCIA_MAXIMA[1091]
+                             1.91878            -0               
+  3422 DISTANCIA_MAXIMA[1092]
+                             1.84985            -0               
+  3423 DISTANCIA_MAXIMA[1093]
+                            0.961845            -0               
+  3424 DISTANCIA_MAXIMA[1094]
+                             1.88251            -0               
+  3425 DISTANCIA_MAXIMA[1095]
+                            0.922356            -0               
+  3426 DISTANCIA_MAXIMA[1096]
+                             1.91833            -0               
+  3427 DISTANCIA_MAXIMA[1097]
+                             1.74727            -0               
+  3428 DISTANCIA_MAXIMA[1098]
+                             1.61846            -0               
+  3429 DISTANCIA_MAXIMA[1099]
+                             1.81143            -0               
+  3430 DISTANCIA_MAXIMA[1100]
+                            0.428944            -0               
+  3431 DISTANCIA_MAXIMA[1101]
+                             1.84453            -0               
+  3432 DISTANCIA_MAXIMA[1102]
+                             1.76183            -0               
+  3433 DISTANCIA_MAXIMA[1103]
+                             1.82373            -0               
+  3434 DISTANCIA_MAXIMA[1104]
+                             1.82465            -0               
+  3435 DISTANCIA_MAXIMA[1105]
+                             1.93173            -0               
+  3436 DISTANCIA_MAXIMA[1106]
+                             1.82779            -0               
+  3437 DISTANCIA_MAXIMA[1107]
+                             1.29675            -0               
+  3438 DISTANCIA_MAXIMA[1108]
+                             1.87357            -0               
+  3439 DISTANCIA_MAXIMA[1109]
+                            0.269645            -0               
+  3440 DISTANCIA_MAXIMA[1110]
+                              1.9321            -0               
+  3441 DISTANCIA_MAXIMA[1111]
+                            0.364775            -0               
+  3442 DISTANCIA_MAXIMA[1112]
+                             1.92862            -0               
+  3443 DISTANCIA_MAXIMA[1113]
+                              1.9292            -0               
+  3444 DISTANCIA_MAXIMA[1114]
+                             1.89887            -0               
+  3445 DISTANCIA_MAXIMA[1115]
+                             1.89736            -0               
+  3446 DISTANCIA_MAXIMA[1116]
+                             1.83212            -0               
+  3447 DISTANCIA_MAXIMA[1117]
+                             1.93647            -0               
+  3448 DISTANCIA_MAXIMA[1118]
+                             1.91738            -0               
+  3449 DISTANCIA_MAXIMA[1119]
+                             1.90736            -0               
+  3450 DISTANCIA_MAXIMA[1120]
+                             1.06906            -0               
+  3451 DISTANCIA_MAXIMA[1121]
+                             1.69901            -0               
+  3452 DISTANCIA_MAXIMA[1122]
+                              1.7407            -0               
+  3453 DISTANCIA_MAXIMA[1123]
+                             1.71358            -0               
+  3454 DISTANCIA_MAXIMA[1124]
+                                   0            -0               
+  3455 DISTANCIA_MAXIMA[1125]
+                            0.783302            -0               
+  3456 DISTANCIA_MAXIMA[1126]
+                             1.70544            -0               
+  3457 DISTANCIA_MAXIMA[1127]
+                             1.93305            -0               
+  3458 DISTANCIA_MAXIMA[1128]
+                             1.90073            -0               
+  3459 DISTANCIA_MAXIMA[1129]
+                              1.6386            -0               
+  3460 DISTANCIA_MAXIMA[1130]
+                             1.71661            -0               
+  3461 DISTANCIA_MAXIMA[1131]
+                             1.83936            -0               
+  3462 DISTANCIA_MAXIMA[1132]
+                            0.669836            -0               
+  3463 DISTANCIA_MAXIMA[1133]
+                             1.99011            -0               
+  3464 DISTANCIA_MAXIMA[1134]
+                             1.93021            -0               
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
@@ -2590,13 +7126,13 @@ Objective:  z = 0.4672600393 (MINimum)
    187 X[7,7]       *              0             0             1 
    188 X[7,8]       *              0             0             1 
    189 X[7,9]       *              0             0             1 
-   190 X[7,10]      *              0             0             1 
+   190 X[7,10]      *              1             0             1 
    191 X[7,11]      *              0             0             1 
    192 X[7,12]      *              0             0             1 
    193 X[7,13]      *              0             0             1 
    194 X[7,14]      *              0             0             1 
    195 X[7,15]      *              0             0             1 
-   196 X[7,16]      *              1             0             1 
+   196 X[7,16]      *              0             0             1 
    197 X[7,17]      *              0             0             1 
    198 X[7,18]      *              0             0             1 
    199 X[7,19]      *              0             0             1 
@@ -2665,12 +7201,12 @@ Objective:  z = 0.4672600393 (MINimum)
    262 X[9,22]      *              0             0             1 
    263 X[9,23]      *              0             0             1 
    264 X[9,24]      *              0             0             1 
-   265 X[9,25]      *              1             0             1 
+   265 X[9,25]      *              0             0             1 
    266 X[9,26]      *              0             0             1 
    267 X[9,27]      *              0             0             1 
    268 X[9,28]      *              0             0             1 
    269 X[9,29]      *              0             0             1 
-   270 X[9,30]      *              0             0             1 
+   270 X[9,30]      *              1             0             1 
    271 X[10,1]      *              0             0             1 
    272 X[10,2]      *              0             0             1 
    273 X[10,3]      *              0             0             1 
@@ -2762,7 +7298,7 @@ Objective:  z = 0.4672600393 (MINimum)
    359 X[12,29]     *              0             0             1 
    360 X[12,30]     *              0             0             1 
    361 X[13,1]      *              0             0             1 
-   362 X[13,2]      *              1             0             1 
+   362 X[13,2]      *              0             0             1 
    363 X[13,3]      *              0             0             1 
    364 X[13,4]      *              0             0             1 
    365 X[13,5]      *              0             0             1 
@@ -2784,7 +7320,7 @@ Objective:  z = 0.4672600393 (MINimum)
    381 X[13,21]     *              0             0             1 
    382 X[13,22]     *              0             0             1 
    383 X[13,23]     *              0             0             1 
-   384 X[13,24]     *              0             0             1 
+   384 X[13,24]     *              1             0             1 
    385 X[13,25]     *              0             0             1 
    386 X[13,26]     *              0             0             1 
    387 X[13,27]     *              0             0             1 
@@ -2881,14 +7417,14 @@ Objective:  z = 0.4672600393 (MINimum)
    478 X[16,28]     *              0             0             1 
    479 X[16,29]     *              0             0             1 
    480 X[16,30]     *              0             0             1 
-   481 X[17,1]      *              0             0             1 
+   481 X[17,1]      *              1             0             1 
    482 X[17,2]      *              0             0             1 
    483 X[17,3]      *              0             0             1 
    484 X[17,4]      *              0             0             1 
    485 X[17,5]      *              0             0             1 
    486 X[17,6]      *              0             0             1 
    487 X[17,7]      *              0             0             1 
-   488 X[17,8]      *              1             0             1 
+   488 X[17,8]      *              0             0             1 
    489 X[17,9]      *              0             0             1 
    490 X[17,10]     *              0             0             1 
    491 X[17,11]     *              0             0             1 
@@ -2944,7 +7480,7 @@ Objective:  z = 0.4672600393 (MINimum)
    541 X[19,1]      *              0             0             1 
    542 X[19,2]      *              0             0             1 
    543 X[19,3]      *              0             0             1 
-   544 X[19,4]      *              1             0             1 
+   544 X[19,4]      *              0             0             1 
    545 X[19,5]      *              0             0             1 
    546 X[19,6]      *              0             0             1 
    547 X[19,7]      *              0             0             1 
@@ -2952,7 +7488,7 @@ Objective:  z = 0.4672600393 (MINimum)
    549 X[19,9]      *              0             0             1 
    550 X[19,10]     *              0             0             1 
    551 X[19,11]     *              0             0             1 
-   552 X[19,12]     *              0             0             1 
+   552 X[19,12]     *              1             0             1 
    553 X[19,13]     *              0             0             1 
    554 X[19,14]     *              0             0             1 
    555 X[19,15]     *              0             0             1 
@@ -2972,7 +7508,7 @@ Objective:  z = 0.4672600393 (MINimum)
    569 X[19,29]     *              0             0             1 
    570 X[19,30]     *              0             0             1 
    571 X[20,1]      *              0             0             1 
-   572 X[20,2]      *              1             0             1 
+   572 X[20,2]      *              0             0             1 
    573 X[20,3]      *              0             0             1 
    574 X[20,4]      *              0             0             1 
    575 X[20,5]      *              0             0             1 
@@ -2982,7 +7518,7 @@ Objective:  z = 0.4672600393 (MINimum)
    579 X[20,9]      *              0             0             1 
    580 X[20,10]     *              0             0             1 
    581 X[20,11]     *              0             0             1 
-   582 X[20,12]     *              0             0             1 
+   582 X[20,12]     *              1             0             1 
    583 X[20,13]     *              0             0             1 
    584 X[20,14]     *              0             0             1 
    585 X[20,15]     *              0             0             1 
@@ -3091,7 +7627,7 @@ Objective:  z = 0.4672600393 (MINimum)
    688 X[23,28]     *              0             0             1 
    689 X[23,29]     *              0             0             1 
    690 X[23,30]     *              0             0             1 
-   691 X[24,1]      *              1             0             1 
+   691 X[24,1]      *              0             0             1 
    692 X[24,2]      *              0             0             1 
    693 X[24,3]      *              0             0             1 
    694 X[24,4]      *              0             0             1 
@@ -3099,7 +7635,7 @@ Objective:  z = 0.4672600393 (MINimum)
    696 X[24,6]      *              0             0             1 
    697 X[24,7]      *              0             0             1 
    698 X[24,8]      *              0             0             1 
-   699 X[24,9]      *              0             0             1 
+   699 X[24,9]      *              1             0             1 
    700 X[24,10]     *              0             0             1 
    701 X[24,11]     *              0             0             1 
    702 X[24,12]     *              0             0             1 
@@ -3214,7 +7750,7 @@ Objective:  z = 0.4672600393 (MINimum)
    811 X[28,1]      *              0             0             1 
    812 X[28,2]      *              0             0             1 
    813 X[28,3]      *              0             0             1 
-   814 X[28,4]      *              1             0             1 
+   814 X[28,4]      *              0             0             1 
    815 X[28,5]      *              0             0             1 
    816 X[28,6]      *              0             0             1 
    817 X[28,7]      *              0             0             1 
@@ -3222,7 +7758,7 @@ Objective:  z = 0.4672600393 (MINimum)
    819 X[28,9]      *              0             0             1 
    820 X[28,10]     *              0             0             1 
    821 X[28,11]     *              0             0             1 
-   822 X[28,12]     *              0             0             1 
+   822 X[28,12]     *              1             0             1 
    823 X[28,13]     *              0             0             1 
    824 X[28,14]     *              0             0             1 
    825 X[28,15]     *              0             0             1 
@@ -3250,7 +7786,7 @@ Objective:  z = 0.4672600393 (MINimum)
    847 X[29,7]      *              0             0             1 
    848 X[29,8]      *              0             0             1 
    849 X[29,9]      *              0             0             1 
-   850 X[29,10]     *              0             0             1 
+   850 X[29,10]     *              1             0             1 
    851 X[29,11]     *              0             0             1 
    852 X[29,12]     *              0             0             1 
    853 X[29,13]     *              0             0             1 
@@ -3258,7 +7794,7 @@ Objective:  z = 0.4672600393 (MINimum)
    855 X[29,15]     *              0             0             1 
    856 X[29,16]     *              0             0             1 
    857 X[29,17]     *              0             0             1 
-   858 X[29,18]     *              1             0             1 
+   858 X[29,18]     *              0             0             1 
    859 X[29,19]     *              0             0             1 
    860 X[29,20]     *              0             0             1 
    861 X[29,21]     *              0             0             1 
@@ -3392,7 +7928,7 @@ Objective:  z = 0.4672600393 (MINimum)
    989 X[33,29]     *              0             0             1 
    990 X[33,30]     *              0             0             1 
    991 X[34,1]      *              0             0             1 
-   992 X[34,2]      *              1             0             1 
+   992 X[34,2]      *              0             0             1 
    993 X[34,3]      *              0             0             1 
    994 X[34,4]      *              0             0             1 
    995 X[34,5]      *              0             0             1 
@@ -3402,7 +7938,7 @@ Objective:  z = 0.4672600393 (MINimum)
    999 X[34,9]      *              0             0             1 
   1000 X[34,10]     *              0             0             1 
   1001 X[34,11]     *              0             0             1 
-  1002 X[34,12]     *              0             0             1 
+  1002 X[34,12]     *              1             0             1 
   1003 X[34,13]     *              0             0             1 
   1004 X[34,14]     *              0             0             1 
   1005 X[34,15]     *              0             0             1 
@@ -3502,14 +8038,14 @@ Objective:  z = 0.4672600393 (MINimum)
   1099 X[37,19]     *              0             0             1 
   1100 X[37,20]     *              0             0             1 
   1101 X[37,21]     *              0             0             1 
-  1102 X[37,22]     *              1             0             1 
+  1102 X[37,22]     *              0             0             1 
   1103 X[37,23]     *              0             0             1 
   1104 X[37,24]     *              0             0             1 
   1105 X[37,25]     *              0             0             1 
   1106 X[37,26]     *              0             0             1 
   1107 X[37,27]     *              0             0             1 
   1108 X[37,28]     *              0             0             1 
-  1109 X[37,29]     *              0             0             1 
+  1109 X[37,29]     *              1             0             1 
   1110 X[37,30]     *              0             0             1 
   1111 X[38,1]      *              0             0             1 
   1112 X[38,2]      *              0             0             1 
@@ -3721,14 +8257,14 @@ Objective:  z = 0.4672600393 (MINimum)
   1318 X[44,28]     *              0             0             1 
   1319 X[44,29]     *              0             0             1 
   1320 X[44,30]     *              0             0             1 
-  1321 X[45,1]      *              1             0             1 
+  1321 X[45,1]      *              0             0             1 
   1322 X[45,2]      *              0             0             1 
   1323 X[45,3]      *              0             0             1 
   1324 X[45,4]      *              0             0             1 
   1325 X[45,5]      *              0             0             1 
   1326 X[45,6]      *              0             0             1 
   1327 X[45,7]      *              0             0             1 
-  1328 X[45,8]      *              0             0             1 
+  1328 X[45,8]      *              1             0             1 
   1329 X[45,9]      *              0             0             1 
   1330 X[45,10]     *              0             0             1 
   1331 X[45,11]     *              0             0             1 
@@ -4024,7 +8560,7 @@ Objective:  z = 0.4672600393 (MINimum)
   1621 X[55,1]      *              0             0             1 
   1622 X[55,2]      *              0             0             1 
   1623 X[55,3]      *              0             0             1 
-  1624 X[55,4]      *              1             0             1 
+  1624 X[55,4]      *              0             0             1 
   1625 X[55,5]      *              0             0             1 
   1626 X[55,6]      *              0             0             1 
   1627 X[55,7]      *              0             0             1 
@@ -4032,7 +8568,7 @@ Objective:  z = 0.4672600393 (MINimum)
   1629 X[55,9]      *              0             0             1 
   1630 X[55,10]     *              0             0             1 
   1631 X[55,11]     *              0             0             1 
-  1632 X[55,12]     *              0             0             1 
+  1632 X[55,12]     *              1             0             1 
   1633 X[55,13]     *              0             0             1 
   1634 X[55,14]     *              0             0             1 
   1635 X[55,15]     *              0             0             1 
@@ -4090,7 +8626,7 @@ Objective:  z = 0.4672600393 (MINimum)
   1687 X[57,7]      *              0             0             1 
   1688 X[57,8]      *              0             0             1 
   1689 X[57,9]      *              0             0             1 
-  1690 X[57,10]     *              0             0             1 
+  1690 X[57,10]     *              1             0             1 
   1691 X[57,11]     *              0             0             1 
   1692 X[57,12]     *              0             0             1 
   1693 X[57,13]     *              0             0             1 
@@ -4099,7 +8635,7 @@ Objective:  z = 0.4672600393 (MINimum)
   1696 X[57,16]     *              0             0             1 
   1697 X[57,17]     *              0             0             1 
   1698 X[57,18]     *              0             0             1 
-  1699 X[57,19]     *              1             0             1 
+  1699 X[57,19]     *              0             0             1 
   1700 X[57,20]     *              0             0             1 
   1701 X[57,21]     *              0             0             1 
   1702 X[57,22]     *              0             0             1 
@@ -4231,14 +8767,14 @@ Objective:  z = 0.4672600393 (MINimum)
   1828 X[61,28]     *              0             0             1 
   1829 X[61,29]     *              0             0             1 
   1830 X[61,30]     *              0             0             1 
-  1831 X[62,1]      *              0             0             1 
+  1831 X[62,1]      *              1             0             1 
   1832 X[62,2]      *              0             0             1 
   1833 X[62,3]      *              0             0             1 
   1834 X[62,4]      *              0             0             1 
   1835 X[62,5]      *              0             0             1 
   1836 X[62,6]      *              0             0             1 
   1837 X[62,7]      *              0             0             1 
-  1838 X[62,8]      *              1             0             1 
+  1838 X[62,8]      *              0             0             1 
   1839 X[62,9]      *              0             0             1 
   1840 X[62,10]     *              0             0             1 
   1841 X[62,11]     *              0             0             1 
@@ -4751,7 +9287,7 @@ Objective:  z = 0.4672600393 (MINimum)
   2348 X[79,8]      *              0             0             1 
   2349 X[79,9]      *              0             0             1 
   2350 X[79,10]     *              0             0             1 
-  2351 X[79,11]     *              1             0             1 
+  2351 X[79,11]     *              0             0             1 
   2352 X[79,12]     *              0             0             1 
   2353 X[79,13]     *              0             0             1 
   2354 X[79,14]     *              0             0             1 
@@ -4767,7 +9303,7 @@ Objective:  z = 0.4672600393 (MINimum)
   2364 X[79,24]     *              0             0             1 
   2365 X[79,25]     *              0             0             1 
   2366 X[79,26]     *              0             0             1 
-  2367 X[79,27]     *              0             0             1 
+  2367 X[79,27]     *              1             0             1 
   2368 X[79,28]     *              0             0             1 
   2369 X[79,29]     *              0             0             1 
   2370 X[79,30]     *              0             0             1 
@@ -5312,7 +9848,7 @@ Objective:  z = 0.4672600393 (MINimum)
   2909 X[97,29]     *              0             0             1 
   2910 X[97,30]     *              0             0             1 
   2911 X[98,1]      *              0             0             1 
-  2912 X[98,2]      *              1             0             1 
+  2912 X[98,2]      *              0             0             1 
   2913 X[98,3]      *              0             0             1 
   2914 X[98,4]      *              0             0             1 
   2915 X[98,5]      *              0             0             1 
@@ -5322,7 +9858,7 @@ Objective:  z = 0.4672600393 (MINimum)
   2919 X[98,9]      *              0             0             1 
   2920 X[98,10]     *              0             0             1 
   2921 X[98,11]     *              0             0             1 
-  2922 X[98,12]     *              0             0             1 
+  2922 X[98,12]     *              1             0             1 
   2923 X[98,13]     *              0             0             1 
   2924 X[98,14]     *              0             0             1 
   2925 X[98,15]     *              0             0             1 
@@ -5411,7 +9947,7 @@ Objective:  z = 0.4672600393 (MINimum)
   3008 X[101,8]     *              0             0             1 
   3009 X[101,9]     *              0             0             1 
   3010 X[101,10]    *              0             0             1 
-  3011 X[101,11]    *              1             0             1 
+  3011 X[101,11]    *              0             0             1 
   3012 X[101,12]    *              0             0             1 
   3013 X[101,13]    *              0             0             1 
   3014 X[101,14]    *              0             0             1 
@@ -5424,7 +9960,7 @@ Objective:  z = 0.4672600393 (MINimum)
   3021 X[101,21]    *              0             0             1 
   3022 X[101,22]    *              0             0             1 
   3023 X[101,23]    *              0             0             1 
-  3024 X[101,24]    *              0             0             1 
+  3024 X[101,24]    *              1             0             1 
   3025 X[101,25]    *              0             0             1 
   3026 X[101,26]    *              0             0             1 
   3027 X[101,27]    *              0             0             1 
@@ -5702,7 +10238,7 @@ Objective:  z = 0.4672600393 (MINimum)
   3299 X[110,29]    *              0             0             1 
   3300 X[110,30]    *              0             0             1 
   3301 X[111,1]     *              0             0             1 
-  3302 X[111,2]     *              1             0             1 
+  3302 X[111,2]     *              0             0             1 
   3303 X[111,3]     *              0             0             1 
   3304 X[111,4]     *              0             0             1 
   3305 X[111,5]     *              0             0             1 
@@ -5712,7 +10248,7 @@ Objective:  z = 0.4672600393 (MINimum)
   3309 X[111,9]     *              0             0             1 
   3310 X[111,10]    *              0             0             1 
   3311 X[111,11]    *              0             0             1 
-  3312 X[111,12]    *              0             0             1 
+  3312 X[111,12]    *              1             0             1 
   3313 X[111,13]    *              0             0             1 
   3314 X[111,14]    *              0             0             1 
   3315 X[111,15]    *              0             0             1 
@@ -5740,7 +10276,7 @@ Objective:  z = 0.4672600393 (MINimum)
   3337 X[112,7]     *              0             0             1 
   3338 X[112,8]     *              0             0             1 
   3339 X[112,9]     *              0             0             1 
-  3340 X[112,10]    *              0             0             1 
+  3340 X[112,10]    *              1             0             1 
   3341 X[112,11]    *              0             0             1 
   3342 X[112,12]    *              0             0             1 
   3343 X[112,13]    *              0             0             1 
@@ -5749,7 +10285,7 @@ Objective:  z = 0.4672600393 (MINimum)
   3346 X[112,16]    *              0             0             1 
   3347 X[112,17]    *              0             0             1 
   3348 X[112,18]    *              0             0             1 
-  3349 X[112,19]    *              1             0             1 
+  3349 X[112,19]    *              0             0             1 
   3350 X[112,20]    *              0             0             1 
   3351 X[112,21]    *              0             0             1 
   3352 X[112,22]    *              0             0             1 
@@ -5819,8 +10355,8 @@ Objective:  z = 0.4672600393 (MINimum)
   3416 X[114,26]    *              0             0             1 
   3417 X[114,27]    *              0             0             1 
   3418 X[114,28]    *              0             0             1 
-  3419 X[114,29]    *              0             0             1 
-  3420 X[114,30]    *              1             0             1 
+  3419 X[114,29]    *              1             0             1 
+  3420 X[114,30]    *              0             0             1 
   3421 X[115,1]     *              0             0             1 
   3422 X[115,2]     *              0             0             1 
   3423 X[115,3]     *              0             0             1 
@@ -6439,7 +10975,7 @@ Objective:  z = 0.4672600393 (MINimum)
   4036 X[135,16]    *              0             0             1 
   4037 X[135,17]    *              0             0             1 
   4038 X[135,18]    *              0             0             1 
-  4039 X[135,19]    *              1             0             1 
+  4039 X[135,19]    *              0             0             1 
   4040 X[135,20]    *              0             0             1 
   4041 X[135,21]    *              0             0             1 
   4042 X[135,22]    *              0             0             1 
@@ -6449,7 +10985,7 @@ Objective:  z = 0.4672600393 (MINimum)
   4046 X[135,26]    *              0             0             1 
   4047 X[135,27]    *              0             0             1 
   4048 X[135,28]    *              0             0             1 
-  4049 X[135,29]    *              0             0             1 
+  4049 X[135,29]    *              1             0             1 
   4050 X[135,30]    *              0             0             1 
   4051 X[136,1]     *              0             0             1 
   4052 X[136,2]     *              0             0             1 
@@ -6622,13 +11158,13 @@ Objective:  z = 0.4672600393 (MINimum)
   4219 X[141,19]    *              0             0             1 
   4220 X[141,20]    *              0             0             1 
   4221 X[141,21]    *              0             0             1 
-  4222 X[141,22]    *              0             0             1 
+  4222 X[141,22]    *              1             0             1 
   4223 X[141,23]    *              0             0             1 
   4224 X[141,24]    *              0             0             1 
   4225 X[141,25]    *              0             0             1 
   4226 X[141,26]    *              0             0             1 
   4227 X[141,27]    *              0             0             1 
-  4228 X[141,28]    *              1             0             1 
+  4228 X[141,28]    *              0             0             1 
   4229 X[141,29]    *              0             0             1 
   4230 X[141,30]    *              0             0             1 
   4231 X[142,1]     *              0             0             1 
@@ -6781,7 +11317,7 @@ Objective:  z = 0.4672600393 (MINimum)
   4378 X[146,28]    *              0             0             1 
   4379 X[146,29]    *              0             0             1 
   4380 X[146,30]    *              1             0             1 
-  4381 X[147,1]     *              1             0             1 
+  4381 X[147,1]     *              0             0             1 
   4382 X[147,2]     *              0             0             1 
   4383 X[147,3]     *              0             0             1 
   4384 X[147,4]     *              0             0             1 
@@ -6789,7 +11325,7 @@ Objective:  z = 0.4672600393 (MINimum)
   4386 X[147,6]     *              0             0             1 
   4387 X[147,7]     *              0             0             1 
   4388 X[147,8]     *              0             0             1 
-  4389 X[147,9]     *              0             0             1 
+  4389 X[147,9]     *              1             0             1 
   4390 X[147,10]    *              0             0             1 
   4391 X[147,11]    *              0             0             1 
   4392 X[147,12]    *              0             0             1 
@@ -6904,7 +11440,7 @@ Objective:  z = 0.4672600393 (MINimum)
   4501 X[151,1]     *              0             0             1 
   4502 X[151,2]     *              0             0             1 
   4503 X[151,3]     *              0             0             1 
-  4504 X[151,4]     *              1             0             1 
+  4504 X[151,4]     *              0             0             1 
   4505 X[151,5]     *              0             0             1 
   4506 X[151,6]     *              0             0             1 
   4507 X[151,7]     *              0             0             1 
@@ -6912,7 +11448,7 @@ Objective:  z = 0.4672600393 (MINimum)
   4509 X[151,9]     *              0             0             1 
   4510 X[151,10]    *              0             0             1 
   4511 X[151,11]    *              0             0             1 
-  4512 X[151,12]    *              0             0             1 
+  4512 X[151,12]    *              1             0             1 
   4513 X[151,13]    *              0             0             1 
   4514 X[151,14]    *              0             0             1 
   4515 X[151,15]    *              0             0             1 
@@ -6931,14 +11467,14 @@ Objective:  z = 0.4672600393 (MINimum)
   4528 X[151,28]    *              0             0             1 
   4529 X[151,29]    *              0             0             1 
   4530 X[151,30]    *              0             0             1 
-  4531 X[152,1]     *              1             0             1 
+  4531 X[152,1]     *              0             0             1 
   4532 X[152,2]     *              0             0             1 
   4533 X[152,3]     *              0             0             1 
   4534 X[152,4]     *              0             0             1 
   4535 X[152,5]     *              0             0             1 
   4536 X[152,6]     *              0             0             1 
   4537 X[152,7]     *              0             0             1 
-  4538 X[152,8]     *              0             0             1 
+  4538 X[152,8]     *              1             0             1 
   4539 X[152,9]     *              0             0             1 
   4540 X[152,10]    *              0             0             1 
   4541 X[152,11]    *              0             0             1 
@@ -7339,7 +11875,7 @@ Objective:  z = 0.4672600393 (MINimum)
   4936 X[165,16]    *              0             0             1 
   4937 X[165,17]    *              0             0             1 
   4938 X[165,18]    *              0             0             1 
-  4939 X[165,19]    *              1             0             1 
+  4939 X[165,19]    *              0             0             1 
   4940 X[165,20]    *              0             0             1 
   4941 X[165,21]    *              0             0             1 
   4942 X[165,22]    *              0             0             1 
@@ -7349,7 +11885,7 @@ Objective:  z = 0.4672600393 (MINimum)
   4946 X[165,26]    *              0             0             1 
   4947 X[165,27]    *              0             0             1 
   4948 X[165,28]    *              0             0             1 
-  4949 X[165,29]    *              0             0             1 
+  4949 X[165,29]    *              1             0             1 
   4950 X[165,30]    *              0             0             1 
   4951 X[166,1]     *              0             0             1 
   4952 X[166,2]     *              0             0             1 
@@ -7471,14 +12007,14 @@ Objective:  z = 0.4672600393 (MINimum)
   5068 X[169,28]    *              0             0             1 
   5069 X[169,29]    *              0             0             1 
   5070 X[169,30]    *              0             0             1 
-  5071 X[170,1]     *              0             0             1 
+  5071 X[170,1]     *              1             0             1 
   5072 X[170,2]     *              0             0             1 
   5073 X[170,3]     *              0             0             1 
   5074 X[170,4]     *              0             0             1 
   5075 X[170,5]     *              0             0             1 
   5076 X[170,6]     *              0             0             1 
   5077 X[170,7]     *              0             0             1 
-  5078 X[170,8]     *              1             0             1 
+  5078 X[170,8]     *              0             0             1 
   5079 X[170,9]     *              0             0             1 
   5080 X[170,10]    *              0             0             1 
   5081 X[170,11]    *              0             0             1 
@@ -7597,7 +12133,7 @@ Objective:  z = 0.4672600393 (MINimum)
   5194 X[174,4]     *              0             0             1 
   5195 X[174,5]     *              0             0             1 
   5196 X[174,6]     *              0             0             1 
-  5197 X[174,7]     *              1             0             1 
+  5197 X[174,7]     *              0             0             1 
   5198 X[174,8]     *              0             0             1 
   5199 X[174,9]     *              0             0             1 
   5200 X[174,10]    *              0             0             1 
@@ -7620,7 +12156,7 @@ Objective:  z = 0.4672600393 (MINimum)
   5217 X[174,27]    *              0             0             1 
   5218 X[174,28]    *              0             0             1 
   5219 X[174,29]    *              0             0             1 
-  5220 X[174,30]    *              0             0             1 
+  5220 X[174,30]    *              1             0             1 
   5221 X[175,1]     *              0             0             1 
   5222 X[175,2]     *              0             0             1 
   5223 X[175,3]     *              0             0             1 
@@ -7687,7 +12223,7 @@ Objective:  z = 0.4672600393 (MINimum)
   5284 X[177,4]     *              0             0             1 
   5285 X[177,5]     *              0             0             1 
   5286 X[177,6]     *              0             0             1 
-  5287 X[177,7]     *              1             0             1 
+  5287 X[177,7]     *              0             0             1 
   5288 X[177,8]     *              0             0             1 
   5289 X[177,9]     *              0             0             1 
   5290 X[177,10]    *              0             0             1 
@@ -7705,7 +12241,7 @@ Objective:  z = 0.4672600393 (MINimum)
   5302 X[177,22]    *              0             0             1 
   5303 X[177,23]    *              0             0             1 
   5304 X[177,24]    *              0             0             1 
-  5305 X[177,25]    *              0             0             1 
+  5305 X[177,25]    *              1             0             1 
   5306 X[177,26]    *              0             0             1 
   5307 X[177,27]    *              0             0             1 
   5308 X[177,28]    *              0             0             1 
@@ -7799,8 +12335,8 @@ Objective:  z = 0.4672600393 (MINimum)
   5396 X[180,26]    *              0             0             1 
   5397 X[180,27]    *              0             0             1 
   5398 X[180,28]    *              0             0             1 
-  5399 X[180,29]    *              0             0             1 
-  5400 X[180,30]    *              1             0             1 
+  5399 X[180,29]    *              1             0             1 
+  5400 X[180,30]    *              0             0             1 
   5401 X[181,1]     *              0             0             1 
   5402 X[181,2]     *              0             0             1 
   5403 X[181,3]     *              0             0             1 
@@ -7832,7 +12368,7 @@ Objective:  z = 0.4672600393 (MINimum)
   5429 X[181,29]    *              0             0             1 
   5430 X[181,30]    *              0             0             1 
   5431 X[182,1]     *              0             0             1 
-  5432 X[182,2]     *              1             0             1 
+  5432 X[182,2]     *              0             0             1 
   5433 X[182,3]     *              0             0             1 
   5434 X[182,4]     *              0             0             1 
   5435 X[182,5]     *              0             0             1 
@@ -7854,7 +12390,7 @@ Objective:  z = 0.4672600393 (MINimum)
   5451 X[182,21]    *              0             0             1 
   5452 X[182,22]    *              0             0             1 
   5453 X[182,23]    *              0             0             1 
-  5454 X[182,24]    *              0             0             1 
+  5454 X[182,24]    *              1             0             1 
   5455 X[182,25]    *              0             0             1 
   5456 X[182,26]    *              0             0             1 
   5457 X[182,27]    *              0             0             1 
@@ -7900,13 +12436,13 @@ Objective:  z = 0.4672600393 (MINimum)
   5497 X[184,7]     *              0             0             1 
   5498 X[184,8]     *              0             0             1 
   5499 X[184,9]     *              0             0             1 
-  5500 X[184,10]    *              0             0             1 
+  5500 X[184,10]    *              1             0             1 
   5501 X[184,11]    *              0             0             1 
   5502 X[184,12]    *              0             0             1 
   5503 X[184,13]    *              0             0             1 
   5504 X[184,14]    *              0             0             1 
   5505 X[184,15]    *              0             0             1 
-  5506 X[184,16]    *              1             0             1 
+  5506 X[184,16]    *              0             0             1 
   5507 X[184,17]    *              0             0             1 
   5508 X[184,18]    *              0             0             1 
   5509 X[184,19]    *              0             0             1 
@@ -7924,7 +12460,7 @@ Objective:  z = 0.4672600393 (MINimum)
   5521 X[185,1]     *              0             0             1 
   5522 X[185,2]     *              0             0             1 
   5523 X[185,3]     *              0             0             1 
-  5524 X[185,4]     *              1             0             1 
+  5524 X[185,4]     *              0             0             1 
   5525 X[185,5]     *              0             0             1 
   5526 X[185,6]     *              0             0             1 
   5527 X[185,7]     *              0             0             1 
@@ -7932,7 +12468,7 @@ Objective:  z = 0.4672600393 (MINimum)
   5529 X[185,9]     *              0             0             1 
   5530 X[185,10]    *              0             0             1 
   5531 X[185,11]    *              0             0             1 
-  5532 X[185,12]    *              0             0             1 
+  5532 X[185,12]    *              1             0             1 
   5533 X[185,13]    *              0             0             1 
   5534 X[185,14]    *              0             0             1 
   5535 X[185,15]    *              0             0             1 
@@ -8599,7 +13135,7 @@ Objective:  z = 0.4672600393 (MINimum)
   6196 X[207,16]    *              0             0             1 
   6197 X[207,17]    *              0             0             1 
   6198 X[207,18]    *              0             0             1 
-  6199 X[207,19]    *              1             0             1 
+  6199 X[207,19]    *              0             0             1 
   6200 X[207,20]    *              0             0             1 
   6201 X[207,21]    *              0             0             1 
   6202 X[207,22]    *              0             0             1 
@@ -8609,7 +13145,7 @@ Objective:  z = 0.4672600393 (MINimum)
   6206 X[207,26]    *              0             0             1 
   6207 X[207,27]    *              0             0             1 
   6208 X[207,28]    *              0             0             1 
-  6209 X[207,29]    *              0             0             1 
+  6209 X[207,29]    *              1             0             1 
   6210 X[207,30]    *              0             0             1 
   6211 X[208,1]     *              0             0             1 
   6212 X[208,2]     *              0             0             1 
@@ -8680,7 +13216,7 @@ Objective:  z = 0.4672600393 (MINimum)
   6277 X[210,7]     *              0             0             1 
   6278 X[210,8]     *              0             0             1 
   6279 X[210,9]     *              0             0             1 
-  6280 X[210,10]    *              0             0             1 
+  6280 X[210,10]    *              1             0             1 
   6281 X[210,11]    *              0             0             1 
   6282 X[210,12]    *              0             0             1 
   6283 X[210,13]    *              0             0             1 
@@ -8695,7 +13231,7 @@ Objective:  z = 0.4672600393 (MINimum)
   6292 X[210,22]    *              0             0             1 
   6293 X[210,23]    *              0             0             1 
   6294 X[210,24]    *              0             0             1 
-  6295 X[210,25]    *              1             0             1 
+  6295 X[210,25]    *              0             0             1 
   6296 X[210,26]    *              0             0             1 
   6297 X[210,27]    *              0             0             1 
   6298 X[210,28]    *              0             0             1 
@@ -8831,7 +13367,7 @@ Objective:  z = 0.4672600393 (MINimum)
   6428 X[215,8]     *              0             0             1 
   6429 X[215,9]     *              0             0             1 
   6430 X[215,10]    *              0             0             1 
-  6431 X[215,11]    *              1             0             1 
+  6431 X[215,11]    *              0             0             1 
   6432 X[215,12]    *              0             0             1 
   6433 X[215,13]    *              0             0             1 
   6434 X[215,14]    *              0             0             1 
@@ -8844,7 +13380,7 @@ Objective:  z = 0.4672600393 (MINimum)
   6441 X[215,21]    *              0             0             1 
   6442 X[215,22]    *              0             0             1 
   6443 X[215,23]    *              0             0             1 
-  6444 X[215,24]    *              0             0             1 
+  6444 X[215,24]    *              1             0             1 
   6445 X[215,25]    *              0             0             1 
   6446 X[215,26]    *              0             0             1 
   6447 X[215,27]    *              0             0             1 
@@ -9363,7 +13899,7 @@ Objective:  z = 0.4672600393 (MINimum)
   6960 X[232,30]    *              0             0             1 
   6961 X[233,1]     *              0             0             1 
   6962 X[233,2]     *              0             0             1 
-  6963 X[233,3]     *              1             0             1 
+  6963 X[233,3]     *              0             0             1 
   6964 X[233,4]     *              0             0             1 
   6965 X[233,5]     *              0             0             1 
   6966 X[233,6]     *              0             0             1 
@@ -9387,14 +13923,14 @@ Objective:  z = 0.4672600393 (MINimum)
   6984 X[233,24]    *              0             0             1 
   6985 X[233,25]    *              0             0             1 
   6986 X[233,26]    *              0             0             1 
-  6987 X[233,27]    *              0             0             1 
+  6987 X[233,27]    *              1             0             1 
   6988 X[233,28]    *              0             0             1 
   6989 X[233,29]    *              0             0             1 
   6990 X[233,30]    *              0             0             1 
   6991 X[234,1]     *              0             0             1 
   6992 X[234,2]     *              0             0             1 
   6993 X[234,3]     *              0             0             1 
-  6994 X[234,4]     *              1             0             1 
+  6994 X[234,4]     *              0             0             1 
   6995 X[234,5]     *              0             0             1 
   6996 X[234,6]     *              0             0             1 
   6997 X[234,7]     *              0             0             1 
@@ -9402,7 +13938,7 @@ Objective:  z = 0.4672600393 (MINimum)
   6999 X[234,9]     *              0             0             1 
   7000 X[234,10]    *              0             0             1 
   7001 X[234,11]    *              0             0             1 
-  7002 X[234,12]    *              0             0             1 
+  7002 X[234,12]    *              1             0             1 
   7003 X[234,13]    *              0             0             1 
   7004 X[234,14]    *              0             0             1 
   7005 X[234,15]    *              0             0             1 
@@ -10031,7 +14567,7 @@ Objective:  z = 0.4672600393 (MINimum)
   7628 X[255,8]     *              0             0             1 
   7629 X[255,9]     *              0             0             1 
   7630 X[255,10]    *              0             0             1 
-  7631 X[255,11]    *              1             0             1 
+  7631 X[255,11]    *              0             0             1 
   7632 X[255,12]    *              0             0             1 
   7633 X[255,13]    *              0             0             1 
   7634 X[255,14]    *              0             0             1 
@@ -10044,7 +14580,7 @@ Objective:  z = 0.4672600393 (MINimum)
   7641 X[255,21]    *              0             0             1 
   7642 X[255,22]    *              0             0             1 
   7643 X[255,23]    *              0             0             1 
-  7644 X[255,24]    *              0             0             1 
+  7644 X[255,24]    *              1             0             1 
   7645 X[255,25]    *              0             0             1 
   7646 X[255,26]    *              0             0             1 
   7647 X[255,27]    *              0             0             1 
@@ -10052,7 +14588,7 @@ Objective:  z = 0.4672600393 (MINimum)
   7649 X[255,29]    *              0             0             1 
   7650 X[255,30]    *              0             0             1 
   7651 X[256,1]     *              0             0             1 
-  7652 X[256,2]     *              1             0             1 
+  7652 X[256,2]     *              0             0             1 
   7653 X[256,3]     *              0             0             1 
   7654 X[256,4]     *              0             0             1 
   7655 X[256,5]     *              0             0             1 
@@ -10062,7 +14598,7 @@ Objective:  z = 0.4672600393 (MINimum)
   7659 X[256,9]     *              0             0             1 
   7660 X[256,10]    *              0             0             1 
   7661 X[256,11]    *              0             0             1 
-  7662 X[256,12]    *              0             0             1 
+  7662 X[256,12]    *              1             0             1 
   7663 X[256,13]    *              0             0             1 
   7664 X[256,14]    *              0             0             1 
   7665 X[256,15]    *              0             0             1 
@@ -10331,7 +14867,7 @@ Objective:  z = 0.4672600393 (MINimum)
   7928 X[265,8]     *              0             0             1 
   7929 X[265,9]     *              0             0             1 
   7930 X[265,10]    *              0             0             1 
-  7931 X[265,11]    *              1             0             1 
+  7931 X[265,11]    *              0             0             1 
   7932 X[265,12]    *              0             0             1 
   7933 X[265,13]    *              0             0             1 
   7934 X[265,14]    *              0             0             1 
@@ -10344,7 +14880,7 @@ Objective:  z = 0.4672600393 (MINimum)
   7941 X[265,21]    *              0             0             1 
   7942 X[265,22]    *              0             0             1 
   7943 X[265,23]    *              0             0             1 
-  7944 X[265,24]    *              0             0             1 
+  7944 X[265,24]    *              1             0             1 
   7945 X[265,25]    *              0             0             1 
   7946 X[265,26]    *              0             0             1 
   7947 X[265,27]    *              0             0             1 
@@ -10381,14 +14917,14 @@ Objective:  z = 0.4672600393 (MINimum)
   7978 X[266,28]    *              0             0             1 
   7979 X[266,29]    *              0             0             1 
   7980 X[266,30]    *              0             0             1 
-  7981 X[267,1]     *              0             0             1 
+  7981 X[267,1]     *              1             0             1 
   7982 X[267,2]     *              0             0             1 
   7983 X[267,3]     *              0             0             1 
   7984 X[267,4]     *              0             0             1 
   7985 X[267,5]     *              0             0             1 
   7986 X[267,6]     *              0             0             1 
   7987 X[267,7]     *              0             0             1 
-  7988 X[267,8]     *              1             0             1 
+  7988 X[267,8]     *              0             0             1 
   7989 X[267,9]     *              0             0             1 
   7990 X[267,10]    *              0             0             1 
   7991 X[267,11]    *              0             0             1 
@@ -10472,7 +15008,7 @@ Objective:  z = 0.4672600393 (MINimum)
   8069 X[269,29]    *              0             0             1 
   8070 X[269,30]    *              1             0             1 
   8071 X[270,1]     *              0             0             1 
-  8072 X[270,2]     *              1             0             1 
+  8072 X[270,2]     *              0             0             1 
   8073 X[270,3]     *              0             0             1 
   8074 X[270,4]     *              0             0             1 
   8075 X[270,5]     *              0             0             1 
@@ -10494,7 +15030,7 @@ Objective:  z = 0.4672600393 (MINimum)
   8091 X[270,21]    *              0             0             1 
   8092 X[270,22]    *              0             0             1 
   8093 X[270,23]    *              0             0             1 
-  8094 X[270,24]    *              0             0             1 
+  8094 X[270,24]    *              1             0             1 
   8095 X[270,25]    *              0             0             1 
   8096 X[270,26]    *              0             0             1 
   8097 X[270,27]    *              0             0             1 
@@ -10519,7 +15055,7 @@ Objective:  z = 0.4672600393 (MINimum)
   8116 X[271,16]    *              0             0             1 
   8117 X[271,17]    *              0             0             1 
   8118 X[271,18]    *              0             0             1 
-  8119 X[271,19]    *              1             0             1 
+  8119 X[271,19]    *              0             0             1 
   8120 X[271,20]    *              0             0             1 
   8121 X[271,21]    *              0             0             1 
   8122 X[271,22]    *              0             0             1 
@@ -10529,7 +15065,7 @@ Objective:  z = 0.4672600393 (MINimum)
   8126 X[271,26]    *              0             0             1 
   8127 X[271,27]    *              0             0             1 
   8128 X[271,28]    *              0             0             1 
-  8129 X[271,29]    *              0             0             1 
+  8129 X[271,29]    *              1             0             1 
   8130 X[271,30]    *              0             0             1 
   8131 X[272,1]     *              0             0             1 
   8132 X[272,2]     *              0             0             1 
@@ -10638,9 +15174,9 @@ Objective:  z = 0.4672600393 (MINimum)
   8235 X[275,15]    *              0             0             1 
   8236 X[275,16]    *              0             0             1 
   8237 X[275,17]    *              0             0             1 
-  8238 X[275,18]    *              0             0             1 
+  8238 X[275,18]    *              1             0             1 
   8239 X[275,19]    *              0             0             1 
-  8240 X[275,20]    *              1             0             1 
+  8240 X[275,20]    *              0             0             1 
   8241 X[275,21]    *              0             0             1 
   8242 X[275,22]    *              0             0             1 
   8243 X[275,23]    *              0             0             1 
@@ -10801,14 +15337,14 @@ Objective:  z = 0.4672600393 (MINimum)
   8398 X[280,28]    *              0             0             1 
   8399 X[280,29]    *              0             0             1 
   8400 X[280,30]    *              0             0             1 
-  8401 X[281,1]     *              1             0             1 
+  8401 X[281,1]     *              0             0             1 
   8402 X[281,2]     *              0             0             1 
   8403 X[281,3]     *              0             0             1 
   8404 X[281,4]     *              0             0             1 
   8405 X[281,5]     *              0             0             1 
   8406 X[281,6]     *              0             0             1 
   8407 X[281,7]     *              0             0             1 
-  8408 X[281,8]     *              0             0             1 
+  8408 X[281,8]     *              1             0             1 
   8409 X[281,9]     *              0             0             1 
   8410 X[281,10]    *              0             0             1 
   8411 X[281,11]    *              0             0             1 
@@ -10870,7 +15406,7 @@ Objective:  z = 0.4672600393 (MINimum)
   8467 X[283,7]     *              0             0             1 
   8468 X[283,8]     *              0             0             1 
   8469 X[283,9]     *              0             0             1 
-  8470 X[283,10]    *              0             0             1 
+  8470 X[283,10]    *              1             0             1 
   8471 X[283,11]    *              0             0             1 
   8472 X[283,12]    *              0             0             1 
   8473 X[283,13]    *              0             0             1 
@@ -10879,7 +15415,7 @@ Objective:  z = 0.4672600393 (MINimum)
   8476 X[283,16]    *              0             0             1 
   8477 X[283,17]    *              0             0             1 
   8478 X[283,18]    *              0             0             1 
-  8479 X[283,19]    *              1             0             1 
+  8479 X[283,19]    *              0             0             1 
   8480 X[283,20]    *              0             0             1 
   8481 X[283,21]    *              0             0             1 
   8482 X[283,22]    *              0             0             1 
@@ -11072,7 +15608,7 @@ Objective:  z = 0.4672600393 (MINimum)
   8669 X[289,29]    *              0             0             1 
   8670 X[289,30]    *              0             0             1 
   8671 X[290,1]     *              0             0             1 
-  8672 X[290,2]     *              1             0             1 
+  8672 X[290,2]     *              0             0             1 
   8673 X[290,3]     *              0             0             1 
   8674 X[290,4]     *              0             0             1 
   8675 X[290,5]     *              0             0             1 
@@ -11082,7 +15618,7 @@ Objective:  z = 0.4672600393 (MINimum)
   8679 X[290,9]     *              0             0             1 
   8680 X[290,10]    *              0             0             1 
   8681 X[290,11]    *              0             0             1 
-  8682 X[290,12]    *              0             0             1 
+  8682 X[290,12]    *              1             0             1 
   8683 X[290,13]    *              0             0             1 
   8684 X[290,14]    *              0             0             1 
   8685 X[290,15]    *              0             0             1 
@@ -11154,10 +15690,10 @@ Objective:  z = 0.4672600393 (MINimum)
   8751 X[292,21]    *              0             0             1 
   8752 X[292,22]    *              0             0             1 
   8753 X[292,23]    *              0             0             1 
-  8754 X[292,24]    *              0             0             1 
+  8754 X[292,24]    *              1             0             1 
   8755 X[292,25]    *              0             0             1 
   8756 X[292,26]    *              0             0             1 
-  8757 X[292,27]    *              1             0             1 
+  8757 X[292,27]    *              0             0             1 
   8758 X[292,28]    *              0             0             1 
   8759 X[292,29]    *              0             0             1 
   8760 X[292,30]    *              0             0             1 
@@ -11342,7 +15878,7 @@ Objective:  z = 0.4672600393 (MINimum)
   8939 X[298,29]    *              0             0             1 
   8940 X[298,30]    *              0             0             1 
   8941 X[299,1]     *              0             0             1 
-  8942 X[299,2]     *              1             0             1 
+  8942 X[299,2]     *              0             0             1 
   8943 X[299,3]     *              0             0             1 
   8944 X[299,4]     *              0             0             1 
   8945 X[299,5]     *              0             0             1 
@@ -11352,7 +15888,7 @@ Objective:  z = 0.4672600393 (MINimum)
   8949 X[299,9]     *              0             0             1 
   8950 X[299,10]    *              0             0             1 
   8951 X[299,11]    *              0             0             1 
-  8952 X[299,12]    *              0             0             1 
+  8952 X[299,12]    *              1             0             1 
   8953 X[299,13]    *              0             0             1 
   8954 X[299,14]    *              0             0             1 
   8955 X[299,15]    *              0             0             1 
@@ -11377,11 +15913,11 @@ Objective:  z = 0.4672600393 (MINimum)
   8974 X[300,4]     *              0             0             1 
   8975 X[300,5]     *              0             0             1 
   8976 X[300,6]     *              0             0             1 
-  8977 X[300,7]     *              0             0             1 
+  8977 X[300,7]     *              1             0             1 
   8978 X[300,8]     *              0             0             1 
   8979 X[300,9]     *              0             0             1 
   8980 X[300,10]    *              0             0             1 
-  8981 X[300,11]    *              1             0             1 
+  8981 X[300,11]    *              0             0             1 
   8982 X[300,12]    *              0             0             1 
   8983 X[300,13]    *              0             0             1 
   8984 X[300,14]    *              0             0             1 
@@ -11464,7 +16000,7 @@ Objective:  z = 0.4672600393 (MINimum)
   9061 X[303,1]     *              0             0             1 
   9062 X[303,2]     *              0             0             1 
   9063 X[303,3]     *              0             0             1 
-  9064 X[303,4]     *              1             0             1 
+  9064 X[303,4]     *              0             0             1 
   9065 X[303,5]     *              0             0             1 
   9066 X[303,6]     *              0             0             1 
   9067 X[303,7]     *              0             0             1 
@@ -11472,7 +16008,7 @@ Objective:  z = 0.4672600393 (MINimum)
   9069 X[303,9]     *              0             0             1 
   9070 X[303,10]    *              0             0             1 
   9071 X[303,11]    *              0             0             1 
-  9072 X[303,12]    *              0             0             1 
+  9072 X[303,12]    *              1             0             1 
   9073 X[303,13]    *              0             0             1 
   9074 X[303,14]    *              0             0             1 
   9075 X[303,15]    *              0             0             1 
@@ -11521,14 +16057,14 @@ Objective:  z = 0.4672600393 (MINimum)
   9118 X[304,28]    *              1             0             1 
   9119 X[304,29]    *              0             0             1 
   9120 X[304,30]    *              0             0             1 
-  9121 X[305,1]     *              0             0             1 
+  9121 X[305,1]     *              1             0             1 
   9122 X[305,2]     *              0             0             1 
   9123 X[305,3]     *              0             0             1 
   9124 X[305,4]     *              0             0             1 
   9125 X[305,5]     *              0             0             1 
   9126 X[305,6]     *              0             0             1 
   9127 X[305,7]     *              0             0             1 
-  9128 X[305,8]     *              1             0             1 
+  9128 X[305,8]     *              0             0             1 
   9129 X[305,9]     *              0             0             1 
   9130 X[305,10]    *              0             0             1 
   9131 X[305,11]    *              0             0             1 
@@ -11710,7 +16246,7 @@ Objective:  z = 0.4672600393 (MINimum)
   9307 X[311,7]     *              0             0             1 
   9308 X[311,8]     *              0             0             1 
   9309 X[311,9]     *              0             0             1 
-  9310 X[311,10]    *              0             0             1 
+  9310 X[311,10]    *              1             0             1 
   9311 X[311,11]    *              0             0             1 
   9312 X[311,12]    *              0             0             1 
   9313 X[311,13]    *              0             0             1 
@@ -11725,7 +16261,7 @@ Objective:  z = 0.4672600393 (MINimum)
   9322 X[311,22]    *              0             0             1 
   9323 X[311,23]    *              0             0             1 
   9324 X[311,24]    *              0             0             1 
-  9325 X[311,25]    *              1             0             1 
+  9325 X[311,25]    *              0             0             1 
   9326 X[311,26]    *              0             0             1 
   9327 X[311,27]    *              0             0             1 
   9328 X[311,28]    *              0             0             1 
@@ -11971,14 +16507,14 @@ Objective:  z = 0.4672600393 (MINimum)
   9568 X[319,28]    *              0             0             1 
   9569 X[319,29]    *              0             0             1 
   9570 X[319,30]    *              0             0             1 
-  9571 X[320,1]     *              0             0             1 
+  9571 X[320,1]     *              1             0             1 
   9572 X[320,2]     *              0             0             1 
   9573 X[320,3]     *              0             0             1 
   9574 X[320,4]     *              0             0             1 
   9575 X[320,5]     *              0             0             1 
   9576 X[320,6]     *              0             0             1 
   9577 X[320,7]     *              0             0             1 
-  9578 X[320,8]     *              1             0             1 
+  9578 X[320,8]     *              0             0             1 
   9579 X[320,9]     *              0             0             1 
   9580 X[320,10]    *              0             0             1 
   9581 X[320,11]    *              0             0             1 
@@ -12340,7 +16876,7 @@ Objective:  z = 0.4672600393 (MINimum)
   9937 X[332,7]     *              0             0             1 
   9938 X[332,8]     *              0             0             1 
   9939 X[332,9]     *              0             0             1 
-  9940 X[332,10]    *              0             0             1 
+  9940 X[332,10]    *              1             0             1 
   9941 X[332,11]    *              0             0             1 
   9942 X[332,12]    *              0             0             1 
   9943 X[332,13]    *              0             0             1 
@@ -12349,7 +16885,7 @@ Objective:  z = 0.4672600393 (MINimum)
   9946 X[332,16]    *              0             0             1 
   9947 X[332,17]    *              0             0             1 
   9948 X[332,18]    *              0             0             1 
-  9949 X[332,19]    *              1             0             1 
+  9949 X[332,19]    *              0             0             1 
   9950 X[332,20]    *              0             0             1 
   9951 X[332,21]    *              0             0             1 
   9952 X[332,22]    *              0             0             1 
@@ -12817,11 +17353,11 @@ Objective:  z = 0.4672600393 (MINimum)
  10414 X[348,4]     *              0             0             1 
  10415 X[348,5]     *              0             0             1 
  10416 X[348,6]     *              0             0             1 
- 10417 X[348,7]     *              0             0             1 
+ 10417 X[348,7]     *              1             0             1 
  10418 X[348,8]     *              0             0             1 
  10419 X[348,9]     *              0             0             1 
  10420 X[348,10]    *              0             0             1 
- 10421 X[348,11]    *              1             0             1 
+ 10421 X[348,11]    *              0             0             1 
  10422 X[348,12]    *              0             0             1 
  10423 X[348,13]    *              0             0             1 
  10424 X[348,14]    *              0             0             1 
@@ -13180,7 +17716,7 @@ Objective:  z = 0.4672600393 (MINimum)
  10777 X[360,7]     *              0             0             1 
  10778 X[360,8]     *              0             0             1 
  10779 X[360,9]     *              0             0             1 
- 10780 X[360,10]    *              0             0             1 
+ 10780 X[360,10]    *              1             0             1 
  10781 X[360,11]    *              0             0             1 
  10782 X[360,12]    *              0             0             1 
  10783 X[360,13]    *              0             0             1 
@@ -13189,7 +17725,7 @@ Objective:  z = 0.4672600393 (MINimum)
  10786 X[360,16]    *              0             0             1 
  10787 X[360,17]    *              0             0             1 
  10788 X[360,18]    *              0             0             1 
- 10789 X[360,19]    *              1             0             1 
+ 10789 X[360,19]    *              0             0             1 
  10790 X[360,20]    *              0             0             1 
  10791 X[360,21]    *              0             0             1 
  10792 X[360,22]    *              0             0             1 
@@ -13201,14 +17737,14 @@ Objective:  z = 0.4672600393 (MINimum)
  10798 X[360,28]    *              0             0             1 
  10799 X[360,29]    *              0             0             1 
  10800 X[360,30]    *              0             0             1 
- 10801 X[361,1]     *              1             0             1 
+ 10801 X[361,1]     *              0             0             1 
  10802 X[361,2]     *              0             0             1 
  10803 X[361,3]     *              0             0             1 
  10804 X[361,4]     *              0             0             1 
  10805 X[361,5]     *              0             0             1 
  10806 X[361,6]     *              0             0             1 
  10807 X[361,7]     *              0             0             1 
- 10808 X[361,8]     *              0             0             1 
+ 10808 X[361,8]     *              1             0             1 
  10809 X[361,9]     *              0             0             1 
  10810 X[361,10]    *              0             0             1 
  10811 X[361,11]    *              0             0             1 
@@ -13289,8 +17825,8 @@ Objective:  z = 0.4672600393 (MINimum)
  10886 X[363,26]    *              0             0             1 
  10887 X[363,27]    *              0             0             1 
  10888 X[363,28]    *              0             0             1 
- 10889 X[363,29]    *              0             0             1 
- 10890 X[363,30]    *              1             0             1 
+ 10889 X[363,29]    *              1             0             1 
+ 10890 X[363,30]    *              0             0             1 
  10891 X[364,1]     *              0             0             1 
  10892 X[364,2]     *              0             0             1 
  10893 X[364,3]     *              0             0             1 
@@ -13411,14 +17947,14 @@ Objective:  z = 0.4672600393 (MINimum)
  11008 X[367,28]    *              0             0             1 
  11009 X[367,29]    *              0             0             1 
  11010 X[367,30]    *              0             0             1 
- 11011 X[368,1]     *              1             0             1 
+ 11011 X[368,1]     *              0             0             1 
  11012 X[368,2]     *              0             0             1 
  11013 X[368,3]     *              0             0             1 
  11014 X[368,4]     *              0             0             1 
  11015 X[368,5]     *              0             0             1 
  11016 X[368,6]     *              0             0             1 
  11017 X[368,7]     *              0             0             1 
- 11018 X[368,8]     *              0             0             1 
+ 11018 X[368,8]     *              1             0             1 
  11019 X[368,9]     *              0             0             1 
  11020 X[368,10]    *              0             0             1 
  11021 X[368,11]    *              0             0             1 
@@ -13477,11 +18013,11 @@ Objective:  z = 0.4672600393 (MINimum)
  11074 X[370,4]     *              0             0             1 
  11075 X[370,5]     *              0             0             1 
  11076 X[370,6]     *              0             0             1 
- 11077 X[370,7]     *              0             0             1 
+ 11077 X[370,7]     *              1             0             1 
  11078 X[370,8]     *              0             0             1 
  11079 X[370,9]     *              0             0             1 
  11080 X[370,10]    *              0             0             1 
- 11081 X[370,11]    *              1             0             1 
+ 11081 X[370,11]    *              0             0             1 
  11082 X[370,12]    *              0             0             1 
  11083 X[370,13]    *              0             0             1 
  11084 X[370,14]    *              0             0             1 
@@ -13681,7 +18217,7 @@ Objective:  z = 0.4672600393 (MINimum)
  11278 X[376,28]    *              1             0             1 
  11279 X[376,29]    *              0             0             1 
  11280 X[376,30]    *              0             0             1 
- 11281 X[377,1]     *              0             0             1 
+ 11281 X[377,1]     *              1             0             1 
  11282 X[377,2]     *              0             0             1 
  11283 X[377,3]     *              0             0             1 
  11284 X[377,4]     *              0             0             1 
@@ -13694,7 +18230,7 @@ Objective:  z = 0.4672600393 (MINimum)
  11291 X[377,11]    *              0             0             1 
  11292 X[377,12]    *              0             0             1 
  11293 X[377,13]    *              0             0             1 
- 11294 X[377,14]    *              1             0             1 
+ 11294 X[377,14]    *              0             0             1 
  11295 X[377,15]    *              0             0             1 
  11296 X[377,16]    *              0             0             1 
  11297 X[377,17]    *              0             0             1 
@@ -13771,14 +18307,14 @@ Objective:  z = 0.4672600393 (MINimum)
  11368 X[379,28]    *              0             0             1 
  11369 X[379,29]    *              0             0             1 
  11370 X[379,30]    *              0             0             1 
- 11371 X[380,1]     *              0             0             1 
+ 11371 X[380,1]     *              1             0             1 
  11372 X[380,2]     *              0             0             1 
  11373 X[380,3]     *              0             0             1 
  11374 X[380,4]     *              0             0             1 
  11375 X[380,5]     *              0             0             1 
  11376 X[380,6]     *              0             0             1 
  11377 X[380,7]     *              0             0             1 
- 11378 X[380,8]     *              1             0             1 
+ 11378 X[380,8]     *              0             0             1 
  11379 X[380,9]     *              0             0             1 
  11380 X[380,10]    *              0             0             1 
  11381 X[380,11]    *              0             0             1 
@@ -13931,7 +18467,7 @@ Objective:  z = 0.4672600393 (MINimum)
  11528 X[385,8]     *              0             0             1 
  11529 X[385,9]     *              0             0             1 
  11530 X[385,10]    *              0             0             1 
- 11531 X[385,11]    *              1             0             1 
+ 11531 X[385,11]    *              0             0             1 
  11532 X[385,12]    *              0             0             1 
  11533 X[385,13]    *              0             0             1 
  11534 X[385,14]    *              0             0             1 
@@ -13947,7 +18483,7 @@ Objective:  z = 0.4672600393 (MINimum)
  11544 X[385,24]    *              0             0             1 
  11545 X[385,25]    *              0             0             1 
  11546 X[385,26]    *              0             0             1 
- 11547 X[385,27]    *              0             0             1 
+ 11547 X[385,27]    *              1             0             1 
  11548 X[385,28]    *              0             0             1 
  11549 X[385,29]    *              0             0             1 
  11550 X[385,30]    *              0             0             1 
@@ -13969,7 +18505,7 @@ Objective:  z = 0.4672600393 (MINimum)
  11566 X[386,16]    *              0             0             1 
  11567 X[386,17]    *              0             0             1 
  11568 X[386,18]    *              0             0             1 
- 11569 X[386,19]    *              1             0             1 
+ 11569 X[386,19]    *              0             0             1 
  11570 X[386,20]    *              0             0             1 
  11571 X[386,21]    *              0             0             1 
  11572 X[386,22]    *              0             0             1 
@@ -13979,7 +18515,7 @@ Objective:  z = 0.4672600393 (MINimum)
  11576 X[386,26]    *              0             0             1 
  11577 X[386,27]    *              0             0             1 
  11578 X[386,28]    *              0             0             1 
- 11579 X[386,29]    *              0             0             1 
+ 11579 X[386,29]    *              1             0             1 
  11580 X[386,30]    *              0             0             1 
  11581 X[387,1]     *              0             0             1 
  11582 X[387,2]     *              0             0             1 
@@ -14012,7 +18548,7 @@ Objective:  z = 0.4672600393 (MINimum)
  11609 X[387,29]    *              0             0             1 
  11610 X[387,30]    *              0             0             1 
  11611 X[388,1]     *              0             0             1 
- 11612 X[388,2]     *              1             0             1 
+ 11612 X[388,2]     *              0             0             1 
  11613 X[388,3]     *              0             0             1 
  11614 X[388,4]     *              0             0             1 
  11615 X[388,5]     *              0             0             1 
@@ -14034,7 +18570,7 @@ Objective:  z = 0.4672600393 (MINimum)
  11631 X[388,21]    *              0             0             1 
  11632 X[388,22]    *              0             0             1 
  11633 X[388,23]    *              0             0             1 
- 11634 X[388,24]    *              0             0             1 
+ 11634 X[388,24]    *              1             0             1 
  11635 X[388,25]    *              0             0             1 
  11636 X[388,26]    *              0             0             1 
  11637 X[388,27]    *              0             0             1 
@@ -14059,7 +18595,7 @@ Objective:  z = 0.4672600393 (MINimum)
  11656 X[389,16]    *              0             0             1 
  11657 X[389,17]    *              0             0             1 
  11658 X[389,18]    *              0             0             1 
- 11659 X[389,19]    *              1             0             1 
+ 11659 X[389,19]    *              0             0             1 
  11660 X[389,20]    *              0             0             1 
  11661 X[389,21]    *              0             0             1 
  11662 X[389,22]    *              0             0             1 
@@ -14069,7 +18605,7 @@ Objective:  z = 0.4672600393 (MINimum)
  11666 X[389,26]    *              0             0             1 
  11667 X[389,27]    *              0             0             1 
  11668 X[389,28]    *              0             0             1 
- 11669 X[389,29]    *              0             0             1 
+ 11669 X[389,29]    *              1             0             1 
  11670 X[389,30]    *              0             0             1 
  11671 X[390,1]     *              0             0             1 
  11672 X[390,2]     *              0             0             1 
@@ -14672,7 +19208,7 @@ Objective:  z = 0.4672600393 (MINimum)
  12269 X[409,29]    *              0             0             1 
  12270 X[409,30]    *              0             0             1 
  12271 X[410,1]     *              0             0             1 
- 12272 X[410,2]     *              1             0             1 
+ 12272 X[410,2]     *              0             0             1 
  12273 X[410,3]     *              0             0             1 
  12274 X[410,4]     *              0             0             1 
  12275 X[410,5]     *              0             0             1 
@@ -14682,7 +19218,7 @@ Objective:  z = 0.4672600393 (MINimum)
  12279 X[410,9]     *              0             0             1 
  12280 X[410,10]    *              0             0             1 
  12281 X[410,11]    *              0             0             1 
- 12282 X[410,12]    *              0             0             1 
+ 12282 X[410,12]    *              1             0             1 
  12283 X[410,13]    *              0             0             1 
  12284 X[410,14]    *              0             0             1 
  12285 X[410,15]    *              0             0             1 
@@ -14741,7 +19277,7 @@ Objective:  z = 0.4672600393 (MINimum)
  12338 X[412,8]     *              0             0             1 
  12339 X[412,9]     *              0             0             1 
  12340 X[412,10]    *              0             0             1 
- 12341 X[412,11]    *              1             0             1 
+ 12341 X[412,11]    *              0             0             1 
  12342 X[412,12]    *              0             0             1 
  12343 X[412,13]    *              0             0             1 
  12344 X[412,14]    *              0             0             1 
@@ -14754,7 +19290,7 @@ Objective:  z = 0.4672600393 (MINimum)
  12351 X[412,21]    *              0             0             1 
  12352 X[412,22]    *              0             0             1 
  12353 X[412,23]    *              0             0             1 
- 12354 X[412,24]    *              0             0             1 
+ 12354 X[412,24]    *              1             0             1 
  12355 X[412,25]    *              0             0             1 
  12356 X[412,26]    *              0             0             1 
  12357 X[412,27]    *              0             0             1 
@@ -15062,7 +19598,7 @@ Objective:  z = 0.4672600393 (MINimum)
  12659 X[422,29]    *              0             0             1 
  12660 X[422,30]    *              0             0             1 
  12661 X[423,1]     *              0             0             1 
- 12662 X[423,2]     *              1             0             1 
+ 12662 X[423,2]     *              0             0             1 
  12663 X[423,3]     *              0             0             1 
  12664 X[423,4]     *              0             0             1 
  12665 X[423,5]     *              0             0             1 
@@ -15084,7 +19620,7 @@ Objective:  z = 0.4672600393 (MINimum)
  12681 X[423,21]    *              0             0             1 
  12682 X[423,22]    *              0             0             1 
  12683 X[423,23]    *              0             0             1 
- 12684 X[423,24]    *              0             0             1 
+ 12684 X[423,24]    *              1             0             1 
  12685 X[423,25]    *              0             0             1 
  12686 X[423,26]    *              0             0             1 
  12687 X[423,27]    *              0             0             1 
@@ -15112,14 +19648,14 @@ Objective:  z = 0.4672600393 (MINimum)
  12709 X[424,19]    *              0             0             1 
  12710 X[424,20]    *              0             0             1 
  12711 X[424,21]    *              0             0             1 
- 12712 X[424,22]    *              1             0             1 
+ 12712 X[424,22]    *              0             0             1 
  12713 X[424,23]    *              0             0             1 
  12714 X[424,24]    *              0             0             1 
  12715 X[424,25]    *              0             0             1 
  12716 X[424,26]    *              0             0             1 
  12717 X[424,27]    *              0             0             1 
  12718 X[424,28]    *              0             0             1 
- 12719 X[424,29]    *              0             0             1 
+ 12719 X[424,29]    *              1             0             1 
  12720 X[424,30]    *              0             0             1 
  12721 X[425,1]     *              0             0             1 
  12722 X[425,2]     *              0             0             1 
@@ -15211,7 +19747,7 @@ Objective:  z = 0.4672600393 (MINimum)
  12808 X[427,28]    *              0             0             1 
  12809 X[427,29]    *              0             0             1 
  12810 X[427,30]    *              0             0             1 
- 12811 X[428,1]     *              1             0             1 
+ 12811 X[428,1]     *              0             0             1 
  12812 X[428,2]     *              0             0             1 
  12813 X[428,3]     *              0             0             1 
  12814 X[428,4]     *              0             0             1 
@@ -15219,7 +19755,7 @@ Objective:  z = 0.4672600393 (MINimum)
  12816 X[428,6]     *              0             0             1 
  12817 X[428,7]     *              0             0             1 
  12818 X[428,8]     *              0             0             1 
- 12819 X[428,9]     *              0             0             1 
+ 12819 X[428,9]     *              1             0             1 
  12820 X[428,10]    *              0             0             1 
  12821 X[428,11]    *              0             0             1 
  12822 X[428,12]    *              0             0             1 
@@ -15589,7 +20125,7 @@ Objective:  z = 0.4672600393 (MINimum)
  13186 X[440,16]    *              0             0             1 
  13187 X[440,17]    *              0             0             1 
  13188 X[440,18]    *              0             0             1 
- 13189 X[440,19]    *              1             0             1 
+ 13189 X[440,19]    *              0             0             1 
  13190 X[440,20]    *              0             0             1 
  13191 X[440,21]    *              0             0             1 
  13192 X[440,22]    *              0             0             1 
@@ -15599,7 +20135,7 @@ Objective:  z = 0.4672600393 (MINimum)
  13196 X[440,26]    *              0             0             1 
  13197 X[440,27]    *              0             0             1 
  13198 X[440,28]    *              0             0             1 
- 13199 X[440,29]    *              0             0             1 
+ 13199 X[440,29]    *              1             0             1 
  13200 X[440,30]    *              0             0             1 
  13201 X[441,1]     *              0             0             1 
  13202 X[441,2]     *              0             0             1 
@@ -15781,7 +20317,7 @@ Objective:  z = 0.4672600393 (MINimum)
  13378 X[446,28]    *              0             0             1 
  13379 X[446,29]    *              0             0             1 
  13380 X[446,30]    *              0             0             1 
- 13381 X[447,1]     *              0             0             1 
+ 13381 X[447,1]     *              1             0             1 
  13382 X[447,2]     *              0             0             1 
  13383 X[447,3]     *              0             0             1 
  13384 X[447,4]     *              0             0             1 
@@ -15794,7 +20330,7 @@ Objective:  z = 0.4672600393 (MINimum)
  13391 X[447,11]    *              0             0             1 
  13392 X[447,12]    *              0             0             1 
  13393 X[447,13]    *              0             0             1 
- 13394 X[447,14]    *              1             0             1 
+ 13394 X[447,14]    *              0             0             1 
  13395 X[447,15]    *              0             0             1 
  13396 X[447,16]    *              0             0             1 
  13397 X[447,17]    *              0             0             1 
@@ -15961,7 +20497,7 @@ Objective:  z = 0.4672600393 (MINimum)
  13558 X[452,28]    *              0             0             1 
  13559 X[452,29]    *              0             0             1 
  13560 X[452,30]    *              0             0             1 
- 13561 X[453,1]     *              0             0             1 
+ 13561 X[453,1]     *              1             0             1 
  13562 X[453,2]     *              0             0             1 
  13563 X[453,3]     *              0             0             1 
  13564 X[453,4]     *              0             0             1 
@@ -15974,7 +20510,7 @@ Objective:  z = 0.4672600393 (MINimum)
  13571 X[453,11]    *              0             0             1 
  13572 X[453,12]    *              0             0             1 
  13573 X[453,13]    *              0             0             1 
- 13574 X[453,14]    *              1             0             1 
+ 13574 X[453,14]    *              0             0             1 
  13575 X[453,15]    *              0             0             1 
  13576 X[453,16]    *              0             0             1 
  13577 X[453,17]    *              0             0             1 
@@ -16027,11 +20563,11 @@ Objective:  z = 0.4672600393 (MINimum)
  13624 X[455,4]     *              0             0             1 
  13625 X[455,5]     *              0             0             1 
  13626 X[455,6]     *              0             0             1 
- 13627 X[455,7]     *              0             0             1 
+ 13627 X[455,7]     *              1             0             1 
  13628 X[455,8]     *              0             0             1 
  13629 X[455,9]     *              0             0             1 
  13630 X[455,10]    *              0             0             1 
- 13631 X[455,11]    *              1             0             1 
+ 13631 X[455,11]    *              0             0             1 
  13632 X[455,12]    *              0             0             1 
  13633 X[455,13]    *              0             0             1 
  13634 X[455,14]    *              0             0             1 
@@ -16180,7 +20716,7 @@ Objective:  z = 0.4672600393 (MINimum)
  13777 X[460,7]     *              0             0             1 
  13778 X[460,8]     *              0             0             1 
  13779 X[460,9]     *              0             0             1 
- 13780 X[460,10]    *              0             0             1 
+ 13780 X[460,10]    *              1             0             1 
  13781 X[460,11]    *              0             0             1 
  13782 X[460,12]    *              0             0             1 
  13783 X[460,13]    *              0             0             1 
@@ -16189,7 +20725,7 @@ Objective:  z = 0.4672600393 (MINimum)
  13786 X[460,16]    *              0             0             1 
  13787 X[460,17]    *              0             0             1 
  13788 X[460,18]    *              0             0             1 
- 13789 X[460,19]    *              1             0             1 
+ 13789 X[460,19]    *              0             0             1 
  13790 X[460,20]    *              0             0             1 
  13791 X[460,21]    *              0             0             1 
  13792 X[460,22]    *              0             0             1 
@@ -16210,7 +20746,7 @@ Objective:  z = 0.4672600393 (MINimum)
  13807 X[461,7]     *              0             0             1 
  13808 X[461,8]     *              0             0             1 
  13809 X[461,9]     *              0             0             1 
- 13810 X[461,10]    *              0             0             1 
+ 13810 X[461,10]    *              1             0             1 
  13811 X[461,11]    *              0             0             1 
  13812 X[461,12]    *              0             0             1 
  13813 X[461,13]    *              0             0             1 
@@ -16219,7 +20755,7 @@ Objective:  z = 0.4672600393 (MINimum)
  13816 X[461,16]    *              0             0             1 
  13817 X[461,17]    *              0             0             1 
  13818 X[461,18]    *              0             0             1 
- 13819 X[461,19]    *              1             0             1 
+ 13819 X[461,19]    *              0             0             1 
  13820 X[461,20]    *              0             0             1 
  13821 X[461,21]    *              0             0             1 
  13822 X[461,22]    *              0             0             1 
@@ -16322,7 +20858,7 @@ Objective:  z = 0.4672600393 (MINimum)
  13919 X[464,29]    *              0             0             1 
  13920 X[464,30]    *              0             0             1 
  13921 X[465,1]     *              0             0             1 
- 13922 X[465,2]     *              1             0             1 
+ 13922 X[465,2]     *              0             0             1 
  13923 X[465,3]     *              0             0             1 
  13924 X[465,4]     *              0             0             1 
  13925 X[465,5]     *              0             0             1 
@@ -16332,7 +20868,7 @@ Objective:  z = 0.4672600393 (MINimum)
  13929 X[465,9]     *              0             0             1 
  13930 X[465,10]    *              0             0             1 
  13931 X[465,11]    *              0             0             1 
- 13932 X[465,12]    *              0             0             1 
+ 13932 X[465,12]    *              1             0             1 
  13933 X[465,13]    *              0             0             1 
  13934 X[465,14]    *              0             0             1 
  13935 X[465,15]    *              0             0             1 
@@ -16382,7 +20918,7 @@ Objective:  z = 0.4672600393 (MINimum)
  13979 X[466,29]    *              0             0             1 
  13980 X[466,30]    *              0             0             1 
  13981 X[467,1]     *              0             0             1 
- 13982 X[467,2]     *              1             0             1 
+ 13982 X[467,2]     *              0             0             1 
  13983 X[467,3]     *              0             0             1 
  13984 X[467,4]     *              0             0             1 
  13985 X[467,5]     *              0             0             1 
@@ -16404,7 +20940,7 @@ Objective:  z = 0.4672600393 (MINimum)
  14001 X[467,21]    *              0             0             1 
  14002 X[467,22]    *              0             0             1 
  14003 X[467,23]    *              0             0             1 
- 14004 X[467,24]    *              0             0             1 
+ 14004 X[467,24]    *              1             0             1 
  14005 X[467,25]    *              0             0             1 
  14006 X[467,26]    *              0             0             1 
  14007 X[467,27]    *              0             0             1 
@@ -16591,7 +21127,7 @@ Objective:  z = 0.4672600393 (MINimum)
  14188 X[473,28]    *              0             0             1 
  14189 X[473,29]    *              0             0             1 
  14190 X[473,30]    *              0             0             1 
- 14191 X[474,1]     *              0             0             1 
+ 14191 X[474,1]     *              1             0             1 
  14192 X[474,2]     *              0             0             1 
  14193 X[474,3]     *              0             0             1 
  14194 X[474,4]     *              0             0             1 
@@ -16604,7 +21140,7 @@ Objective:  z = 0.4672600393 (MINimum)
  14201 X[474,11]    *              0             0             1 
  14202 X[474,12]    *              0             0             1 
  14203 X[474,13]    *              0             0             1 
- 14204 X[474,14]    *              1             0             1 
+ 14204 X[474,14]    *              0             0             1 
  14205 X[474,15]    *              0             0             1 
  14206 X[474,16]    *              0             0             1 
  14207 X[474,17]    *              0             0             1 
@@ -16741,7 +21277,7 @@ Objective:  z = 0.4672600393 (MINimum)
  14338 X[478,28]    *              0             0             1 
  14339 X[478,29]    *              0             0             1 
  14340 X[478,30]    *              0             0             1 
- 14341 X[479,1]     *              0             0             1 
+ 14341 X[479,1]     *              1             0             1 
  14342 X[479,2]     *              0             0             1 
  14343 X[479,3]     *              0             0             1 
  14344 X[479,4]     *              0             0             1 
@@ -16754,7 +21290,7 @@ Objective:  z = 0.4672600393 (MINimum)
  14351 X[479,11]    *              0             0             1 
  14352 X[479,12]    *              0             0             1 
  14353 X[479,13]    *              0             0             1 
- 14354 X[479,14]    *              1             0             1 
+ 14354 X[479,14]    *              0             0             1 
  14355 X[479,15]    *              0             0             1 
  14356 X[479,16]    *              0             0             1 
  14357 X[479,17]    *              0             0             1 
@@ -16799,8 +21335,8 @@ Objective:  z = 0.4672600393 (MINimum)
  14396 X[480,26]    *              0             0             1 
  14397 X[480,27]    *              0             0             1 
  14398 X[480,28]    *              0             0             1 
- 14399 X[480,29]    *              0             0             1 
- 14400 X[480,30]    *              1             0             1 
+ 14399 X[480,29]    *              1             0             1 
+ 14400 X[480,30]    *              0             0             1 
  14401 X[481,1]     *              0             0             1 
  14402 X[481,2]     *              0             0             1 
  14403 X[481,3]     *              0             0             1 
@@ -16837,7 +21373,7 @@ Objective:  z = 0.4672600393 (MINimum)
  14434 X[482,4]     *              0             0             1 
  14435 X[482,5]     *              0             0             1 
  14436 X[482,6]     *              0             0             1 
- 14437 X[482,7]     *              1             0             1 
+ 14437 X[482,7]     *              0             0             1 
  14438 X[482,8]     *              0             0             1 
  14439 X[482,9]     *              0             0             1 
  14440 X[482,10]    *              0             0             1 
@@ -16855,7 +21391,7 @@ Objective:  z = 0.4672600393 (MINimum)
  14452 X[482,22]    *              0             0             1 
  14453 X[482,23]    *              0             0             1 
  14454 X[482,24]    *              0             0             1 
- 14455 X[482,25]    *              0             0             1 
+ 14455 X[482,25]    *              1             0             1 
  14456 X[482,26]    *              0             0             1 
  14457 X[482,27]    *              0             0             1 
  14458 X[482,28]    *              0             0             1 
@@ -16951,14 +21487,14 @@ Objective:  z = 0.4672600393 (MINimum)
  14548 X[485,28]    *              0             0             1 
  14549 X[485,29]    *              0             0             1 
  14550 X[485,30]    *              0             0             1 
- 14551 X[486,1]     *              1             0             1 
+ 14551 X[486,1]     *              0             0             1 
  14552 X[486,2]     *              0             0             1 
  14553 X[486,3]     *              0             0             1 
  14554 X[486,4]     *              0             0             1 
  14555 X[486,5]     *              0             0             1 
  14556 X[486,6]     *              0             0             1 
  14557 X[486,7]     *              0             0             1 
- 14558 X[486,8]     *              0             0             1 
+ 14558 X[486,8]     *              1             0             1 
  14559 X[486,9]     *              0             0             1 
  14560 X[486,10]    *              0             0             1 
  14561 X[486,11]    *              0             0             1 
@@ -17137,7 +21673,7 @@ Objective:  z = 0.4672600393 (MINimum)
  14734 X[492,4]     *              0             0             1 
  14735 X[492,5]     *              0             0             1 
  14736 X[492,6]     *              0             0             1 
- 14737 X[492,7]     *              1             0             1 
+ 14737 X[492,7]     *              0             0             1 
  14738 X[492,8]     *              0             0             1 
  14739 X[492,9]     *              0             0             1 
  14740 X[492,10]    *              0             0             1 
@@ -17160,7 +21696,7 @@ Objective:  z = 0.4672600393 (MINimum)
  14757 X[492,27]    *              0             0             1 
  14758 X[492,28]    *              0             0             1 
  14759 X[492,29]    *              0             0             1 
- 14760 X[492,30]    *              0             0             1 
+ 14760 X[492,30]    *              1             0             1 
  14761 X[493,1]     *              0             0             1 
  14762 X[493,2]     *              0             0             1 
  14763 X[493,3]     *              0             0             1 
@@ -17197,7 +21733,7 @@ Objective:  z = 0.4672600393 (MINimum)
  14794 X[494,4]     *              0             0             1 
  14795 X[494,5]     *              0             0             1 
  14796 X[494,6]     *              0             0             1 
- 14797 X[494,7]     *              1             0             1 
+ 14797 X[494,7]     *              0             0             1 
  14798 X[494,8]     *              0             0             1 
  14799 X[494,9]     *              0             0             1 
  14800 X[494,10]    *              0             0             1 
@@ -17220,7 +21756,7 @@ Objective:  z = 0.4672600393 (MINimum)
  14817 X[494,27]    *              0             0             1 
  14818 X[494,28]    *              0             0             1 
  14819 X[494,29]    *              0             0             1 
- 14820 X[494,30]    *              0             0             1 
+ 14820 X[494,30]    *              1             0             1 
  14821 X[495,1]     *              0             0             1 
  14822 X[495,2]     *              0             0             1 
  14823 X[495,3]     *              1             0             1 
@@ -17251,7 +21787,7 @@ Objective:  z = 0.4672600393 (MINimum)
  14848 X[495,28]    *              0             0             1 
  14849 X[495,29]    *              0             0             1 
  14850 X[495,30]    *              0             0             1 
- 14851 X[496,1]     *              1             0             1 
+ 14851 X[496,1]     *              0             0             1 
  14852 X[496,2]     *              0             0             1 
  14853 X[496,3]     *              0             0             1 
  14854 X[496,4]     *              0             0             1 
@@ -17259,7 +21795,7 @@ Objective:  z = 0.4672600393 (MINimum)
  14856 X[496,6]     *              0             0             1 
  14857 X[496,7]     *              0             0             1 
  14858 X[496,8]     *              0             0             1 
- 14859 X[496,9]     *              0             0             1 
+ 14859 X[496,9]     *              1             0             1 
  14860 X[496,10]    *              0             0             1 
  14861 X[496,11]    *              0             0             1 
  14862 X[496,12]    *              0             0             1 
@@ -17281,7 +21817,7 @@ Objective:  z = 0.4672600393 (MINimum)
  14878 X[496,28]    *              0             0             1 
  14879 X[496,29]    *              0             0             1 
  14880 X[496,30]    *              0             0             1 
- 14881 X[497,1]     *              0             0             1 
+ 14881 X[497,1]     *              1             0             1 
  14882 X[497,2]     *              0             0             1 
  14883 X[497,3]     *              0             0             1 
  14884 X[497,4]     *              0             0             1 
@@ -17294,7 +21830,7 @@ Objective:  z = 0.4672600393 (MINimum)
  14891 X[497,11]    *              0             0             1 
  14892 X[497,12]    *              0             0             1 
  14893 X[497,13]    *              0             0             1 
- 14894 X[497,14]    *              1             0             1 
+ 14894 X[497,14]    *              0             0             1 
  14895 X[497,15]    *              0             0             1 
  14896 X[497,16]    *              0             0             1 
  14897 X[497,17]    *              0             0             1 
@@ -17392,13 +21928,13 @@ Objective:  z = 0.4672600393 (MINimum)
  14989 X[500,19]    *              0             0             1 
  14990 X[500,20]    *              0             0             1 
  14991 X[500,21]    *              0             0             1 
- 14992 X[500,22]    *              0             0             1 
+ 14992 X[500,22]    *              1             0             1 
  14993 X[500,23]    *              0             0             1 
  14994 X[500,24]    *              0             0             1 
  14995 X[500,25]    *              0             0             1 
  14996 X[500,26]    *              0             0             1 
  14997 X[500,27]    *              0             0             1 
- 14998 X[500,28]    *              1             0             1 
+ 14998 X[500,28]    *              0             0             1 
  14999 X[500,29]    *              0             0             1 
  15000 X[500,30]    *              0             0             1 
  15001 X[501,1]     *              0             0             1 
@@ -17461,14 +21997,14 @@ Objective:  z = 0.4672600393 (MINimum)
  15058 X[502,28]    *              0             0             1 
  15059 X[502,29]    *              0             0             1 
  15060 X[502,30]    *              0             0             1 
- 15061 X[503,1]     *              0             0             1 
+ 15061 X[503,1]     *              1             0             1 
  15062 X[503,2]     *              0             0             1 
  15063 X[503,3]     *              0             0             1 
  15064 X[503,4]     *              0             0             1 
  15065 X[503,5]     *              0             0             1 
  15066 X[503,6]     *              0             0             1 
  15067 X[503,7]     *              0             0             1 
- 15068 X[503,8]     *              1             0             1 
+ 15068 X[503,8]     *              0             0             1 
  15069 X[503,9]     *              0             0             1 
  15070 X[503,10]    *              0             0             1 
  15071 X[503,11]    *              0             0             1 
@@ -17665,12 +22201,12 @@ Objective:  z = 0.4672600393 (MINimum)
  15262 X[509,22]    *              0             0             1 
  15263 X[509,23]    *              0             0             1 
  15264 X[509,24]    *              0             0             1 
- 15265 X[509,25]    *              1             0             1 
+ 15265 X[509,25]    *              0             0             1 
  15266 X[509,26]    *              0             0             1 
  15267 X[509,27]    *              0             0             1 
  15268 X[509,28]    *              0             0             1 
  15269 X[509,29]    *              0             0             1 
- 15270 X[509,30]    *              0             0             1 
+ 15270 X[509,30]    *              1             0             1 
  15271 X[510,1]     *              0             0             1 
  15272 X[510,2]     *              0             0             1 
  15273 X[510,3]     *              0             0             1 
@@ -17729,8 +22265,8 @@ Objective:  z = 0.4672600393 (MINimum)
  15326 X[511,26]    *              0             0             1 
  15327 X[511,27]    *              0             0             1 
  15328 X[511,28]    *              0             0             1 
- 15329 X[511,29]    *              0             0             1 
- 15330 X[511,30]    *              1             0             1 
+ 15329 X[511,29]    *              1             0             1 
+ 15330 X[511,30]    *              0             0             1 
  15331 X[512,1]     *              0             0             1 
  15332 X[512,2]     *              0             0             1 
  15333 X[512,3]     *              0             0             1 
@@ -17839,7 +22375,7 @@ Objective:  z = 0.4672600393 (MINimum)
  15436 X[515,16]    *              0             0             1 
  15437 X[515,17]    *              0             0             1 
  15438 X[515,18]    *              0             0             1 
- 15439 X[515,19]    *              1             0             1 
+ 15439 X[515,19]    *              0             0             1 
  15440 X[515,20]    *              0             0             1 
  15441 X[515,21]    *              0             0             1 
  15442 X[515,22]    *              0             0             1 
@@ -17849,7 +22385,7 @@ Objective:  z = 0.4672600393 (MINimum)
  15446 X[515,26]    *              0             0             1 
  15447 X[515,27]    *              0             0             1 
  15448 X[515,28]    *              0             0             1 
- 15449 X[515,29]    *              0             0             1 
+ 15449 X[515,29]    *              1             0             1 
  15450 X[515,30]    *              0             0             1 
  15451 X[516,1]     *              1             0             1 
  15452 X[516,2]     *              0             0             1 
@@ -18105,7 +22641,7 @@ Objective:  z = 0.4672600393 (MINimum)
  15702 X[524,12]    *              0             0             1 
  15703 X[524,13]    *              0             0             1 
  15704 X[524,14]    *              0             0             1 
- 15705 X[524,15]    *              1             0             1 
+ 15705 X[524,15]    *              0             0             1 
  15706 X[524,16]    *              0             0             1 
  15707 X[524,17]    *              0             0             1 
  15708 X[524,18]    *              0             0             1 
@@ -18115,7 +22651,7 @@ Objective:  z = 0.4672600393 (MINimum)
  15712 X[524,22]    *              0             0             1 
  15713 X[524,23]    *              0             0             1 
  15714 X[524,24]    *              0             0             1 
- 15715 X[524,25]    *              0             0             1 
+ 15715 X[524,25]    *              1             0             1 
  15716 X[524,26]    *              0             0             1 
  15717 X[524,27]    *              0             0             1 
  15718 X[524,28]    *              0             0             1 
@@ -18289,7 +22825,7 @@ Objective:  z = 0.4672600393 (MINimum)
  15886 X[530,16]    *              0             0             1 
  15887 X[530,17]    *              0             0             1 
  15888 X[530,18]    *              0             0             1 
- 15889 X[530,19]    *              1             0             1 
+ 15889 X[530,19]    *              0             0             1 
  15890 X[530,20]    *              0             0             1 
  15891 X[530,21]    *              0             0             1 
  15892 X[530,22]    *              0             0             1 
@@ -18299,7 +22835,7 @@ Objective:  z = 0.4672600393 (MINimum)
  15896 X[530,26]    *              0             0             1 
  15897 X[530,27]    *              0             0             1 
  15898 X[530,28]    *              0             0             1 
- 15899 X[530,29]    *              0             0             1 
+ 15899 X[530,29]    *              1             0             1 
  15900 X[530,30]    *              0             0             1 
  15901 X[531,1]     *              0             0             1 
  15902 X[531,2]     *              0             0             1 
@@ -18571,7 +23107,7 @@ Objective:  z = 0.4672600393 (MINimum)
  16168 X[539,28]    *              0             0             1 
  16169 X[539,29]    *              0             0             1 
  16170 X[539,30]    *              0             0             1 
- 16171 X[540,1]     *              1             0             1 
+ 16171 X[540,1]     *              0             0             1 
  16172 X[540,2]     *              0             0             1 
  16173 X[540,3]     *              0             0             1 
  16174 X[540,4]     *              0             0             1 
@@ -18579,7 +23115,7 @@ Objective:  z = 0.4672600393 (MINimum)
  16176 X[540,6]     *              0             0             1 
  16177 X[540,7]     *              0             0             1 
  16178 X[540,8]     *              0             0             1 
- 16179 X[540,9]     *              0             0             1 
+ 16179 X[540,9]     *              1             0             1 
  16180 X[540,10]    *              0             0             1 
  16181 X[540,11]    *              0             0             1 
  16182 X[540,12]    *              0             0             1 
@@ -18631,7 +23167,7 @@ Objective:  z = 0.4672600393 (MINimum)
  16228 X[541,28]    *              0             0             1 
  16229 X[541,29]    *              0             0             1 
  16230 X[541,30]    *              0             0             1 
- 16231 X[542,1]     *              0             0             1 
+ 16231 X[542,1]     *              1             0             1 
  16232 X[542,2]     *              0             0             1 
  16233 X[542,3]     *              0             0             1 
  16234 X[542,4]     *              0             0             1 
@@ -18644,7 +23180,7 @@ Objective:  z = 0.4672600393 (MINimum)
  16241 X[542,11]    *              0             0             1 
  16242 X[542,12]    *              0             0             1 
  16243 X[542,13]    *              0             0             1 
- 16244 X[542,14]    *              1             0             1 
+ 16244 X[542,14]    *              0             0             1 
  16245 X[542,15]    *              0             0             1 
  16246 X[542,16]    *              0             0             1 
  16247 X[542,17]    *              0             0             1 
@@ -19057,11 +23593,11 @@ Objective:  z = 0.4672600393 (MINimum)
  16654 X[556,4]     *              0             0             1 
  16655 X[556,5]     *              0             0             1 
  16656 X[556,6]     *              0             0             1 
- 16657 X[556,7]     *              0             0             1 
+ 16657 X[556,7]     *              1             0             1 
  16658 X[556,8]     *              0             0             1 
  16659 X[556,9]     *              0             0             1 
  16660 X[556,10]    *              0             0             1 
- 16661 X[556,11]    *              1             0             1 
+ 16661 X[556,11]    *              0             0             1 
  16662 X[556,12]    *              0             0             1 
  16663 X[556,13]    *              0             0             1 
  16664 X[556,14]    *              0             0             1 
@@ -19155,7 +23691,7 @@ Objective:  z = 0.4672600393 (MINimum)
  16752 X[559,12]    *              0             0             1 
  16753 X[559,13]    *              0             0             1 
  16754 X[559,14]    *              0             0             1 
- 16755 X[559,15]    *              1             0             1 
+ 16755 X[559,15]    *              0             0             1 
  16756 X[559,16]    *              0             0             1 
  16757 X[559,17]    *              0             0             1 
  16758 X[559,18]    *              0             0             1 
@@ -19165,7 +23701,7 @@ Objective:  z = 0.4672600393 (MINimum)
  16762 X[559,22]    *              0             0             1 
  16763 X[559,23]    *              0             0             1 
  16764 X[559,24]    *              0             0             1 
- 16765 X[559,25]    *              0             0             1 
+ 16765 X[559,25]    *              1             0             1 
  16766 X[559,26]    *              0             0             1 
  16767 X[559,27]    *              0             0             1 
  16768 X[559,28]    *              0             0             1 
@@ -19261,7 +23797,7 @@ Objective:  z = 0.4672600393 (MINimum)
  16858 X[562,28]    *              0             0             1 
  16859 X[562,29]    *              0             0             1 
  16860 X[562,30]    *              0             0             1 
- 16861 X[563,1]     *              0             0             1 
+ 16861 X[563,1]     *              1             0             1 
  16862 X[563,2]     *              0             0             1 
  16863 X[563,3]     *              0             0             1 
  16864 X[563,4]     *              0             0             1 
@@ -19274,7 +23810,7 @@ Objective:  z = 0.4672600393 (MINimum)
  16871 X[563,11]    *              0             0             1 
  16872 X[563,12]    *              0             0             1 
  16873 X[563,13]    *              0             0             1 
- 16874 X[563,14]    *              1             0             1 
+ 16874 X[563,14]    *              0             0             1 
  16875 X[563,15]    *              0             0             1 
  16876 X[563,16]    *              0             0             1 
  16877 X[563,17]    *              0             0             1 
@@ -19382,7 +23918,7 @@ Objective:  z = 0.4672600393 (MINimum)
  16979 X[566,29]    *              0             0             1 
  16980 X[566,30]    *              0             0             1 
  16981 X[567,1]     *              0             0             1 
- 16982 X[567,2]     *              1             0             1 
+ 16982 X[567,2]     *              0             0             1 
  16983 X[567,3]     *              0             0             1 
  16984 X[567,4]     *              0             0             1 
  16985 X[567,5]     *              0             0             1 
@@ -19392,7 +23928,7 @@ Objective:  z = 0.4672600393 (MINimum)
  16989 X[567,9]     *              0             0             1 
  16990 X[567,10]    *              0             0             1 
  16991 X[567,11]    *              0             0             1 
- 16992 X[567,12]    *              0             0             1 
+ 16992 X[567,12]    *              1             0             1 
  16993 X[567,13]    *              0             0             1 
  16994 X[567,14]    *              0             0             1 
  16995 X[567,15]    *              0             0             1 
@@ -19420,7 +23956,7 @@ Objective:  z = 0.4672600393 (MINimum)
  17017 X[568,7]     *              0             0             1 
  17018 X[568,8]     *              0             0             1 
  17019 X[568,9]     *              0             0             1 
- 17020 X[568,10]    *              0             0             1 
+ 17020 X[568,10]    *              1             0             1 
  17021 X[568,11]    *              0             0             1 
  17022 X[568,12]    *              0             0             1 
  17023 X[568,13]    *              0             0             1 
@@ -19428,7 +23964,7 @@ Objective:  z = 0.4672600393 (MINimum)
  17025 X[568,15]    *              0             0             1 
  17026 X[568,16]    *              0             0             1 
  17027 X[568,17]    *              0             0             1 
- 17028 X[568,18]    *              1             0             1 
+ 17028 X[568,18]    *              0             0             1 
  17029 X[568,19]    *              0             0             1 
  17030 X[568,20]    *              0             0             1 
  17031 X[568,21]    *              0             0             1 
@@ -19510,7 +24046,7 @@ Objective:  z = 0.4672600393 (MINimum)
  17107 X[571,7]     *              0             0             1 
  17108 X[571,8]     *              0             0             1 
  17109 X[571,9]     *              0             0             1 
- 17110 X[571,10]    *              0             0             1 
+ 17110 X[571,10]    *              1             0             1 
  17111 X[571,11]    *              0             0             1 
  17112 X[571,12]    *              0             0             1 
  17113 X[571,13]    *              0             0             1 
@@ -19519,7 +24055,7 @@ Objective:  z = 0.4672600393 (MINimum)
  17116 X[571,16]    *              0             0             1 
  17117 X[571,17]    *              0             0             1 
  17118 X[571,18]    *              0             0             1 
- 17119 X[571,19]    *              1             0             1 
+ 17119 X[571,19]    *              0             0             1 
  17120 X[571,20]    *              0             0             1 
  17121 X[571,21]    *              0             0             1 
  17122 X[571,22]    *              0             0             1 
@@ -19571,7 +24107,7 @@ Objective:  z = 0.4672600393 (MINimum)
  17168 X[573,8]     *              0             0             1 
  17169 X[573,9]     *              0             0             1 
  17170 X[573,10]    *              0             0             1 
- 17171 X[573,11]    *              1             0             1 
+ 17171 X[573,11]    *              0             0             1 
  17172 X[573,12]    *              0             0             1 
  17173 X[573,13]    *              0             0             1 
  17174 X[573,14]    *              0             0             1 
@@ -19587,11 +24123,11 @@ Objective:  z = 0.4672600393 (MINimum)
  17184 X[573,24]    *              0             0             1 
  17185 X[573,25]    *              0             0             1 
  17186 X[573,26]    *              0             0             1 
- 17187 X[573,27]    *              0             0             1 
+ 17187 X[573,27]    *              1             0             1 
  17188 X[573,28]    *              0             0             1 
  17189 X[573,29]    *              0             0             1 
  17190 X[573,30]    *              0             0             1 
- 17191 X[574,1]     *              0             0             1 
+ 17191 X[574,1]     *              1             0             1 
  17192 X[574,2]     *              0             0             1 
  17193 X[574,3]     *              0             0             1 
  17194 X[574,4]     *              0             0             1 
@@ -19604,7 +24140,7 @@ Objective:  z = 0.4672600393 (MINimum)
  17201 X[574,11]    *              0             0             1 
  17202 X[574,12]    *              0             0             1 
  17203 X[574,13]    *              0             0             1 
- 17204 X[574,14]    *              1             0             1 
+ 17204 X[574,14]    *              0             0             1 
  17205 X[574,15]    *              0             0             1 
  17206 X[574,16]    *              0             0             1 
  17207 X[574,17]    *              0             0             1 
@@ -19927,11 +24463,11 @@ Objective:  z = 0.4672600393 (MINimum)
  17524 X[585,4]     *              0             0             1 
  17525 X[585,5]     *              0             0             1 
  17526 X[585,6]     *              0             0             1 
- 17527 X[585,7]     *              0             0             1 
+ 17527 X[585,7]     *              1             0             1 
  17528 X[585,8]     *              0             0             1 
  17529 X[585,9]     *              0             0             1 
  17530 X[585,10]    *              0             0             1 
- 17531 X[585,11]    *              1             0             1 
+ 17531 X[585,11]    *              0             0             1 
  17532 X[585,12]    *              0             0             1 
  17533 X[585,13]    *              0             0             1 
  17534 X[585,14]    *              0             0             1 
@@ -20179,7 +24715,7 @@ Objective:  z = 0.4672600393 (MINimum)
  17776 X[593,16]    *              0             0             1 
  17777 X[593,17]    *              0             0             1 
  17778 X[593,18]    *              0             0             1 
- 17779 X[593,19]    *              1             0             1 
+ 17779 X[593,19]    *              0             0             1 
  17780 X[593,20]    *              0             0             1 
  17781 X[593,21]    *              0             0             1 
  17782 X[593,22]    *              0             0             1 
@@ -20189,7 +24725,7 @@ Objective:  z = 0.4672600393 (MINimum)
  17786 X[593,26]    *              0             0             1 
  17787 X[593,27]    *              0             0             1 
  17788 X[593,28]    *              0             0             1 
- 17789 X[593,29]    *              0             0             1 
+ 17789 X[593,29]    *              1             0             1 
  17790 X[593,30]    *              0             0             1 
  17791 X[594,1]     *              0             0             1 
  17792 X[594,2]     *              0             0             1 
@@ -20464,7 +25000,7 @@ Objective:  z = 0.4672600393 (MINimum)
  18061 X[603,1]     *              0             0             1 
  18062 X[603,2]     *              0             0             1 
  18063 X[603,3]     *              0             0             1 
- 18064 X[603,4]     *              1             0             1 
+ 18064 X[603,4]     *              0             0             1 
  18065 X[603,5]     *              0             0             1 
  18066 X[603,6]     *              0             0             1 
  18067 X[603,7]     *              0             0             1 
@@ -20472,7 +25008,7 @@ Objective:  z = 0.4672600393 (MINimum)
  18069 X[603,9]     *              0             0             1 
  18070 X[603,10]    *              0             0             1 
  18071 X[603,11]    *              0             0             1 
- 18072 X[603,12]    *              0             0             1 
+ 18072 X[603,12]    *              1             0             1 
  18073 X[603,13]    *              0             0             1 
  18074 X[603,14]    *              0             0             1 
  18075 X[603,15]    *              0             0             1 
@@ -21031,7 +25567,7 @@ Objective:  z = 0.4672600393 (MINimum)
  18628 X[621,28]    *              0             0             1 
  18629 X[621,29]    *              0             0             1 
  18630 X[621,30]    *              0             0             1 
- 18631 X[622,1]     *              1             0             1 
+ 18631 X[622,1]     *              0             0             1 
  18632 X[622,2]     *              0             0             1 
  18633 X[622,3]     *              0             0             1 
  18634 X[622,4]     *              0             0             1 
@@ -21039,7 +25575,7 @@ Objective:  z = 0.4672600393 (MINimum)
  18636 X[622,6]     *              0             0             1 
  18637 X[622,7]     *              0             0             1 
  18638 X[622,8]     *              0             0             1 
- 18639 X[622,9]     *              0             0             1 
+ 18639 X[622,9]     *              1             0             1 
  18640 X[622,10]    *              0             0             1 
  18641 X[622,11]    *              0             0             1 
  18642 X[622,12]    *              0             0             1 
@@ -21251,7 +25787,7 @@ Objective:  z = 0.4672600393 (MINimum)
  18848 X[629,8]     *              0             0             1 
  18849 X[629,9]     *              0             0             1 
  18850 X[629,10]    *              0             0             1 
- 18851 X[629,11]    *              1             0             1 
+ 18851 X[629,11]    *              0             0             1 
  18852 X[629,12]    *              0             0             1 
  18853 X[629,13]    *              0             0             1 
  18854 X[629,14]    *              0             0             1 
@@ -21264,7 +25800,7 @@ Objective:  z = 0.4672600393 (MINimum)
  18861 X[629,21]    *              0             0             1 
  18862 X[629,22]    *              0             0             1 
  18863 X[629,23]    *              0             0             1 
- 18864 X[629,24]    *              0             0             1 
+ 18864 X[629,24]    *              1             0             1 
  18865 X[629,25]    *              0             0             1 
  18866 X[629,26]    *              0             0             1 
  18867 X[629,27]    *              0             0             1 
@@ -21294,14 +25830,14 @@ Objective:  z = 0.4672600393 (MINimum)
  18891 X[630,21]    *              0             0             1 
  18892 X[630,22]    *              0             0             1 
  18893 X[630,23]    *              0             0             1 
- 18894 X[630,24]    *              0             0             1 
+ 18894 X[630,24]    *              1             0             1 
  18895 X[630,25]    *              0             0             1 
  18896 X[630,26]    *              0             0             1 
- 18897 X[630,27]    *              1             0             1 
+ 18897 X[630,27]    *              0             0             1 
  18898 X[630,28]    *              0             0             1 
  18899 X[630,29]    *              0             0             1 
  18900 X[630,30]    *              0             0             1 
- 18901 X[631,1]     *              1             0             1 
+ 18901 X[631,1]     *              0             0             1 
  18902 X[631,2]     *              0             0             1 
  18903 X[631,3]     *              0             0             1 
  18904 X[631,4]     *              0             0             1 
@@ -21309,7 +25845,7 @@ Objective:  z = 0.4672600393 (MINimum)
  18906 X[631,6]     *              0             0             1 
  18907 X[631,7]     *              0             0             1 
  18908 X[631,8]     *              0             0             1 
- 18909 X[631,9]     *              0             0             1 
+ 18909 X[631,9]     *              1             0             1 
  18910 X[631,10]    *              0             0             1 
  18911 X[631,11]    *              0             0             1 
  18912 X[631,12]    *              0             0             1 
@@ -21331,7 +25867,7 @@ Objective:  z = 0.4672600393 (MINimum)
  18928 X[631,28]    *              0             0             1 
  18929 X[631,29]    *              0             0             1 
  18930 X[631,30]    *              0             0             1 
- 18931 X[632,1]     *              1             0             1 
+ 18931 X[632,1]     *              0             0             1 
  18932 X[632,2]     *              0             0             1 
  18933 X[632,3]     *              0             0             1 
  18934 X[632,4]     *              0             0             1 
@@ -21339,7 +25875,7 @@ Objective:  z = 0.4672600393 (MINimum)
  18936 X[632,6]     *              0             0             1 
  18937 X[632,7]     *              0             0             1 
  18938 X[632,8]     *              0             0             1 
- 18939 X[632,9]     *              0             0             1 
+ 18939 X[632,9]     *              1             0             1 
  18940 X[632,10]    *              0             0             1 
  18941 X[632,11]    *              0             0             1 
  18942 X[632,12]    *              0             0             1 
@@ -21397,7 +25933,7 @@ Objective:  z = 0.4672600393 (MINimum)
  18994 X[634,4]     *              0             0             1 
  18995 X[634,5]     *              0             0             1 
  18996 X[634,6]     *              0             0             1 
- 18997 X[634,7]     *              1             0             1 
+ 18997 X[634,7]     *              0             0             1 
  18998 X[634,8]     *              0             0             1 
  18999 X[634,9]     *              0             0             1 
  19000 X[634,10]    *              0             0             1 
@@ -21415,7 +25951,7 @@ Objective:  z = 0.4672600393 (MINimum)
  19012 X[634,22]    *              0             0             1 
  19013 X[634,23]    *              0             0             1 
  19014 X[634,24]    *              0             0             1 
- 19015 X[634,25]    *              0             0             1 
+ 19015 X[634,25]    *              1             0             1 
  19016 X[634,26]    *              0             0             1 
  19017 X[634,27]    *              0             0             1 
  19018 X[634,28]    *              0             0             1 
@@ -21581,7 +26117,7 @@ Objective:  z = 0.4672600393 (MINimum)
  19178 X[640,8]     *              0             0             1 
  19179 X[640,9]     *              0             0             1 
  19180 X[640,10]    *              0             0             1 
- 19181 X[640,11]    *              1             0             1 
+ 19181 X[640,11]    *              0             0             1 
  19182 X[640,12]    *              0             0             1 
  19183 X[640,13]    *              0             0             1 
  19184 X[640,14]    *              0             0             1 
@@ -21594,7 +26130,7 @@ Objective:  z = 0.4672600393 (MINimum)
  19191 X[640,21]    *              0             0             1 
  19192 X[640,22]    *              0             0             1 
  19193 X[640,23]    *              0             0             1 
- 19194 X[640,24]    *              0             0             1 
+ 19194 X[640,24]    *              1             0             1 
  19195 X[640,25]    *              0             0             1 
  19196 X[640,26]    *              0             0             1 
  19197 X[640,27]    *              0             0             1 
@@ -21689,9 +26225,9 @@ Objective:  z = 0.4672600393 (MINimum)
  19286 X[643,26]    *              0             0             1 
  19287 X[643,27]    *              0             0             1 
  19288 X[643,28]    *              0             0             1 
- 19289 X[643,29]    *              0             0             1 
- 19290 X[643,30]    *              1             0             1 
- 19291 X[644,1]     *              1             0             1 
+ 19289 X[643,29]    *              1             0             1 
+ 19290 X[643,30]    *              0             0             1 
+ 19291 X[644,1]     *              0             0             1 
  19292 X[644,2]     *              0             0             1 
  19293 X[644,3]     *              0             0             1 
  19294 X[644,4]     *              0             0             1 
@@ -21699,7 +26235,7 @@ Objective:  z = 0.4672600393 (MINimum)
  19296 X[644,6]     *              0             0             1 
  19297 X[644,7]     *              0             0             1 
  19298 X[644,8]     *              0             0             1 
- 19299 X[644,9]     *              0             0             1 
+ 19299 X[644,9]     *              1             0             1 
  19300 X[644,10]    *              0             0             1 
  19301 X[644,11]    *              0             0             1 
  19302 X[644,12]    *              0             0             1 
@@ -21739,7 +26275,7 @@ Objective:  z = 0.4672600393 (MINimum)
  19336 X[645,16]    *              0             0             1 
  19337 X[645,17]    *              0             0             1 
  19338 X[645,18]    *              0             0             1 
- 19339 X[645,19]    *              1             0             1 
+ 19339 X[645,19]    *              0             0             1 
  19340 X[645,20]    *              0             0             1 
  19341 X[645,21]    *              0             0             1 
  19342 X[645,22]    *              0             0             1 
@@ -21749,7 +26285,7 @@ Objective:  z = 0.4672600393 (MINimum)
  19346 X[645,26]    *              0             0             1 
  19347 X[645,27]    *              0             0             1 
  19348 X[645,28]    *              0             0             1 
- 19349 X[645,29]    *              0             0             1 
+ 19349 X[645,29]    *              1             0             1 
  19350 X[645,30]    *              0             0             1 
  19351 X[646,1]     *              0             0             1 
  19352 X[646,2]     *              0             0             1 
@@ -21811,7 +26347,7 @@ Objective:  z = 0.4672600393 (MINimum)
  19408 X[647,28]    *              0             0             1 
  19409 X[647,29]    *              0             0             1 
  19410 X[647,30]    *              0             0             1 
- 19411 X[648,1]     *              0             0             1 
+ 19411 X[648,1]     *              1             0             1 
  19412 X[648,2]     *              0             0             1 
  19413 X[648,3]     *              0             0             1 
  19414 X[648,4]     *              0             0             1 
@@ -21824,7 +26360,7 @@ Objective:  z = 0.4672600393 (MINimum)
  19421 X[648,11]    *              0             0             1 
  19422 X[648,12]    *              0             0             1 
  19423 X[648,13]    *              0             0             1 
- 19424 X[648,14]    *              1             0             1 
+ 19424 X[648,14]    *              0             0             1 
  19425 X[648,15]    *              0             0             1 
  19426 X[648,16]    *              0             0             1 
  19427 X[648,17]    *              0             0             1 
@@ -21941,7 +26477,7 @@ Objective:  z = 0.4672600393 (MINimum)
  19538 X[652,8]     *              0             0             1 
  19539 X[652,9]     *              0             0             1 
  19540 X[652,10]    *              0             0             1 
- 19541 X[652,11]    *              1             0             1 
+ 19541 X[652,11]    *              0             0             1 
  19542 X[652,12]    *              0             0             1 
  19543 X[652,13]    *              0             0             1 
  19544 X[652,14]    *              0             0             1 
@@ -21957,11 +26493,11 @@ Objective:  z = 0.4672600393 (MINimum)
  19554 X[652,24]    *              0             0             1 
  19555 X[652,25]    *              0             0             1 
  19556 X[652,26]    *              0             0             1 
- 19557 X[652,27]    *              0             0             1 
+ 19557 X[652,27]    *              1             0             1 
  19558 X[652,28]    *              0             0             1 
  19559 X[652,29]    *              0             0             1 
  19560 X[652,30]    *              0             0             1 
- 19561 X[653,1]     *              1             0             1 
+ 19561 X[653,1]     *              0             0             1 
  19562 X[653,2]     *              0             0             1 
  19563 X[653,3]     *              0             0             1 
  19564 X[653,4]     *              0             0             1 
@@ -21969,7 +26505,7 @@ Objective:  z = 0.4672600393 (MINimum)
  19566 X[653,6]     *              0             0             1 
  19567 X[653,7]     *              0             0             1 
  19568 X[653,8]     *              0             0             1 
- 19569 X[653,9]     *              0             0             1 
+ 19569 X[653,9]     *              1             0             1 
  19570 X[653,10]    *              0             0             1 
  19571 X[653,11]    *              0             0             1 
  19572 X[653,12]    *              0             0             1 
@@ -22082,7 +26618,7 @@ Objective:  z = 0.4672600393 (MINimum)
  19679 X[656,29]    *              0             0             1 
  19680 X[656,30]    *              0             0             1 
  19681 X[657,1]     *              0             0             1 
- 19682 X[657,2]     *              1             0             1 
+ 19682 X[657,2]     *              0             0             1 
  19683 X[657,3]     *              0             0             1 
  19684 X[657,4]     *              0             0             1 
  19685 X[657,5]     *              0             0             1 
@@ -22092,7 +26628,7 @@ Objective:  z = 0.4672600393 (MINimum)
  19689 X[657,9]     *              0             0             1 
  19690 X[657,10]    *              0             0             1 
  19691 X[657,11]    *              0             0             1 
- 19692 X[657,12]    *              0             0             1 
+ 19692 X[657,12]    *              1             0             1 
  19693 X[657,13]    *              0             0             1 
  19694 X[657,14]    *              0             0             1 
  19695 X[657,15]    *              0             0             1 
@@ -22312,14 +26848,14 @@ Objective:  z = 0.4672600393 (MINimum)
  19909 X[664,19]    *              0             0             1 
  19910 X[664,20]    *              0             0             1 
  19911 X[664,21]    *              0             0             1 
- 19912 X[664,22]    *              1             0             1 
+ 19912 X[664,22]    *              0             0             1 
  19913 X[664,23]    *              0             0             1 
  19914 X[664,24]    *              0             0             1 
  19915 X[664,25]    *              0             0             1 
  19916 X[664,26]    *              0             0             1 
  19917 X[664,27]    *              0             0             1 
  19918 X[664,28]    *              0             0             1 
- 19919 X[664,29]    *              0             0             1 
+ 19919 X[664,29]    *              1             0             1 
  19920 X[664,30]    *              0             0             1 
  19921 X[665,1]     *              0             0             1 
  19922 X[665,2]     *              0             0             1 
@@ -22344,10 +26880,10 @@ Objective:  z = 0.4672600393 (MINimum)
  19941 X[665,21]    *              0             0             1 
  19942 X[665,22]    *              0             0             1 
  19943 X[665,23]    *              0             0             1 
- 19944 X[665,24]    *              0             0             1 
+ 19944 X[665,24]    *              1             0             1 
  19945 X[665,25]    *              0             0             1 
  19946 X[665,26]    *              0             0             1 
- 19947 X[665,27]    *              1             0             1 
+ 19947 X[665,27]    *              0             0             1 
  19948 X[665,28]    *              0             0             1 
  19949 X[665,29]    *              0             0             1 
  19950 X[665,30]    *              0             0             1 
@@ -22387,11 +26923,11 @@ Objective:  z = 0.4672600393 (MINimum)
  19984 X[667,4]     *              0             0             1 
  19985 X[667,5]     *              0             0             1 
  19986 X[667,6]     *              0             0             1 
- 19987 X[667,7]     *              0             0             1 
+ 19987 X[667,7]     *              1             0             1 
  19988 X[667,8]     *              0             0             1 
  19989 X[667,9]     *              0             0             1 
  19990 X[667,10]    *              0             0             1 
- 19991 X[667,11]    *              1             0             1 
+ 19991 X[667,11]    *              0             0             1 
  19992 X[667,12]    *              0             0             1 
  19993 X[667,13]    *              0             0             1 
  19994 X[667,14]    *              0             0             1 
@@ -22750,7 +27286,7 @@ Objective:  z = 0.4672600393 (MINimum)
  20347 X[679,7]     *              0             0             1 
  20348 X[679,8]     *              0             0             1 
  20349 X[679,9]     *              0             0             1 
- 20350 X[679,10]    *              0             0             1 
+ 20350 X[679,10]    *              1             0             1 
  20351 X[679,11]    *              0             0             1 
  20352 X[679,12]    *              0             0             1 
  20353 X[679,13]    *              0             0             1 
@@ -22759,7 +27295,7 @@ Objective:  z = 0.4672600393 (MINimum)
  20356 X[679,16]    *              0             0             1 
  20357 X[679,17]    *              0             0             1 
  20358 X[679,18]    *              0             0             1 
- 20359 X[679,19]    *              1             0             1 
+ 20359 X[679,19]    *              0             0             1 
  20360 X[679,20]    *              0             0             1 
  20361 X[679,21]    *              0             0             1 
  20362 X[679,22]    *              0             0             1 
@@ -22832,7 +27368,7 @@ Objective:  z = 0.4672600393 (MINimum)
  20429 X[681,29]    *              0             0             1 
  20430 X[681,30]    *              0             0             1 
  20431 X[682,1]     *              0             0             1 
- 20432 X[682,2]     *              1             0             1 
+ 20432 X[682,2]     *              0             0             1 
  20433 X[682,3]     *              0             0             1 
  20434 X[682,4]     *              0             0             1 
  20435 X[682,5]     *              0             0             1 
@@ -22842,7 +27378,7 @@ Objective:  z = 0.4672600393 (MINimum)
  20439 X[682,9]     *              0             0             1 
  20440 X[682,10]    *              0             0             1 
  20441 X[682,11]    *              0             0             1 
- 20442 X[682,12]    *              0             0             1 
+ 20442 X[682,12]    *              1             0             1 
  20443 X[682,13]    *              0             0             1 
  20444 X[682,14]    *              0             0             1 
  20445 X[682,15]    *              0             0             1 
@@ -23041,14 +27577,14 @@ Objective:  z = 0.4672600393 (MINimum)
  20638 X[688,28]    *              0             0             1 
  20639 X[688,29]    *              0             0             1 
  20640 X[688,30]    *              0             0             1 
- 20641 X[689,1]     *              1             0             1 
+ 20641 X[689,1]     *              0             0             1 
  20642 X[689,2]     *              0             0             1 
  20643 X[689,3]     *              0             0             1 
  20644 X[689,4]     *              0             0             1 
  20645 X[689,5]     *              0             0             1 
  20646 X[689,6]     *              0             0             1 
  20647 X[689,7]     *              0             0             1 
- 20648 X[689,8]     *              0             0             1 
+ 20648 X[689,8]     *              1             0             1 
  20649 X[689,9]     *              0             0             1 
  20650 X[689,10]    *              0             0             1 
  20651 X[689,11]    *              0             0             1 
@@ -23252,7 +27788,7 @@ Objective:  z = 0.4672600393 (MINimum)
  20849 X[695,29]    *              0             0             1 
  20850 X[695,30]    *              0             0             1 
  20851 X[696,1]     *              0             0             1 
- 20852 X[696,2]     *              1             0             1 
+ 20852 X[696,2]     *              0             0             1 
  20853 X[696,3]     *              0             0             1 
  20854 X[696,4]     *              0             0             1 
  20855 X[696,5]     *              0             0             1 
@@ -23262,7 +27798,7 @@ Objective:  z = 0.4672600393 (MINimum)
  20859 X[696,9]     *              0             0             1 
  20860 X[696,10]    *              0             0             1 
  20861 X[696,11]    *              0             0             1 
- 20862 X[696,12]    *              0             0             1 
+ 20862 X[696,12]    *              1             0             1 
  20863 X[696,13]    *              0             0             1 
  20864 X[696,14]    *              0             0             1 
  20865 X[696,15]    *              0             0             1 
@@ -23431,7 +27967,7 @@ Objective:  z = 0.4672600393 (MINimum)
  21028 X[701,28]    *              0             0             1 
  21029 X[701,29]    *              0             0             1 
  21030 X[701,30]    *              0             0             1 
- 21031 X[702,1]     *              0             0             1 
+ 21031 X[702,1]     *              1             0             1 
  21032 X[702,2]     *              0             0             1 
  21033 X[702,3]     *              0             0             1 
  21034 X[702,4]     *              0             0             1 
@@ -23439,7 +27975,7 @@ Objective:  z = 0.4672600393 (MINimum)
  21036 X[702,6]     *              0             0             1 
  21037 X[702,7]     *              0             0             1 
  21038 X[702,8]     *              0             0             1 
- 21039 X[702,9]     *              1             0             1 
+ 21039 X[702,9]     *              0             0             1 
  21040 X[702,10]    *              0             0             1 
  21041 X[702,11]    *              0             0             1 
  21042 X[702,12]    *              0             0             1 
@@ -23557,7 +28093,7 @@ Objective:  z = 0.4672600393 (MINimum)
  21154 X[706,4]     *              0             0             1 
  21155 X[706,5]     *              0             0             1 
  21156 X[706,6]     *              0             0             1 
- 21157 X[706,7]     *              1             0             1 
+ 21157 X[706,7]     *              0             0             1 
  21158 X[706,8]     *              0             0             1 
  21159 X[706,9]     *              0             0             1 
  21160 X[706,10]    *              0             0             1 
@@ -23577,7 +28113,7 @@ Objective:  z = 0.4672600393 (MINimum)
  21174 X[706,24]    *              0             0             1 
  21175 X[706,25]    *              0             0             1 
  21176 X[706,26]    *              0             0             1 
- 21177 X[706,27]    *              0             0             1 
+ 21177 X[706,27]    *              1             0             1 
  21178 X[706,28]    *              0             0             1 
  21179 X[706,29]    *              0             0             1 
  21180 X[706,30]    *              0             0             1 
@@ -23599,7 +28135,7 @@ Objective:  z = 0.4672600393 (MINimum)
  21196 X[707,16]    *              0             0             1 
  21197 X[707,17]    *              0             0             1 
  21198 X[707,18]    *              0             0             1 
- 21199 X[707,19]    *              1             0             1 
+ 21199 X[707,19]    *              0             0             1 
  21200 X[707,20]    *              0             0             1 
  21201 X[707,21]    *              0             0             1 
  21202 X[707,22]    *              0             0             1 
@@ -23609,7 +28145,7 @@ Objective:  z = 0.4672600393 (MINimum)
  21206 X[707,26]    *              0             0             1 
  21207 X[707,27]    *              0             0             1 
  21208 X[707,28]    *              0             0             1 
- 21209 X[707,29]    *              0             0             1 
+ 21209 X[707,29]    *              1             0             1 
  21210 X[707,30]    *              0             0             1 
  21211 X[708,1]     *              0             0             1 
  21212 X[708,2]     *              0             0             1 
@@ -23861,7 +28397,7 @@ Objective:  z = 0.4672600393 (MINimum)
  21458 X[716,8]     *              0             0             1 
  21459 X[716,9]     *              0             0             1 
  21460 X[716,10]    *              0             0             1 
- 21461 X[716,11]    *              1             0             1 
+ 21461 X[716,11]    *              0             0             1 
  21462 X[716,12]    *              0             0             1 
  21463 X[716,13]    *              0             0             1 
  21464 X[716,14]    *              0             0             1 
@@ -23874,7 +28410,7 @@ Objective:  z = 0.4672600393 (MINimum)
  21471 X[716,21]    *              0             0             1 
  21472 X[716,22]    *              0             0             1 
  21473 X[716,23]    *              0             0             1 
- 21474 X[716,24]    *              0             0             1 
+ 21474 X[716,24]    *              1             0             1 
  21475 X[716,25]    *              0             0             1 
  21476 X[716,26]    *              0             0             1 
  21477 X[716,27]    *              0             0             1 
@@ -24007,11 +28543,11 @@ Objective:  z = 0.4672600393 (MINimum)
  21604 X[721,4]     *              0             0             1 
  21605 X[721,5]     *              0             0             1 
  21606 X[721,6]     *              0             0             1 
- 21607 X[721,7]     *              0             0             1 
+ 21607 X[721,7]     *              1             0             1 
  21608 X[721,8]     *              0             0             1 
  21609 X[721,9]     *              0             0             1 
  21610 X[721,10]    *              0             0             1 
- 21611 X[721,11]    *              1             0             1 
+ 21611 X[721,11]    *              0             0             1 
  21612 X[721,12]    *              0             0             1 
  21613 X[721,13]    *              0             0             1 
  21614 X[721,14]    *              0             0             1 
@@ -24062,7 +28598,7 @@ Objective:  z = 0.4672600393 (MINimum)
  21659 X[722,29]    *              0             0             1 
  21660 X[722,30]    *              0             0             1 
  21661 X[723,1]     *              0             0             1 
- 21662 X[723,2]     *              1             0             1 
+ 21662 X[723,2]     *              0             0             1 
  21663 X[723,3]     *              0             0             1 
  21664 X[723,4]     *              0             0             1 
  21665 X[723,5]     *              0             0             1 
@@ -24072,7 +28608,7 @@ Objective:  z = 0.4672600393 (MINimum)
  21669 X[723,9]     *              0             0             1 
  21670 X[723,10]    *              0             0             1 
  21671 X[723,11]    *              0             0             1 
- 21672 X[723,12]    *              0             0             1 
+ 21672 X[723,12]    *              1             0             1 
  21673 X[723,13]    *              0             0             1 
  21674 X[723,14]    *              0             0             1 
  21675 X[723,15]    *              0             0             1 
@@ -24149,8 +28685,8 @@ Objective:  z = 0.4672600393 (MINimum)
  21746 X[725,26]    *              0             0             1 
  21747 X[725,27]    *              0             0             1 
  21748 X[725,28]    *              0             0             1 
- 21749 X[725,29]    *              0             0             1 
- 21750 X[725,30]    *              1             0             1 
+ 21749 X[725,29]    *              1             0             1 
+ 21750 X[725,30]    *              0             0             1 
  21751 X[726,1]     *              0             0             1 
  21752 X[726,2]     *              0             0             1 
  21753 X[726,3]     *              0             0             1 
@@ -24361,7 +28897,7 @@ Objective:  z = 0.4672600393 (MINimum)
  21958 X[732,28]    *              0             0             1 
  21959 X[732,29]    *              0             0             1 
  21960 X[732,30]    *              0             0             1 
- 21961 X[733,1]     *              1             0             1 
+ 21961 X[733,1]     *              0             0             1 
  21962 X[733,2]     *              0             0             1 
  21963 X[733,3]     *              0             0             1 
  21964 X[733,4]     *              0             0             1 
@@ -24369,7 +28905,7 @@ Objective:  z = 0.4672600393 (MINimum)
  21966 X[733,6]     *              0             0             1 
  21967 X[733,7]     *              0             0             1 
  21968 X[733,8]     *              0             0             1 
- 21969 X[733,9]     *              0             0             1 
+ 21969 X[733,9]     *              1             0             1 
  21970 X[733,10]    *              0             0             1 
  21971 X[733,11]    *              0             0             1 
  21972 X[733,12]    *              0             0             1 
@@ -24490,7 +29026,7 @@ Objective:  z = 0.4672600393 (MINimum)
  22087 X[737,7]     *              0             0             1 
  22088 X[737,8]     *              0             0             1 
  22089 X[737,9]     *              0             0             1 
- 22090 X[737,10]    *              0             0             1 
+ 22090 X[737,10]    *              1             0             1 
  22091 X[737,11]    *              0             0             1 
  22092 X[737,12]    *              0             0             1 
  22093 X[737,13]    *              0             0             1 
@@ -24505,7 +29041,7 @@ Objective:  z = 0.4672600393 (MINimum)
  22102 X[737,22]    *              0             0             1 
  22103 X[737,23]    *              0             0             1 
  22104 X[737,24]    *              0             0             1 
- 22105 X[737,25]    *              1             0             1 
+ 22105 X[737,25]    *              0             0             1 
  22106 X[737,26]    *              0             0             1 
  22107 X[737,27]    *              0             0             1 
  22108 X[737,28]    *              0             0             1 
@@ -24551,7 +29087,7 @@ Objective:  z = 0.4672600393 (MINimum)
  22148 X[739,8]     *              0             0             1 
  22149 X[739,9]     *              0             0             1 
  22150 X[739,10]    *              0             0             1 
- 22151 X[739,11]    *              1             0             1 
+ 22151 X[739,11]    *              0             0             1 
  22152 X[739,12]    *              0             0             1 
  22153 X[739,13]    *              0             0             1 
  22154 X[739,14]    *              0             0             1 
@@ -24564,7 +29100,7 @@ Objective:  z = 0.4672600393 (MINimum)
  22161 X[739,21]    *              0             0             1 
  22162 X[739,22]    *              0             0             1 
  22163 X[739,23]    *              0             0             1 
- 22164 X[739,24]    *              0             0             1 
+ 22164 X[739,24]    *              1             0             1 
  22165 X[739,25]    *              0             0             1 
  22166 X[739,26]    *              0             0             1 
  22167 X[739,27]    *              0             0             1 
@@ -24640,13 +29176,13 @@ Objective:  z = 0.4672600393 (MINimum)
  22237 X[742,7]     *              0             0             1 
  22238 X[742,8]     *              0             0             1 
  22239 X[742,9]     *              0             0             1 
- 22240 X[742,10]    *              0             0             1 
+ 22240 X[742,10]    *              1             0             1 
  22241 X[742,11]    *              0             0             1 
  22242 X[742,12]    *              0             0             1 
  22243 X[742,13]    *              0             0             1 
  22244 X[742,14]    *              0             0             1 
  22245 X[742,15]    *              0             0             1 
- 22246 X[742,16]    *              1             0             1 
+ 22246 X[742,16]    *              0             0             1 
  22247 X[742,17]    *              0             0             1 
  22248 X[742,18]    *              0             0             1 
  22249 X[742,19]    *              0             0             1 
@@ -24820,7 +29356,7 @@ Objective:  z = 0.4672600393 (MINimum)
  22417 X[748,7]     *              0             0             1 
  22418 X[748,8]     *              0             0             1 
  22419 X[748,9]     *              0             0             1 
- 22420 X[748,10]    *              0             0             1 
+ 22420 X[748,10]    *              1             0             1 
  22421 X[748,11]    *              0             0             1 
  22422 X[748,12]    *              0             0             1 
  22423 X[748,13]    *              0             0             1 
@@ -24835,7 +29371,7 @@ Objective:  z = 0.4672600393 (MINimum)
  22432 X[748,22]    *              0             0             1 
  22433 X[748,23]    *              0             0             1 
  22434 X[748,24]    *              0             0             1 
- 22435 X[748,25]    *              1             0             1 
+ 22435 X[748,25]    *              0             0             1 
  22436 X[748,26]    *              0             0             1 
  22437 X[748,27]    *              0             0             1 
  22438 X[748,28]    *              0             0             1 
@@ -24859,7 +29395,7 @@ Objective:  z = 0.4672600393 (MINimum)
  22456 X[749,16]    *              0             0             1 
  22457 X[749,17]    *              0             0             1 
  22458 X[749,18]    *              0             0             1 
- 22459 X[749,19]    *              1             0             1 
+ 22459 X[749,19]    *              0             0             1 
  22460 X[749,20]    *              0             0             1 
  22461 X[749,21]    *              0             0             1 
  22462 X[749,22]    *              0             0             1 
@@ -24869,7 +29405,7 @@ Objective:  z = 0.4672600393 (MINimum)
  22466 X[749,26]    *              0             0             1 
  22467 X[749,27]    *              0             0             1 
  22468 X[749,28]    *              0             0             1 
- 22469 X[749,29]    *              0             0             1 
+ 22469 X[749,29]    *              1             0             1 
  22470 X[749,30]    *              0             0             1 
  22471 X[750,1]     *              0             0             1 
  22472 X[750,2]     *              0             0             1 
@@ -24911,7 +29447,7 @@ Objective:  z = 0.4672600393 (MINimum)
  22508 X[751,8]     *              0             0             1 
  22509 X[751,9]     *              0             0             1 
  22510 X[751,10]    *              0             0             1 
- 22511 X[751,11]    *              1             0             1 
+ 22511 X[751,11]    *              0             0             1 
  22512 X[751,12]    *              0             0             1 
  22513 X[751,13]    *              0             0             1 
  22514 X[751,14]    *              0             0             1 
@@ -24930,7 +29466,7 @@ Objective:  z = 0.4672600393 (MINimum)
  22527 X[751,27]    *              0             0             1 
  22528 X[751,28]    *              0             0             1 
  22529 X[751,29]    *              0             0             1 
- 22530 X[751,30]    *              0             0             1 
+ 22530 X[751,30]    *              1             0             1 
  22531 X[752,1]     *              0             0             1 
  22532 X[752,2]     *              0             0             1 
  22533 X[752,3]     *              0             0             1 
@@ -25044,10 +29580,10 @@ Objective:  z = 0.4672600393 (MINimum)
  22641 X[755,21]    *              0             0             1 
  22642 X[755,22]    *              0             0             1 
  22643 X[755,23]    *              0             0             1 
- 22644 X[755,24]    *              0             0             1 
+ 22644 X[755,24]    *              1             0             1 
  22645 X[755,25]    *              0             0             1 
  22646 X[755,26]    *              0             0             1 
- 22647 X[755,27]    *              1             0             1 
+ 22647 X[755,27]    *              0             0             1 
  22648 X[755,28]    *              0             0             1 
  22649 X[755,29]    *              0             0             1 
  22650 X[755,30]    *              0             0             1 
@@ -25099,7 +29635,7 @@ Objective:  z = 0.4672600393 (MINimum)
  22696 X[757,16]    *              0             0             1 
  22697 X[757,17]    *              0             0             1 
  22698 X[757,18]    *              0             0             1 
- 22699 X[757,19]    *              1             0             1 
+ 22699 X[757,19]    *              0             0             1 
  22700 X[757,20]    *              0             0             1 
  22701 X[757,21]    *              0             0             1 
  22702 X[757,22]    *              0             0             1 
@@ -25109,7 +29645,7 @@ Objective:  z = 0.4672600393 (MINimum)
  22706 X[757,26]    *              0             0             1 
  22707 X[757,27]    *              0             0             1 
  22708 X[757,28]    *              0             0             1 
- 22709 X[757,29]    *              0             0             1 
+ 22709 X[757,29]    *              1             0             1 
  22710 X[757,30]    *              0             0             1 
  22711 X[758,1]     *              0             0             1 
  22712 X[758,2]     *              0             0             1 
@@ -25194,10 +29730,10 @@ Objective:  z = 0.4672600393 (MINimum)
  22791 X[760,21]    *              0             0             1 
  22792 X[760,22]    *              0             0             1 
  22793 X[760,23]    *              0             0             1 
- 22794 X[760,24]    *              0             0             1 
+ 22794 X[760,24]    *              1             0             1 
  22795 X[760,25]    *              0             0             1 
  22796 X[760,26]    *              0             0             1 
- 22797 X[760,27]    *              1             0             1 
+ 22797 X[760,27]    *              0             0             1 
  22798 X[760,28]    *              0             0             1 
  22799 X[760,29]    *              0             0             1 
  22800 X[760,30]    *              0             0             1 
@@ -25402,13 +29938,13 @@ Objective:  z = 0.4672600393 (MINimum)
  22999 X[767,19]    *              0             0             1 
  23000 X[767,20]    *              0             0             1 
  23001 X[767,21]    *              0             0             1 
- 23002 X[767,22]    *              0             0             1 
+ 23002 X[767,22]    *              1             0             1 
  23003 X[767,23]    *              0             0             1 
  23004 X[767,24]    *              0             0             1 
  23005 X[767,25]    *              0             0             1 
  23006 X[767,26]    *              0             0             1 
  23007 X[767,27]    *              0             0             1 
- 23008 X[767,28]    *              1             0             1 
+ 23008 X[767,28]    *              0             0             1 
  23009 X[767,29]    *              0             0             1 
  23010 X[767,30]    *              0             0             1 
  23011 X[768,1]     *              0             0             1 
@@ -25420,7 +29956,7 @@ Objective:  z = 0.4672600393 (MINimum)
  23017 X[768,7]     *              0             0             1 
  23018 X[768,8]     *              0             0             1 
  23019 X[768,9]     *              0             0             1 
- 23020 X[768,10]    *              0             0             1 
+ 23020 X[768,10]    *              1             0             1 
  23021 X[768,11]    *              0             0             1 
  23022 X[768,12]    *              0             0             1 
  23023 X[768,13]    *              0             0             1 
@@ -25429,7 +29965,7 @@ Objective:  z = 0.4672600393 (MINimum)
  23026 X[768,16]    *              0             0             1 
  23027 X[768,17]    *              0             0             1 
  23028 X[768,18]    *              0             0             1 
- 23029 X[768,19]    *              1             0             1 
+ 23029 X[768,19]    *              0             0             1 
  23030 X[768,20]    *              0             0             1 
  23031 X[768,21]    *              0             0             1 
  23032 X[768,22]    *              0             0             1 
@@ -25622,7 +30158,7 @@ Objective:  z = 0.4672600393 (MINimum)
  23219 X[774,29]    *              0             0             1 
  23220 X[774,30]    *              0             0             1 
  23221 X[775,1]     *              0             0             1 
- 23222 X[775,2]     *              1             0             1 
+ 23222 X[775,2]     *              0             0             1 
  23223 X[775,3]     *              0             0             1 
  23224 X[775,4]     *              0             0             1 
  23225 X[775,5]     *              0             0             1 
@@ -25632,7 +30168,7 @@ Objective:  z = 0.4672600393 (MINimum)
  23229 X[775,9]     *              0             0             1 
  23230 X[775,10]    *              0             0             1 
  23231 X[775,11]    *              0             0             1 
- 23232 X[775,12]    *              0             0             1 
+ 23232 X[775,12]    *              1             0             1 
  23233 X[775,13]    *              0             0             1 
  23234 X[775,14]    *              0             0             1 
  23235 X[775,15]    *              0             0             1 
@@ -25771,7 +30307,7 @@ Objective:  z = 0.4672600393 (MINimum)
  23368 X[779,28]    *              0             0             1 
  23369 X[779,29]    *              0             0             1 
  23370 X[779,30]    *              0             0             1 
- 23371 X[780,1]     *              1             0             1 
+ 23371 X[780,1]     *              0             0             1 
  23372 X[780,2]     *              0             0             1 
  23373 X[780,3]     *              0             0             1 
  23374 X[780,4]     *              0             0             1 
@@ -25779,7 +30315,7 @@ Objective:  z = 0.4672600393 (MINimum)
  23376 X[780,6]     *              0             0             1 
  23377 X[780,7]     *              0             0             1 
  23378 X[780,8]     *              0             0             1 
- 23379 X[780,9]     *              0             0             1 
+ 23379 X[780,9]     *              1             0             1 
  23380 X[780,10]    *              0             0             1 
  23381 X[780,11]    *              0             0             1 
  23382 X[780,12]    *              0             0             1 
@@ -26522,9 +31058,9 @@ Objective:  z = 0.4672600393 (MINimum)
  24119 X[804,29]    *              0             0             1 
  24120 X[804,30]    *              0             0             1 
  24121 X[805,1]     *              0             0             1 
- 24122 X[805,2]     *              1             0             1 
+ 24122 X[805,2]     *              0             0             1 
  24123 X[805,3]     *              0             0             1 
- 24124 X[805,4]     *              0             0             1 
+ 24124 X[805,4]     *              1             0             1 
  24125 X[805,5]     *              0             0             1 
  24126 X[805,6]     *              0             0             1 
  24127 X[805,7]     *              0             0             1 
@@ -26731,7 +31267,7 @@ Objective:  z = 0.4672600393 (MINimum)
  24328 X[811,28]    *              0             0             1 
  24329 X[811,29]    *              0             0             1 
  24330 X[811,30]    *              0             0             1 
- 24331 X[812,1]     *              1             0             1 
+ 24331 X[812,1]     *              0             0             1 
  24332 X[812,2]     *              0             0             1 
  24333 X[812,3]     *              0             0             1 
  24334 X[812,4]     *              0             0             1 
@@ -26739,7 +31275,7 @@ Objective:  z = 0.4672600393 (MINimum)
  24336 X[812,6]     *              0             0             1 
  24337 X[812,7]     *              0             0             1 
  24338 X[812,8]     *              0             0             1 
- 24339 X[812,9]     *              0             0             1 
+ 24339 X[812,9]     *              1             0             1 
  24340 X[812,10]    *              0             0             1 
  24341 X[812,11]    *              0             0             1 
  24342 X[812,12]    *              0             0             1 
@@ -27174,10 +31710,10 @@ Objective:  z = 0.4672600393 (MINimum)
  24771 X[826,21]    *              0             0             1 
  24772 X[826,22]    *              0             0             1 
  24773 X[826,23]    *              0             0             1 
- 24774 X[826,24]    *              0             0             1 
+ 24774 X[826,24]    *              1             0             1 
  24775 X[826,25]    *              0             0             1 
  24776 X[826,26]    *              0             0             1 
- 24777 X[826,27]    *              1             0             1 
+ 24777 X[826,27]    *              0             0             1 
  24778 X[826,28]    *              0             0             1 
  24779 X[826,29]    *              0             0             1 
  24780 X[826,30]    *              0             0             1 
@@ -27212,7 +31748,7 @@ Objective:  z = 0.4672600393 (MINimum)
  24809 X[827,29]    *              0             0             1 
  24810 X[827,30]    *              0             0             1 
  24811 X[828,1]     *              0             0             1 
- 24812 X[828,2]     *              1             0             1 
+ 24812 X[828,2]     *              0             0             1 
  24813 X[828,3]     *              0             0             1 
  24814 X[828,4]     *              0             0             1 
  24815 X[828,5]     *              0             0             1 
@@ -27234,7 +31770,7 @@ Objective:  z = 0.4672600393 (MINimum)
  24831 X[828,21]    *              0             0             1 
  24832 X[828,22]    *              0             0             1 
  24833 X[828,23]    *              0             0             1 
- 24834 X[828,24]    *              0             0             1 
+ 24834 X[828,24]    *              1             0             1 
  24835 X[828,25]    *              0             0             1 
  24836 X[828,26]    *              0             0             1 
  24837 X[828,27]    *              0             0             1 
@@ -27359,8 +31895,8 @@ Objective:  z = 0.4672600393 (MINimum)
  24956 X[832,26]    *              0             0             1 
  24957 X[832,27]    *              0             0             1 
  24958 X[832,28]    *              0             0             1 
- 24959 X[832,29]    *              0             0             1 
- 24960 X[832,30]    *              1             0             1 
+ 24959 X[832,29]    *              1             0             1 
+ 24960 X[832,30]    *              0             0             1 
  24961 X[833,1]     *              0             0             1 
  24962 X[833,2]     *              0             0             1 
  24963 X[833,3]     *              0             0             1 
@@ -27571,7 +32107,7 @@ Objective:  z = 0.4672600393 (MINimum)
  25168 X[839,28]    *              0             0             1 
  25169 X[839,29]    *              0             0             1 
  25170 X[839,30]    *              1             0             1 
- 25171 X[840,1]     *              0             0             1 
+ 25171 X[840,1]     *              1             0             1 
  25172 X[840,2]     *              0             0             1 
  25173 X[840,3]     *              0             0             1 
  25174 X[840,4]     *              0             0             1 
@@ -27584,7 +32120,7 @@ Objective:  z = 0.4672600393 (MINimum)
  25181 X[840,11]    *              0             0             1 
  25182 X[840,12]    *              0             0             1 
  25183 X[840,13]    *              0             0             1 
- 25184 X[840,14]    *              1             0             1 
+ 25184 X[840,14]    *              0             0             1 
  25185 X[840,15]    *              0             0             1 
  25186 X[840,16]    *              0             0             1 
  25187 X[840,17]    *              0             0             1 
@@ -27602,7 +32138,7 @@ Objective:  z = 0.4672600393 (MINimum)
  25199 X[840,29]    *              0             0             1 
  25200 X[840,30]    *              0             0             1 
  25201 X[841,1]     *              0             0             1 
- 25202 X[841,2]     *              1             0             1 
+ 25202 X[841,2]     *              0             0             1 
  25203 X[841,3]     *              0             0             1 
  25204 X[841,4]     *              0             0             1 
  25205 X[841,5]     *              0             0             1 
@@ -27612,7 +32148,7 @@ Objective:  z = 0.4672600393 (MINimum)
  25209 X[841,9]     *              0             0             1 
  25210 X[841,10]    *              0             0             1 
  25211 X[841,11]    *              0             0             1 
- 25212 X[841,12]    *              0             0             1 
+ 25212 X[841,12]    *              1             0             1 
  25213 X[841,13]    *              0             0             1 
  25214 X[841,14]    *              0             0             1 
  25215 X[841,15]    *              0             0             1 
@@ -27790,7 +32326,7 @@ Objective:  z = 0.4672600393 (MINimum)
  25387 X[847,7]     *              0             0             1 
  25388 X[847,8]     *              0             0             1 
  25389 X[847,9]     *              0             0             1 
- 25390 X[847,10]    *              0             0             1 
+ 25390 X[847,10]    *              1             0             1 
  25391 X[847,11]    *              0             0             1 
  25392 X[847,12]    *              0             0             1 
  25393 X[847,13]    *              0             0             1 
@@ -27799,7 +32335,7 @@ Objective:  z = 0.4672600393 (MINimum)
  25396 X[847,16]    *              0             0             1 
  25397 X[847,17]    *              0             0             1 
  25398 X[847,18]    *              0             0             1 
- 25399 X[847,19]    *              1             0             1 
+ 25399 X[847,19]    *              0             0             1 
  25400 X[847,20]    *              0             0             1 
  25401 X[847,21]    *              0             0             1 
  25402 X[847,22]    *              0             0             1 
@@ -28074,15 +32610,15 @@ Objective:  z = 0.4672600393 (MINimum)
  25671 X[856,21]    *              0             0             1 
  25672 X[856,22]    *              0             0             1 
  25673 X[856,23]    *              0             0             1 
- 25674 X[856,24]    *              0             0             1 
+ 25674 X[856,24]    *              1             0             1 
  25675 X[856,25]    *              0             0             1 
  25676 X[856,26]    *              0             0             1 
- 25677 X[856,27]    *              1             0             1 
+ 25677 X[856,27]    *              0             0             1 
  25678 X[856,28]    *              0             0             1 
  25679 X[856,29]    *              0             0             1 
  25680 X[856,30]    *              0             0             1 
  25681 X[857,1]     *              0             0             1 
- 25682 X[857,2]     *              1             0             1 
+ 25682 X[857,2]     *              0             0             1 
  25683 X[857,3]     *              0             0             1 
  25684 X[857,4]     *              0             0             1 
  25685 X[857,5]     *              0             0             1 
@@ -28092,7 +32628,7 @@ Objective:  z = 0.4672600393 (MINimum)
  25689 X[857,9]     *              0             0             1 
  25690 X[857,10]    *              0             0             1 
  25691 X[857,11]    *              0             0             1 
- 25692 X[857,12]    *              0             0             1 
+ 25692 X[857,12]    *              1             0             1 
  25693 X[857,13]    *              0             0             1 
  25694 X[857,14]    *              0             0             1 
  25695 X[857,15]    *              0             0             1 
@@ -28159,7 +32695,7 @@ Objective:  z = 0.4672600393 (MINimum)
  25756 X[859,16]    *              0             0             1 
  25757 X[859,17]    *              0             0             1 
  25758 X[859,18]    *              0             0             1 
- 25759 X[859,19]    *              1             0             1 
+ 25759 X[859,19]    *              0             0             1 
  25760 X[859,20]    *              0             0             1 
  25761 X[859,21]    *              0             0             1 
  25762 X[859,22]    *              0             0             1 
@@ -28169,7 +32705,7 @@ Objective:  z = 0.4672600393 (MINimum)
  25766 X[859,26]    *              0             0             1 
  25767 X[859,27]    *              0             0             1 
  25768 X[859,28]    *              0             0             1 
- 25769 X[859,29]    *              0             0             1 
+ 25769 X[859,29]    *              1             0             1 
  25770 X[859,30]    *              0             0             1 
  25771 X[860,1]     *              0             0             1 
  25772 X[860,2]     *              0             0             1 
@@ -28231,7 +32767,7 @@ Objective:  z = 0.4672600393 (MINimum)
  25828 X[861,28]    *              0             0             1 
  25829 X[861,29]    *              0             0             1 
  25830 X[861,30]    *              0             0             1 
- 25831 X[862,1]     *              1             0             1 
+ 25831 X[862,1]     *              0             0             1 
  25832 X[862,2]     *              0             0             1 
  25833 X[862,3]     *              0             0             1 
  25834 X[862,4]     *              0             0             1 
@@ -28239,7 +32775,7 @@ Objective:  z = 0.4672600393 (MINimum)
  25836 X[862,6]     *              0             0             1 
  25837 X[862,7]     *              0             0             1 
  25838 X[862,8]     *              0             0             1 
- 25839 X[862,9]     *              0             0             1 
+ 25839 X[862,9]     *              1             0             1 
  25840 X[862,10]    *              0             0             1 
  25841 X[862,11]    *              0             0             1 
  25842 X[862,12]    *              0             0             1 
@@ -28507,11 +33043,11 @@ Objective:  z = 0.4672600393 (MINimum)
  26104 X[871,4]     *              0             0             1 
  26105 X[871,5]     *              0             0             1 
  26106 X[871,6]     *              0             0             1 
- 26107 X[871,7]     *              0             0             1 
+ 26107 X[871,7]     *              1             0             1 
  26108 X[871,8]     *              0             0             1 
  26109 X[871,9]     *              0             0             1 
  26110 X[871,10]    *              0             0             1 
- 26111 X[871,11]    *              1             0             1 
+ 26111 X[871,11]    *              0             0             1 
  26112 X[871,12]    *              0             0             1 
  26113 X[871,13]    *              0             0             1 
  26114 X[871,14]    *              0             0             1 
@@ -28592,7 +33128,7 @@ Objective:  z = 0.4672600393 (MINimum)
  26189 X[873,29]    *              0             0             1 
  26190 X[873,30]    *              0             0             1 
  26191 X[874,1]     *              0             0             1 
- 26192 X[874,2]     *              1             0             1 
+ 26192 X[874,2]     *              0             0             1 
  26193 X[874,3]     *              0             0             1 
  26194 X[874,4]     *              0             0             1 
  26195 X[874,5]     *              0             0             1 
@@ -28602,7 +33138,7 @@ Objective:  z = 0.4672600393 (MINimum)
  26199 X[874,9]     *              0             0             1 
  26200 X[874,10]    *              0             0             1 
  26201 X[874,11]    *              0             0             1 
- 26202 X[874,12]    *              0             0             1 
+ 26202 X[874,12]    *              1             0             1 
  26203 X[874,13]    *              0             0             1 
  26204 X[874,14]    *              0             0             1 
  26205 X[874,15]    *              0             0             1 
@@ -28750,7 +33286,7 @@ Objective:  z = 0.4672600393 (MINimum)
  26347 X[879,7]     *              0             0             1 
  26348 X[879,8]     *              0             0             1 
  26349 X[879,9]     *              0             0             1 
- 26350 X[879,10]    *              0             0             1 
+ 26350 X[879,10]    *              1             0             1 
  26351 X[879,11]    *              0             0             1 
  26352 X[879,12]    *              0             0             1 
  26353 X[879,13]    *              0             0             1 
@@ -28759,7 +33295,7 @@ Objective:  z = 0.4672600393 (MINimum)
  26356 X[879,16]    *              0             0             1 
  26357 X[879,17]    *              0             0             1 
  26358 X[879,18]    *              0             0             1 
- 26359 X[879,19]    *              1             0             1 
+ 26359 X[879,19]    *              0             0             1 
  26360 X[879,20]    *              0             0             1 
  26361 X[879,21]    *              0             0             1 
  26362 X[879,22]    *              0             0             1 
@@ -28891,7 +33427,7 @@ Objective:  z = 0.4672600393 (MINimum)
  26488 X[883,28]    *              0             0             1 
  26489 X[883,29]    *              0             0             1 
  26490 X[883,30]    *              0             0             1 
- 26491 X[884,1]     *              0             0             1 
+ 26491 X[884,1]     *              1             0             1 
  26492 X[884,2]     *              0             0             1 
  26493 X[884,3]     *              0             0             1 
  26494 X[884,4]     *              0             0             1 
@@ -28904,7 +33440,7 @@ Objective:  z = 0.4672600393 (MINimum)
  26501 X[884,11]    *              0             0             1 
  26502 X[884,12]    *              0             0             1 
  26503 X[884,13]    *              0             0             1 
- 26504 X[884,14]    *              1             0             1 
+ 26504 X[884,14]    *              0             0             1 
  26505 X[884,15]    *              0             0             1 
  26506 X[884,16]    *              0             0             1 
  26507 X[884,17]    *              0             0             1 
@@ -29041,14 +33577,14 @@ Objective:  z = 0.4672600393 (MINimum)
  26638 X[888,28]    *              0             0             1 
  26639 X[888,29]    *              0             0             1 
  26640 X[888,30]    *              0             0             1 
- 26641 X[889,1]     *              0             0             1 
+ 26641 X[889,1]     *              1             0             1 
  26642 X[889,2]     *              0             0             1 
  26643 X[889,3]     *              0             0             1 
  26644 X[889,4]     *              0             0             1 
  26645 X[889,5]     *              0             0             1 
  26646 X[889,6]     *              0             0             1 
  26647 X[889,7]     *              0             0             1 
- 26648 X[889,8]     *              1             0             1 
+ 26648 X[889,8]     *              0             0             1 
  26649 X[889,9]     *              0             0             1 
  26650 X[889,10]    *              0             0             1 
  26651 X[889,11]    *              0             0             1 
@@ -29221,7 +33757,7 @@ Objective:  z = 0.4672600393 (MINimum)
  26818 X[894,28]    *              0             0             1 
  26819 X[894,29]    *              0             0             1 
  26820 X[894,30]    *              0             0             1 
- 26821 X[895,1]     *              1             0             1 
+ 26821 X[895,1]     *              0             0             1 
  26822 X[895,2]     *              0             0             1 
  26823 X[895,3]     *              0             0             1 
  26824 X[895,4]     *              0             0             1 
@@ -29229,7 +33765,7 @@ Objective:  z = 0.4672600393 (MINimum)
  26826 X[895,6]     *              0             0             1 
  26827 X[895,7]     *              0             0             1 
  26828 X[895,8]     *              0             0             1 
- 26829 X[895,9]     *              0             0             1 
+ 26829 X[895,9]     *              1             0             1 
  26830 X[895,10]    *              0             0             1 
  26831 X[895,11]    *              0             0             1 
  26832 X[895,12]    *              0             0             1 
@@ -29279,8 +33815,8 @@ Objective:  z = 0.4672600393 (MINimum)
  26876 X[896,26]    *              0             0             1 
  26877 X[896,27]    *              0             0             1 
  26878 X[896,28]    *              0             0             1 
- 26879 X[896,29]    *              0             0             1 
- 26880 X[896,30]    *              1             0             1 
+ 26879 X[896,29]    *              1             0             1 
+ 26880 X[896,30]    *              0             0             1 
  26881 X[897,1]     *              0             0             1 
  26882 X[897,2]     *              0             0             1 
  26883 X[897,3]     *              0             0             1 
@@ -29320,7 +33856,7 @@ Objective:  z = 0.4672600393 (MINimum)
  26917 X[898,7]     *              0             0             1 
  26918 X[898,8]     *              0             0             1 
  26919 X[898,9]     *              0             0             1 
- 26920 X[898,10]    *              0             0             1 
+ 26920 X[898,10]    *              1             0             1 
  26921 X[898,11]    *              0             0             1 
  26922 X[898,12]    *              0             0             1 
  26923 X[898,13]    *              0             0             1 
@@ -29329,7 +33865,7 @@ Objective:  z = 0.4672600393 (MINimum)
  26926 X[898,16]    *              0             0             1 
  26927 X[898,17]    *              0             0             1 
  26928 X[898,18]    *              0             0             1 
- 26929 X[898,19]    *              1             0             1 
+ 26929 X[898,19]    *              0             0             1 
  26930 X[898,20]    *              0             0             1 
  26931 X[898,21]    *              0             0             1 
  26932 X[898,22]    *              0             0             1 
@@ -29351,7 +33887,7 @@ Objective:  z = 0.4672600393 (MINimum)
  26948 X[899,8]     *              0             0             1 
  26949 X[899,9]     *              0             0             1 
  26950 X[899,10]    *              0             0             1 
- 26951 X[899,11]    *              1             0             1 
+ 26951 X[899,11]    *              0             0             1 
  26952 X[899,12]    *              0             0             1 
  26953 X[899,13]    *              0             0             1 
  26954 X[899,14]    *              0             0             1 
@@ -29367,18 +33903,18 @@ Objective:  z = 0.4672600393 (MINimum)
  26964 X[899,24]    *              0             0             1 
  26965 X[899,25]    *              0             0             1 
  26966 X[899,26]    *              0             0             1 
- 26967 X[899,27]    *              0             0             1 
+ 26967 X[899,27]    *              1             0             1 
  26968 X[899,28]    *              0             0             1 
  26969 X[899,29]    *              0             0             1 
  26970 X[899,30]    *              0             0             1 
- 26971 X[900,1]     *              1             0             1 
+ 26971 X[900,1]     *              0             0             1 
  26972 X[900,2]     *              0             0             1 
  26973 X[900,3]     *              0             0             1 
  26974 X[900,4]     *              0             0             1 
  26975 X[900,5]     *              0             0             1 
  26976 X[900,6]     *              0             0             1 
  26977 X[900,7]     *              0             0             1 
- 26978 X[900,8]     *              0             0             1 
+ 26978 X[900,8]     *              1             0             1 
  26979 X[900,9]     *              0             0             1 
  26980 X[900,10]    *              0             0             1 
  26981 X[900,11]    *              0             0             1 
@@ -29689,7 +34225,7 @@ Objective:  z = 0.4672600393 (MINimum)
  27286 X[910,16]    *              0             0             1 
  27287 X[910,17]    *              0             0             1 
  27288 X[910,18]    *              0             0             1 
- 27289 X[910,19]    *              1             0             1 
+ 27289 X[910,19]    *              0             0             1 
  27290 X[910,20]    *              0             0             1 
  27291 X[910,21]    *              0             0             1 
  27292 X[910,22]    *              0             0             1 
@@ -29699,7 +34235,7 @@ Objective:  z = 0.4672600393 (MINimum)
  27296 X[910,26]    *              0             0             1 
  27297 X[910,27]    *              0             0             1 
  27298 X[910,28]    *              0             0             1 
- 27299 X[910,29]    *              0             0             1 
+ 27299 X[910,29]    *              1             0             1 
  27300 X[910,30]    *              0             0             1 
  27301 X[911,1]     *              0             0             1 
  27302 X[911,2]     *              0             0             1 
@@ -30160,7 +34696,7 @@ Objective:  z = 0.4672600393 (MINimum)
  27757 X[926,7]     *              0             0             1 
  27758 X[926,8]     *              0             0             1 
  27759 X[926,9]     *              0             0             1 
- 27760 X[926,10]    *              0             0             1 
+ 27760 X[926,10]    *              1             0             1 
  27761 X[926,11]    *              0             0             1 
  27762 X[926,12]    *              0             0             1 
  27763 X[926,13]    *              0             0             1 
@@ -30169,7 +34705,7 @@ Objective:  z = 0.4672600393 (MINimum)
  27766 X[926,16]    *              0             0             1 
  27767 X[926,17]    *              0             0             1 
  27768 X[926,18]    *              0             0             1 
- 27769 X[926,19]    *              1             0             1 
+ 27769 X[926,19]    *              0             0             1 
  27770 X[926,20]    *              0             0             1 
  27771 X[926,21]    *              0             0             1 
  27772 X[926,22]    *              0             0             1 
@@ -30272,7 +34808,7 @@ Objective:  z = 0.4672600393 (MINimum)
  27869 X[929,29]    *              0             0             1 
  27870 X[929,30]    *              0             0             1 
  27871 X[930,1]     *              0             0             1 
- 27872 X[930,2]     *              1             0             1 
+ 27872 X[930,2]     *              0             0             1 
  27873 X[930,3]     *              0             0             1 
  27874 X[930,4]     *              0             0             1 
  27875 X[930,5]     *              0             0             1 
@@ -30282,7 +34818,7 @@ Objective:  z = 0.4672600393 (MINimum)
  27879 X[930,9]     *              0             0             1 
  27880 X[930,10]    *              0             0             1 
  27881 X[930,11]    *              0             0             1 
- 27882 X[930,12]    *              0             0             1 
+ 27882 X[930,12]    *              1             0             1 
  27883 X[930,13]    *              0             0             1 
  27884 X[930,14]    *              0             0             1 
  27885 X[930,15]    *              0             0             1 
@@ -31231,14 +35767,14 @@ Objective:  z = 0.4672600393 (MINimum)
  28828 X[961,28]    *              0             0             1 
  28829 X[961,29]    *              0             0             1 
  28830 X[961,30]    *              0             0             1 
- 28831 X[962,1]     *              1             0             1 
+ 28831 X[962,1]     *              0             0             1 
  28832 X[962,2]     *              0             0             1 
  28833 X[962,3]     *              0             0             1 
  28834 X[962,4]     *              0             0             1 
  28835 X[962,5]     *              0             0             1 
  28836 X[962,6]     *              0             0             1 
  28837 X[962,7]     *              0             0             1 
- 28838 X[962,8]     *              0             0             1 
+ 28838 X[962,8]     *              1             0             1 
  28839 X[962,9]     *              0             0             1 
  28840 X[962,10]    *              0             0             1 
  28841 X[962,11]    *              0             0             1 
@@ -31635,7 +36171,7 @@ Objective:  z = 0.4672600393 (MINimum)
  29232 X[975,12]    *              0             0             1 
  29233 X[975,13]    *              0             0             1 
  29234 X[975,14]    *              0             0             1 
- 29235 X[975,15]    *              1             0             1 
+ 29235 X[975,15]    *              0             0             1 
  29236 X[975,16]    *              0             0             1 
  29237 X[975,17]    *              0             0             1 
  29238 X[975,18]    *              0             0             1 
@@ -31647,7 +36183,7 @@ Objective:  z = 0.4672600393 (MINimum)
  29244 X[975,24]    *              0             0             1 
  29245 X[975,25]    *              0             0             1 
  29246 X[975,26]    *              0             0             1 
- 29247 X[975,27]    *              0             0             1 
+ 29247 X[975,27]    *              1             0             1 
  29248 X[975,28]    *              0             0             1 
  29249 X[975,29]    *              0             0             1 
  29250 X[975,30]    *              0             0             1 
@@ -31681,7 +36217,7 @@ Objective:  z = 0.4672600393 (MINimum)
  29278 X[976,28]    *              0             0             1 
  29279 X[976,29]    *              0             0             1 
  29280 X[976,30]    *              0             0             1 
- 29281 X[977,1]     *              0             0             1 
+ 29281 X[977,1]     *              1             0             1 
  29282 X[977,2]     *              0             0             1 
  29283 X[977,3]     *              0             0             1 
  29284 X[977,4]     *              0             0             1 
@@ -31694,7 +36230,7 @@ Objective:  z = 0.4672600393 (MINimum)
  29291 X[977,11]    *              0             0             1 
  29292 X[977,12]    *              0             0             1 
  29293 X[977,13]    *              0             0             1 
- 29294 X[977,14]    *              1             0             1 
+ 29294 X[977,14]    *              0             0             1 
  29295 X[977,15]    *              0             0             1 
  29296 X[977,16]    *              0             0             1 
  29297 X[977,17]    *              0             0             1 
@@ -31741,7 +36277,7 @@ Objective:  z = 0.4672600393 (MINimum)
  29338 X[978,28]    *              0             0             1 
  29339 X[978,29]    *              0             0             1 
  29340 X[978,30]    *              0             0             1 
- 29341 X[979,1]     *              0             0             1 
+ 29341 X[979,1]     *              1             0             1 
  29342 X[979,2]     *              0             0             1 
  29343 X[979,3]     *              0             0             1 
  29344 X[979,4]     *              0             0             1 
@@ -31754,7 +36290,7 @@ Objective:  z = 0.4672600393 (MINimum)
  29351 X[979,11]    *              0             0             1 
  29352 X[979,12]    *              0             0             1 
  29353 X[979,13]    *              0             0             1 
- 29354 X[979,14]    *              1             0             1 
+ 29354 X[979,14]    *              0             0             1 
  29355 X[979,15]    *              0             0             1 
  29356 X[979,16]    *              0             0             1 
  29357 X[979,17]    *              0             0             1 
@@ -31864,7 +36400,7 @@ Objective:  z = 0.4672600393 (MINimum)
  29461 X[983,1]     *              0             0             1 
  29462 X[983,2]     *              0             0             1 
  29463 X[983,3]     *              0             0             1 
- 29464 X[983,4]     *              1             0             1 
+ 29464 X[983,4]     *              0             0             1 
  29465 X[983,5]     *              0             0             1 
  29466 X[983,6]     *              0             0             1 
  29467 X[983,7]     *              0             0             1 
@@ -31872,7 +36408,7 @@ Objective:  z = 0.4672600393 (MINimum)
  29469 X[983,9]     *              0             0             1 
  29470 X[983,10]    *              0             0             1 
  29471 X[983,11]    *              0             0             1 
- 29472 X[983,12]    *              0             0             1 
+ 29472 X[983,12]    *              1             0             1 
  29473 X[983,13]    *              0             0             1 
  29474 X[983,14]    *              0             0             1 
  29475 X[983,15]    *              0             0             1 
@@ -32058,9 +36594,9 @@ Objective:  z = 0.4672600393 (MINimum)
  29655 X[989,15]    *              0             0             1 
  29656 X[989,16]    *              0             0             1 
  29657 X[989,17]    *              0             0             1 
- 29658 X[989,18]    *              0             0             1 
+ 29658 X[989,18]    *              1             0             1 
  29659 X[989,19]    *              0             0             1 
- 29660 X[989,20]    *              1             0             1 
+ 29660 X[989,20]    *              0             0             1 
  29661 X[989,21]    *              0             0             1 
  29662 X[989,22]    *              0             0             1 
  29663 X[989,23]    *              0             0             1 
@@ -32102,7 +36638,7 @@ Objective:  z = 0.4672600393 (MINimum)
  29699 X[990,29]    *              0             0             1 
  29700 X[990,30]    *              0             0             1 
  29701 X[991,1]     *              0             0             1 
- 29702 X[991,2]     *              1             0             1 
+ 29702 X[991,2]     *              0             0             1 
  29703 X[991,3]     *              0             0             1 
  29704 X[991,4]     *              0             0             1 
  29705 X[991,5]     *              0             0             1 
@@ -32112,7 +36648,7 @@ Objective:  z = 0.4672600393 (MINimum)
  29709 X[991,9]     *              0             0             1 
  29710 X[991,10]    *              0             0             1 
  29711 X[991,11]    *              0             0             1 
- 29712 X[991,12]    *              0             0             1 
+ 29712 X[991,12]    *              1             0             1 
  29713 X[991,13]    *              0             0             1 
  29714 X[991,14]    *              0             0             1 
  29715 X[991,15]    *              0             0             1 
@@ -32311,7 +36847,7 @@ Objective:  z = 0.4672600393 (MINimum)
  29908 X[997,28]    *              0             0             1 
  29909 X[997,29]    *              0             0             1 
  29910 X[997,30]    *              0             0             1 
- 29911 X[998,1]     *              0             0             1 
+ 29911 X[998,1]     *              1             0             1 
  29912 X[998,2]     *              0             0             1 
  29913 X[998,3]     *              0             0             1 
  29914 X[998,4]     *              0             0             1 
@@ -32324,7 +36860,7 @@ Objective:  z = 0.4672600393 (MINimum)
  29921 X[998,11]    *              0             0             1 
  29922 X[998,12]    *              0             0             1 
  29923 X[998,13]    *              0             0             1 
- 29924 X[998,14]    *              1             0             1 
+ 29924 X[998,14]    *              0             0             1 
  29925 X[998,15]    *              0             0             1 
  29926 X[998,16]    *              0             0             1 
  29927 X[998,17]    *              0             0             1 
@@ -32801,7 +37337,7 @@ Objective:  z = 0.4672600393 (MINimum)
  30398 X[1014,8]    *              0             0             1 
  30399 X[1014,9]    *              0             0             1 
  30400 X[1014,10]   *              0             0             1 
- 30401 X[1014,11]   *              1             0             1 
+ 30401 X[1014,11]   *              0             0             1 
  30402 X[1014,12]   *              0             0             1 
  30403 X[1014,13]   *              0             0             1 
  30404 X[1014,14]   *              0             0             1 
@@ -32820,7 +37356,7 @@ Objective:  z = 0.4672600393 (MINimum)
  30417 X[1014,27]   *              0             0             1 
  30418 X[1014,28]   *              0             0             1 
  30419 X[1014,29]   *              0             0             1 
- 30420 X[1014,30]   *              0             0             1 
+ 30420 X[1014,30]   *              1             0             1 
  30421 X[1015,1]    *              0             0             1 
  30422 X[1015,2]    *              0             0             1 
  30423 X[1015,3]    *              0             0             1 
@@ -32934,10 +37470,10 @@ Objective:  z = 0.4672600393 (MINimum)
  30531 X[1018,21]   *              0             0             1 
  30532 X[1018,22]   *              0             0             1 
  30533 X[1018,23]   *              0             0             1 
- 30534 X[1018,24]   *              0             0             1 
+ 30534 X[1018,24]   *              1             0             1 
  30535 X[1018,25]   *              0             0             1 
  30536 X[1018,26]   *              0             0             1 
- 30537 X[1018,27]   *              1             0             1 
+ 30537 X[1018,27]   *              0             0             1 
  30538 X[1018,28]   *              0             0             1 
  30539 X[1018,29]   *              0             0             1 
  30540 X[1018,30]   *              0             0             1 
@@ -33070,7 +37606,7 @@ Objective:  z = 0.4672600393 (MINimum)
  30667 X[1023,7]    *              0             0             1 
  30668 X[1023,8]    *              0             0             1 
  30669 X[1023,9]    *              0             0             1 
- 30670 X[1023,10]   *              0             0             1 
+ 30670 X[1023,10]   *              1             0             1 
  30671 X[1023,11]   *              0             0             1 
  30672 X[1023,12]   *              0             0             1 
  30673 X[1023,13]   *              0             0             1 
@@ -33085,7 +37621,7 @@ Objective:  z = 0.4672600393 (MINimum)
  30682 X[1023,22]   *              0             0             1 
  30683 X[1023,23]   *              0             0             1 
  30684 X[1023,24]   *              0             0             1 
- 30685 X[1023,25]   *              1             0             1 
+ 30685 X[1023,25]   *              0             0             1 
  30686 X[1023,26]   *              0             0             1 
  30687 X[1023,27]   *              0             0             1 
  30688 X[1023,28]   *              0             0             1 
@@ -33121,7 +37657,7 @@ Objective:  z = 0.4672600393 (MINimum)
  30718 X[1024,28]   *              0             0             1 
  30719 X[1024,29]   *              0             0             1 
  30720 X[1024,30]   *              0             0             1 
- 30721 X[1025,1]    *              0             0             1 
+ 30721 X[1025,1]    *              1             0             1 
  30722 X[1025,2]    *              0             0             1 
  30723 X[1025,3]    *              0             0             1 
  30724 X[1025,4]    *              0             0             1 
@@ -33134,7 +37670,7 @@ Objective:  z = 0.4672600393 (MINimum)
  30731 X[1025,11]   *              0             0             1 
  30732 X[1025,12]   *              0             0             1 
  30733 X[1025,13]   *              0             0             1 
- 30734 X[1025,14]   *              1             0             1 
+ 30734 X[1025,14]   *              0             0             1 
  30735 X[1025,15]   *              0             0             1 
  30736 X[1025,16]   *              0             0             1 
  30737 X[1025,17]   *              0             0             1 
@@ -33169,7 +37705,7 @@ Objective:  z = 0.4672600393 (MINimum)
  30766 X[1026,16]   *              0             0             1 
  30767 X[1026,17]   *              0             0             1 
  30768 X[1026,18]   *              0             0             1 
- 30769 X[1026,19]   *              1             0             1 
+ 30769 X[1026,19]   *              0             0             1 
  30770 X[1026,20]   *              0             0             1 
  30771 X[1026,21]   *              0             0             1 
  30772 X[1026,22]   *              0             0             1 
@@ -33179,7 +37715,7 @@ Objective:  z = 0.4672600393 (MINimum)
  30776 X[1026,26]   *              0             0             1 
  30777 X[1026,27]   *              0             0             1 
  30778 X[1026,28]   *              0             0             1 
- 30779 X[1026,29]   *              0             0             1 
+ 30779 X[1026,29]   *              1             0             1 
  30780 X[1026,30]   *              0             0             1 
  30781 X[1027,1]    *              0             0             1 
  30782 X[1027,2]    *              0             0             1 
@@ -33370,7 +37906,7 @@ Objective:  z = 0.4672600393 (MINimum)
  30967 X[1033,7]    *              0             0             1 
  30968 X[1033,8]    *              0             0             1 
  30969 X[1033,9]    *              0             0             1 
- 30970 X[1033,10]   *              0             0             1 
+ 30970 X[1033,10]   *              1             0             1 
  30971 X[1033,11]   *              0             0             1 
  30972 X[1033,12]   *              0             0             1 
  30973 X[1033,13]   *              0             0             1 
@@ -33379,7 +37915,7 @@ Objective:  z = 0.4672600393 (MINimum)
  30976 X[1033,16]   *              0             0             1 
  30977 X[1033,17]   *              0             0             1 
  30978 X[1033,18]   *              0             0             1 
- 30979 X[1033,19]   *              1             0             1 
+ 30979 X[1033,19]   *              0             0             1 
  30980 X[1033,20]   *              0             0             1 
  30981 X[1033,21]   *              0             0             1 
  30982 X[1033,22]   *              0             0             1 
@@ -33431,7 +37967,7 @@ Objective:  z = 0.4672600393 (MINimum)
  31028 X[1035,8]    *              0             0             1 
  31029 X[1035,9]    *              0             0             1 
  31030 X[1035,10]   *              0             0             1 
- 31031 X[1035,11]   *              1             0             1 
+ 31031 X[1035,11]   *              0             0             1 
  31032 X[1035,12]   *              0             0             1 
  31033 X[1035,13]   *              0             0             1 
  31034 X[1035,14]   *              0             0             1 
@@ -33444,7 +37980,7 @@ Objective:  z = 0.4672600393 (MINimum)
  31041 X[1035,21]   *              0             0             1 
  31042 X[1035,22]   *              0             0             1 
  31043 X[1035,23]   *              0             0             1 
- 31044 X[1035,24]   *              0             0             1 
+ 31044 X[1035,24]   *              1             0             1 
  31045 X[1035,25]   *              0             0             1 
  31046 X[1035,26]   *              0             0             1 
  31047 X[1035,27]   *              0             0             1 
@@ -33760,7 +38296,7 @@ Objective:  z = 0.4672600393 (MINimum)
  31357 X[1046,7]    *              0             0             1 
  31358 X[1046,8]    *              0             0             1 
  31359 X[1046,9]    *              0             0             1 
- 31360 X[1046,10]   *              0             0             1 
+ 31360 X[1046,10]   *              1             0             1 
  31361 X[1046,11]   *              0             0             1 
  31362 X[1046,12]   *              0             0             1 
  31363 X[1046,13]   *              0             0             1 
@@ -33769,7 +38305,7 @@ Objective:  z = 0.4672600393 (MINimum)
  31366 X[1046,16]   *              0             0             1 
  31367 X[1046,17]   *              0             0             1 
  31368 X[1046,18]   *              0             0             1 
- 31369 X[1046,19]   *              1             0             1 
+ 31369 X[1046,19]   *              0             0             1 
  31370 X[1046,20]   *              0             0             1 
  31371 X[1046,21]   *              0             0             1 
  31372 X[1046,22]   *              0             0             1 
@@ -33880,7 +38416,7 @@ Objective:  z = 0.4672600393 (MINimum)
  31477 X[1050,7]    *              0             0             1 
  31478 X[1050,8]    *              0             0             1 
  31479 X[1050,9]    *              0             0             1 
- 31480 X[1050,10]   *              0             0             1 
+ 31480 X[1050,10]   *              1             0             1 
  31481 X[1050,11]   *              0             0             1 
  31482 X[1050,12]   *              0             0             1 
  31483 X[1050,13]   *              0             0             1 
@@ -33888,7 +38424,7 @@ Objective:  z = 0.4672600393 (MINimum)
  31485 X[1050,15]   *              0             0             1 
  31486 X[1050,16]   *              0             0             1 
  31487 X[1050,17]   *              0             0             1 
- 31488 X[1050,18]   *              1             0             1 
+ 31488 X[1050,18]   *              0             0             1 
  31489 X[1050,19]   *              0             0             1 
  31490 X[1050,20]   *              0             0             1 
  31491 X[1050,21]   *              0             0             1 
@@ -33924,10 +38460,10 @@ Objective:  z = 0.4672600393 (MINimum)
  31521 X[1051,21]   *              0             0             1 
  31522 X[1051,22]   *              0             0             1 
  31523 X[1051,23]   *              0             0             1 
- 31524 X[1051,24]   *              0             0             1 
+ 31524 X[1051,24]   *              1             0             1 
  31525 X[1051,25]   *              0             0             1 
  31526 X[1051,26]   *              0             0             1 
- 31527 X[1051,27]   *              1             0             1 
+ 31527 X[1051,27]   *              0             0             1 
  31528 X[1051,28]   *              0             0             1 
  31529 X[1051,29]   *              0             0             1 
  31530 X[1051,30]   *              0             0             1 
@@ -33967,7 +38503,7 @@ Objective:  z = 0.4672600393 (MINimum)
  31564 X[1053,4]    *              0             0             1 
  31565 X[1053,5]    *              0             0             1 
  31566 X[1053,6]    *              0             0             1 
- 31567 X[1053,7]    *              1             0             1 
+ 31567 X[1053,7]    *              0             0             1 
  31568 X[1053,8]    *              0             0             1 
  31569 X[1053,9]    *              0             0             1 
  31570 X[1053,10]   *              0             0             1 
@@ -33987,7 +38523,7 @@ Objective:  z = 0.4672600393 (MINimum)
  31584 X[1053,24]   *              0             0             1 
  31585 X[1053,25]   *              0             0             1 
  31586 X[1053,26]   *              0             0             1 
- 31587 X[1053,27]   *              0             0             1 
+ 31587 X[1053,27]   *              1             0             1 
  31588 X[1053,28]   *              0             0             1 
  31589 X[1053,29]   *              0             0             1 
  31590 X[1053,30]   *              0             0             1 
@@ -34044,10 +38580,10 @@ Objective:  z = 0.4672600393 (MINimum)
  31641 X[1055,21]   *              0             0             1 
  31642 X[1055,22]   *              0             0             1 
  31643 X[1055,23]   *              0             0             1 
- 31644 X[1055,24]   *              0             0             1 
+ 31644 X[1055,24]   *              1             0             1 
  31645 X[1055,25]   *              0             0             1 
  31646 X[1055,26]   *              0             0             1 
- 31647 X[1055,27]   *              1             0             1 
+ 31647 X[1055,27]   *              0             0             1 
  31648 X[1055,28]   *              0             0             1 
  31649 X[1055,29]   *              0             0             1 
  31650 X[1055,30]   *              0             0             1 
@@ -34202,7 +38738,7 @@ Objective:  z = 0.4672600393 (MINimum)
  31799 X[1060,29]   *              0             0             1 
  31800 X[1060,30]   *              0             0             1 
  31801 X[1061,1]    *              0             0             1 
- 31802 X[1061,2]    *              1             0             1 
+ 31802 X[1061,2]    *              0             0             1 
  31803 X[1061,3]    *              0             0             1 
  31804 X[1061,4]    *              0             0             1 
  31805 X[1061,5]    *              0             0             1 
@@ -34212,7 +38748,7 @@ Objective:  z = 0.4672600393 (MINimum)
  31809 X[1061,9]    *              0             0             1 
  31810 X[1061,10]   *              0             0             1 
  31811 X[1061,11]   *              0             0             1 
- 31812 X[1061,12]   *              0             0             1 
+ 31812 X[1061,12]   *              1             0             1 
  31813 X[1061,13]   *              0             0             1 
  31814 X[1061,14]   *              0             0             1 
  31815 X[1061,15]   *              0             0             1 
@@ -34451,7 +38987,7 @@ Objective:  z = 0.4672600393 (MINimum)
  32048 X[1069,8]    *              0             0             1 
  32049 X[1069,9]    *              0             0             1 
  32050 X[1069,10]   *              0             0             1 
- 32051 X[1069,11]   *              1             0             1 
+ 32051 X[1069,11]   *              0             0             1 
  32052 X[1069,12]   *              0             0             1 
  32053 X[1069,13]   *              0             0             1 
  32054 X[1069,14]   *              0             0             1 
@@ -34464,7 +39000,7 @@ Objective:  z = 0.4672600393 (MINimum)
  32061 X[1069,21]   *              0             0             1 
  32062 X[1069,22]   *              0             0             1 
  32063 X[1069,23]   *              0             0             1 
- 32064 X[1069,24]   *              0             0             1 
+ 32064 X[1069,24]   *              1             0             1 
  32065 X[1069,25]   *              0             0             1 
  32066 X[1069,26]   *              0             0             1 
  32067 X[1069,27]   *              0             0             1 
@@ -34642,14 +39178,14 @@ Objective:  z = 0.4672600393 (MINimum)
  32239 X[1075,19]   *              0             0             1 
  32240 X[1075,20]   *              0             0             1 
  32241 X[1075,21]   *              0             0             1 
- 32242 X[1075,22]   *              1             0             1 
+ 32242 X[1075,22]   *              0             0             1 
  32243 X[1075,23]   *              0             0             1 
  32244 X[1075,24]   *              0             0             1 
  32245 X[1075,25]   *              0             0             1 
  32246 X[1075,26]   *              0             0             1 
  32247 X[1075,27]   *              0             0             1 
  32248 X[1075,28]   *              0             0             1 
- 32249 X[1075,29]   *              0             0             1 
+ 32249 X[1075,29]   *              1             0             1 
  32250 X[1075,30]   *              0             0             1 
  32251 X[1076,1]    *              0             0             1 
  32252 X[1076,2]    *              0             0             1 
@@ -34690,7 +39226,7 @@ Objective:  z = 0.4672600393 (MINimum)
  32287 X[1077,7]    *              0             0             1 
  32288 X[1077,8]    *              0             0             1 
  32289 X[1077,9]    *              0             0             1 
- 32290 X[1077,10]   *              0             0             1 
+ 32290 X[1077,10]   *              1             0             1 
  32291 X[1077,11]   *              0             0             1 
  32292 X[1077,12]   *              0             0             1 
  32293 X[1077,13]   *              0             0             1 
@@ -34699,7 +39235,7 @@ Objective:  z = 0.4672600393 (MINimum)
  32296 X[1077,16]   *              0             0             1 
  32297 X[1077,17]   *              0             0             1 
  32298 X[1077,18]   *              0             0             1 
- 32299 X[1077,19]   *              1             0             1 
+ 32299 X[1077,19]   *              0             0             1 
  32300 X[1077,20]   *              0             0             1 
  32301 X[1077,21]   *              0             0             1 
  32302 X[1077,22]   *              0             0             1 
@@ -34810,7 +39346,7 @@ Objective:  z = 0.4672600393 (MINimum)
  32407 X[1081,7]    *              0             0             1 
  32408 X[1081,8]    *              0             0             1 
  32409 X[1081,9]    *              0             0             1 
- 32410 X[1081,10]   *              0             0             1 
+ 32410 X[1081,10]   *              1             0             1 
  32411 X[1081,11]   *              0             0             1 
  32412 X[1081,12]   *              0             0             1 
  32413 X[1081,13]   *              0             0             1 
@@ -34825,7 +39361,7 @@ Objective:  z = 0.4672600393 (MINimum)
  32422 X[1081,22]   *              0             0             1 
  32423 X[1081,23]   *              0             0             1 
  32424 X[1081,24]   *              0             0             1 
- 32425 X[1081,25]   *              1             0             1 
+ 32425 X[1081,25]   *              0             0             1 
  32426 X[1081,26]   *              0             0             1 
  32427 X[1081,27]   *              0             0             1 
  32428 X[1081,28]   *              0             0             1 
@@ -34871,7 +39407,7 @@ Objective:  z = 0.4672600393 (MINimum)
  32468 X[1083,8]    *              0             0             1 
  32469 X[1083,9]    *              0             0             1 
  32470 X[1083,10]   *              0             0             1 
- 32471 X[1083,11]   *              1             0             1 
+ 32471 X[1083,11]   *              0             0             1 
  32472 X[1083,12]   *              0             0             1 
  32473 X[1083,13]   *              0             0             1 
  32474 X[1083,14]   *              0             0             1 
@@ -34890,8 +39426,8 @@ Objective:  z = 0.4672600393 (MINimum)
  32487 X[1083,27]   *              0             0             1 
  32488 X[1083,28]   *              0             0             1 
  32489 X[1083,29]   *              0             0             1 
- 32490 X[1083,30]   *              0             0             1 
- 32491 X[1084,1]    *              0             0             1 
+ 32490 X[1083,30]   *              1             0             1 
+ 32491 X[1084,1]    *              1             0             1 
  32492 X[1084,2]    *              0             0             1 
  32493 X[1084,3]    *              0             0             1 
  32494 X[1084,4]    *              0             0             1 
@@ -34904,7 +39440,7 @@ Objective:  z = 0.4672600393 (MINimum)
  32501 X[1084,11]   *              0             0             1 
  32502 X[1084,12]   *              0             0             1 
  32503 X[1084,13]   *              0             0             1 
- 32504 X[1084,14]   *              1             0             1 
+ 32504 X[1084,14]   *              0             0             1 
  32505 X[1084,15]   *              0             0             1 
  32506 X[1084,16]   *              0             0             1 
  32507 X[1084,17]   *              0             0             1 
@@ -34921,14 +39457,14 @@ Objective:  z = 0.4672600393 (MINimum)
  32518 X[1084,28]   *              0             0             1 
  32519 X[1084,29]   *              0             0             1 
  32520 X[1084,30]   *              0             0             1 
- 32521 X[1085,1]    *              1             0             1 
+ 32521 X[1085,1]    *              0             0             1 
  32522 X[1085,2]    *              0             0             1 
  32523 X[1085,3]    *              0             0             1 
  32524 X[1085,4]    *              0             0             1 
  32525 X[1085,5]    *              0             0             1 
  32526 X[1085,6]    *              0             0             1 
  32527 X[1085,7]    *              0             0             1 
- 32528 X[1085,8]    *              0             0             1 
+ 32528 X[1085,8]    *              1             0             1 
  32529 X[1085,9]    *              0             0             1 
  32530 X[1085,10]   *              0             0             1 
  32531 X[1085,11]   *              0             0             1 
@@ -35041,7 +39577,7 @@ Objective:  z = 0.4672600393 (MINimum)
  32638 X[1088,28]   *              0             0             1 
  32639 X[1088,29]   *              0             0             1 
  32640 X[1088,30]   *              0             0             1 
- 32641 X[1089,1]    *              1             0             1 
+ 32641 X[1089,1]    *              0             0             1 
  32642 X[1089,2]    *              0             0             1 
  32643 X[1089,3]    *              0             0             1 
  32644 X[1089,4]    *              0             0             1 
@@ -35049,7 +39585,7 @@ Objective:  z = 0.4672600393 (MINimum)
  32646 X[1089,6]    *              0             0             1 
  32647 X[1089,7]    *              0             0             1 
  32648 X[1089,8]    *              0             0             1 
- 32649 X[1089,9]    *              0             0             1 
+ 32649 X[1089,9]    *              1             0             1 
  32650 X[1089,10]   *              0             0             1 
  32651 X[1089,11]   *              0             0             1 
  32652 X[1089,12]   *              0             0             1 
@@ -35111,7 +39647,7 @@ Objective:  z = 0.4672600393 (MINimum)
  32708 X[1091,8]    *              0             0             1 
  32709 X[1091,9]    *              0             0             1 
  32710 X[1091,10]   *              0             0             1 
- 32711 X[1091,11]   *              1             0             1 
+ 32711 X[1091,11]   *              0             0             1 
  32712 X[1091,12]   *              0             0             1 
  32713 X[1091,13]   *              0             0             1 
  32714 X[1091,14]   *              0             0             1 
@@ -35127,7 +39663,7 @@ Objective:  z = 0.4672600393 (MINimum)
  32724 X[1091,24]   *              0             0             1 
  32725 X[1091,25]   *              0             0             1 
  32726 X[1091,26]   *              0             0             1 
- 32727 X[1091,27]   *              0             0             1 
+ 32727 X[1091,27]   *              1             0             1 
  32728 X[1091,28]   *              0             0             1 
  32729 X[1091,29]   *              0             0             1 
  32730 X[1091,30]   *              0             0             1 
@@ -35192,7 +39728,7 @@ Objective:  z = 0.4672600393 (MINimum)
  32789 X[1093,29]   *              0             0             1 
  32790 X[1093,30]   *              0             0             1 
  32791 X[1094,1]    *              0             0             1 
- 32792 X[1094,2]    *              1             0             1 
+ 32792 X[1094,2]    *              0             0             1 
  32793 X[1094,3]    *              0             0             1 
  32794 X[1094,4]    *              0             0             1 
  32795 X[1094,5]    *              0             0             1 
@@ -35202,7 +39738,7 @@ Objective:  z = 0.4672600393 (MINimum)
  32799 X[1094,9]    *              0             0             1 
  32800 X[1094,10]   *              0             0             1 
  32801 X[1094,11]   *              0             0             1 
- 32802 X[1094,12]   *              0             0             1 
+ 32802 X[1094,12]   *              1             0             1 
  32803 X[1094,13]   *              0             0             1 
  32804 X[1094,14]   *              0             0             1 
  32805 X[1094,15]   *              0             0             1 
@@ -35251,14 +39787,14 @@ Objective:  z = 0.4672600393 (MINimum)
  32848 X[1095,28]   *              0             0             1 
  32849 X[1095,29]   *              0             0             1 
  32850 X[1095,30]   *              0             0             1 
- 32851 X[1096,1]    *              0             0             1 
+ 32851 X[1096,1]    *              1             0             1 
  32852 X[1096,2]    *              0             0             1 
  32853 X[1096,3]    *              0             0             1 
  32854 X[1096,4]    *              0             0             1 
  32855 X[1096,5]    *              0             0             1 
  32856 X[1096,6]    *              0             0             1 
  32857 X[1096,7]    *              0             0             1 
- 32858 X[1096,8]    *              1             0             1 
+ 32858 X[1096,8]    *              0             0             1 
  32859 X[1096,9]    *              0             0             1 
  32860 X[1096,10]   *              0             0             1 
  32861 X[1096,11]   *              0             0             1 
@@ -35296,9 +39832,9 @@ Objective:  z = 0.4672600393 (MINimum)
  32893 X[1097,13]   *              0             0             1 
  32894 X[1097,14]   *              0             0             1 
  32895 X[1097,15]   *              0             0             1 
- 32896 X[1097,16]   *              1             0             1 
+ 32896 X[1097,16]   *              0             0             1 
  32897 X[1097,17]   *              0             0             1 
- 32898 X[1097,18]   *              0             0             1 
+ 32898 X[1097,18]   *              1             0             1 
  32899 X[1097,19]   *              0             0             1 
  32900 X[1097,20]   *              0             0             1 
  32901 X[1097,21]   *              0             0             1 
@@ -35351,7 +39887,7 @@ Objective:  z = 0.4672600393 (MINimum)
  32948 X[1099,8]    *              0             0             1 
  32949 X[1099,9]    *              0             0             1 
  32950 X[1099,10]   *              0             0             1 
- 32951 X[1099,11]   *              1             0             1 
+ 32951 X[1099,11]   *              0             0             1 
  32952 X[1099,12]   *              0             0             1 
  32953 X[1099,13]   *              0             0             1 
  32954 X[1099,14]   *              0             0             1 
@@ -35364,7 +39900,7 @@ Objective:  z = 0.4672600393 (MINimum)
  32961 X[1099,21]   *              0             0             1 
  32962 X[1099,22]   *              0             0             1 
  32963 X[1099,23]   *              0             0             1 
- 32964 X[1099,24]   *              0             0             1 
+ 32964 X[1099,24]   *              1             0             1 
  32965 X[1099,25]   *              0             0             1 
  32966 X[1099,26]   *              0             0             1 
  32967 X[1099,27]   *              0             0             1 
@@ -35560,7 +40096,7 @@ Objective:  z = 0.4672600393 (MINimum)
  33157 X[1106,7]    *              0             0             1 
  33158 X[1106,8]    *              0             0             1 
  33159 X[1106,9]    *              0             0             1 
- 33160 X[1106,10]   *              0             0             1 
+ 33160 X[1106,10]   *              1             0             1 
  33161 X[1106,11]   *              0             0             1 
  33162 X[1106,12]   *              0             0             1 
  33163 X[1106,13]   *              0             0             1 
@@ -35569,7 +40105,7 @@ Objective:  z = 0.4672600393 (MINimum)
  33166 X[1106,16]   *              0             0             1 
  33167 X[1106,17]   *              0             0             1 
  33168 X[1106,18]   *              0             0             1 
- 33169 X[1106,19]   *              1             0             1 
+ 33169 X[1106,19]   *              0             0             1 
  33170 X[1106,20]   *              0             0             1 
  33171 X[1106,21]   *              0             0             1 
  33172 X[1106,22]   *              0             0             1 
@@ -35641,7 +40177,7 @@ Objective:  z = 0.4672600393 (MINimum)
  33238 X[1108,28]   *              0             0             1 
  33239 X[1108,29]   *              0             0             1 
  33240 X[1108,30]   *              1             0             1 
- 33241 X[1109,1]    *              1             0             1 
+ 33241 X[1109,1]    *              0             0             1 
  33242 X[1109,2]    *              0             0             1 
  33243 X[1109,3]    *              0             0             1 
  33244 X[1109,4]    *              0             0             1 
@@ -35649,7 +40185,7 @@ Objective:  z = 0.4672600393 (MINimum)
  33246 X[1109,6]    *              0             0             1 
  33247 X[1109,7]    *              0             0             1 
  33248 X[1109,8]    *              0             0             1 
- 33249 X[1109,9]    *              0             0             1 
+ 33249 X[1109,9]    *              1             0             1 
  33250 X[1109,10]   *              0             0             1 
  33251 X[1109,11]   *              0             0             1 
  33252 X[1109,12]   *              0             0             1 
@@ -35701,7 +40237,7 @@ Objective:  z = 0.4672600393 (MINimum)
  33298 X[1110,28]   *              0             0             1 
  33299 X[1110,29]   *              0             0             1 
  33300 X[1110,30]   *              0             0             1 
- 33301 X[1111,1]    *              1             0             1 
+ 33301 X[1111,1]    *              0             0             1 
  33302 X[1111,2]    *              0             0             1 
  33303 X[1111,3]    *              0             0             1 
  33304 X[1111,4]    *              0             0             1 
@@ -35709,7 +40245,7 @@ Objective:  z = 0.4672600393 (MINimum)
  33306 X[1111,6]    *              0             0             1 
  33307 X[1111,7]    *              0             0             1 
  33308 X[1111,8]    *              0             0             1 
- 33309 X[1111,9]    *              0             0             1 
+ 33309 X[1111,9]    *              1             0             1 
  33310 X[1111,10]   *              0             0             1 
  33311 X[1111,11]   *              0             0             1 
  33312 X[1111,12]   *              0             0             1 
@@ -36277,7 +40813,7 @@ Objective:  z = 0.4672600393 (MINimum)
  33874 X[1130,4]    *              0             0             1 
  33875 X[1130,5]    *              0             0             1 
  33876 X[1130,6]    *              0             0             1 
- 33877 X[1130,7]    *              1             0             1 
+ 33877 X[1130,7]    *              0             0             1 
  33878 X[1130,8]    *              0             0             1 
  33879 X[1130,9]    *              0             0             1 
  33880 X[1130,10]   *              0             0             1 
@@ -36300,7 +40836,7 @@ Objective:  z = 0.4672600393 (MINimum)
  33897 X[1130,27]   *              0             0             1 
  33898 X[1130,28]   *              0             0             1 
  33899 X[1130,29]   *              0             0             1 
- 33900 X[1130,30]   *              0             0             1 
+ 33900 X[1130,30]   *              1             0             1 
  33901 X[1131,1]    *              0             0             1 
  33902 X[1131,2]    *              0             0             1 
  33903 X[1131,3]    *              0             0             1 
@@ -36384,10 +40920,10 @@ Objective:  z = 0.4672600393 (MINimum)
  33981 X[1133,21]   *              0             0             1 
  33982 X[1133,22]   *              0             0             1 
  33983 X[1133,23]   *              0             0             1 
- 33984 X[1133,24]   *              0             0             1 
+ 33984 X[1133,24]   *              1             0             1 
  33985 X[1133,25]   *              0             0             1 
  33986 X[1133,26]   *              0             0             1 
- 33987 X[1133,27]   *              1             0             1 
+ 33987 X[1133,27]   *              0             0             1 
  33988 X[1133,28]   *              0             0             1 
  33989 X[1133,29]   *              0             0             1 
  33990 X[1133,30]   *              0             0             1 
@@ -36422,7 +40958,7 @@ Objective:  z = 0.4672600393 (MINimum)
  34019 X[1134,29]   *              0             0             1 
  34020 X[1134,30]   *              0             0             1 
  34021 Y[1]         *              1             0             1 
- 34022 Y[2]         *              1             0             1 
+ 34022 Y[2]         *              0             0             1 
  34023 Y[3]         *              1             0             1 
  34024 Y[4]         *              1             0             1 
  34025 Y[5]         *              0             0             1 
@@ -36430,27 +40966,1162 @@ Objective:  z = 0.4672600393 (MINimum)
  34027 Y[7]         *              1             0             1 
  34028 Y[8]         *              1             0             1 
  34029 Y[9]         *              1             0             1 
- 34030 Y[10]        *              0             0             1 
- 34031 Y[11]        *              1             0             1 
- 34032 Y[12]        *              0             0             1 
+ 34030 Y[10]        *              1             0             1 
+ 34031 Y[11]        *              0             0             1 
+ 34032 Y[12]        *              1             0             1 
  34033 Y[13]        *              0             0             1 
  34034 Y[14]        *              1             0             1 
  34035 Y[15]        *              1             0             1 
  34036 Y[16]        *              1             0             1 
  34037 Y[17]        *              0             0             1 
  34038 Y[18]        *              1             0             1 
- 34039 Y[19]        *              1             0             1 
+ 34039 Y[19]        *              0             0             1 
  34040 Y[20]        *              1             0             1 
  34041 Y[21]        *              0             0             1 
  34042 Y[22]        *              1             0             1 
  34043 Y[23]        *              0             0             1 
- 34044 Y[24]        *              0             0             1 
+ 34044 Y[24]        *              1             0             1 
  34045 Y[25]        *              1             0             1 
  34046 Y[26]        *              0             0             1 
  34047 Y[27]        *              1             0             1 
  34048 Y[28]        *              1             0             1 
- 34049 Y[29]        *              0             0             1 
+ 34049 Y[29]        *              1             0             1 
  34050 Y[30]        *              1             0             1 
+ 34051 L[1]                 0.337665             0               
+ 34052 L[2]                 0.200022             0               
+ 34053 L[3]                0.0166249             0               
+ 34054 L[4]                 0.108085             0               
+ 34055 L[5]                  1.56852             0               
+ 34056 L[6]                  0.28269             0               
+ 34057 L[7]                 0.308908             0               
+ 34058 L[8]                0.0851275             0               
+ 34059 L[9]                 0.338083             0               
+ 34060 L[10]                0.193842             0               
+ 34061 L[11]                0.280376             0               
+ 34062 L[12]                0.212134             0               
+ 34063 L[13]                0.184764             0               
+ 34064 L[14]                0.640991             0               
+ 34065 L[15]                0.557173             0               
+ 34066 L[16]                0.072482             0               
+ 34067 L[17]                0.590476             0               
+ 34068 L[18]                0.266996             0               
+ 34069 L[19]                0.188049             0               
+ 34070 L[20]                0.323967             0               
+ 34071 L[21]                0.335541             0               
+ 34072 L[22]                  0.3884             0               
+ 34073 L[23]               0.0960331             0               
+ 34074 L[24]                 1.78684             0               
+ 34075 L[25]                0.362539             0               
+ 34076 L[26]                0.127038             0               
+ 34077 L[27]                0.393962             0               
+ 34078 L[28]               0.0759994             0               
+ 34079 L[29]                0.259413             0               
+ 34080 L[30]                0.462995             0               
+ 34081 L[31]                 2.01227             0               
+ 34082 L[32]                 0.57641             0               
+ 34083 L[33]                0.261488             0               
+ 34084 L[34]               0.0608612             0               
+ 34085 L[35]                0.612442             0               
+ 34086 L[36]                0.098098             0               
+ 34087 L[37]                0.198577             0               
+ 34088 L[38]                0.201811             0               
+ 34089 L[39]                0.167031             0               
+ 34090 L[40]               0.0655551             0               
+ 34091 L[41]                 1.33063             0               
+ 34092 L[42]                 0.30903             0               
+ 34093 L[43]                0.344588             0               
+ 34094 L[44]               0.0620124             0               
+ 34095 L[45]                 1.43403             0               
+ 34096 L[46]                 1.19993             0               
+ 34097 L[47]                 0.36525             0               
+ 34098 L[48]                0.821742             0               
+ 34099 L[49]                  0.5873             0               
+ 34100 L[50]                0.260852             0               
+ 34101 L[51]                0.114865             0               
+ 34102 L[52]                0.284113             0               
+ 34103 L[53]                0.186625             0               
+ 34104 L[54]                0.963617             0               
+ 34105 L[55]               0.0984393             0               
+ 34106 L[56]                0.187014             0               
+ 34107 L[57]                0.226095             0               
+ 34108 L[58]               0.0577004             0               
+ 34109 L[59]                0.247862             0               
+ 34110 L[60]                0.174711             0               
+ 34111 L[61]                0.242409             0               
+ 34112 L[62]                0.279366             0               
+ 34113 L[63]                0.174539             0               
+ 34114 L[64]                0.534008             0               
+ 34115 L[65]                0.246148             0               
+ 34116 L[66]                0.271429             0               
+ 34117 L[67]                0.255991             0               
+ 34118 L[68]                0.499644             0               
+ 34119 L[69]                 1.21274             0               
+ 34120 L[70]                 0.16252             0               
+ 34121 L[71]                0.375302             0               
+ 34122 L[72]                0.120752             0               
+ 34123 L[73]                0.204859             0               
+ 34124 L[74]                 1.88529             0               
+ 34125 L[75]                0.675076             0               
+ 34126 L[76]                0.115121             0               
+ 34127 L[77]               0.0861909             0               
+ 34128 L[78]                0.244034             0               
+ 34129 L[79]                0.205485             0               
+ 34130 L[80]                0.242864             0               
+ 34131 L[81]                0.105145             0               
+ 34132 L[82]                0.183269             0               
+ 34133 L[83]                 0.15258             0               
+ 34134 L[84]                0.191912             0               
+ 34135 L[85]                 1.25689             0               
+ 34136 L[86]                0.371485             0               
+ 34137 L[87]                 1.04148             0               
+ 34138 L[88]                0.467713             0               
+ 34139 L[89]                0.364123             0               
+ 34140 L[90]                0.278991             0               
+ 34141 L[91]                0.475366             0               
+ 34142 L[92]                0.839161             0               
+ 34143 L[93]                 1.73202             0               
+ 34144 L[94]                 1.70358             0               
+ 34145 L[95]                 1.37234             0               
+ 34146 L[96]                0.409841             0               
+ 34147 L[97]                0.286982             0               
+ 34148 L[98]               0.0539051             0               
+ 34149 L[99]                 1.42418             0               
+ 34150 L[100]                1.46734             0               
+ 34151 L[101]                0.20722             0               
+ 34152 L[102]                1.36629             0               
+ 34153 L[103]               0.248967             0               
+ 34154 L[104]               0.177849             0               
+ 34155 L[105]               0.314599             0               
+ 34156 L[106]               0.171197             0               
+ 34157 L[107]               0.368685             0               
+ 34158 L[108]               0.304822             0               
+ 34159 L[109]               0.260288             0               
+ 34160 L[110]               0.138342             0               
+ 34161 L[111]               0.168898             0               
+ 34162 L[112]              0.0971228             0               
+ 34163 L[113]               0.197511             0               
+ 34164 L[114]               0.146624             0               
+ 34165 L[115]               0.351229             0               
+ 34166 L[116]                1.37923             0               
+ 34167 L[117]               0.367324             0               
+ 34168 L[118]                 0.1197             0               
+ 34169 L[119]               0.427934             0               
+ 34170 L[120]               0.238654             0               
+ 34171 L[121]               0.161557             0               
+ 34172 L[122]               0.158673             0               
+ 34173 L[123]              0.0447821             0               
+ 34174 L[124]               0.278723             0               
+ 34175 L[125]               0.259403             0               
+ 34176 L[126]                 0.3742             0               
+ 34177 L[127]                0.80041             0               
+ 34178 L[128]               0.941181             0               
+ 34179 L[129]               0.994504             0               
+ 34180 L[130]              0.0783726             0               
+ 34181 L[131]               0.169008             0               
+ 34182 L[132]               0.302613             0               
+ 34183 L[133]               0.117168             0               
+ 34184 L[134]                0.10019             0               
+ 34185 L[135]               0.228089             0               
+ 34186 L[136]               0.165853             0               
+ 34187 L[137]               0.273785             0               
+ 34188 L[138]              0.0910131             0               
+ 34189 L[139]               0.404215             0               
+ 34190 L[140]               0.367443             0               
+ 34191 L[141]               0.142707             0               
+ 34192 L[142]               0.440799             0               
+ 34193 L[143]                1.76392             0               
+ 34194 L[144]                1.19138             0               
+ 34195 L[145]               0.178418             0               
+ 34196 L[146]               0.162338             0               
+ 34197 L[147]               0.998537             0               
+ 34198 L[148]                1.03683             0               
+ 34199 L[149]               0.516456             0               
+ 34200 L[150]               0.743191             0               
+ 34201 L[151]               0.306707             0               
+ 34202 L[152]                1.46935             0               
+ 34203 L[153]               0.194913             0               
+ 34204 L[154]               0.840233             0               
+ 34205 L[155]               0.431508             0               
+ 34206 L[156]               0.207182             0               
+ 34207 L[157]               0.153622             0               
+ 34208 L[158]               0.421279             0               
+ 34209 L[159]               0.161363             0               
+ 34210 L[160]                1.47959             0               
+ 34211 L[161]               0.345382             0               
+ 34212 L[162]               0.842936             0               
+ 34213 L[163]               0.181112             0               
+ 34214 L[164]              0.0941002             0               
+ 34215 L[165]               0.134921             0               
+ 34216 L[166]               0.649218             0               
+ 34217 L[167]                1.17041             0               
+ 34218 L[168]               0.123664             0               
+ 34219 L[169]               0.443128             0               
+ 34220 L[170]               0.249963             0               
+ 34221 L[171]               0.286235             0               
+ 34222 L[172]              0.0801712             0               
+ 34223 L[173]                1.18848             0               
+ 34224 L[174]               0.318656             0               
+ 34225 L[175]               0.311436             0               
+ 34226 L[176]                1.63231             0               
+ 34227 L[177]               0.247286             0               
+ 34228 L[178]               0.726607             0               
+ 34229 L[179]                1.56349             0               
+ 34230 L[180]               0.103875             0               
+ 34231 L[181]               0.217239             0               
+ 34232 L[182]               0.205526             0               
+ 34233 L[183]               0.158173             0               
+ 34234 L[184]                0.26454             0               
+ 34235 L[185]               0.271604             0               
+ 34236 L[186]               0.919006             0               
+ 34237 L[187]               0.311838             0               
+ 34238 L[188]              0.0742441             0               
+ 34239 L[189]                 1.2811             0               
+ 34240 L[190]               0.403002             0               
+ 34241 L[191]              0.0933988             0               
+ 34242 L[192]                0.78621             0               
+ 34243 L[193]               0.149757             0               
+ 34244 L[194]               0.495122             0               
+ 34245 L[195]               0.718226             0               
+ 34246 L[196]               0.196937             0               
+ 34247 L[197]               0.417133             0               
+ 34248 L[198]                0.20282             0               
+ 34249 L[199]               0.274096             0               
+ 34250 L[200]               0.147532             0               
+ 34251 L[201]              0.0829696             0               
+ 34252 L[202]                1.28648             0               
+ 34253 L[203]                0.18379             0               
+ 34254 L[204]               0.313664             0               
+ 34255 L[205]               0.254461             0               
+ 34256 L[206]               0.153488             0               
+ 34257 L[207]               0.154432             0               
+ 34258 L[208]               0.157494             0               
+ 34259 L[209]               0.585472             0               
+ 34260 L[210]                0.16813             0               
+ 34261 L[211]               0.500205             0               
+ 34262 L[212]               0.330831             0               
+ 34263 L[213]               0.281254             0               
+ 34264 L[214]               0.239312             0               
+ 34265 L[215]               0.111055             0               
+ 34266 L[216]               0.288647             0               
+ 34267 L[217]               0.297377             0               
+ 34268 L[218]               0.267811             0               
+ 34269 L[219]               0.032569             0               
+ 34270 L[220]                0.12967             0               
+ 34271 L[221]               0.403718             0               
+ 34272 L[222]               0.871955             0               
+ 34273 L[223]               0.133805             0               
+ 34274 L[224]                1.79102             0               
+ 34275 L[225]               0.369739             0               
+ 34276 L[226]               0.101186             0               
+ 34277 L[227]                1.49317             0               
+ 34278 L[228]                1.35808             0               
+ 34279 L[229]              0.0913883             0               
+ 34280 L[230]               0.240327             0               
+ 34281 L[231]               0.116468             0               
+ 34282 L[232]               0.720632             0               
+ 34283 L[233]               0.385538             0               
+ 34284 L[234]              0.0510232             0               
+ 34285 L[235]               0.116761             0               
+ 34286 L[236]              0.0517581             0               
+ 34287 L[237]              0.0815445             0               
+ 34288 L[238]               0.405989             0               
+ 34289 L[239]               0.176977             0               
+ 34290 L[240]               0.599491             0               
+ 34291 L[241]               0.560297             0               
+ 34292 L[242]                1.47669             0               
+ 34293 L[243]               0.287801             0               
+ 34294 L[244]               0.498456             0               
+ 34295 L[245]               0.613348             0               
+ 34296 L[246]               0.765212             0               
+ 34297 L[247]                1.43028             0               
+ 34298 L[248]               0.154196             0               
+ 34299 L[249]              0.0617274             0               
+ 34300 L[250]               0.206929             0               
+ 34301 L[251]               0.155342             0               
+ 34302 L[252]               0.171568             0               
+ 34303 L[253]                1.41505             0               
+ 34304 L[254]               0.697832             0               
+ 34305 L[255]               0.171713             0               
+ 34306 L[256]               0.247236             0               
+ 34307 L[257]                1.29285             0               
+ 34308 L[258]                1.83927             0               
+ 34309 L[259]              0.0979707             0               
+ 34310 L[260]                0.46399             0               
+ 34311 L[261]                0.33722             0               
+ 34312 L[262]               0.414037             0               
+ 34313 L[263]                0.24924             0               
+ 34314 L[264]              0.0404846             0               
+ 34315 L[265]               0.225681             0               
+ 34316 L[266]               0.641358             0               
+ 34317 L[267]               0.622957             0               
+ 34318 L[268]               0.145737             0               
+ 34319 L[269]               0.124299             0               
+ 34320 L[270]                0.13286             0               
+ 34321 L[271]              0.0560884             0               
+ 34322 L[272]               0.151926             0               
+ 34323 L[273]              0.0730315             0               
+ 34324 L[274]                1.11977             0               
+ 34325 L[275]               0.292772             0               
+ 34326 L[276]                1.51202             0               
+ 34327 L[277]               0.167951             0               
+ 34328 L[278]               0.267056             0               
+ 34329 L[279]               0.495139             0               
+ 34330 L[280]               0.369468             0               
+ 34331 L[281]                1.63821             0               
+ 34332 L[282]              0.0568414             0               
+ 34333 L[283]              0.0742495             0               
+ 34334 L[284]               0.555424             0               
+ 34335 L[285]                0.12914             0               
+ 34336 L[286]                0.48679             0               
+ 34337 L[287]               0.992598             0               
+ 34338 L[288]               0.274526             0               
+ 34339 L[289]                1.31945             0               
+ 34340 L[290]               0.146467             0               
+ 34341 L[291]                0.18532             0               
+ 34342 L[292]               0.200882             0               
+ 34343 L[293]                1.05492             0               
+ 34344 L[294]               0.107984             0               
+ 34345 L[295]               0.176242             0               
+ 34346 L[296]              0.0577133             0               
+ 34347 L[297]               0.107732             0               
+ 34348 L[298]               0.977688             0               
+ 34349 L[299]               0.145455             0               
+ 34350 L[300]               0.144058             0               
+ 34351 L[301]               0.092666             0               
+ 34352 L[302]              0.0616043             0               
+ 34353 L[303]              0.0229551             0               
+ 34354 L[304]                0.32804             0               
+ 34355 L[305]               0.537054             0               
+ 34356 L[306]                0.10593             0               
+ 34357 L[307]               0.345229             0               
+ 34358 L[308]               0.361987             0               
+ 34359 L[309]                0.36493             0               
+ 34360 L[310]               0.044156             0               
+ 34361 L[311]               0.159525             0               
+ 34362 L[312]              0.0930443             0               
+ 34363 L[313]               0.439187             0               
+ 34364 L[314]                1.75938             0               
+ 34365 L[315]               0.759986             0               
+ 34366 L[316]               0.119789             0               
+ 34367 L[317]               0.225804             0               
+ 34368 L[318]               0.171596             0               
+ 34369 L[319]               0.847857             0               
+ 34370 L[320]               0.180347             0               
+ 34371 L[321]                1.12428             0               
+ 34372 L[322]               0.196771             0               
+ 34373 L[323]              0.0959559             0               
+ 34374 L[324]              0.0846914             0               
+ 34375 L[325]                0.10783             0               
+ 34376 L[326]               0.289918             0               
+ 34377 L[327]               0.122185             0               
+ 34378 L[328]              0.0759263             0               
+ 34379 L[329]               0.315189             0               
+ 34380 L[330]                1.36805             0               
+ 34381 L[331]               0.147705             0               
+ 34382 L[332]              0.0870564             0               
+ 34383 L[333]               0.212406             0               
+ 34384 L[334]               0.222845             0               
+ 34385 L[335]               0.631861             0               
+ 34386 L[336]               0.550362             0               
+ 34387 L[337]                1.47451             0               
+ 34388 L[338]               0.101509             0               
+ 34389 L[339]               0.440541             0               
+ 34390 L[340]               0.568175             0               
+ 34391 L[341]              0.0873609             0               
+ 34392 L[342]               0.212908             0               
+ 34393 L[343]               0.632422             0               
+ 34394 L[344]               0.167972             0               
+ 34395 L[345]               0.138097             0               
+ 34396 L[346]               0.581808             0               
+ 34397 L[347]               0.231661             0               
+ 34398 L[348]              0.0814405             0               
+ 34399 L[349]              0.0361872             0               
+ 34400 L[350]              0.0651355             0               
+ 34401 L[351]              0.0716733             0               
+ 34402 L[352]               0.287398             0               
+ 34403 L[353]               0.557516             0               
+ 34404 L[354]               0.117197             0               
+ 34405 L[355]                1.37283             0               
+ 34406 L[356]               0.129982             0               
+ 34407 L[357]                 1.9931             0               
+ 34408 L[358]                1.57132             0               
+ 34409 L[359]                1.52679             0               
+ 34410 L[360]               0.205499             0               
+ 34411 L[361]                1.35661             0               
+ 34412 L[362]               0.343992             0               
+ 34413 L[363]               0.185255             0               
+ 34414 L[364]               0.523956             0               
+ 34415 L[365]               0.208247             0               
+ 34416 L[366]                1.19597             0               
+ 34417 L[367]                1.38549             0               
+ 34418 L[368]                1.39076             0               
+ 34419 L[369]               0.149552             0               
+ 34420 L[370]               0.211023             0               
+ 34421 L[371]               0.239233             0               
+ 34422 L[372]                1.23779             0               
+ 34423 L[373]                1.30577             0               
+ 34424 L[374]                1.13087             0               
+ 34425 L[375]               0.227622             0               
+ 34426 L[376]               0.172374             0               
+ 34427 L[377]               0.247465             0               
+ 34428 L[378]              0.0691218             0               
+ 34429 L[379]                1.91631             0               
+ 34430 L[380]              0.0792744             0               
+ 34431 L[381]               0.297925             0               
+ 34432 L[382]               0.425844             0               
+ 34433 L[383]               0.341181             0               
+ 34434 L[384]               0.240481             0               
+ 34435 L[385]                0.10526             0               
+ 34436 L[386]               0.104983             0               
+ 34437 L[387]               0.946933             0               
+ 34438 L[388]               0.125218             0               
+ 34439 L[389]                0.18107             0               
+ 34440 L[390]              0.0894515             0               
+ 34441 L[391]               0.409175             0               
+ 34442 L[392]               0.133028             0               
+ 34443 L[393]               0.288633             0               
+ 34444 L[394]               0.246244             0               
+ 34445 L[395]               0.198494             0               
+ 34446 L[396]               0.297456             0               
+ 34447 L[397]               0.146112             0               
+ 34448 L[398]                1.08938             0               
+ 34449 L[399]                1.91635             0               
+ 34450 L[400]                1.43504             0               
+ 34451 L[401]               0.113165             0               
+ 34452 L[402]                1.92673             0               
+ 34453 L[403]                 1.2128             0               
+ 34454 L[404]               0.055722             0               
+ 34455 L[405]               0.115864             0               
+ 34456 L[406]                1.07248             0               
+ 34457 L[407]               0.226996             0               
+ 34458 L[408]               0.543632             0               
+ 34459 L[409]                0.84937             0               
+ 34460 L[410]               0.167354             0               
+ 34461 L[411]               0.486923             0               
+ 34462 L[412]               0.291725             0               
+ 34463 L[413]               0.847522             0               
+ 34464 L[414]               0.896557             0               
+ 34465 L[415]               0.962051             0               
+ 34466 L[416]               0.302538             0               
+ 34467 L[417]               0.119559             0               
+ 34468 L[418]               0.761392             0               
+ 34469 L[419]               0.340424             0               
+ 34470 L[420]                1.98885             0               
+ 34471 L[421]               0.221347             0               
+ 34472 L[422]               0.263518             0               
+ 34473 L[423]               0.159977             0               
+ 34474 L[424]               0.256855             0               
+ 34475 L[425]                1.76514             0               
+ 34476 L[426]              0.0656338             0               
+ 34477 L[427]               0.206382             0               
+ 34478 L[428]                1.73573             0               
+ 34479 L[429]               0.174726             0               
+ 34480 L[430]               0.606219             0               
+ 34481 L[431]               0.261483             0               
+ 34482 L[432]               0.168509             0               
+ 34483 L[433]               0.215383             0               
+ 34484 L[434]               0.294082             0               
+ 34485 L[435]               0.177207             0               
+ 34486 L[436]               0.369047             0               
+ 34487 L[437]               0.435742             0               
+ 34488 L[438]              0.0151638             0               
+ 34489 L[439]               0.112886             0               
+ 34490 L[440]              0.0933981             0               
+ 34491 L[441]              0.0363897             0               
+ 34492 L[442]                1.39797             0               
+ 34493 L[443]               0.349403             0               
+ 34494 L[444]                1.20689             0               
+ 34495 L[445]                1.12071             0               
+ 34496 L[446]               0.347404             0               
+ 34497 L[447]               0.100841             0               
+ 34498 L[448]               0.610719             0               
+ 34499 L[449]               0.606371             0               
+ 34500 L[450]               0.959854             0               
+ 34501 L[451]               0.308886             0               
+ 34502 L[452]               0.378049             0               
+ 34503 L[453]               0.291484             0               
+ 34504 L[454]                1.00418             0               
+ 34505 L[455]               0.134488             0               
+ 34506 L[456]               0.106337             0               
+ 34507 L[457]                1.28267             0               
+ 34508 L[458]               0.209521             0               
+ 34509 L[459]               0.789993             0               
+ 34510 L[460]              0.0815442             0               
+ 34511 L[461]              0.0579031             0               
+ 34512 L[462]              0.0121459             0               
+ 34513 L[463]               0.546861             0               
+ 34514 L[464]               0.168952             0               
+ 34515 L[465]               0.183446             0               
+ 34516 L[466]               0.130899             0               
+ 34517 L[467]               0.124341             0               
+ 34518 L[468]               0.159241             0               
+ 34519 L[469]               0.583363             0               
+ 34520 L[470]               0.290478             0               
+ 34521 L[471]               0.218757             0               
+ 34522 L[472]               0.148864             0               
+ 34523 L[473]               0.249392             0               
+ 34524 L[474]                0.31231             0               
+ 34525 L[475]               0.699564             0               
+ 34526 L[476]                0.26999             0               
+ 34527 L[477]               0.087542             0               
+ 34528 L[478]               0.559611             0               
+ 34529 L[479]               0.259231             0               
+ 34530 L[480]               0.116689             0               
+ 34531 L[481]               0.174157             0               
+ 34532 L[482]               0.242258             0               
+ 34533 L[483]                1.55314             0               
+ 34534 L[484]               0.104458             0               
+ 34535 L[485]               0.236883             0               
+ 34536 L[486]                 1.7023             0               
+ 34537 L[487]              0.0996923             0               
+ 34538 L[488]               0.120458             0               
+ 34539 L[489]              0.0703418             0               
+ 34540 L[490]                0.59646             0               
+ 34541 L[491]               0.127857             0               
+ 34542 L[492]               0.321926             0               
+ 34543 L[493]                0.35358             0               
+ 34544 L[494]               0.307637             0               
+ 34545 L[495]              0.0626172             0               
+ 34546 L[496]                 1.7499             0               
+ 34547 L[497]               0.143583             0               
+ 34548 L[498]                1.40182             0               
+ 34549 L[499]               0.326579             0               
+ 34550 L[500]                0.14974             0               
+ 34551 L[501]              0.0752034             0               
+ 34552 L[502]                0.25133             0               
+ 34553 L[503]                 0.1511             0               
+ 34554 L[504]                1.25041             0               
+ 34555 L[505]                1.53756             0               
+ 34556 L[506]               0.347846             0               
+ 34557 L[507]               0.582011             0               
+ 34558 L[508]               0.202976             0               
+ 34559 L[509]               0.307429             0               
+ 34560 L[510]                1.57065             0               
+ 34561 L[511]               0.147312             0               
+ 34562 L[512]               0.198756             0               
+ 34563 L[513]                 0.9371             0               
+ 34564 L[514]              0.0243609             0               
+ 34565 L[515]              0.0140385             0               
+ 34566 L[516]                1.25926             0               
+ 34567 L[517]               0.203351             0               
+ 34568 L[518]               0.378044             0               
+ 34569 L[519]               0.208133             0               
+ 34570 L[520]               0.365403             0               
+ 34571 L[521]               0.334041             0               
+ 34572 L[522]                1.01813             0               
+ 34573 L[523]               0.256074             0               
+ 34574 L[524]               0.213803             0               
+ 34575 L[525]               0.186291             0               
+ 34576 L[526]               0.134062             0               
+ 34577 L[527]                1.06364             0               
+ 34578 L[528]               0.486007             0               
+ 34579 L[529]              0.0646873             0               
+ 34580 L[530]               0.198722             0               
+ 34581 L[531]               0.554699             0               
+ 34582 L[532]               0.161763             0               
+ 34583 L[533]               0.291683             0               
+ 34584 L[534]               0.236074             0               
+ 34585 L[535]               0.533209             0               
+ 34586 L[536]                1.39886             0               
+ 34587 L[537]               0.443157             0               
+ 34588 L[538]               0.302884             0               
+ 34589 L[539]               0.517844             0               
+ 34590 L[540]                1.29545             0               
+ 34591 L[541]               0.651586             0               
+ 34592 L[542]               0.181687             0               
+ 34593 L[543]              0.0927362             0               
+ 34594 L[544]               0.199395             0               
+ 34595 L[545]               0.950755             0               
+ 34596 L[546]               0.227075             0               
+ 34597 L[547]                1.35907             0               
+ 34598 L[548]               0.176676             0               
+ 34599 L[549]                1.80078             0               
+ 34600 L[550]               0.341522             0               
+ 34601 L[551]              0.0832981             0               
+ 34602 L[552]               0.381654             0               
+ 34603 L[553]              0.0551111             0               
+ 34604 L[554]               0.119585             0               
+ 34605 L[555]               0.308993             0               
+ 34606 L[556]               0.249566             0               
+ 34607 L[557]               0.343352             0               
+ 34608 L[558]               0.341232             0               
+ 34609 L[559]                0.15343             0               
+ 34610 L[560]               0.615332             0               
+ 34611 L[561]               0.238757             0               
+ 34612 L[562]                 1.4386             0               
+ 34613 L[563]               0.368971             0               
+ 34614 L[564]                  1.556             0               
+ 34615 L[565]                0.12572             0               
+ 34616 L[566]               0.664752             0               
+ 34617 L[567]               0.316155             0               
+ 34618 L[568]               0.230555             0               
+ 34619 L[569]               0.166727             0               
+ 34620 L[570]              0.0802071             0               
+ 34621 L[571]                0.13609             0               
+ 34622 L[572]               0.272198             0               
+ 34623 L[573]               0.192532             0               
+ 34624 L[574]               0.109939             0               
+ 34625 L[575]               0.895765             0               
+ 34626 L[576]               0.070096             0               
+ 34627 L[577]                1.21875             0               
+ 34628 L[578]               0.114713             0               
+ 34629 L[579]              0.0731244             0               
+ 34630 L[580]                1.42529             0               
+ 34631 L[581]               0.967542             0               
+ 34632 L[582]              0.0641874             0               
+ 34633 L[583]              0.0720757             0               
+ 34634 L[584]               0.594346             0               
+ 34635 L[585]               0.306293             0               
+ 34636 L[586]                1.24439             0               
+ 34637 L[587]                 1.2828             0               
+ 34638 L[588]              0.0699344             0               
+ 34639 L[589]               0.692841             0               
+ 34640 L[590]               0.440523             0               
+ 34641 L[591]               0.168269             0               
+ 34642 L[592]                0.95209             0               
+ 34643 L[593]               0.140668             0               
+ 34644 L[594]               0.260963             0               
+ 34645 L[595]                1.33721             0               
+ 34646 L[596]               0.121592             0               
+ 34647 L[597]               0.276795             0               
+ 34648 L[598]               0.334291             0               
+ 34649 L[599]              0.0625543             0               
+ 34650 L[600]                0.59872             0               
+ 34651 L[601]              0.0639972             0               
+ 34652 L[602]               0.190605             0               
+ 34653 L[603]              0.0802727             0               
+ 34654 L[604]               0.185148             0               
+ 34655 L[605]                1.32282             0               
+ 34656 L[606]                1.69681             0               
+ 34657 L[607]                1.24942             0               
+ 34658 L[608]               0.168352             0               
+ 34659 L[609]               0.275032             0               
+ 34660 L[610]               0.177411             0               
+ 34661 L[611]                1.14429             0               
+ 34662 L[612]               0.252382             0               
+ 34663 L[613]               0.473449             0               
+ 34664 L[614]               0.255989             0               
+ 34665 L[615]               0.140142             0               
+ 34666 L[616]               0.178666             0               
+ 34667 L[617]               0.400727             0               
+ 34668 L[618]               0.426053             0               
+ 34669 L[619]                1.12065             0               
+ 34670 L[620]               0.273877             0               
+ 34671 L[621]              0.0752114             0               
+ 34672 L[622]                1.71826             0               
+ 34673 L[623]              0.0589183             0               
+ 34674 L[624]               0.220151             0               
+ 34675 L[625]               0.500623             0               
+ 34676 L[626]               0.920093             0               
+ 34677 L[627]               0.823507             0               
+ 34678 L[628]                0.30181             0               
+ 34679 L[629]               0.104407             0               
+ 34680 L[630]              0.0337612             0               
+ 34681 L[631]                1.95488             0               
+ 34682 L[632]                1.45188             0               
+ 34683 L[633]               0.600243             0               
+ 34684 L[634]               0.214974             0               
+ 34685 L[635]               0.996672             0               
+ 34686 L[636]               0.637916             0               
+ 34687 L[637]              0.0681469             0               
+ 34688 L[638]               0.018882             0               
+ 34689 L[639]                1.49187             0               
+ 34690 L[640]                0.03387             0               
+ 34691 L[641]               0.170247             0               
+ 34692 L[642]               0.247832             0               
+ 34693 L[643]              0.0847921             0               
+ 34694 L[644]                1.72939             0               
+ 34695 L[645]               0.217043             0               
+ 34696 L[646]               0.328274             0               
+ 34697 L[647]                1.36724             0               
+ 34698 L[648]              0.0744163             0               
+ 34699 L[649]               0.137341             0               
+ 34700 L[650]               0.754039             0               
+ 34701 L[651]              0.0739135             0               
+ 34702 L[652]               0.237279             0               
+ 34703 L[653]                 1.7217             0               
+ 34704 L[654]               0.162264             0               
+ 34705 L[655]               0.323708             0               
+ 34706 L[656]               0.410604             0               
+ 34707 L[657]              0.0745712             0               
+ 34708 L[658]               0.381992             0               
+ 34709 L[659]              0.0946165             0               
+ 34710 L[660]                0.43996             0               
+ 34711 L[661]               0.305456             0               
+ 34712 L[662]               0.345649             0               
+ 34713 L[663]               0.363419             0               
+ 34714 L[664]               0.158821             0               
+ 34715 L[665]               0.145772             0               
+ 34716 L[666]               0.233807             0               
+ 34717 L[667]               0.214009             0               
+ 34718 L[668]              0.0696668             0               
+ 34719 L[669]               0.243315             0               
+ 34720 L[670]               0.353644             0               
+ 34721 L[671]               0.315598             0               
+ 34722 L[672]               0.188915             0               
+ 34723 L[673]               0.216087             0               
+ 34724 L[674]               0.502041             0               
+ 34725 L[675]                1.21953             0               
+ 34726 L[676]              0.0852096             0               
+ 34727 L[677]               0.246908             0               
+ 34728 L[678]                1.22191             0               
+ 34729 L[679]               0.104446             0               
+ 34730 L[680]              0.0582679             0               
+ 34731 L[681]                1.97442             0               
+ 34732 L[682]              0.0430865             0               
+ 34733 L[683]               0.162398             0               
+ 34734 L[684]              0.0138202             0               
+ 34735 L[685]                1.83971             0               
+ 34736 L[686]                1.21516             0               
+ 34737 L[687]               0.165655             0               
+ 34738 L[688]                1.95636             0               
+ 34739 L[689]                1.24911             0               
+ 34740 L[690]               0.152582             0               
+ 34741 L[691]               0.183607             0               
+ 34742 L[692]                 1.5253             0               
+ 34743 L[693]               0.273676             0               
+ 34744 L[694]              0.0654171             0               
+ 34745 L[695]                1.33613             0               
+ 34746 L[696]               0.138197             0               
+ 34747 L[697]               0.642534             0               
+ 34748 L[698]                1.29298             0               
+ 34749 L[699]               0.125872             0               
+ 34750 L[700]                0.36395             0               
+ 34751 L[701]               0.266094             0               
+ 34752 L[702]               0.461611             0               
+ 34753 L[703]                1.54599             0               
+ 34754 L[704]                0.17267             0               
+ 34755 L[705]               0.363903             0               
+ 34756 L[706]               0.153959             0               
+ 34757 L[707]              0.0753118             0               
+ 34758 L[708]                1.18875             0               
+ 34759 L[709]                0.30662             0               
+ 34760 L[710]               0.178252             0               
+ 34761 L[711]               0.238437             0               
+ 34762 L[712]               0.257889             0               
+ 34763 L[713]               0.191011             0               
+ 34764 L[714]              0.0961006             0               
+ 34765 L[715]               0.512196             0               
+ 34766 L[716]               0.105386             0               
+ 34767 L[717]               0.464891             0               
+ 34768 L[718]               0.383268             0               
+ 34769 L[719]               0.238873             0               
+ 34770 L[720]              0.0816908             0               
+ 34771 L[721]               0.235998             0               
+ 34772 L[722]               0.209658             0               
+ 34773 L[723]               0.172975             0               
+ 34774 L[724]               0.142445             0               
+ 34775 L[725]              0.0832467             0               
+ 34776 L[726]                1.87539             0               
+ 34777 L[727]              0.0863249             0               
+ 34778 L[728]               0.157784             0               
+ 34779 L[729]                1.29788             0               
+ 34780 L[730]              0.0933227             0               
+ 34781 L[731]                1.97678             0               
+ 34782 L[732]              0.0332932             0               
+ 34783 L[733]                1.55354             0               
+ 34784 L[734]                1.57141             0               
+ 34785 L[735]               0.486706             0               
+ 34786 L[736]               0.227556             0               
+ 34787 L[737]               0.132865             0               
+ 34788 L[738]               0.320993             0               
+ 34789 L[739]               0.177903             0               
+ 34790 L[740]               0.264007             0               
+ 34791 L[741]                0.23232             0               
+ 34792 L[742]               0.307525             0               
+ 34793 L[743]               0.201675             0               
+ 34794 L[744]               0.165991             0               
+ 34795 L[745]               0.307211             0               
+ 34796 L[746]               0.184396             0               
+ 34797 L[747]                 0.1593             0               
+ 34798 L[748]               0.149503             0               
+ 34799 L[749]               0.133073             0               
+ 34800 L[750]                1.02487             0               
+ 34801 L[751]               0.393011             0               
+ 34802 L[752]               0.289964             0               
+ 34803 L[753]               0.237041             0               
+ 34804 L[754]               0.192007             0               
+ 34805 L[755]               0.198499             0               
+ 34806 L[756]                1.32989             0               
+ 34807 L[757]               0.150791             0               
+ 34808 L[758]               0.239093             0               
+ 34809 L[759]               0.300987             0               
+ 34810 L[760]              0.0840935             0               
+ 34811 L[761]               0.377701             0               
+ 34812 L[762]               0.276644             0               
+ 34813 L[763]              0.0691369             0               
+ 34814 L[764]               0.333385             0               
+ 34815 L[765]                1.36616             0               
+ 34816 L[766]               0.424871             0               
+ 34817 L[767]               0.131713             0               
+ 34818 L[768]              0.0443321             0               
+ 34819 L[769]               0.176715             0               
+ 34820 L[770]              0.0826191             0               
+ 34821 L[771]              0.0310635             0               
+ 34822 L[772]               0.163305             0               
+ 34823 L[773]               0.197966             0               
+ 34824 L[774]               0.265942             0               
+ 34825 L[775]               0.264878             0               
+ 34826 L[776]              0.0616205             0               
+ 34827 L[777]               0.525669             0               
+ 34828 L[778]               0.511225             0               
+ 34829 L[779]                 1.8063             0               
+ 34830 L[780]                1.17489             0               
+ 34831 L[781]               0.147304             0               
+ 34832 L[782]               0.351286             0               
+ 34833 L[783]                1.46362             0               
+ 34834 L[784]               0.302032             0               
+ 34835 L[785]              0.0667992             0               
+ 34836 L[786]               0.399004             0               
+ 34837 L[787]                0.02621             0               
+ 34838 L[788]                 1.2845             0               
+ 34839 L[789]                1.40161             0               
+ 34840 L[790]                1.33228             0               
+ 34841 L[791]              0.0730678             0               
+ 34842 L[792]               0.180333             0               
+ 34843 L[793]                1.35717             0               
+ 34844 L[794]               0.352619             0               
+ 34845 L[795]               0.502984             0               
+ 34846 L[796]              0.0995388             0               
+ 34847 L[797]               0.806152             0               
+ 34848 L[798]                1.26943             0               
+ 34849 L[799]                0.12907             0               
+ 34850 L[800]               0.526621             0               
+ 34851 L[801]               0.965327             0               
+ 34852 L[802]              0.0750848             0               
+ 34853 L[803]               0.284873             0               
+ 34854 L[804]               0.236942             0               
+ 34855 L[805]               0.284981             0               
+ 34856 L[806]                1.55144             0               
+ 34857 L[807]               0.144964             0               
+ 34858 L[808]                0.18513             0               
+ 34859 L[809]               0.109447             0               
+ 34860 L[810]               0.176427             0               
+ 34861 L[811]               0.117696             0               
+ 34862 L[812]                1.32954             0               
+ 34863 L[813]                1.00233             0               
+ 34864 L[814]               0.368812             0               
+ 34865 L[815]               0.142055             0               
+ 34866 L[816]              0.0983035             0               
+ 34867 L[817]               0.153709             0               
+ 34868 L[818]               0.556475             0               
+ 34869 L[819]                0.41579             0               
+ 34870 L[820]               0.453742             0               
+ 34871 L[821]                1.18457             0               
+ 34872 L[822]                 1.0727             0               
+ 34873 L[823]              0.0195578             0               
+ 34874 L[824]               0.308042             0               
+ 34875 L[825]               0.946389             0               
+ 34876 L[826]               0.160391             0               
+ 34877 L[827]              0.0926264             0               
+ 34878 L[828]               0.171913             0               
+ 34879 L[829]                 0.3838             0               
+ 34880 L[830]               0.682487             0               
+ 34881 L[831]               0.523843             0               
+ 34882 L[832]               0.123815             0               
+ 34883 L[833]               0.186614             0               
+ 34884 L[834]                0.20712             0               
+ 34885 L[835]               0.266436             0               
+ 34886 L[836]                1.25191             0               
+ 34887 L[837]               0.189275             0               
+ 34888 L[838]               0.135496             0               
+ 34889 L[839]              0.0380865             0               
+ 34890 L[840]              0.0966537             0               
+ 34891 L[841]               0.287838             0               
+ 34892 L[842]                1.15018             0               
+ 34893 L[843]                 1.3091             0               
+ 34894 L[844]               0.144997             0               
+ 34895 L[845]                2.01204             0               
+ 34896 L[846]              0.0334883             0               
+ 34897 L[847]              0.0865017             0               
+ 34898 L[848]                1.97135             0               
+ 34899 L[849]               0.171924             0               
+ 34900 L[850]                1.44284             0               
+ 34901 L[851]               0.129457             0               
+ 34902 L[852]               0.896555             0               
+ 34903 L[853]               0.313682             0               
+ 34904 L[854]               0.676821             0               
+ 34905 L[855]                1.20704             0               
+ 34906 L[856]              0.0334845             0               
+ 34907 L[857]               0.309375             0               
+ 34908 L[858]               0.441592             0               
+ 34909 L[859]               0.179039             0               
+ 34910 L[860]               0.508553             0               
+ 34911 L[861]                1.39741             0               
+ 34912 L[862]                1.43207             0               
+ 34913 L[863]               0.534828             0               
+ 34914 L[864]               0.251206             0               
+ 34915 L[865]               0.226943             0               
+ 34916 L[866]               0.311565             0               
+ 34917 L[867]               0.287355             0               
+ 34918 L[868]               0.134265             0               
+ 34919 L[869]              0.0813566             0               
+ 34920 L[870]               0.364747             0               
+ 34921 L[871]               0.207974             0               
+ 34922 L[872]                 1.4967             0               
+ 34923 L[873]                0.18528             0               
+ 34924 L[874]               0.135265             0               
+ 34925 L[875]               0.442019             0               
+ 34926 L[876]                1.18124             0               
+ 34927 L[877]                1.56066             0               
+ 34928 L[878]                1.44335             0               
+ 34929 L[879]               0.215195             0               
+ 34930 L[880]                0.18832             0               
+ 34931 L[881]               0.404486             0               
+ 34932 L[882]               0.272611             0               
+ 34933 L[883]              0.0617533             0               
+ 34934 L[884]               0.123844             0               
+ 34935 L[885]               0.851698             0               
+ 34936 L[886]               0.179426             0               
+ 34937 L[887]               0.239236             0               
+ 34938 L[888]                0.13722             0               
+ 34939 L[889]               0.505396             0               
+ 34940 L[890]              0.0584857             0               
+ 34941 L[891]               0.984538             0               
+ 34942 L[892]               0.169078             0               
+ 34943 L[893]              0.0644972             0               
+ 34944 L[894]               0.467555             0               
+ 34945 L[895]                1.63686             0               
+ 34946 L[896]               0.174482             0               
+ 34947 L[897]               0.087811             0               
+ 34948 L[898]               0.089185             0               
+ 34949 L[899]              0.0459443             0               
+ 34950 L[900]                 1.4684             0               
+ 34951 L[901]               0.191012             0               
+ 34952 L[902]               0.286765             0               
+ 34953 L[903]               0.346255             0               
+ 34954 L[904]               0.730423             0               
+ 34955 L[905]               0.251973             0               
+ 34956 L[906]               0.295302             0               
+ 34957 L[907]                1.46925             0               
+ 34958 L[908]               0.133724             0               
+ 34959 L[909]               0.195402             0               
+ 34960 L[910]               0.101141             0               
+ 34961 L[911]               0.276999             0               
+ 34962 L[912]                1.01063             0               
+ 34963 L[913]                1.47623             0               
+ 34964 L[914]                1.05421             0               
+ 34965 L[915]               0.273086             0               
+ 34966 L[916]               0.166227             0               
+ 34967 L[917]               0.247732             0               
+ 34968 L[918]               0.342565             0               
+ 34969 L[919]                 0.2796             0               
+ 34970 L[920]                1.41383             0               
+ 34971 L[921]               0.806984             0               
+ 34972 L[922]               0.709706             0               
+ 34973 L[923]               0.163053             0               
+ 34974 L[924]               0.094968             0               
+ 34975 L[925]                0.42838             0               
+ 34976 L[926]               0.101095             0               
+ 34977 L[927]                0.15133             0               
+ 34978 L[928]               0.139321             0               
+ 34979 L[929]               0.877977             0               
+ 34980 L[930]                0.15967             0               
+ 34981 L[931]               0.359826             0               
+ 34982 L[932]               0.376841             0               
+ 34983 L[933]               0.302755             0               
+ 34984 L[934]              0.0943455             0               
+ 34985 L[935]               0.248936             0               
+ 34986 L[936]                0.19622             0               
+ 34987 L[937]               0.176658             0               
+ 34988 L[938]               0.326395             0               
+ 34989 L[939]               0.185929             0               
+ 34990 L[940]               0.215289             0               
+ 34991 L[941]                1.55098             0               
+ 34992 L[942]               0.216348             0               
+ 34993 L[943]               0.224016             0               
+ 34994 L[944]               0.256612             0               
+ 34995 L[945]               0.545658             0               
+ 34996 L[946]               0.141329             0               
+ 34997 L[947]               0.149676             0               
+ 34998 L[948]                1.16525             0               
+ 34999 L[949]               0.170257             0               
+ 35000 L[950]               0.370098             0               
+ 35001 L[951]               0.292827             0               
+ 35002 L[952]               0.302263             0               
+ 35003 L[953]               0.337151             0               
+ 35004 L[954]               0.644408             0               
+ 35005 L[955]               0.116264             0               
+ 35006 L[956]                 1.8899             0               
+ 35007 L[957]               0.338153             0               
+ 35008 L[958]               0.123633             0               
+ 35009 L[959]              0.0941325             0               
+ 35010 L[960]                0.32357             0               
+ 35011 L[961]                1.03041             0               
+ 35012 L[962]                1.42816             0               
+ 35013 L[963]              0.0183863             0               
+ 35014 L[964]               0.291195             0               
+ 35015 L[965]                 1.5459             0               
+ 35016 L[966]               0.106435             0               
+ 35017 L[967]               0.330939             0               
+ 35018 L[968]               0.509626             0               
+ 35019 L[969]                1.18704             0               
+ 35020 L[970]              0.0826509             0               
+ 35021 L[971]               0.128683             0               
+ 35022 L[972]                0.52563             0               
+ 35023 L[973]                1.36832             0               
+ 35024 L[974]              0.0454093             0               
+ 35025 L[975]               0.358427             0               
+ 35026 L[976]               0.207982             0               
+ 35027 L[977]               0.259585             0               
+ 35028 L[978]                 1.1974             0               
+ 35029 L[979]               0.293116             0               
+ 35030 L[980]                1.45003             0               
+ 35031 L[981]               0.166894             0               
+ 35032 L[982]                1.27148             0               
+ 35033 L[983]               0.249316             0               
+ 35034 L[984]                1.36105             0               
+ 35035 L[985]                0.26517             0               
+ 35036 L[986]               0.251918             0               
+ 35037 L[987]               0.488694             0               
+ 35038 L[988]                0.37634             0               
+ 35039 L[989]               0.216486             0               
+ 35040 L[990]                0.53568             0               
+ 35041 L[991]               0.148442             0               
+ 35042 L[992]               0.289329             0               
+ 35043 L[993]              0.0550585             0               
+ 35044 L[994]               0.565191             0               
+ 35045 L[995]               0.638399             0               
+ 35046 L[996]               0.181246             0               
+ 35047 L[997]               0.192726             0               
+ 35048 L[998]               0.157697             0               
+ 35049 L[999]               0.149946             0               
+ 35050 L[1000]              0.270603             0               
+ 35051 L[1001]              0.310018             0               
+ 35052 L[1002]              0.291945             0               
+ 35053 L[1003]              0.546839             0               
+ 35054 L[1004]              0.180719             0               
+ 35055 L[1005]              0.388541             0               
+ 35056 L[1006]               1.87206             0               
+ 35057 L[1007]              0.675002             0               
+ 35058 L[1008]               0.28604             0               
+ 35059 L[1009]              0.352526             0               
+ 35060 L[1010]              0.216024             0               
+ 35061 L[1011]             0.0389024             0               
+ 35062 L[1012]               1.21525             0               
+ 35063 L[1013]             0.0828056             0               
+ 35064 L[1014]              0.367555             0               
+ 35065 L[1015]              0.109445             0               
+ 35066 L[1016]               0.36732             0               
+ 35067 L[1017]              0.828874             0               
+ 35068 L[1018]             0.0715547             0               
+ 35069 L[1019]             0.0886884             0               
+ 35070 L[1020]               0.28295             0               
+ 35071 L[1021]              0.289993             0               
+ 35072 L[1022]               1.43865             0               
+ 35073 L[1023]              0.156893             0               
+ 35074 L[1024]               1.79522             0               
+ 35075 L[1025]             0.0922361             0               
+ 35076 L[1026]              0.107772             0               
+ 35077 L[1027]               0.43219             0               
+ 35078 L[1028]              0.127211             0               
+ 35079 L[1029]               1.69087             0               
+ 35080 L[1030]              0.581889             0               
+ 35081 L[1031]                 1.505             0               
+ 35082 L[1032]              0.838468             0               
+ 35083 L[1033]              0.134712             0               
+ 35084 L[1034]               1.56404             0               
+ 35085 L[1035]              0.128891             0               
+ 35086 L[1036]              0.212506             0               
+ 35087 L[1037]               1.32021             0               
+ 35088 L[1038]              0.373424             0               
+ 35089 L[1039]              0.633851             0               
+ 35090 L[1040]               1.32546             0               
+ 35091 L[1041]            0.00875363             0               
+ 35092 L[1042]              0.545867             0               
+ 35093 L[1043]              0.405539             0               
+ 35094 L[1044]              0.269514             0               
+ 35095 L[1045]              0.344907             0               
+ 35096 L[1046]              0.136378             0               
+ 35097 L[1047]               1.37627             0               
+ 35098 L[1048]              0.250593             0               
+ 35099 L[1049]                 1.132             0               
+ 35100 L[1050]              0.280338             0               
+ 35101 L[1051]              0.142542             0               
+ 35102 L[1052]              0.358289             0               
+ 35103 L[1053]              0.120838             0               
+ 35104 L[1054]              0.287733             0               
+ 35105 L[1055]              0.111623             0               
+ 35106 L[1056]              0.130381             0               
+ 35107 L[1057]              0.877274             0               
+ 35108 L[1058]              0.581428             0               
+ 35109 L[1059]               1.21868             0               
+ 35110 L[1060]              0.347963             0               
+ 35111 L[1061]              0.156369             0               
+ 35112 L[1062]              0.199553             0               
+ 35113 L[1063]               1.16803             0               
+ 35114 L[1064]               1.30976             0               
+ 35115 L[1065]               1.54197             0               
+ 35116 L[1066]               1.41198             0               
+ 35117 L[1067]              0.156517             0               
+ 35118 L[1068]              0.316912             0               
+ 35119 L[1069]              0.227876             0               
+ 35120 L[1070]              0.159673             0               
+ 35121 L[1071]              0.820549             0               
+ 35122 L[1072]              0.108767             0               
+ 35123 L[1073]               1.19734             0               
+ 35124 L[1074]               1.98509             0               
+ 35125 L[1075]              0.195281             0               
+ 35126 L[1076]              0.586107             0               
+ 35127 L[1077]              0.113879             0               
+ 35128 L[1078]              0.335057             0               
+ 35129 L[1079]              0.104363             0               
+ 35130 L[1080]              0.589242             0               
+ 35131 L[1081]              0.111153             0               
+ 35132 L[1082]              0.970644             0               
+ 35133 L[1083]               0.33531             0               
+ 35134 L[1084]             0.0586767             0               
+ 35135 L[1085]               1.65567             0               
+ 35136 L[1086]              0.200913             0               
+ 35137 L[1087]               1.73124             0               
+ 35138 L[1088]              0.690868             0               
+ 35139 L[1089]               1.76434             0               
+ 35140 L[1090]               1.40215             0               
+ 35141 L[1091]              0.118271             0               
+ 35142 L[1092]                0.1872             0               
+ 35143 L[1093]                1.0752             0               
+ 35144 L[1094]              0.154542             0               
+ 35145 L[1095]               1.11469             0               
+ 35146 L[1096]              0.118719             0               
+ 35147 L[1097]              0.289777             0               
+ 35148 L[1098]              0.418587             0               
+ 35149 L[1099]              0.225622             0               
+ 35150 L[1100]                1.6081             0               
+ 35151 L[1101]              0.192516             0               
+ 35152 L[1102]              0.275222             0               
+ 35153 L[1103]               0.21332             0               
+ 35154 L[1104]              0.212402             0               
+ 35155 L[1105]              0.105313             0               
+ 35156 L[1106]              0.209253             0               
+ 35157 L[1107]              0.740301             0               
+ 35158 L[1108]              0.163482             0               
+ 35159 L[1109]                1.7674             0               
+ 35160 L[1110]              0.104944             0               
+ 35161 L[1111]               1.67227             0               
+ 35162 L[1112]              0.108425             0               
+ 35163 L[1113]              0.107842             0               
+ 35164 L[1114]              0.138175             0               
+ 35165 L[1115]              0.139683             0               
+ 35166 L[1116]              0.204931             0               
+ 35167 L[1117]              0.100575             0               
+ 35168 L[1118]              0.119668             0               
+ 35169 L[1119]              0.129684             0               
+ 35170 L[1120]              0.967988             0               
+ 35171 L[1121]              0.338041             0               
+ 35172 L[1122]               0.29635             0               
+ 35173 L[1123]              0.323465             0               
+ 35174 L[1124]               2.03705             0               
+ 35175 L[1125]               1.25375             0               
+ 35176 L[1126]              0.331605             0               
+ 35177 L[1127]              0.103993             0               
+ 35178 L[1128]              0.136318             0               
+ 35179 L[1129]              0.398447             0               
+ 35180 L[1130]              0.320433             0               
+ 35181 L[1131]              0.197684             0               
+ 35182 L[1132]               1.36721             0               
+ 35183 L[1133]             0.0469421             0               
+ 35184 L[1134]              0.106837             0               
+ 35185 Lmax                  2.03705             0               
 
 Integer feasibility conditions:
 
