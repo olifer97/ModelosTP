@@ -35,7 +35,10 @@ var Lmax >= 0;                     /*kilometros recorridos maximos*/
 #minimize z: sum {i in 1..N, j in 1..C} X[i,j]*D[i,j];
 
 #Minimizar maxima distancia recorrida
-minimize z: Lmax;
+#minimize z: Lmax;
+
+#Minimizar la suma del maximo con el promedio
+minimize z: Lmax + (sum {i in 1..N, j in 1..C} X[i,j]*D[i,j])/N;
 
 /* Restricciones */
 
