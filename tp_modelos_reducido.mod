@@ -20,6 +20,8 @@ K <- [idVotante, idCentro], D ~ distancia;
 /* Declaración de variables*/
 var X{i in 1..N,j in 1..C} binary; /*asignacion del votante i al centro j*/
 var Y{j in 1..C} binary;           /*el centro j es habilitado*/
+var L{i in 1..N} >= 0;             /*km que recorre el votante i*/
+var Lmax >= 0;                     /*kilometros recorridos maximos*/
 
 /* Definición del funcional */
 
@@ -30,7 +32,10 @@ var Y{j in 1..C} binary;           /*el centro j es habilitado*/
 #minimize z: (sum {i in 1..N, j in 1..C} X[i,j]*D[i,j])/N;
 
 #Minimizar el total de las distancias
-minimize z: sum {i in 1..N, j in 1..C} X[i,j]*D[i,j];
+#minimize z: sum {i in 1..N, j in 1..C} X[i,j]*D[i,j];
+
+#Minimizar maxima distancia recorrida
+minimize z: Lmax;
 
 /* Restricciones */
 
@@ -39,6 +44,9 @@ s.t. TOTAL_ASIGNACIONES: sum {i in 1..N, j in 1..C} X[i,j]=N;
 #s.t. CAPAC_TOTAL_CENTROS: sum {j in 1..C} CupoMaxCentro[j] * C >=N;
 s.t. CUPOMAX_CENTRO{j in 1..C}: sum {i in 1..N} X[i,j]<= Y[j] * CupoMaxCentro[j];
 s.t. CUPOMIN_CENTRO{j in 1..C}: Y[j] * CupoMinCentro <= sum {i in 1..N} X[i,j];
+
+s.t. DISTANCIA_RECORRIDA{i in 1..N}: L[i] = sum {j in 1..C} X[i,j] * D[i,j];
+s.t. DISTANCIA_MAXIMA{i in 1..N}: Lmax >= L[i];
 
 
 solve;
